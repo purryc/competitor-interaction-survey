@@ -12,7 +12,7 @@
     "q3_png": 269,
     "q3_mp4": 32,
     "published_video_count": 235,
-    "published_video_bytes": 168974817,
+    "published_video_bytes": 168540803,
     "total_files_in_repository": 2374
   },
   "files": [
@@ -16099,36 +16099,36 @@
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/01-declarative-permission-model.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/01-declarative-permission-model.png",
-      "bytes": 216215,
-      "sha256": "9a7380edbf590d4fdf87035fcd32f6f5b471bcb48df876e16076241c71eee85b"
+      "bytes": 179613,
+      "sha256": "ba5de4dc45341d757babf562776669d82f240cb2366f36b25fe5f610485c09e0"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/02-filesystem-readonly-paths.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/02-filesystem-readonly-paths.png",
-      "bytes": 350138,
-      "sha256": "1851df366796538376b0973b57a9d20fb009ce6acced020a35d6b2bbec4eda0c"
+      "bytes": 363662,
+      "sha256": "a707297439bc68728291bec2915ca92906c0c716f04fbb83b4592b2e902cab84"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/03-file-write-denied.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/03-file-write-denied.png",
-      "bytes": 400232,
-      "sha256": "66bbcca9a47f92cca410456fc7967b2cb91094bec94500453c1a7abf4ea8345c"
+      "bytes": 413850,
+      "sha256": "32ff9269933b0aea99ab5d1e37cc74a6326702905dacf06f589cb18107013261"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/04-copilot-cli-filesystem-policy.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/04-copilot-cli-filesystem-policy.png",
-      "bytes": 130767,
-      "sha256": "cb98d164a71e57618ac5d15726f769501ad4bb89b585511be101d6ecb68c4f5f"
+      "bytes": 143537,
+      "sha256": "f74d83cdc4f4b2c05d64a9e0a1101b983f88c9220b037337c3a07b414b48ae04"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/05-copilot-cli-network-policy.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/05-copilot-cli-network-policy.png",
-      "bytes": 142178,
-      "sha256": "b8bc9be9d429ff7a9ea4126e864e3c89aab972e1ba3d63934a8bf15127cbd13d"
+      "bytes": 156526,
+      "sha256": "acd0e07fe88163292b81d2b4cfb413ab76c2723143c59f2a7fccdfbea41155ed"
     },
     {
       "group": "q3-2026",
@@ -16148,43 +16148,43 @@
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4",
-      "bytes": 563531,
-      "sha256": "9309bceb5d68c9905e54d24854daf9b49b358cbafaba1463108f2950533eb0b4"
+      "bytes": 422039,
+      "sha256": "3386f37fb668b93a19d9fdbbcd037798c85734551ee0d80cef6e8139b1a6a6a9"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/01-agent-entry-teams.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/01-agent-entry-teams.png",
-      "bytes": 295467,
-      "sha256": "e80605c2995519e6f7a6d6542f5a7341f05b6d9dfd2acee19ca472f9f97283c9"
+      "bytes": 194203,
+      "sha256": "9334d8090eb4d4c851e4c104e187e17514105de071835d43d35b4217bd9c541d"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/02-agent-session-processes.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/02-agent-session-processes.png",
-      "bytes": 393797,
-      "sha256": "51003490deaf0e1826aa1e6fc9e437cd605d73be36137aa07d53e3841d6341a0"
+      "bytes": 352451,
+      "sha256": "31d05341b812f55481ae4cf0ff54fd04e6e96df7fc6474d38e07021cec4d5540"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/03-mxc-declarative-contract.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/03-mxc-declarative-contract.png",
-      "bytes": 216215,
-      "sha256": "9a7380edbf590d4fdf87035fcd32f6f5b471bcb48df876e16076241c71eee85b"
+      "bytes": 179613,
+      "sha256": "ba5de4dc45341d757babf562776669d82f240cb2366f36b25fe5f610485c09e0"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/04-runtime-file-write-denied.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/04-runtime-file-write-denied.png",
-      "bytes": 400232,
-      "sha256": "66bbcca9a47f92cca410456fc7967b2cb91094bec94500453c1a7abf4ea8345c"
+      "bytes": 413850,
+      "sha256": "32ff9269933b0aea99ab5d1e37cc74a6326702905dacf06f589cb18107013261"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/05-malicious-agent-contained.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/05-malicious-agent-contained.png",
-      "bytes": 636772,
-      "sha256": "e82efdc4d80a5aa2030273a3308faac1885c3afa1406bad118a740e1d67ef5ac"
+      "bytes": 620064,
+      "sha256": "9e2d36b85fcfb97a22a4eab0c66ef04265a96ef4513019c4790fc66638578714"
     },
     {
       "group": "q3-2026",
@@ -16204,15 +16204,15 @@
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4",
-      "bytes": 600288,
-      "sha256": "058827b3f7c566356fd4d2a3e507f7a337b80c10035b50a66499cd328e0e35c3"
+      "bytes": 449258,
+      "sha256": "5dc8fcec1fb56cebd9395be649db7fe298cdd8fff4a9dc2bfe777a2d5b0801a8"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
-      "bytes": 563531,
-      "sha256": "9309bceb5d68c9905e54d24854daf9b49b358cbafaba1463108f2950533eb0b4"
+      "bytes": 422039,
+      "sha256": "3386f37fb668b93a19d9fdbbcd037798c85734551ee0d80cef6e8139b1a6a6a9"
     },
     {
       "group": "q3-2026",
@@ -16583,7 +16583,7 @@
       "source_relative": "data/video-compression-manifest.json",
       "portable_path": "data/video-compression-manifest.json",
       "bytes": 154029,
-      "sha256": "b4f8aa91f8eb7d1b433f068a4d47503fab475bf7a2fac61990d6d5164cb24580"
+      "sha256": "5d42116d5cc301ec5f39e4212c1d19ed4336614394f2be3dac47b4ffd33f96ed"
     },
     {
       "group": "generated",
