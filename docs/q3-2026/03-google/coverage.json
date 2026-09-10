@@ -1,0 +1,69 @@
+{
+  "brand": "Google",
+  "captured_at": "2026-09-09",
+  "scope": "Google only",
+  "summary": {
+    "complete": 0,
+    "partial": 6,
+    "missing": 0,
+    "png_files": 32,
+    "video_files": 5,
+    "resolution_gaps": 9
+  },
+  "items": [
+    {
+      "id": "gemini-spark",
+      "status": "PARTIAL",
+      "png_count": 9,
+      "video_count": 1,
+      "observed": ["entry", "delegation", "task dashboard", "tool progress", "needs input state", "artifact", "proactive notification", "turn-off settings screen"],
+      "missing": ["first permission screen", "reject suggestion action", "approve or reject dialog"]
+    },
+    {
+      "id": "compute-billing",
+      "status": "PARTIAL",
+      "png_count": 2,
+      "video_count": 0,
+      "observed": ["current usage percent", "weekly usage percent", "AI credits balance", "activity page"],
+      "missing": ["per-task cost", "pre-task estimate", "near-limit notification screenshot"]
+    },
+    {
+      "id": "gemini-in-chrome",
+      "status": "PARTIAL",
+      "png_count": 7,
+      "video_count": 1,
+      "source_width": 1080,
+      "canvas_width": 1920,
+      "resolution_gap": "7 portrait frames use white side padding; effective source width remains 1080",
+      "observed": ["entry", "delegation", "plan confirmation", "task started", "pause control", "merchant review", "added to cart result"],
+      "missing": ["state after pause or takeover", "Gemini approval before payment", "payment completion"]
+    },
+    {
+      "id": "omni-entries",
+      "status": "PARTIAL",
+      "png_count": 4,
+      "video_count": 3,
+      "youtube_shorts_source_width": 1080,
+      "youtube_shorts_canvas_width": 1280,
+      "resolution_gap": "2 YouTube Shorts frames have source width 1080 and padded canvas width 1280; Gemini app and Flow sources are 1920 wide",
+      "observed": ["Gemini app Create with Omni", "Flow agent entry", "YouTube Shorts Remix", "YouTube Shorts Reimagine"],
+      "missing": ["explicit Omni model selector inside Flow project canvas"]
+    },
+    {
+      "id": "android-xr-audio-glasses",
+      "status": "PARTIAL",
+      "png_count": 8,
+      "video_count": 0,
+      "observed": ["fall 2026 status", "voice wake", "navigation", "phone-linked task", "task progress", "voice confirmation", "watch preview", "official hardware image"],
+      "missing": ["temple-tap visual", "cancel action", "Pixel-specific linkage", "downloadable keynote clip"]
+    },
+    {
+      "id": "android-xr-display-glasses",
+      "status": "PARTIAL",
+      "png_count": 2,
+      "video_count": 0,
+      "observed": ["audio versus display product split", "historical in-lens display reference", "current Stay tuned status"],
+      "missing": ["current 2026 full interaction sequence", "explicit ship date for fashion display glasses", "confirm and cancel sequence", "downloadable keynote clip"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "brand": "Microsoft",
+  "updated": "2026-09-09",
+  "status": "COLLECTION_DISPOSITION_COMPLETE_WITH_GAPS",
+  "counts": {"images": 25, "video_clips": 4, "feature_images": 20, "hardware_images": 5},
+  "features": [
+    {
+      "id": "windows-agent-runtime",
+      "requirement": "注册、调度、限权、运行数、kill；帧序列 >=5",
+      "actual_files": [
+        "assets/windows-agent-runtime/01-agent-entry-teams.png",
+        "assets/windows-agent-runtime/02-agent-session-processes.png",
+        "assets/windows-agent-runtime/03-mxc-declarative-contract.png",
+        "assets/windows-agent-runtime/04-runtime-file-write-denied.png",
+        "assets/windows-agent-runtime/05-malicious-agent-contained.png",
+        "assets/windows-agent-runtime/06-agent-registry-inventory.png",
+        "assets/windows-agent-runtime/07-block-agent-governance.png",
+        "assets/windows-agent-runtime/clip-agent-identity.mp4",
+        "assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
+        "assets/windows-agent-runtime/source.md"
+      ],
+      "sources": [
+        {"url":"https://www.youtube.com/watch?v=CU4Wngb3JnA","title":"Building Agents You Can Trust on Windows | BRK262","publisher":"Microsoft Developer","published":"2026-06-03","official":true,"review_state":"VISUALLY_REVIEWED_AND_DECODED"},
+        {"url":"https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide","title":"Govern agents in the Microsoft 365 admin center","publisher":"Microsoft Learn","updated":"2026-08-31","official":true,"review_state":"PAGE_AND_IMAGES_REVIEWED"}
+      ],
+      "time_window": "PRIMARY_AFTER_2026-03-09",
+      "result": "PARTIAL",
+      "observed_states": ["进入", "用户会话/进程清单", "限权配置", "运行时拒绝", "治理侧注册库存", "治理侧block配置入口"],
+      "missing_states": ["同一runtime流程中的委托", "用户接管", "完整用户产物", "退出", "本机调度队列", "本机正在运行agent数量", "本机kill"],
+      "boundary": "Task Manager frame has no readable agent-identity field. Agent365 inventory/block-entry are supplemental governance evidence, not Windows local running-count/kill proof; the block action was not executed in the static image."
+    },
+    {
+      "id": "system-permissions",
+      "requirement": "文件夹、应用、能力粒度；截图 >=3",
+      "actual_files": [
+        "assets/system-permissions/01-declarative-permission-model.png",
+        "assets/system-permissions/02-filesystem-readonly-paths.png",
+        "assets/system-permissions/03-file-write-denied.png",
+        "assets/system-permissions/04-copilot-cli-filesystem-policy.png",
+        "assets/system-permissions/05-copilot-cli-network-policy.png",
+        "assets/system-permissions/06-app-host-scope.png",
+        "assets/system-permissions/07-known-folders-background.png",
+        "assets/system-permissions/clip-filesystem-denial.mp4",
+        "assets/system-permissions/source.md"
+      ],
+      "sources": [
+        {"url":"https://www.youtube.com/watch?v=CU4Wngb3JnA","title":"Building Agents You Can Trust on Windows | BRK262","publisher":"Microsoft Developer","published":"2026-06-03","official":true,"review_state":"VISUALLY_REVIEWED_AND_DECODED"},
+        {"url":"https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide","title":"Govern agents in the Microsoft 365 admin center","publisher":"Microsoft Learn","updated":"2026-08-31","official":true,"review_state":"PAGE_AND_IMAGES_REVIEWED"},
+        {"url":"https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/","title":"Securing AI agents on Windows","publisher":"Windows Experience Blog","published":"2025-10-16","official":true,"review_state":"BACKGROUND_IMAGE_REVIEWED"}
+      ],
+      "time_window": "PRIMARY_AFTER_2026-03-09; KNOWN_FOLDER_VISUAL_IS_BACKGROUND",
+      "result": "PARTIAL",
+      "observed_states": ["进入/配置", "委托上下文", "过程", "拒绝结果"],
+      "missing_states": ["接管", "退出", "2026消费者统一应用×能力权限总览"],
+      "boundary": "Folder granularity visual is BACKGROUND; app granularity is Agent365 host-product deployment, not an OS one-time consent dialog."
+    },
+    {
+      "id": "copilot-agent-mode",
+      "requirement": "过程可见性与接管机制；帧序列 >=3",
+      "actual_files": [
+        "assets/copilot-agent-mode/01-enter-browse-with-copilot.png",
+        "assets/copilot-agent-mode/02-delegate-task.png",
+        "assets/copilot-agent-mode/03-working-on-linkedin.png",
+        "assets/copilot-agent-mode/04-progress-draft-modal.png",
+        "assets/copilot-agent-mode/05-artifact-confirmation.png",
+        "assets/copilot-agent-mode/06-take-control-background.png",
+        "assets/copilot-agent-mode/clip-edge-agentic-30s.mp4",
+        "assets/copilot-agent-mode/source.md"
+      ],
+      "sources": [
+        {"url":"https://www.youtube.com/watch?v=mQv0EBvj2nI","title":"Edge for Business demo: Browse with Copilot","publisher":"Microsoft Edge","published":"2026-05-12","official":true,"review_state":"FULL_VIDEO_DECODED_AND_VISUALLY_REVIEWED"},
+        {"url":"https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/","title":"Securing AI agents on Windows","publisher":"Windows Experience Blog","published":"2025-10-16","official":true,"review_state":"BACKGROUND_IMAGE_REVIEWED"}
+      ],
+      "time_window": "PRIMARY_AFTER_2026-03-09; TAKE_CONTROL_VISUAL_IS_BACKGROUND",
+      "result": "PARTIAL",
+      "observed_states": ["进入", "委托", "过程", "产物", "最终确认", "接管控件_BACKGROUND"],
+      "missing_states": ["2026当前版本接管点击", "退出"],
+      "boundary": "The 2025 Take control image is not part of the 2026 Edge sequence; no click was observed."
+    }
+  ],
+  "hardware": {
+    "requirement": "Surface/Copilot+ PC/NPU/Copilot 键近期变化；不计入三特性素材数量",
+    "actual_files": [
+      "assets/hardware/01-surface-pro-laptop-2026.png",
+      "assets/hardware/02-surface-pro-2026.png",
+      "assets/hardware/03-surface-laptop-2026.png",
+      "assets/hardware/04-surface-rtx-spark-dev-box.png",
+      "assets/hardware/05-surface-rtx-spark-ports.png",
+      "assets/hardware/source.md"
+    ],
+    "sources": [
+      {"url":"https://news.microsoft.com/source/asia/2026/06/16/微软推出新一代-surface-pro-与-surface-laptop，兼顾性能与灵活性/?lang=zh-hans","title":"微软推出新一代 Surface Pro 与 Surface Laptop","published":"2026-06-16","official":true},
+      {"url":"https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box","title":"Surface RTX Spark Dev Box","state":"PRE_RELEASE_NOT_FOR_SALE","official":true},
+      {"url":"https://support.microsoft.com/en-US/accessibility/windows/copilot/understand-updates-to-the-copilot-key-on-windows-devices","title":"Understand updates to the Copilot key on Windows devices","date":"UNVERIFIED_ON_PAGE","official":true},
+      {"url":"https://support.microsoft.com/en-US/Microsoft-365-Copilot/access-microsoft-365-copilot-on-windows","title":"Access Microsoft 365 Copilot on Windows","official":true}
+    ],
+    "result": "PARTIAL",
+    "observed": ["2026 Surface Pro/Laptop product imagery", "Surface RTX Spark product and ports", "current official Copilot key behavior text"],
+    "missing": ["2026 high-resolution real UI for Copilot-key remapping", "new agent-specific touchpad gesture"],
+    "boundary": "Surface RTX Spark is pre-release and GPU-first sustained local compute; regular Surface Copilot+ PCs are NPU/hybrid devices."
+  }
+}

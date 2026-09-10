@@ -1,0 +1,5 @@
+{
+  "status": "EXCLUDED_FROM_PORTABLE_BUNDLE",
+  "reason": "Agent task runtime records are not part of the portable research edition.",
+  "research_completion_evidence": "See FINAL-ACCEPTANCE.md and the seven brand review notes in this folder."
+}

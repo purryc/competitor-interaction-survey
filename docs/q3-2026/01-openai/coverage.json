@@ -1,0 +1,738 @@
+{
+  "brand": "OpenAI",
+  "captured": "2026-09-09",
+  "status": "COMPLETE_WITH_GAPS",
+  "acceptance": "本品牌公开素材采集已逐项处置；1项图像完整、5项部分覆盖，未声称全部素材达标",
+  "features": [
+    {
+      "id": "work-mention",
+      "name": "Work 的 @ 提及调用",
+      "required_frames": 4,
+      "required_global_ui": 1,
+      "status": "PARTIAL",
+      "files": [
+        "assets/work-mention/global-plugin-directory.png",
+        "assets/work-mention/desktop-mode-picker.png",
+        "assets/work-mention/01-at-candidates.png",
+        "assets/work-mention/02-inline-app.png",
+        "assets/work-mention/03-delegate.png",
+        "assets/work-mention/04-progress.png",
+        "assets/work-mention/05-calendar-slots-still-working.png",
+        "assets/work-mention/global-video-ui.png",
+        "assets/work-mention/clip.mp4"
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/3340Q2XYfbsirvvYoKTrMY/12887973ea8709d9dd2a25c0d11d0abe/OAI_ChatGPTWork_PressBlog_PluginDirectory_16x9_260708.png",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/2T3eFCXl7i3DxCl3E7jXiC/95e52f4f44f85827a8844cc5051cd4e1/OAI_ChatGPTWork_PressBlog_DesktopPicker-Work_16x9_260708.png",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:06"
+        },
+        {
+          "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:07"
+        },
+        {
+          "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:08"
+        },
+        {
+          "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:09"
+        },
+        {
+          "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:13"
+        },
+        {
+          "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:05"
+        },
+        {
+          "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+          "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:05–01:15"
+        }
+      ],
+      "actual_sequence_frames": 5,
+      "flow": {
+        "进入": "模式菜单已见",
+        "委托": "@cal 列表、内联标签、请求已见",
+        "过程": "日历时段与运行状态已见",
+        "接管": "未见接管",
+        "产物": "候选时段已见，仍 Working",
+        "退出": "未见退出"
+      },
+      "difference": "应用以带图标的输入标签被引用。",
+      "missing_states": [
+        "一句话多个应用标签并列的 UI",
+        "教学视频独立发布日"
+      ],
+      "next_step": "补采条件：官方业务运营回放恢复可播，或提供隔离演示账号；现有同句双应用文字不当作UI。",
+      "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+      "collection_disposition": "DISPOSED_WITH_GAPS",
+      "disposition_reference": "EVIDENCE-DISPOSITION.md"
+    },
+    {
+      "id": "work-approval",
+      "name": "Work 的人工审批门",
+      "required_frames": 4,
+      "required_global_ui": 1,
+      "status": "PARTIAL",
+      "files": [
+        "assets/work-approval/thirdparty-windows-01-running.png",
+        "assets/work-approval/thirdparty-windows-02-access-approval.png",
+        "assets/work-approval/thirdparty-note-broad-approval-confirm.png"
+      ],
+      "sources": [
+        {
+          "url": "https://note.com/calm_gerbil315/n/nfc4ed8ccd363",
+          "media_url": "https://assets.st-note.com/img/1786762999-3YGtQ2iTC9quPLUJoHwayIh0.png",
+          "published": "2026-08-15",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://note.com/calm_gerbil315/n/nfc4ed8ccd363",
+          "media_url": "https://assets.st-note.com/img/1786763112-rFakw61IfGiWxC3NR097opBL.png",
+          "published": "2026-08-15",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://note.com/kyu_hontoko/n/n53517ef7e02d",
+          "media_url": "https://assets.st-note.com/img/1788075841-BReUfQmpl85a0Y1d2CsuZVtN.png",
+          "published": "2026-08-31",
+          "window": "PRIORITY",
+          "timecode": null
+        }
+      ],
+      "actual_sequence_frames": 2,
+      "flow": {
+        "进入": "第三方 Windows Work 委托画面已见",
+        "委托": "请求访问 help.openai.com 已见",
+        "过程": "承认待ち和权限卡已见",
+        "接管": "一度だけ許可 / 拒否；另一案例有所有网站授权二次确认",
+        "产物": "未收录批准/拒绝后的同任务产物",
+        "退出": "拒绝后续未见"
+      },
+      "difference": "访问具体站点前暂停，权限卡列出目标域名、单次允许、拒绝和更大授权范围。",
+      "missing_states": [
+        "同一审批流程四帧",
+        "拒绝后任务继续或终止",
+        "持续授权不等同于所有网站授权，需保留范围差异",
+        "官方审批原图仍缺"
+      ],
+      "next_step": "已取得两篇独立第一手上手公开截图；仅采免费可见原图。拒绝后续和官方同流程原片没有取得，保留缺口。",
+      "review": "已直接查看三张原始高清PNG；Windows文章原有灰色遮挡和红框保留。另一文章正文称选择单次，但配图实际打开所有网站确认，按画面标注。",
+      "collection_disposition": "DISPOSED_WITH_GAPS",
+      "disposition_reference": "EVIDENCE-DISPOSITION.md",
+      "sequence_groups": {
+        "windows": 2,
+        "note": 1
+      }
+    },
+    {
+      "id": "work-browser",
+      "name": "内置浏览器 + Computer Use",
+      "required_frames": 5,
+      "required_global_ui": 1,
+      "status": "PARTIAL",
+      "files": [
+        "assets/work-browser/browser-01-delegate.png",
+        "assets/work-browser/browser-02-search.png",
+        "assets/work-browser/browser-03-answer-start.png",
+        "assets/work-browser/browser-04-annotation-entry.png",
+        "assets/work-browser/browser-05-annotation-request.png",
+        "assets/work-browser/browser-global-task.png",
+        "assets/work-browser/browser-process-tools.png",
+        "assets/work-browser/01-computer-delegate.png",
+        "assets/work-browser/02-computer-progress.png",
+        "assets/work-browser/03-pip-preview.png",
+        "assets/work-browser/04-pip-keynote.png",
+        "assets/work-browser/05-keynote-edit.png",
+        "assets/work-browser/global-video-ui.png",
+        "assets/work-browser/clip.mp4",
+        "assets/work-browser/official-sign-in.png",
+        "assets/work-browser/official-website-permissions.png",
+        "assets/work-browser/official-browser-data.png"
+      ],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "published": "2026-07-16",
+          "window": "PRIORITY",
+          "timecode": "00:15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "published": "2026-07-16",
+          "window": "PRIORITY",
+          "timecode": "00:20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "published": "2026-07-16",
+          "window": "PRIORITY",
+          "timecode": "00:25"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "published": "2026-07-16",
+          "window": "PRIORITY",
+          "timecode": "00:30"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "published": "2026-07-16",
+          "window": "PRIORITY",
+          "timecode": "00:35"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "published": "2026-07-16",
+          "window": "PRIORITY",
+          "timecode": "00:17"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "published": "2026-07-16",
+          "window": "PRIORITY",
+          "timecode": "00:23.75"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10",
+          "window": "PRIORITY",
+          "timecode": "00:15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10",
+          "window": "PRIORITY",
+          "timecode": "00:18"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10",
+          "window": "PRIORITY",
+          "timecode": "00:24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10",
+          "window": "PRIORITY",
+          "timecode": "00:27"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10",
+          "window": "PRIORITY",
+          "timecode": "00:30"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10",
+          "window": "PRIORITY",
+          "timecode": "00:18"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "published": "2026-07-10",
+          "window": "PRIORITY",
+          "timecode": "00:12–00:32"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/browser?surface=app",
+          "media_url": "https://developers.openai.com/images/codex/cloud-browser-auth/sign-in.webp",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": null
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/browser?surface=app",
+          "media_url": "https://developers.openai.com/images/codex/cloud-browser-auth/website-permissions.webp",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": null
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/browser?surface=app",
+          "media_url": "https://developers.openai.com/images/codex/cloud-browser-auth/browser-data.webp",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": null
+        }
+      ],
+      "actual_sequence_frames": 5,
+      "flow": {
+        "进入": "Browser 内联标签委托已见；另有 Computer 标签",
+        "委托": "Browser 社区搜索委托已见；Notes→Keynote 属另一组",
+        "过程": "浏览器社区搜索、回答生成和网页批注已见；桌面 PiP 另组",
+        "接管": "未见点击；Cloud browser 登录交接另图",
+        "产物": "Browser 回答开始输出、批注草稿已见；Keynote 编辑属另一组",
+        "退出": "停止按钮已见，按下后未见"
+      },
+      "difference": "Computer Use 展示文字过程与应用画中画。",
+      "missing_states": [
+        "点击接管及之后状态",
+        "录像回放入口是否存在",
+        "停止结果"
+      ],
+      "next_step": "本轮已取得浏览器五状态及全局；原片35秒后转场，未展示批注结果、接管或停止结果。后续需专项演示或隔离账号。",
+      "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+      "sequence_groups": {
+        "desktop-pip": 5,
+        "browser": 6,
+        "browser-global": "17秒完整任务窗口"
+      },
+      "collection_disposition": "DISPOSED_WITH_GAPS",
+      "disposition_reference": "EVIDENCE-DISPOSITION.md"
+    },
+    {
+      "id": "work-artifacts",
+      "name": "Work 的产物落地",
+      "required_frames": 3,
+      "required_global_ui": 1,
+      "status": "COMPLETE",
+      "files": [
+        "assets/work-artifacts/slides-global.png",
+        "assets/work-artifacts/spreadsheet-global.png",
+        "assets/work-artifacts/site-forecast.png",
+        "assets/work-artifacts/dashboard-global.png",
+        "assets/work-artifacts/web-app-global.png",
+        "assets/work-artifacts/01-deck-request.png",
+        "assets/work-artifacts/02-deck-preview.png",
+        "assets/work-artifacts/03-inline-edit.png",
+        "assets/work-artifacts/04-edit-request-submitted.png",
+        "assets/work-artifacts/clip.mp4",
+        "assets/work-artifacts/05-edited-deck.png"
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/3MIh1eHZlPjuw1fWoMA76X/cd0c40136803d49299d61eb48944314b/OAI_ChatGPTWork_PressBlog_WebArtifact_16x9_260708.png",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/2q1hcq6tWZ7FawSYE5CP9J/c71384d63f82b6aec870dc768f7e3a46/OAI_ChatGPTWork_PressBlog_DesktopArtifact_16x9_260708.png",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/5G0zHEnIZRLg0EWpZV602t/47c3851dd1f1cfbdf42d5f630fd36241/blossom-bank-forecasting-light-4k.png",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/3xXbAmTubtBQ7u2OJThryt/58a900197cfd7430c1040f56c4c86a5d/blossom-widgets-enterprise-summit-photo-floorplan-alt-4k.png",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/chatgpt-work/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/57WzZDA3mSsFa1BPAyyUSH/0f6c891bfd20cee2240869e69a07c4b8/Card_5_-_opt_8.png",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": "00:55"
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": "01:00"
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": "01:05"
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": "01:10"
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": "00:52–01:14"
+        },
+        {
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+          "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+          "published": "2026-07-09",
+          "window": "PRIORITY",
+          "timecode": "01:12"
+        }
+      ],
+      "actual_sequence_frames": 5,
+      "flow": {
+        "进入": "已有上下文，完整新建入口未见",
+        "委托": "演示文稿请求已见",
+        "过程": "预览和内联批注已见",
+        "接管": "用户提交修改已见",
+        "产物": "PPTX、Google Sheets、dashboard、交互 Site 各有图",
+        "退出": "未见关窗或全部保存回执"
+      },
+      "difference": "产物可呈现为文件、连接应用内文件和托管 Site。",
+      "missing_states": [],
+      "next_step": "四类成品和编辑序列达到图像门槛；SharePoint 落盘仍未直接证明，保留目的地边界。",
+      "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+      "collection_disposition": "IMAGE_REQUIREMENTS_MET",
+      "disposition_reference": "EVIDENCE-DISPOSITION.md"
+    },
+    {
+      "id": "gpt-live",
+      "name": "GPT-Live 全双工语音",
+      "required_frames": 4,
+      "required_global_ui": 1,
+      "status": "PARTIAL",
+      "files": [
+        "assets/gpt-live/image-01-entry.png",
+        "assets/gpt-live/image-02-photo-picker.png",
+        "assets/gpt-live/image-03-voice-return.png",
+        "assets/gpt-live/image-04-second-photo.png",
+        "assets/gpt-live/image-05-voice-again.png",
+        "assets/gpt-live/image-clip.mp4",
+        "assets/gpt-live/intelligence-orb-global.png",
+        "assets/gpt-live/weather-global.png",
+        "assets/gpt-live/sports-global.png",
+        "assets/gpt-live/maps-global.png",
+        "assets/gpt-live/01-voice-entry.png",
+        "assets/gpt-live/02-voice-loading.png",
+        "assets/gpt-live/03-orb-visible.png",
+        "assets/gpt-live/04-reasoning-picker.png",
+        "assets/gpt-live/clip.mp4",
+        "assets/gpt-live/05-reasoning-options.png"
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:00"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:12"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:18"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:35"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:42"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:10–00:39.80"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1209991962?h=932d97ada3",
+          "published": null,
+          "window": "UNVERIFIED_DATE",
+          "timecode": "01:43"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/38TRAE6B8AS3hNkoQuKSOl/729b7c415ed4c1b62027449799cead86/gpt-live-visual-answer-weather.png",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/7IWfPZwH8SaJVikq4PScQP/f327d0d73d35b3989b8d504d5e9fa782/gpt-live-visual-answer-sports.png",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/GLkTfEhJSFJZ77FHnN1f6/b1ab29d652268636a226246f5b1766cc/gpt-live-visual-answer-maps.png",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:00"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:01"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:02"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1208104269?h=d3a5cfc799",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:03"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:00–00:08"
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-live/",
+          "media_url": "https://player.vimeo.com/video/1208104269?h=d3a5cfc799",
+          "published": "2026-07-08",
+          "window": "PRIORITY",
+          "timecode": "00:04"
+        }
+      ],
+      "actual_sequence_frames": 3,
+      "flow": {
+        "进入": "入口→加载→球体已见",
+        "委托": "已审官方图片对话和行程问答，未取得可确认打断的UI序列",
+        "过程": "球体和推理设置已见",
+        "接管": "打断反馈未取得",
+        "产物": "天气/体育/地图各一图",
+        "退出": "关闭按钮已见，退出结果未见"
+      },
+      "difference": "语音界面显示视觉回答并允许选择推理档位。",
+      "missing_states": [
+        "打断前后 UI 与音频对应",
+        "倾听/接话状态区分",
+        "后台委派是否可感知",
+        "实际结束后的界面"
+      ],
+      "next_step": "本轮三段官方对话原片、独立动画和卡片已审；需同时清晰记录音轨与手机UI的打断专项演示。",
+      "review": "入口动画只有 3 帧；菜单动画另计 2 帧，不能拼为 5 帧全双工流程。已转写并查看图片对话与行程视频代表帧；转写不是打断检测。",
+      "sequence_groups": {
+        "startup": "01–03：startup 原片 0–2 秒，独立入口动画",
+        "picker": "04–05：picker 原片 3–4 秒，独立菜单动画",
+        "image": "image-*：图片对话原片，独立连续演示；尚未证明打断",
+        "intelligence": "intelligence-*：边规划行程边继续问答；手机画面未见后台任务卡"
+      },
+      "collection_disposition": "DISPOSED_WITH_GAPS",
+      "disposition_reference": "EVIDENCE-DISPOSITION.md",
+      "qualifying_interruption_frames": 0
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas 浏览器 agent 模式",
+      "required_frames": 3,
+      "required_global_ui": 1,
+      "status": "PARTIAL",
+      "files": [
+        "assets/atlas/background-agent-global.png",
+        "assets/atlas/01-background-browser-permission.png",
+        "assets/atlas/02-background-agent-running.png",
+        "assets/atlas/03-background-agent-click.png",
+        "assets/atlas/04-background-add-to-cart.png",
+        "assets/atlas/global-video-ui.png",
+        "assets/atlas/clip.mp4",
+        "assets/atlas/05-background-checkout-question.png"
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://images.ctfassets.net/kftzwdyauwt9/7vBVya3XA6w2Sbq74ENNIi/b65385435d060532d89225d937942e77/Agent__5_.png",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": null
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": "01:10"
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": "01:13"
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": "01:15"
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": "01:21"
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": "01:13"
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": "01:05–01:25"
+        },
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+          "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+          "published": "2025-10-21",
+          "window": "BACKGROUND",
+          "timecode": "01:23"
+        }
+      ],
+      "actual_sequence_frames": 5,
+      "flow": {
+        "进入": "浏览器确认已见（历史）",
+        "委托": "购物委托已见（历史）",
+        "过程": "光标、状态条已见（历史）",
+        "接管": "Take control / Stop 可见，未见点击",
+        "产物": "购物车和结账询问已见（历史）",
+        "退出": "停止后界面未见"
+      },
+      "difference": "历史 Atlas 底部条集中显示任务、接管和停止。",
+      "missing_states": [
+        "本季独立 Atlas 交互素材",
+        "Take control 点击前后",
+        "停止/退出结果"
+      ],
+      "next_step": "本轮保留历史演示；旧直播字幕对应交给agent的Continue，未定位到用户收回控制结果。需历史专项接管演示；不计本季。",
+      "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+      "collection_disposition": "DISPOSED_WITH_GAPS",
+      "disposition_reference": "EVIDENCE-DISPOSITION.md"
+    }
+  ],
+  "hardware": {
+    "status": "UNVERIFIED",
+    "known": "官方合作已确认；设备发布与交互未核实。1000px 合作照片移至原始缓存，不计合格素材。",
+    "sources": [
+      "https://openai.com/sam-and-jony/"
+    ],
+    "files": [],
+    "window": "BACKGROUND",
+    "missing_states": [
+      "设备外观",
+      "使用流程",
+      "上市确认"
+    ],
+    "next_step": "查官方设备发布，不展开传闻规格"
+  },
+  "asset_counts": {
+    "png": 58,
+    "mp4": 6
+  },
+  "counts": {
+    "COMPLETE": 1,
+    "PARTIAL": 5,
+    "MISSING": 0,
+    "UNVERIFIED": 0
+  }
+}

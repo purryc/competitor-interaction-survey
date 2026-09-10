@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Meta 证据包审核</title>
+<style>
+    :root{color-scheme:dark;--bg:#090b10;--panel:#121722;--line:#283246;--text:#f4f7fb;--muted:#aab4c6;--ok:#49d49d;--partial:#ffbf69;--missing:#ff7185;--accent:#7cb8ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 0,#182a4b 0,transparent 30%),var(--bg);color:var(--text);font:15px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC",sans-serif}header,main{max-width:1440px;margin:auto;padding:28px}header{padding-top:52px}h1{font-size:clamp(32px,5vw,64px);line-height:1;margin:0 0 16px}h2{margin:48px 0 14px;font-size:26px}p{color:var(--muted);max-width:920px}.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:24px}.stat,.card{background:color-mix(in srgb,var(--panel) 92%,transparent);border:1px solid var(--line);border-radius:16px}.stat{padding:18px}.stat b{display:block;font-size:25px}.badge{display:inline-block;padding:3px 9px;border-radius:999px;font-size:12px;font-weight:750;letter-spacing:.04em}.partial{color:#241604;background:var(--partial)}.complete{color:#052016;background:var(--ok)}.missing{color:#29050c;background:var(--missing)}.note{border-left:3px solid var(--partial);padding:10px 14px;background:#17130d;border-radius:0 10px 10px 0}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}.card{overflow:hidden}.card img,.card video{width:100%;display:block;background:#030407;aspect-ratio:16/9;object-fit:contain}.card .meta{padding:12px 14px}.card code{word-break:break-all;color:var(--accent);font-size:12px}.card small{display:block;color:var(--muted);margin-top:5px}.links{display:flex;gap:16px;flex-wrap:wrap}.links a{color:var(--accent)}footer{max-width:1440px;margin:48px auto 0;padding:28px;border-top:1px solid var(--line);color:var(--muted)}
+  </style>
+</head>
+<body>
+<header>
+<span class="badge partial">OVERALL PARTIAL</span>
+<h1>Meta｜可审计证据墙</h1>
+<p>窗口：2026-03-09—2026-09-09；抓取：2026-09-09。页面只展示本地正式素材。官方合成、透镜取景、第三方实机、PoC 与研究演示均分开标注。</p>
+<div class="summary">
+<div class="stat"><b>15</b>手写正式图</div><div class="stat"><b>7</b>手势图</div><div class="stat"><b>6</b>HUD 图</div><div class="stat"><b>5</b>提词器图</div><div class="stat"><b>10</b>脱离眼镜图</div><div class="stat"><b>3</b>硬件图</div>
+</div>
+<p class="links"><a href="README.md">README</a><a href="SOURCES.md">SOURCES</a><a href="SEARCH-LOG.md">SEARCH-LOG</a><a href="STATUS.md">STATUS</a><a href="coverage.json">coverage.json</a></p>
+</header>
+<main id="root"></main>
+<footer>审核原则：视频可播放、帧可目检、来源与时间码可追溯；缺口保留为 PARTIAL / MISSING，不用推断或放大补齐。</footer>
+<script>
+    const groups=[
+      {title:'Neural Handwriting｜PARTIAL',note:'CES 片为 BACKGROUND 官方合成；2026-03 更新在窗口内但宽 1080。纠错、删除、完整入口和退出缺失。',videos:['assets/neural-handwriting/clip.mp4','assets/neural-handwriting-update/clip.mp4'],images:['assets/neural-handwriting/01-context.png','assets/neural-handwriting/02-wearer.png','assets/neural-handwriting/03-surface-hand.png','assets/neural-handwriting/04-partial-word-start.png','assets/neural-handwriting/05-partial-word-late.png','assets/neural-handwriting/06-draft-and-send-control.png','assets/neural-handwriting/07-sent-confirmation.png','assets/neural-handwriting/08-wearer-after-send.png','assets/neural-handwriting/09-reply.png','assets/neural-handwriting-update/01-writing-start.png','assets/neural-handwriting-update/02-writing-yes.png','assets/neural-handwriting-update/03-writing-sou.png','assets/neural-handwriting-update/04-writing-sounds.png','assets/neural-handwriting-update/05-writing-fun.png','assets/neural-handwriting-update/06-complete-message.png']},
+      {title:'Neural Band 手势集｜PARTIAL',note:'动作+EMG 不等于消费 HUD 结果；wrist roll 是旧概念段；步行图不是防误触验证。',videos:['assets/gesture-set/clip-emg-signals.mp4','assets/gesture-set/clip-wrist-roll-concept.mp4'],images:['assets/gesture-set/01-index-pinch-start.png','assets/gesture-set/02-index-pinch-contact.png','assets/gesture-set/03-middle-pinch-start.png','assets/gesture-set/04-middle-pinch-contact.png','assets/gesture-set/05-wrist-roll-start-concept.png','assets/gesture-set/06-wrist-roll-end-concept.png','assets/gesture-set/07-walking-hud-context.png']},
+      {title:'镜内 HUD｜PARTIAL',note:'官方合成 POV，不是透镜光学实拍。区域框功能未核；地图没有路线线条；转场不是消失时机。',videos:['assets/hud/clip.mp4'],images:['assets/hud/01-region-selection-start.png','assets/hud/02-region-selection-progress.png','assets/hud/03-region-selection-later.png','assets/hud/04-message-reply.png','assets/hud/05-map-card.png','assets/hud/06-map-expanded.png']},
+      {title:'Teleprompter｜PARTIAL',note:'第三方实机来自不同时点，本地无连续片，不能声称相邻滚动；1250px 源宽低于门槛。',videos:[],images:['assets/teleprompter/01-hud-card.png','assets/teleprompter/02-setup-modes-and-text-size.png','assets/teleprompter/03-through-lens-card-state-a.png','assets/teleprompter/04-through-lens-card-state-b.png','assets/teleprompter/05-through-lens-card-state-c.png']},
+      {title:'腕带脱离眼镜｜COMPLETE（研究/PoC 证据）',note:'Garmin 是 OEM PoC；Utah 与 CMU 是研究。这里的 COMPLETE 只表示证据请求完成，不表示消费可用。',videos:['assets/beyond-glasses/clip-cmu-two-band-research.mp4'],images:['assets/beyond-glasses/01-garmin-unified-cabin.png','assets/beyond-glasses/02-smart-home-research.png','assets/beyond-glasses/03-tetraski-research.png','assets/beyond-glasses/04-smart-home-utah.png','assets/beyond-glasses/05-cass-two-bands.png','assets/beyond-glasses/06-cass-calibration.png','assets/beyond-glasses/07-cass-game-comparison.png','assets/beyond-glasses/08-cass-decoded-output.png','assets/beyond-glasses/09-cass-active-play.png','assets/beyond-glasses/10-cass-hand-muscle-closeup.png']},
+      {title:'新硬件｜COMPLETE',note:'正式产品图均为官方高分辨率；市场状态以抓取日现行 Meta 可用性页为准。',videos:[],images:['assets/hardware/01-display-band-pair.png','assets/hardware/02-display-front.png','assets/hardware/03-display-sand.png']}
+    ];
+    const root=document.querySelector('#root');
+    for(const g of groups){const section=document.createElement('section');const h=document.createElement('h2');h.textContent=g.title;section.append(h);const note=document.createElement('p');note.className='note';note.textContent=g.note;section.append(note);const gallery=document.createElement('div');gallery.className='gallery';for(const src of g.videos){gallery.insertAdjacentHTML('beforeend',`<article class="card"><video controls preload="metadata" src="${src}"></video><div class="meta"><code>${src}</code><small>连续本地视频</small></div></article>`)}for(const src of g.images){gallery.insertAdjacentHTML('beforeend',`<article class="card"><img loading="lazy" src="${src}" alt="${src}"><div class="meta"><code>${src}</code></div></article>`)}section.append(gallery);root.append(section)}
+  </script>
+</body>
+</html>

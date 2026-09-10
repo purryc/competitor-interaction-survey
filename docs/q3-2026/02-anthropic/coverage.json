@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "brand": "Anthropic",
+  "captured_at": "2026-09-09",
+  "primary_time_window": {
+    "start": "2026-03-09",
+    "preferred_start": "2026-06-11",
+    "background_rule": "2026-03-09 前素材只作背景"
+  },
+  "summary": {
+    "total_required_features": 6,
+    "complete": 0,
+    "partial": 6,
+    "missing": 0,
+    "collection_disposition": "本轮候选均已实际审阅；仍有明确素材缺口，不声称六项素材完整"
+  },
+  "features": [
+    {
+      "id": "cowork-folder-permission",
+      "name": "Cowork 的文件夹授权",
+      "required": "文件夹选择器、持续访问范围、asks before acting 提示、删除动作审批弹窗；帧序列至少 4 张并有全局 UI",
+      "actual_files": [
+        "assets/cowork-folder-permission/01-folder-access-request.png",
+        "assets/cowork-folder-permission/02-folder-access-options.png",
+        "assets/cowork-folder-permission/03-folder-scope-warning.png",
+        "assets/cowork-folder-permission/04-allow-and-always-allow.png",
+        "assets/cowork-folder-permission/05-folder-warning-late-state.png",
+        "assets/cowork-folder-permission/06-background-folder-picker-entry.png",
+        "assets/cowork-folder-permission/07-background-folder-picker.png",
+        "assets/cowork-folder-permission/08-background-folder-selected.png",
+        "assets/cowork-folder-permission/09-background-folder-return.png",
+        "assets/cowork-folder-permission/clip.mp4"
+      ],
+      "sources": [
+        {
+          "title": "Claude Cowork - How Permissions and Approvals Work",
+          "url": "https://www.youtube.com/watch?v=WWpJeiXgZpo",
+          "published": "2026-05-06",
+          "official": false,
+          "window": "primary"
+        },
+        {
+          "title": "The Future of AI at Work: Introducing Cowork",
+          "url": "https://www.youtube.com/watch?v=zfWfczd6keE",
+          "published": "2026-02-09",
+          "official": true,
+          "window": "background"
+        },
+        {
+          "title": "Get started with Claude Cowork",
+          "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+          "accessed": "2026-09-09",
+          "official": true,
+          "window": "current-doc"
+        }
+      ],
+      "stage_visibility": {
+        "entry": {"seen": true, "evidence": "文件夹访问请求；背景期 macOS 文件夹选择器"},
+        "delegation": {"seen": false, "evidence": "取帧段没有完整委托文本"},
+        "process": {"seen": false, "evidence": "仅看见授权相关状态"},
+        "takeover": {"seen": true, "evidence": "Deny all/Allow 与 Cancel/Always allow/Allow；弹窗无 Allow once 字样"},
+        "artifact": {"seen": false, "evidence": "本组未见授权后产物"},
+        "exit": {"seen": true, "evidence": "背景期选择器返回 Cowork；未见撤销持续权限"}
+      },
+      "status": "PARTIAL",
+      "missing": [
+        "实际永久删除某文件时的动作级审批弹窗；03:45–04:44 后段只清空文件内容，文件仍存在且无再次审批",
+        "本季官方文件夹选择器/范围 UI",
+        "授权范围的持续可见位置与撤销路径"
+      ],
+      "next_step": "需要可登录 Cowork 的受控测试账号，选择临时文件夹并触发永久删除；录制 Allow 前弹窗、取消、允许、撤销授权，避免任何真实用户文件"
+    },
+    {
+      "id": "cowork-cross-device",
+      "name": "Cowork 跨设备接力",
+      "required": "桌面起任务→手机看进度→回桌面拿产物，三个阶段各至少 2 帧；说明手机能做和不能做什么",
+      "actual_files": [
+        "assets/cowork-cross-device/01-mobile-empty.png",
+        "assets/cowork-cross-device/02-mobile-delegation.png",
+        "assets/cowork-cross-device/03-mobile-desktop-working.png",
+        "assets/cowork-cross-device/04-desktop-plan.png",
+        "assets/cowork-cross-device/05-desktop-artifact.png",
+        "assets/cowork-cross-device/06-desktop-artifact-later.png",
+        "assets/cowork-cross-device/07-mobile-result.png",
+        "assets/cowork-cross-device/08-mobile-followup.png",
+        "assets/cowork-cross-device/09-mobile-followup-result.png",
+        "assets/cowork-cross-device/clip.mp4"
+      ],
+      "sources": [
+        {
+          "title": "Dispatch tasks to Claude Cowork from anywhere",
+          "url": "https://www.youtube.com/watch?v=fVIV-L49eBs",
+          "published": "2026-03-17",
+          "official": true,
+          "window": "primary"
+        },
+        {
+          "title": "Use Claude Cowork on web, desktop, and mobile",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+          "accessed": "2026-09-09",
+          "official": true,
+          "window": "current-doc"
+        },
+        {
+          "title": "Assign tasks from anywhere in Claude Cowork",
+          "url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork",
+          "updated": "2026-08-31",
+          "official": true,
+          "window": "preferred"
+        }
+      ],
+      "stage_visibility": {
+        "entry": {"seen": true, "evidence": "手机 Dispatch 空态；未见桌面起任务"},
+        "delegation": {"seen": true, "evidence": "手机输入并发送处理本地 proposal 的任务"},
+        "process": {"seen": true, "evidence": "手机状态与桌面计划/分析同屏"},
+        "takeover": {"seen": true, "evidence": "手机继续追问和修改要求"},
+        "artifact": {"seen": true, "evidence": "桌面 PowerPoint 与手机结果摘要"},
+        "exit": {"seen": false, "evidence": "未见关闭 session 或桌面领取/退出"}
+      },
+      "status": "PARTIAL",
+      "missing": [
+        "准确的桌面开始→手机监控→桌面取回顺序",
+        "桌面开始阶段至少 2 帧",
+        "回桌面取回/下载阶段至少 2 帧",
+        "明确退出"
+      ],
+      "next_step": "需要在同一测试 session 中从桌面发起安全的临时文件任务，再用移动端查看/steer，最后回桌面打开并下载结果；录制三个阶段各 2 帧"
+    },
+    {
+      "id": "cowork-process-visibility",
+      "name": "Cowork 的过程可见性",
+      "required": "计划清单、逐步日志、文件变更列表、中途插话改需求；帧序列至少 4 张并有全局 UI",
+      "actual_files": [
+        "assets/cowork-process-visibility/01-background-plan.png",
+        "assets/cowork-process-visibility/02-background-plan-expanded.png",
+        "assets/cowork-process-visibility/03-background-checklist.png",
+        "assets/cowork-process-visibility/04-background-progress.png",
+        "assets/cowork-process-visibility/05-background-steering-entry.png",
+        "assets/cowork-process-visibility/06-background-steering-input.png",
+        "assets/cowork-process-visibility/clip.mp4"
+      ],
+      "sources": [
+        {
+          "title": "The Future of AI at Work: Introducing Cowork",
+          "url": "https://www.youtube.com/watch?v=zfWfczd6keE",
+          "published": "2026-02-09",
+          "official": true,
+          "window": "background"
+        },
+        {
+          "title": "Get started with Claude Cowork",
+          "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+          "accessed": "2026-09-09",
+          "official": true,
+          "window": "current-doc"
+        }
+      ],
+      "stage_visibility": {
+        "entry": {"seen": false, "evidence": "片段从执行中段开始"},
+        "delegation": {"seen": false, "evidence": "初始委托未完整出现"},
+        "process": {"seen": true, "evidence": "计划、checklist、运行状态、Progress"},
+        "takeover": {"seen": true, "evidence": "用户打开输入区并补充要求"},
+        "artifact": {"seen": false, "evidence": "没有最终产物"},
+        "exit": {"seen": false, "evidence": "没有停止、完成或退出"}
+      },
+      "status": "PARTIAL",
+      "missing": [
+        "本季合规时间窗内的同等 UI 视频",
+        "清晰文件变更列表",
+        "最终产物与退出"
+      ],
+      "next_step": "需要本季官方 demo 或可登录自测，从新任务入口连续录制计划、日志、文件变更、插话、产物与结束；现有片段只保留为背景"
+    },
+    {
+      "id": "design-convergence",
+      "name": "Design 的三种收敛方式",
+      "required": "内联批注、滑杆调参、直接改文字各至少 3 帧，看清修改如何成为可执行动作",
+      "actual_files": [
+        "assets/design-convergence/01-global-ui.png",
+        "assets/design-convergence/02-comment-entry.png",
+        "assets/design-convergence/03-comment-instruction.png",
+        "assets/design-convergence/04-comment-result.png",
+        "assets/design-convergence/05-knobs-entry.png",
+        "assets/design-convergence/06-knobs-panel.png",
+        "assets/design-convergence/07-knobs-object-selected.png",
+        "assets/design-convergence/08-text-edit-entry.png",
+        "assets/design-convergence/09-text-edit-activated.png",
+        "assets/design-convergence/10-text-selection.png",
+        "assets/design-convergence/11-globe-sliders-visible.png",
+        "assets/design-convergence/12-typography-sliders-visible.png",
+        "assets/design-convergence/clip.mp4"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Claude Design by Anthropic Labs",
+          "url": "https://www.youtube.com/watch?v=t_LBECIQQqs",
+          "published": "2026-04-17",
+          "official": true,
+          "window": "primary"
+        },
+        {
+          "title": "Introducing Claude Design by Anthropic Labs",
+          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+          "published": "2026-04-17",
+          "official": true,
+          "window": "primary"
+        }
+      ],
+      "stage_visibility": {
+        "entry": {"seen": true, "evidence": "完整工作台与 Comment/Edit text/Knobs"},
+        "delegation": {"seen": true, "evidence": "内联 Comment 指令与直接编辑模式切换"},
+        "process": {"seen": true, "evidence": "Comment 提交、Knobs 字段和静态滑杆控件"},
+        "takeover": {"seen": true, "evidence": "三类编辑入口可切换"},
+        "artifact": {"seen": true, "evidence": "图片替换结果与文字对象选择"},
+        "exit": {"seen": false, "evidence": "未见明确退出 Design"}
+      },
+      "subfeature_status": {
+        "inline_comment": "COMPLETE",
+        "sliders": "PARTIAL",
+        "direct_text_edit": "COMPLETE"
+      },
+      "status": "PARTIAL",
+      "missing": [
+        "同一滑杆被拖动前、拖动中、拖动后至少 3 帧",
+        "滑杆数值变化与画面响应对应关系",
+        "明确退出"
+      ],
+      "next_step": "优先寻找官方长版 Design demo；否则用可访问的 Design 测试项目拖动一个安全参数并录制数值和画面前后，不能把 Knobs 数值字段当作滑杆"
+    },
+    {
+      "id": "design-code-handoff",
+      "name": "Design → Code 的交接",
+      "required": "打包交接界面、交付内容、接收端；帧序列至少 3 张",
+      "actual_files": [
+        "assets/design-code-handoff/01-export-menu.png",
+        "assets/design-code-handoff/02-handoff-dialog.png",
+        "assets/design-code-handoff/03-generated-command.png",
+        "assets/design-code-handoff/clip.mp4"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Claude Design by Anthropic Labs",
+          "url": "https://www.youtube.com/watch?v=t_LBECIQQqs",
+          "published": "2026-04-17",
+          "official": true,
+          "window": "primary"
+        }
+      ],
+      "stage_visibility": {
+        "entry": {"seen": true, "evidence": "Export 菜单中的 Handoff to Claude Code"},
+        "delegation": {"seen": true, "evidence": "local coding agent / Claude Code Web 渠道"},
+        "process": {"seen": true, "evidence": "系统生成实现命令"},
+        "takeover": {"seen": true, "evidence": "可复制命令、补充细节、切换渠道或关闭"},
+        "artifact": {"seen": true, "evidence": "包含 Design URL、README 与 HTML 目标的命令"},
+        "exit": {"seen": false, "evidence": "Claude Code 接收、执行与回传未见"}
+      },
+      "status": "PARTIAL",
+      "missing": [
+        "Claude Code 接收端 UI",
+        "接收后的执行状态",
+        "实现结果与返回路径"
+      ],
+      "next_step": "需要官方接收端 demo 或可访问的 Design/Claude Code 测试账号，使用无敏感内容的临时项目执行 handoff 并录制接收、运行、结果"
+    },
+    {
+      "id": "claude-code-multi-agent",
+      "name": "Claude Code 的 Skills / Subagents / Agent Teams",
+      "required": "抽象在界面上如何看见和管理，多 agent 同时工作如何呈现；截图至少 3 张",
+      "actual_files": [
+        "assets/claude-code-multi-agent/01-skills-command.png",
+        "assets/claude-code-multi-agent/02-skills-panel.png",
+        "assets/claude-code-multi-agent/03-skill-invocation.png",
+        "assets/claude-code-multi-agent/04-subagents-official-slide.png",
+        "assets/claude-code-multi-agent/05-agent-teams-official-terminal.png",
+        "assets/claude-code-multi-agent/clip.mp4"
+      ],
+      "sources": [
+        {
+          "title": "Claude Code Skills Changed Everything (And Nobody Noticed)",
+          "url": "https://www.youtube.com/watch?v=epZy_NajGnA",
+          "published": "2026-03-24",
+          "official": false,
+          "window": "primary"
+        },
+        {
+          "title": "Claude Code Advanced Patterns: Subagents, MCP, and Scaling to Real Codebases",
+          "url": "https://resources.anthropic.com/hubfs/Claude%20Code%20Advanced%20Patterns_%20Subagents%2C%20MCP%2C%20and%20Scaling%20to%20Real%20Codebases.pdf",
+          "published": "2026-03-24",
+          "official": true,
+          "window": "primary"
+        }
+      ],
+      "stage_visibility": {
+        "entry": {"seen": true, "evidence": "/ 命令列表与 /skills 面板"},
+        "delegation": {"seen": true, "evidence": "/skill-creator 输入；Subagents hands-off delegation 说明"},
+        "process": {"seen": true, "evidence": "官方终端显示 4 agents launched / Running in the background"},
+        "takeover": {"seen": false, "evidence": "只有官方文档文字说明，没有连续 UI 截图"},
+        "artifact": {"seen": false, "evidence": "未见最终代码产物"},
+        "exit": {"seen": false, "evidence": "未见结束 subagent/team"}
+      },
+      "status": "PARTIAL",
+      "missing": [
+        "Subagents 的 live 管理 UI",
+        "Agent Teams 的用户切换/消息/任务列表接管过程",
+        "同一任务的产物与结束",
+        "一条连续官方视频"
+      ],
+      "next_step": "使用 Claude Code v2.1.32+ 的安全测试 repo，分别录制 /skills、/agents 与 experimental team 的创建、切换、消息、task list 和结束；若无实验权限则寻找 Anthropic 官方长版 webinar 录屏"
+    }
+  ],
+  "hardware": {
+    "question": "有没有自有硬件；为什么不做；靠什么载体替代",
+    "status": "COMPLETE_RESEARCH_DISPOSITION_WITH_GAP",
+    "result": "未找到 Anthropic 自有消费终端发布。2026-08-27 MHS 是共享设备控制规范 research preview，不是 Anthropic 自有设备。未找到官方解释为什么不做自有硬件。",
+    "actual_files": [
+      "assets/hardware-strategy/01-mhs-orchestration-diagram.png",
+      "assets/hardware-strategy/02-lab-plate-photo.png",
+      "assets/hardware-strategy/03-mhs-lab-comparison.png"
+    ],
+    "source": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "published": "2026-08-27",
+    "next_step": "如 Anthropic 高管、官方采访或产品发布出现明确硬件立场，再补原话；当前不得从渠道事实推断动机"
+  },
+  "supplemental": {
+    "claude_tag_slack": {
+      "counted_in_six_features": false,
+      "status": "CAPTURED",
+      "source": "https://www.youtube.com/watch?v=VojDzHaciKQ",
+      "published": "2026-06-23",
+      "files": [
+        "assets/claude-tag-slack/01-slack-global-ui.png",
+        "assets/claude-tag-slack/02-thread-delegation.png",
+        "assets/claude-tag-slack/03-claude-thread-response.png",
+        "assets/claude-tag-slack/04-multiplayer-thread.png",
+        "assets/claude-tag-slack/05-artifact-link.png",
+        "assets/claude-tag-slack/06-followup.png",
+        "assets/claude-tag-slack/clip.mp4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "path": "01-openai/assets/atlas/clip.mp4",
+    "sha256": "4d233fa94aab65023382756c396e819fad8e1f7fc23be2c2c7e5a0166a91b1c0",
+    "duration": 20.0,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "01-openai/assets/gpt-live/clip.mp4",
+    "sha256": "85ee032eab2ee379688fa555053a861dbc5538f4e837e02a0668627c6da39d68",
+    "duration": 8.05,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "01-openai/assets/gpt-live/image-clip.mp4",
+    "sha256": "d2da0653db4268c1e936532f0eebc8f438bdbedb6d3b2f72fafe4d482d79ce6e",
+    "duration": 29.821458,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "01-openai/assets/work-artifacts/clip.mp4",
+    "sha256": "2188ba716fb3ef7f0a379a421e011c801b8c324db75db4c4b6d023b3fa413c63",
+    "duration": 22.0,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "01-openai/assets/work-browser/clip.mp4",
+    "sha256": "11775045b78826c3821dd9b4594a8141a4ba3a4cfa66e93d0ce4e026049da482",
+    "duration": 20.0,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "01-openai/assets/work-mention/clip.mp4",
+    "sha256": "0d1ad7aff53204247d6e6c92616d23bb5983692e41a6865087c315e7368fcfa5",
+    "duration": 10.009292,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "02-anthropic/assets/claude-code-multi-agent/clip.mp4",
+    "sha256": "2ad5b28b60ee0bae0622c052d69dfd124e030c3d7c9a7f16309c17179e600f68",
+    "duration": 29.5,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "02-anthropic/assets/claude-tag-slack/clip.mp4",
+    "sha256": "c2aa7b456665ac633d75d6c2bd434a3b77305b031b8a9a26e437e992b1139b69",
+    "duration": 29.528792,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "02-anthropic/assets/cowork-cross-device/clip.mp4",
+    "sha256": "e64a83355132a5d19cfe421a08bd55ff206243d3c46fee612737f918cbe21473",
+    "duration": 29.5,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "02-anthropic/assets/cowork-folder-permission/clip.mp4",
+    "sha256": "52b85ae74a5821870954878ce0e6814994970414fef55fc6ad5f9e49151abf46",
+    "duration": 29.5,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "02-anthropic/assets/cowork-process-visibility/clip.mp4",
+    "sha256": "dde15dbe23a026a36611ed72944ca33c48fd812c7fd498683ec63531bbcf0764",
+    "duration": 29.5295,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "02-anthropic/assets/design-code-handoff/clip.mp4",
+    "sha256": "8f74ffb6ecb1b5171a5ee7a69e46c9f8069717dc0242ff765e2fd08183dd950d",
+    "duration": 7.5,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "02-anthropic/assets/design-convergence/clip.mp4",
+    "sha256": "8e6f4f4be3958456c3f0a49a31235b02f8f26171a0957e206bf5953a301c692e",
+    "duration": 10.0,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "03-google/assets/gemini-in-chrome/clip.mp4",
+    "sha256": "4824f0286f555203da710e078491b0e605b74a152c486fddfe64efe19105ff0d",
+    "duration": 29.5,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "03-google/assets/gemini-spark/clip.mp4",
+    "sha256": "c2eee35bcea4de7c8a5eba6f66b1f869333a730ca25b568b5b4ddf1098e8e04a",
+    "duration": 6.940271,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "03-google/assets/omni-entries/clip-flow.mp4",
+    "sha256": "1e977cab2e5901a3da7c4038bacfb4d01c15b359035f420407bfcda7c4e80c9d",
+    "duration": 22.666667,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "03-google/assets/omni-entries/clip-gemini-app.mp4",
+    "sha256": "087f7ef8ead66646f35538f94e543cb52be953e76bda6153cfbbe5b9ceff8972",
+    "duration": 19.8198,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "03-google/assets/omni-entries/clip-youtube-shorts.mp4",
+    "sha256": "9c652881502d3c57a4e9ff3fb2e8a46d42193680342d23ee0fe49e60bdb91530",
+    "duration": 23.125,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "04-apple/assets/foldable-input/clip.mp4",
+    "sha256": "3ff9d15417a9b5545736ebf3fb4c1b382abfeb8cab6ff6107dc68b580506f382",
+    "duration": 29.996633,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "04-apple/assets/siri-delegation/clip.mp4",
+    "sha256": "73e55a2d34648acdc8b489a95246207d345e4276d884dda1191543333e582016",
+    "duration": 29.996633,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "04-apple/assets/watch-airpods-input/clip.mp4",
+    "sha256": "8575f5f7521fb85dff9924f81d9e9e1a6e707f603f9b2ed0e98afe262bbcd3c2",
+    "duration": 14.825,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "05-opensource/assets/opendesign-cli/clip.mp4",
+    "sha256": "b0127bd2aa2fdbb1716e7b020bd5af8fc40c7348bdcf32e09497d35a4896f759",
+    "duration": 7.68,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "06-microsoft/assets/copilot-agent-mode/clip-edge-agentic-30s.mp4",
+    "sha256": "d8aad4454e9542d4d8a9b753c45025d6342a2423a6661a9c2c5bddbc7c710042",
+    "duration": 29.904875,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4",
+    "sha256": "331ffbf76a4299c5a1c33a97acdc5caaa351c0cc0f0a52991c8c78589a41a69b",
+    "duration": 29.996633,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4",
+    "sha256": "839eb0f520388381795d40925c623244d4bc49c892a9f1edaaa95142c9d439b6",
+    "duration": 29.9299,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
+    "sha256": "331ffbf76a4299c5a1c33a97acdc5caaa351c0cc0f0a52991c8c78589a41a69b",
+    "duration": 29.996633,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "07-meta/assets/beyond-glasses/clip-cmu-two-band-research.mp4",
+    "sha256": "bce538e0dfc715348e9c82fab9c25e16a7f5eba641b5486cdf3f415d4c77341f",
+    "duration": 29.0,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "07-meta/assets/gesture-set/clip-emg-signals.mp4",
+    "sha256": "39e15bd7c042cdb56782eeadc1f267eb47f64782e8f038d86edd813c817a3ff0",
+    "duration": 9.726708,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "07-meta/assets/gesture-set/clip-wrist-roll-concept.mp4",
+    "sha256": "c502b4a9982e4d5f6c21ee64443ecc7168f8ac4f704e598ee881358bc461684f",
+    "duration": 8.488042,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "07-meta/assets/hud/clip.mp4",
+    "sha256": "e780114e72293b4e878fcca71f1688b0b3fb742be3cbbfb39b46b1652ef1db5d",
+    "duration": 12.0,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "07-meta/assets/neural-handwriting/clip.mp4",
+    "sha256": "cf7283bc5e42dc8ca0b55f0151fcae2a21e19d53c5a0980bf2f55c9233e53075",
+    "duration": 18.069333,
+    "exit_code": 0,
+    "errors": ""
+  },
+  {
+    "path": "07-meta/assets/neural-handwriting-update/clip.mp4",
+    "sha256": "4e3212a672fc6a3378be18581ed8a6e403eee0a5564ce2f36d9097c289c0fbff",
+    "duration": 5.833333,
+    "exit_code": 0,
+    "errors": ""
+  }
+]

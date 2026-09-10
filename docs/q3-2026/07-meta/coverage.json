@@ -1,0 +1,364 @@
+{
+  "brand": "Meta",
+  "status": "PARTIAL",
+  "updated": "2026-09-10",
+  "capture_date": "2026-09-09",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-09-09",
+    "rule": "Earlier evidence is BACKGROUND; unknown publication dates are DATE_UNKNOWN."
+  },
+  "features": [
+    {
+      "id": "neural-handwriting",
+      "name": "Meta Neural Band 神经手写",
+      "required": "At least 6 distinct interaction frames covering pose/surface/recognition plus correction/delete when evidenced, and a continuous clip.",
+      "actual": {
+        "formal_images": 15,
+        "valid_interaction_frames": 12,
+        "context_only_frames": 3,
+        "continuous_clips": 2,
+        "window_clips": 1,
+        "background_clips": 1
+      },
+      "status": "PARTIAL",
+      "seen": {
+        "进入": false,
+        "委托": true,
+        "过程": true,
+        "接管": false,
+        "产物": true,
+        "退出": false
+      },
+      "evidence_notes": {
+        "委托": "Finger writes on book cover or table while wearing Neural Band.",
+        "过程": "Distinct partial text states and completed draft are visible.",
+        "产物": "BACKGROUND demo shows Sent confirmation and reply; in-window clip ends at completed draft."
+      },
+      "missing": [
+        "Full entry path",
+        "Correction flow",
+        "Delete flow",
+        "Exit state",
+        "Unedited optical latency evidence"
+      ],
+      "next": "Obtain an official or reliable hands-on sequence that explicitly shows correction, delete and exit; do not infer these from Send controls.",
+      "files": [
+        "assets/neural-handwriting/clip.mp4",
+        "assets/neural-handwriting/01-context.png",
+        "assets/neural-handwriting/02-wearer.png",
+        "assets/neural-handwriting/03-surface-hand.png",
+        "assets/neural-handwriting/04-partial-word-start.png",
+        "assets/neural-handwriting/05-partial-word-late.png",
+        "assets/neural-handwriting/06-draft-and-send-control.png",
+        "assets/neural-handwriting/07-sent-confirmation.png",
+        "assets/neural-handwriting/08-wearer-after-send.png",
+        "assets/neural-handwriting/09-reply.png",
+        "assets/neural-handwriting-update/clip.mp4",
+        "assets/neural-handwriting-update/01-writing-start.png",
+        "assets/neural-handwriting-update/02-writing-yes.png",
+        "assets/neural-handwriting-update/03-writing-sou.png",
+        "assets/neural-handwriting-update/04-writing-sounds.png",
+        "assets/neural-handwriting-update/05-writing-fun.png",
+        "assets/neural-handwriting-update/06-complete-message.png"
+      ],
+      "sources": [
+        {
+          "url": "https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/",
+          "publication_date": "2026-01-06",
+          "window_class": "BACKGROUND",
+          "officiality": "Meta official"
+        },
+        {
+          "url": "https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/",
+          "publication_date": "2026-03-31",
+          "window_class": "IN_WINDOW",
+          "officiality": "Meta official"
+        }
+      ]
+    },
+    {
+      "id": "gesture-set",
+      "name": "Meta Neural Band 手势集",
+      "required": "One actual group per gesture, mapping, false-activation handling and walking boundary.",
+      "actual": {
+        "formal_images": 7,
+        "valid_gesture_frames": 6,
+        "walking_context_only_frames": 1,
+        "continuous_clips": 2,
+        "officially_documented_web_app_gestures": 6,
+        "visually_grouped_current_gestures": 2,
+        "visually_grouped_concept_gestures": 1
+      },
+      "status": "PARTIAL",
+      "seen": {
+        "进入": false,
+        "委托": true,
+        "过程": true,
+        "接管": true,
+        "产物": false,
+        "退出": false
+      },
+      "evidence_notes": {
+        "委托": "FAQ maps index pinch to enter and middle pinch to cancel; four directional swipes are text-only evidence.",
+        "过程": "Official video shows finger motion and EMG traces, not a consumer HUD result.",
+        "接管": "Cancel mapping exists in official text; the actual cancel UI is not shown."
+      },
+      "missing": [
+        "Actual visual group for each directional swipe",
+        "Consumer HUD result per gesture",
+        "False-positive threshold or rate",
+        "Controlled walking gesture test",
+        "Actual cancel/exit UI"
+      ],
+      "next": "Capture current-product demonstrations for all six Web App gestures and a documented false-activation/mobility test.",
+      "files": [
+        "assets/gesture-set/clip-emg-signals.mp4",
+        "assets/gesture-set/clip-wrist-roll-concept.mp4",
+        "assets/gesture-set/01-index-pinch-start.png",
+        "assets/gesture-set/02-index-pinch-contact.png",
+        "assets/gesture-set/03-middle-pinch-start.png",
+        "assets/gesture-set/04-middle-pinch-contact.png",
+        "assets/gesture-set/05-wrist-roll-start-concept.png",
+        "assets/gesture-set/06-wrist-roll-end-concept.png",
+        "assets/gesture-set/07-walking-hud-context.png"
+      ],
+      "sources": [
+        {
+          "url": "https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/",
+          "publication_date": null,
+          "window_class": "DATE_UNKNOWN",
+          "officiality": "Meta official"
+        },
+        {
+          "url": "https://developers.meta.com/wearables/faq/",
+          "publication_date": null,
+          "window_class": "DATE_UNKNOWN",
+          "officiality": "Meta official"
+        },
+        {
+          "url": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+          "publication_date": "2025-09-17",
+          "window_class": "BACKGROUND",
+          "officiality": "Meta official"
+        }
+      ]
+    },
+    {
+      "id": "hud",
+      "name": "Meta Ray-Ban Display 镜内 HUD",
+      "required": "At least 3 first-person frames covering position, information quantity and disappearance.",
+      "actual": {
+        "formal_images": 6,
+        "valid_first_person_composite_frames": 6,
+        "optical_through_lens_frames": 0,
+        "continuous_clips": 1
+      },
+      "status": "PARTIAL",
+      "seen": {
+        "进入": true,
+        "委托": false,
+        "过程": true,
+        "接管": false,
+        "产物": true,
+        "退出": false
+      },
+      "evidence_notes": {
+        "进入": "Edited composite begins with a region-selection state; trigger is not shown.",
+        "过程": "Region, message and map HUD states are visible.",
+        "产物": "Message/reply chips and map states are visible; expanded map has no route line."
+      },
+      "missing": [
+        "Optical through-lens recording",
+        "Unedited appearance/disappearance timing",
+        "Verified command name for the region box",
+        "Failure/back/cancel states"
+      ],
+      "next": "Obtain a continuous through-lens task recording with trigger, response, dismissal and timing.",
+      "files": [
+        "assets/hud/clip.mp4",
+        "assets/hud/01-region-selection-start.png",
+        "assets/hud/02-region-selection-progress.png",
+        "assets/hud/03-region-selection-confirmation.png",
+        "assets/hud/04-message-reply.png",
+        "assets/hud/05-map-card.png",
+        "assets/hud/06-map-expanded.png"
+      ],
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+          "publication_date": "2025-09-17",
+          "window_class": "BACKGROUND",
+          "officiality": "Meta official"
+        }
+      ]
+    },
+    {
+      "id": "teleprompter",
+      "name": "提词器",
+      "required": "At least 3 frames showing rolling/card states, speed control and Neural Band linkage.",
+      "actual": {
+        "formal_images": 5,
+        "valid_state_frames": 5,
+        "third_party_through_lens_frames": 3,
+        "local_continuous_clips": 0,
+        "max_third_party_frame_width_px": 1250
+      },
+      "status": "PARTIAL",
+      "seen": {
+        "进入": true,
+        "委托": true,
+        "过程": true,
+        "接管": true,
+        "产物": true,
+        "退出": false
+      },
+      "evidence_notes": {
+        "进入": "Phone setup shows Send to Meta RB Display.",
+        "委托": "Vertical scroll/horizontal swipe mode and text size are visible.",
+        "过程": "Three separate through-lens card states are shown, but local continuity is unavailable.",
+        "接管": "Official text says users navigate with Neural Band at their own pace; screenshots do not prove the exact gesture sequence.",
+        "产物": "Imported text appears as glasses cards."
+      },
+      "missing": [
+        "Locally auditable continuous clip",
+        "Independent speed controller or speed value",
+        "Verified adjacency between captured states",
+        "Exit state",
+        "1280px-wide third-party capture"
+      ],
+      "next": "Acquire a continuous demo showing mode, Band action, text movement and exit; retain the 1250px resolution gap.",
+      "files": [
+        "assets/teleprompter/01-hud-card.png",
+        "assets/teleprompter/02-setup-modes-and-text-size.png",
+        "assets/teleprompter/03-through-lens-card-state-a.png",
+        "assets/teleprompter/04-through-lens-card-state-b.png",
+        "assets/teleprompter/05-through-lens-card-state-c.png"
+      ],
+      "sources": [
+        {
+          "url": "https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/",
+          "publication_date": "2026-01-06",
+          "window_class": "BACKGROUND",
+          "officiality": "Meta official"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wKCAFUscTao",
+          "publication_date": "2026-02-04",
+          "window_class": "BACKGROUND",
+          "officiality": "Third-party hands-on with paid/affiliate disclosure"
+        }
+      ]
+    },
+    {
+      "id": "beyond-glasses",
+      "name": "腕带脱离眼镜的用途",
+      "required": "Official proof plus real media; distinguish research, demo, announced and usable.",
+      "actual": {
+        "formal_images": 10,
+        "continuous_clips": 1,
+        "clip_duration_seconds": 29,
+        "in_window_research_frames": 6,
+        "background_static_frames": 4
+      },
+      "status": "COMPLETE",
+      "seen": {
+        "进入": true,
+        "委托": true,
+        "过程": true,
+        "接管": true,
+        "产物": true,
+        "退出": false
+      },
+      "evidence_notes": {
+        "进入": "All paths enter partner PoC/research apparatus, not a consumer setup flow.",
+        "委托": "Garmin, Utah and CMU route EMG input to non-glasses systems.",
+        "过程": "CMU clip shows two bands, calibration, labeled outputs, EMG traces and gameplay.",
+        "接管": "Researcher calibration is visible; no consumer takeover workflow is claimed.",
+        "产物": "Vehicle/home/assistive/game state outside the glasses HUD."
+      },
+      "missing": [
+        "Consumer availability outside glasses",
+        "Consumer pairing and exit flow"
+      ],
+      "next": "Track separately for productization; do not promote PoC or research demonstrations to consumer features.",
+      "files": [
+        "assets/beyond-glasses/clip-cmu-two-band-research.mp4",
+        "assets/beyond-glasses/01-garmin-unified-cabin.png",
+        "assets/beyond-glasses/02-smart-home-research.png",
+        "assets/beyond-glasses/03-tetraski-research.png",
+        "assets/beyond-glasses/04-smart-home-utah.png",
+        "assets/beyond-glasses/05-cass-two-bands.png",
+        "assets/beyond-glasses/06-cass-calibration.png",
+        "assets/beyond-glasses/07-cass-game-comparison.png",
+        "assets/beyond-glasses/08-cass-decoded-output.png",
+        "assets/beyond-glasses/09-cass-active-play.png",
+        "assets/beyond-glasses/10-cass-hand-muscle-closeup.png"
+      ],
+      "sources": [
+        {
+          "url": "https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/",
+          "publication_date": "2026-01-06",
+          "window_class": "BACKGROUND",
+          "officiality": "Meta official"
+        },
+        {
+          "url": "https://www.garmin.com/en-US/newsroom/press-release/automotive/garmin-and-meta-announce-automotive-oem-proof-of-concept-with-garmin-unified-cabin-and-meta-neural-band/",
+          "publication_date": "2026-01-06",
+          "window_class": "BACKGROUND",
+          "officiality": "Official partner"
+        },
+        {
+          "url": "https://www.price.utah.edu/2026/01/06/u-of-u-and-meta-launch-research-to-enable-tetraski-and-smart-home-control-via-accessible-emg-wristband",
+          "publication_date": "2026-01-06",
+          "window_class": "BACKGROUND",
+          "officiality": "Official partner"
+        },
+        {
+          "url": "https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/",
+          "publication_date": "2026-05-18",
+          "modified_date": "2026-05-22",
+          "window_class": "IN_WINDOW",
+          "officiality": "Meta official research"
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "products": [
+      "Meta Ray-Ban Display",
+      "Meta Neural Band"
+    ],
+    "required": "Official name, market, release date, availability and real image/video.",
+    "actual": {
+      "formal_images": 3,
+      "max_width_px": 4096,
+      "current_market_page_checked": true
+    },
+    "status": "COMPLETE",
+    "market": "United States via select authorized retailers and Meta flagship stores on the official page captured 2026-09-09.",
+    "release": "Announced 2025-09-17; U.S. sales began 2025-09-30.",
+    "boundary": "The 2026-01-06 international expansion pause is historical context; the current official page is the current-state source.",
+    "files": [
+      "assets/hardware/01-display-band-pair.png",
+      "assets/hardware/02-display-front.png",
+      "assets/hardware/03-display-sand.png"
+    ],
+    "sources": [
+      {
+        "url": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+        "publication_date": "2025-09-17",
+        "modified_date": "2025-09-30",
+        "window_class": "BACKGROUND",
+        "officiality": "Meta official"
+      },
+      {
+        "url": "https://www.meta.com/ai-glasses/learn/communicating-across-the-globe/",
+        "publication_date": null,
+        "captured_date": "2026-09-09",
+        "window_class": "CURRENT_STATUS",
+        "officiality": "Meta official"
+      }
+    ]
+  }
+}

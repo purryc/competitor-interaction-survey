@@ -1,0 +1,2617 @@
+{
+  "scope": "File/ledger/structure audit; visual and research acceptance is separately documented.",
+  "research_complete": false,
+  "brands": [
+    {
+      "brand": "OpenAI",
+      "slug": "01-openai",
+      "required_feature_count": 6,
+      "actual_feature_count": 6,
+      "feature_counts": {
+        "PARTIAL": 5,
+        "COMPLETE": 1
+      },
+      "png": 58,
+      "mp4": 6,
+      "missing_headers": [],
+      "source_md_count": 7,
+      "ledger_missing": [],
+      "ledger_extra": [],
+      "readme_unlisted": [],
+      "bad_png_formats": [],
+      "media_issues": [],
+      "features": [
+        {
+          "id": "work-mention",
+          "name": "Work 的 @ 提及调用",
+          "required_frames": 4,
+          "required_global_ui": 1,
+          "status": "PARTIAL",
+          "files": [
+            "assets/work-mention/global-plugin-directory.png",
+            "assets/work-mention/desktop-mode-picker.png",
+            "assets/work-mention/01-at-candidates.png",
+            "assets/work-mention/02-inline-app.png",
+            "assets/work-mention/03-delegate.png",
+            "assets/work-mention/04-progress.png",
+            "assets/work-mention/05-calendar-slots-still-working.png",
+            "assets/work-mention/global-video-ui.png",
+            "assets/work-mention/clip.mp4"
+          ],
+          "sources": [
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/3340Q2XYfbsirvvYoKTrMY/12887973ea8709d9dd2a25c0d11d0abe/OAI_ChatGPTWork_PressBlog_PluginDirectory_16x9_260708.png",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/2T3eFCXl7i3DxCl3E7jXiC/95e52f4f44f85827a8844cc5051cd4e1/OAI_ChatGPTWork_PressBlog_DesktopPicker-Work_16x9_260708.png",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+              "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:06"
+            },
+            {
+              "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+              "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:07"
+            },
+            {
+              "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+              "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:08"
+            },
+            {
+              "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+              "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:09"
+            },
+            {
+              "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+              "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:13"
+            },
+            {
+              "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+              "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:05"
+            },
+            {
+              "url": "https://learn.chatgpt.com/training/walkthroughs/plugins-and-skills",
+              "media_url": "https://cdn.openai.com/devhub/videos-learn/work-101/plugins-and-skills.mp4",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:05–01:15"
+            }
+          ],
+          "actual_sequence_frames": 5,
+          "flow": {
+            "进入": "模式菜单已见",
+            "委托": "@cal 列表、内联标签、请求已见",
+            "过程": "日历时段与运行状态已见",
+            "接管": "未见接管",
+            "产物": "候选时段已见，仍 Working",
+            "退出": "未见退出"
+          },
+          "difference": "应用以带图标的输入标签被引用。",
+          "missing_states": [
+            "一句话多个应用标签并列的 UI",
+            "教学视频独立发布日"
+          ],
+          "next_step": "补采条件：官方业务运营回放恢复可播，或提供隔离演示账号；现有同句双应用文字不当作UI。",
+          "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+          "collection_disposition": "DISPOSED_WITH_GAPS",
+          "disposition_reference": "EVIDENCE-DISPOSITION.md"
+        },
+        {
+          "id": "work-approval",
+          "name": "Work 的人工审批门",
+          "required_frames": 4,
+          "required_global_ui": 1,
+          "status": "PARTIAL",
+          "files": [
+            "assets/work-approval/thirdparty-windows-01-running.png",
+            "assets/work-approval/thirdparty-windows-02-access-approval.png",
+            "assets/work-approval/thirdparty-note-broad-approval-confirm.png"
+          ],
+          "sources": [
+            {
+              "url": "https://note.com/calm_gerbil315/n/nfc4ed8ccd363",
+              "media_url": "https://assets.st-note.com/img/1786762999-3YGtQ2iTC9quPLUJoHwayIh0.png",
+              "published": "2026-08-15",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://note.com/calm_gerbil315/n/nfc4ed8ccd363",
+              "media_url": "https://assets.st-note.com/img/1786763112-rFakw61IfGiWxC3NR097opBL.png",
+              "published": "2026-08-15",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://note.com/kyu_hontoko/n/n53517ef7e02d",
+              "media_url": "https://assets.st-note.com/img/1788075841-BReUfQmpl85a0Y1d2CsuZVtN.png",
+              "published": "2026-08-31",
+              "window": "PRIORITY",
+              "timecode": null
+            }
+          ],
+          "actual_sequence_frames": 2,
+          "flow": {
+            "进入": "第三方 Windows Work 委托画面已见",
+            "委托": "请求访问 help.openai.com 已见",
+            "过程": "承认待ち和权限卡已见",
+            "接管": "一度だけ許可 / 拒否；另一案例有所有网站授权二次确认",
+            "产物": "未收录批准/拒绝后的同任务产物",
+            "退出": "拒绝后续未见"
+          },
+          "difference": "访问具体站点前暂停，权限卡列出目标域名、单次允许、拒绝和更大授权范围。",
+          "missing_states": [
+            "同一审批流程四帧",
+            "拒绝后任务继续或终止",
+            "持续授权不等同于所有网站授权，需保留范围差异",
+            "官方审批原图仍缺"
+          ],
+          "next_step": "已取得两篇独立第一手上手公开截图；仅采免费可见原图。拒绝后续和官方同流程原片没有取得，保留缺口。",
+          "review": "已直接查看三张原始高清PNG；Windows文章原有灰色遮挡和红框保留。另一文章正文称选择单次，但配图实际打开所有网站确认，按画面标注。",
+          "collection_disposition": "DISPOSED_WITH_GAPS",
+          "disposition_reference": "EVIDENCE-DISPOSITION.md",
+          "sequence_groups": {
+            "windows": 2,
+            "note": 1
+          }
+        },
+        {
+          "id": "work-browser",
+          "name": "内置浏览器 + Computer Use",
+          "required_frames": 5,
+          "required_global_ui": 1,
+          "status": "PARTIAL",
+          "files": [
+            "assets/work-browser/browser-01-delegate.png",
+            "assets/work-browser/browser-02-search.png",
+            "assets/work-browser/browser-03-answer-start.png",
+            "assets/work-browser/browser-04-annotation-entry.png",
+            "assets/work-browser/browser-05-annotation-request.png",
+            "assets/work-browser/browser-global-task.png",
+            "assets/work-browser/browser-process-tools.png",
+            "assets/work-browser/01-computer-delegate.png",
+            "assets/work-browser/02-computer-progress.png",
+            "assets/work-browser/03-pip-preview.png",
+            "assets/work-browser/04-pip-keynote.png",
+            "assets/work-browser/05-keynote-edit.png",
+            "assets/work-browser/global-video-ui.png",
+            "assets/work-browser/clip.mp4",
+            "assets/work-browser/official-sign-in.png",
+            "assets/work-browser/official-website-permissions.png",
+            "assets/work-browser/official-browser-data.png"
+          ],
+          "sources": [
+            {
+              "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "published": "2026-07-16",
+              "window": "PRIORITY",
+              "timecode": "00:15"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "published": "2026-07-16",
+              "window": "PRIORITY",
+              "timecode": "00:20"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "published": "2026-07-16",
+              "window": "PRIORITY",
+              "timecode": "00:25"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "published": "2026-07-16",
+              "window": "PRIORITY",
+              "timecode": "00:30"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "published": "2026-07-16",
+              "window": "PRIORITY",
+              "timecode": "00:35"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "published": "2026-07-16",
+              "window": "PRIORITY",
+              "timecode": "00:17"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "media_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+              "published": "2026-07-16",
+              "window": "PRIORITY",
+              "timecode": "00:23.75"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "published": "2026-07-10",
+              "window": "PRIORITY",
+              "timecode": "00:15"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "published": "2026-07-10",
+              "window": "PRIORITY",
+              "timecode": "00:18"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "published": "2026-07-10",
+              "window": "PRIORITY",
+              "timecode": "00:24"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "published": "2026-07-10",
+              "window": "PRIORITY",
+              "timecode": "00:27"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "published": "2026-07-10",
+              "window": "PRIORITY",
+              "timecode": "00:30"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "published": "2026-07-10",
+              "window": "PRIORITY",
+              "timecode": "00:18"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "media_url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+              "published": "2026-07-10",
+              "window": "PRIORITY",
+              "timecode": "00:12–00:32"
+            },
+            {
+              "url": "https://learn.chatgpt.com/docs/browser?surface=app",
+              "media_url": "https://developers.openai.com/images/codex/cloud-browser-auth/sign-in.webp",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": null
+            },
+            {
+              "url": "https://learn.chatgpt.com/docs/browser?surface=app",
+              "media_url": "https://developers.openai.com/images/codex/cloud-browser-auth/website-permissions.webp",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": null
+            },
+            {
+              "url": "https://learn.chatgpt.com/docs/browser?surface=app",
+              "media_url": "https://developers.openai.com/images/codex/cloud-browser-auth/browser-data.webp",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": null
+            }
+          ],
+          "actual_sequence_frames": 5,
+          "flow": {
+            "进入": "Browser 内联标签委托已见；另有 Computer 标签",
+            "委托": "Browser 社区搜索委托已见；Notes→Keynote 属另一组",
+            "过程": "浏览器社区搜索、回答生成和网页批注已见；桌面 PiP 另组",
+            "接管": "未见点击；Cloud browser 登录交接另图",
+            "产物": "Browser 回答开始输出、批注草稿已见；Keynote 编辑属另一组",
+            "退出": "停止按钮已见，按下后未见"
+          },
+          "difference": "Computer Use 展示文字过程与应用画中画。",
+          "missing_states": [
+            "点击接管及之后状态",
+            "录像回放入口是否存在",
+            "停止结果"
+          ],
+          "next_step": "本轮已取得浏览器五状态及全局；原片35秒后转场，未展示批注结果、接管或停止结果。后续需专项演示或隔离账号。",
+          "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+          "sequence_groups": {
+            "desktop-pip": 5,
+            "browser": 6,
+            "browser-global": "17秒完整任务窗口"
+          },
+          "collection_disposition": "DISPOSED_WITH_GAPS",
+          "disposition_reference": "EVIDENCE-DISPOSITION.md"
+        },
+        {
+          "id": "work-artifacts",
+          "name": "Work 的产物落地",
+          "required_frames": 3,
+          "required_global_ui": 1,
+          "status": "COMPLETE",
+          "files": [
+            "assets/work-artifacts/slides-global.png",
+            "assets/work-artifacts/spreadsheet-global.png",
+            "assets/work-artifacts/site-forecast.png",
+            "assets/work-artifacts/dashboard-global.png",
+            "assets/work-artifacts/web-app-global.png",
+            "assets/work-artifacts/01-deck-request.png",
+            "assets/work-artifacts/02-deck-preview.png",
+            "assets/work-artifacts/03-inline-edit.png",
+            "assets/work-artifacts/04-edit-request-submitted.png",
+            "assets/work-artifacts/clip.mp4",
+            "assets/work-artifacts/05-edited-deck.png"
+          ],
+          "sources": [
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/3MIh1eHZlPjuw1fWoMA76X/cd0c40136803d49299d61eb48944314b/OAI_ChatGPTWork_PressBlog_WebArtifact_16x9_260708.png",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/2q1hcq6tWZ7FawSYE5CP9J/c71384d63f82b6aec870dc768f7e3a46/OAI_ChatGPTWork_PressBlog_DesktopArtifact_16x9_260708.png",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/5G0zHEnIZRLg0EWpZV602t/47c3851dd1f1cfbdf42d5f630fd36241/blossom-bank-forecasting-light-4k.png",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/3xXbAmTubtBQ7u2OJThryt/58a900197cfd7430c1040f56c4c86a5d/blossom-widgets-enterprise-summit-photo-floorplan-alt-4k.png",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/chatgpt-work/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/57WzZDA3mSsFa1BPAyyUSH/0f6c891bfd20cee2240869e69a07c4b8/Card_5_-_opt_8.png",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": "00:55"
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": "01:00"
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": "01:05"
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": "01:10"
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": "00:52–01:14"
+            },
+            {
+              "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+              "media_url": "https://player.vimeo.com/video/1208302106?h=9acac9bbfd",
+              "published": "2026-07-09",
+              "window": "PRIORITY",
+              "timecode": "01:12"
+            }
+          ],
+          "actual_sequence_frames": 5,
+          "flow": {
+            "进入": "已有上下文，完整新建入口未见",
+            "委托": "演示文稿请求已见",
+            "过程": "预览和内联批注已见",
+            "接管": "用户提交修改已见",
+            "产物": "PPTX、Google Sheets、dashboard、交互 Site 各有图",
+            "退出": "未见关窗或全部保存回执"
+          },
+          "difference": "产物可呈现为文件、连接应用内文件和托管 Site。",
+          "missing_states": [],
+          "next_step": "四类成品和编辑序列达到图像门槛；SharePoint 落盘仍未直接证明，保留目的地边界。",
+          "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+          "collection_disposition": "IMAGE_REQUIREMENTS_MET",
+          "disposition_reference": "EVIDENCE-DISPOSITION.md"
+        },
+        {
+          "id": "gpt-live",
+          "name": "GPT-Live 全双工语音",
+          "required_frames": 4,
+          "required_global_ui": 1,
+          "status": "PARTIAL",
+          "files": [
+            "assets/gpt-live/image-01-entry.png",
+            "assets/gpt-live/image-02-photo-picker.png",
+            "assets/gpt-live/image-03-voice-return.png",
+            "assets/gpt-live/image-04-second-photo.png",
+            "assets/gpt-live/image-05-voice-again.png",
+            "assets/gpt-live/image-clip.mp4",
+            "assets/gpt-live/intelligence-orb-global.png",
+            "assets/gpt-live/weather-global.png",
+            "assets/gpt-live/sports-global.png",
+            "assets/gpt-live/maps-global.png",
+            "assets/gpt-live/01-voice-entry.png",
+            "assets/gpt-live/02-voice-loading.png",
+            "assets/gpt-live/03-orb-visible.png",
+            "assets/gpt-live/04-reasoning-picker.png",
+            "assets/gpt-live/clip.mp4",
+            "assets/gpt-live/05-reasoning-options.png"
+          ],
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:00"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:12"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:18"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:35"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:42"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1207915527?h=fb4a16a947",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:10–00:39.80"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1209991962?h=932d97ada3",
+              "published": null,
+              "window": "UNVERIFIED_DATE",
+              "timecode": "01:43"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/38TRAE6B8AS3hNkoQuKSOl/729b7c415ed4c1b62027449799cead86/gpt-live-visual-answer-weather.png",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/7IWfPZwH8SaJVikq4PScQP/f327d0d73d35b3989b8d504d5e9fa782/gpt-live-visual-answer-sports.png",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/GLkTfEhJSFJZ77FHnN1f6/b1ab29d652268636a226246f5b1766cc/gpt-live-visual-answer-maps.png",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:00"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:01"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:02"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1208104269?h=d3a5cfc799",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:03"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1208103428?h=3a310e668a",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:00–00:08"
+            },
+            {
+              "url": "https://openai.com/index/introducing-gpt-live/",
+              "media_url": "https://player.vimeo.com/video/1208104269?h=d3a5cfc799",
+              "published": "2026-07-08",
+              "window": "PRIORITY",
+              "timecode": "00:04"
+            }
+          ],
+          "actual_sequence_frames": 3,
+          "flow": {
+            "进入": "入口→加载→球体已见",
+            "委托": "已审官方图片对话和行程问答，未取得可确认打断的UI序列",
+            "过程": "球体和推理设置已见",
+            "接管": "打断反馈未取得",
+            "产物": "天气/体育/地图各一图",
+            "退出": "关闭按钮已见，退出结果未见"
+          },
+          "difference": "语音界面显示视觉回答并允许选择推理档位。",
+          "missing_states": [
+            "打断前后 UI 与音频对应",
+            "倾听/接话状态区分",
+            "后台委派是否可感知",
+            "实际结束后的界面"
+          ],
+          "next_step": "本轮三段官方对话原片、独立动画和卡片已审；需同时清晰记录音轨与手机UI的打断专项演示。",
+          "review": "入口动画只有 3 帧；菜单动画另计 2 帧，不能拼为 5 帧全双工流程。已转写并查看图片对话与行程视频代表帧；转写不是打断检测。",
+          "sequence_groups": {
+            "startup": "01–03：startup 原片 0–2 秒，独立入口动画",
+            "picker": "04–05：picker 原片 3–4 秒，独立菜单动画",
+            "image": "image-*：图片对话原片，独立连续演示；尚未证明打断",
+            "intelligence": "intelligence-*：边规划行程边继续问答；手机画面未见后台任务卡"
+          },
+          "collection_disposition": "DISPOSED_WITH_GAPS",
+          "disposition_reference": "EVIDENCE-DISPOSITION.md",
+          "qualifying_interruption_frames": 0
+        },
+        {
+          "id": "atlas",
+          "name": "Atlas 浏览器 agent 模式",
+          "required_frames": 3,
+          "required_global_ui": 1,
+          "status": "PARTIAL",
+          "files": [
+            "assets/atlas/background-agent-global.png",
+            "assets/atlas/01-background-browser-permission.png",
+            "assets/atlas/02-background-agent-running.png",
+            "assets/atlas/03-background-agent-click.png",
+            "assets/atlas/04-background-add-to-cart.png",
+            "assets/atlas/global-video-ui.png",
+            "assets/atlas/clip.mp4",
+            "assets/atlas/05-background-checkout-question.png"
+          ],
+          "sources": [
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://images.ctfassets.net/kftzwdyauwt9/7vBVya3XA6w2Sbq74ENNIi/b65385435d060532d89225d937942e77/Agent__5_.png",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": null
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": "01:10"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": "01:13"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": "01:15"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": "01:21"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": "01:13"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": "01:05–01:25"
+            },
+            {
+              "url": "https://openai.com/index/introducing-chatgpt-atlas/",
+              "media_url": "https://player.vimeo.com/video/1129227761?h=94755e8733",
+              "published": "2025-10-21",
+              "window": "BACKGROUND",
+              "timecode": "01:23"
+            }
+          ],
+          "actual_sequence_frames": 5,
+          "flow": {
+            "进入": "浏览器确认已见（历史）",
+            "委托": "购物委托已见（历史）",
+            "过程": "光标、状态条已见（历史）",
+            "接管": "Take control / Stop 可见，未见点击",
+            "产物": "购物车和结账询问已见（历史）",
+            "退出": "停止后界面未见"
+          },
+          "difference": "历史 Atlas 底部条集中显示任务、接管和停止。",
+          "missing_states": [
+            "本季独立 Atlas 交互素材",
+            "Take control 点击前后",
+            "停止/退出结果"
+          ],
+          "next_step": "本轮保留历史演示；旧直播字幕对应交给agent的Continue，未定位到用户收回控制结果。需历史专项接管演示；不计本季。",
+          "review": "已直接查看代表帧和同源缩略索引；需结合 source.md 时间窗及局部镜头边界。",
+          "collection_disposition": "DISPOSED_WITH_GAPS",
+          "disposition_reference": "EVIDENCE-DISPOSITION.md"
+        }
+      ],
+      "viewpoint_placeholder_empty": true
+    },
+    {
+      "brand": "Anthropic",
+      "slug": "02-anthropic",
+      "required_feature_count": 6,
+      "actual_feature_count": 6,
+      "feature_counts": {
+        "PARTIAL": 6
+      },
+      "png": 53,
+      "mp4": 7,
+      "missing_headers": [],
+      "source_md_count": 8,
+      "ledger_missing": [],
+      "ledger_extra": [],
+      "readme_unlisted": [],
+      "bad_png_formats": [],
+      "media_issues": [],
+      "features": [
+        {
+          "id": "cowork-folder-permission",
+          "name": "Cowork 的文件夹授权",
+          "required": "文件夹选择器、持续访问范围、asks before acting 提示、删除动作审批弹窗；帧序列至少 4 张并有全局 UI",
+          "actual_files": [
+            "assets/cowork-folder-permission/01-folder-access-request.png",
+            "assets/cowork-folder-permission/02-folder-access-options.png",
+            "assets/cowork-folder-permission/03-folder-scope-warning.png",
+            "assets/cowork-folder-permission/04-allow-and-always-allow.png",
+            "assets/cowork-folder-permission/05-folder-warning-late-state.png",
+            "assets/cowork-folder-permission/06-background-folder-picker-entry.png",
+            "assets/cowork-folder-permission/07-background-folder-picker.png",
+            "assets/cowork-folder-permission/08-background-folder-selected.png",
+            "assets/cowork-folder-permission/09-background-folder-return.png",
+            "assets/cowork-folder-permission/clip.mp4"
+          ],
+          "sources": [
+            {
+              "title": "Claude Cowork - How Permissions and Approvals Work",
+              "url": "https://www.youtube.com/watch?v=WWpJeiXgZpo",
+              "published": "2026-05-06",
+              "official": false,
+              "window": "primary"
+            },
+            {
+              "title": "The Future of AI at Work: Introducing Cowork",
+              "url": "https://www.youtube.com/watch?v=zfWfczd6keE",
+              "published": "2026-02-09",
+              "official": true,
+              "window": "background"
+            },
+            {
+              "title": "Get started with Claude Cowork",
+              "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+              "accessed": "2026-09-09",
+              "official": true,
+              "window": "current-doc"
+            }
+          ],
+          "stage_visibility": {
+            "entry": {
+              "seen": true,
+              "evidence": "文件夹访问请求；背景期 macOS 文件夹选择器"
+            },
+            "delegation": {
+              "seen": false,
+              "evidence": "取帧段没有完整委托文本"
+            },
+            "process": {
+              "seen": false,
+              "evidence": "仅看见授权相关状态"
+            },
+            "takeover": {
+              "seen": true,
+              "evidence": "Deny all/Allow 与 Cancel/Always allow/Allow；弹窗无 Allow once 字样"
+            },
+            "artifact": {
+              "seen": false,
+              "evidence": "本组未见授权后产物"
+            },
+            "exit": {
+              "seen": true,
+              "evidence": "背景期选择器返回 Cowork；未见撤销持续权限"
+            }
+          },
+          "status": "PARTIAL",
+          "missing": [
+            "实际永久删除某文件时的动作级审批弹窗；03:45–04:44 后段只清空文件内容，文件仍存在且无再次审批",
+            "本季官方文件夹选择器/范围 UI",
+            "授权范围的持续可见位置与撤销路径"
+          ],
+          "next_step": "需要可登录 Cowork 的受控测试账号，选择临时文件夹并触发永久删除；录制 Allow 前弹窗、取消、允许、撤销授权，避免任何真实用户文件"
+        },
+        {
+          "id": "cowork-cross-device",
+          "name": "Cowork 跨设备接力",
+          "required": "桌面起任务→手机看进度→回桌面拿产物，三个阶段各至少 2 帧；说明手机能做和不能做什么",
+          "actual_files": [
+            "assets/cowork-cross-device/01-mobile-empty.png",
+            "assets/cowork-cross-device/02-mobile-delegation.png",
+            "assets/cowork-cross-device/03-mobile-desktop-working.png",
+            "assets/cowork-cross-device/04-desktop-plan.png",
+            "assets/cowork-cross-device/05-desktop-artifact.png",
+            "assets/cowork-cross-device/06-desktop-artifact-later.png",
+            "assets/cowork-cross-device/07-mobile-result.png",
+            "assets/cowork-cross-device/08-mobile-followup.png",
+            "assets/cowork-cross-device/09-mobile-followup-result.png",
+            "assets/cowork-cross-device/clip.mp4"
+          ],
+          "sources": [
+            {
+              "title": "Dispatch tasks to Claude Cowork from anywhere",
+              "url": "https://www.youtube.com/watch?v=fVIV-L49eBs",
+              "published": "2026-03-17",
+              "official": true,
+              "window": "primary"
+            },
+            {
+              "title": "Use Claude Cowork on web, desktop, and mobile",
+              "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+              "accessed": "2026-09-09",
+              "official": true,
+              "window": "current-doc"
+            },
+            {
+              "title": "Assign tasks from anywhere in Claude Cowork",
+              "url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork",
+              "updated": "2026-08-31",
+              "official": true,
+              "window": "preferred"
+            }
+          ],
+          "stage_visibility": {
+            "entry": {
+              "seen": true,
+              "evidence": "手机 Dispatch 空态；未见桌面起任务"
+            },
+            "delegation": {
+              "seen": true,
+              "evidence": "手机输入并发送处理本地 proposal 的任务"
+            },
+            "process": {
+              "seen": true,
+              "evidence": "手机状态与桌面计划/分析同屏"
+            },
+            "takeover": {
+              "seen": true,
+              "evidence": "手机继续追问和修改要求"
+            },
+            "artifact": {
+              "seen": true,
+              "evidence": "桌面 PowerPoint 与手机结果摘要"
+            },
+            "exit": {
+              "seen": false,
+              "evidence": "未见关闭 session 或桌面领取/退出"
+            }
+          },
+          "status": "PARTIAL",
+          "missing": [
+            "准确的桌面开始→手机监控→桌面取回顺序",
+            "桌面开始阶段至少 2 帧",
+            "回桌面取回/下载阶段至少 2 帧",
+            "明确退出"
+          ],
+          "next_step": "需要在同一测试 session 中从桌面发起安全的临时文件任务，再用移动端查看/steer，最后回桌面打开并下载结果；录制三个阶段各 2 帧"
+        },
+        {
+          "id": "cowork-process-visibility",
+          "name": "Cowork 的过程可见性",
+          "required": "计划清单、逐步日志、文件变更列表、中途插话改需求；帧序列至少 4 张并有全局 UI",
+          "actual_files": [
+            "assets/cowork-process-visibility/01-background-plan.png",
+            "assets/cowork-process-visibility/02-background-plan-expanded.png",
+            "assets/cowork-process-visibility/03-background-checklist.png",
+            "assets/cowork-process-visibility/04-background-progress.png",
+            "assets/cowork-process-visibility/05-background-steering-entry.png",
+            "assets/cowork-process-visibility/06-background-steering-input.png",
+            "assets/cowork-process-visibility/clip.mp4"
+          ],
+          "sources": [
+            {
+              "title": "The Future of AI at Work: Introducing Cowork",
+              "url": "https://www.youtube.com/watch?v=zfWfczd6keE",
+              "published": "2026-02-09",
+              "official": true,
+              "window": "background"
+            },
+            {
+              "title": "Get started with Claude Cowork",
+              "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+              "accessed": "2026-09-09",
+              "official": true,
+              "window": "current-doc"
+            }
+          ],
+          "stage_visibility": {
+            "entry": {
+              "seen": false,
+              "evidence": "片段从执行中段开始"
+            },
+            "delegation": {
+              "seen": false,
+              "evidence": "初始委托未完整出现"
+            },
+            "process": {
+              "seen": true,
+              "evidence": "计划、checklist、运行状态、Progress"
+            },
+            "takeover": {
+              "seen": true,
+              "evidence": "用户打开输入区并补充要求"
+            },
+            "artifact": {
+              "seen": false,
+              "evidence": "没有最终产物"
+            },
+            "exit": {
+              "seen": false,
+              "evidence": "没有停止、完成或退出"
+            }
+          },
+          "status": "PARTIAL",
+          "missing": [
+            "本季合规时间窗内的同等 UI 视频",
+            "清晰文件变更列表",
+            "最终产物与退出"
+          ],
+          "next_step": "需要本季官方 demo 或可登录自测，从新任务入口连续录制计划、日志、文件变更、插话、产物与结束；现有片段只保留为背景"
+        },
+        {
+          "id": "design-convergence",
+          "name": "Design 的三种收敛方式",
+          "required": "内联批注、滑杆调参、直接改文字各至少 3 帧，看清修改如何成为可执行动作",
+          "actual_files": [
+            "assets/design-convergence/01-global-ui.png",
+            "assets/design-convergence/02-comment-entry.png",
+            "assets/design-convergence/03-comment-instruction.png",
+            "assets/design-convergence/04-comment-result.png",
+            "assets/design-convergence/05-knobs-entry.png",
+            "assets/design-convergence/06-knobs-panel.png",
+            "assets/design-convergence/07-knobs-object-selected.png",
+            "assets/design-convergence/08-text-edit-entry.png",
+            "assets/design-convergence/09-text-edit-activated.png",
+            "assets/design-convergence/10-text-selection.png",
+            "assets/design-convergence/11-globe-sliders-visible.png",
+            "assets/design-convergence/12-typography-sliders-visible.png",
+            "assets/design-convergence/clip.mp4"
+          ],
+          "sources": [
+            {
+              "title": "Introducing Claude Design by Anthropic Labs",
+              "url": "https://www.youtube.com/watch?v=t_LBECIQQqs",
+              "published": "2026-04-17",
+              "official": true,
+              "window": "primary"
+            },
+            {
+              "title": "Introducing Claude Design by Anthropic Labs",
+              "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+              "published": "2026-04-17",
+              "official": true,
+              "window": "primary"
+            }
+          ],
+          "stage_visibility": {
+            "entry": {
+              "seen": true,
+              "evidence": "完整工作台与 Comment/Edit text/Knobs"
+            },
+            "delegation": {
+              "seen": true,
+              "evidence": "内联 Comment 指令与直接编辑模式切换"
+            },
+            "process": {
+              "seen": true,
+              "evidence": "Comment 提交、Knobs 字段和静态滑杆控件"
+            },
+            "takeover": {
+              "seen": true,
+              "evidence": "三类编辑入口可切换"
+            },
+            "artifact": {
+              "seen": true,
+              "evidence": "图片替换结果与文字对象选择"
+            },
+            "exit": {
+              "seen": false,
+              "evidence": "未见明确退出 Design"
+            }
+          },
+          "subfeature_status": {
+            "inline_comment": "COMPLETE",
+            "sliders": "PARTIAL",
+            "direct_text_edit": "COMPLETE"
+          },
+          "status": "PARTIAL",
+          "missing": [
+            "同一滑杆被拖动前、拖动中、拖动后至少 3 帧",
+            "滑杆数值变化与画面响应对应关系",
+            "明确退出"
+          ],
+          "next_step": "优先寻找官方长版 Design demo；否则用可访问的 Design 测试项目拖动一个安全参数并录制数值和画面前后，不能把 Knobs 数值字段当作滑杆"
+        },
+        {
+          "id": "design-code-handoff",
+          "name": "Design → Code 的交接",
+          "required": "打包交接界面、交付内容、接收端；帧序列至少 3 张",
+          "actual_files": [
+            "assets/design-code-handoff/01-export-menu.png",
+            "assets/design-code-handoff/02-handoff-dialog.png",
+            "assets/design-code-handoff/03-generated-command.png",
+            "assets/design-code-handoff/clip.mp4"
+          ],
+          "sources": [
+            {
+              "title": "Introducing Claude Design by Anthropic Labs",
+              "url": "https://www.youtube.com/watch?v=t_LBECIQQqs",
+              "published": "2026-04-17",
+              "official": true,
+              "window": "primary"
+            }
+          ],
+          "stage_visibility": {
+            "entry": {
+              "seen": true,
+              "evidence": "Export 菜单中的 Handoff to Claude Code"
+            },
+            "delegation": {
+              "seen": true,
+              "evidence": "local coding agent / Claude Code Web 渠道"
+            },
+            "process": {
+              "seen": true,
+              "evidence": "系统生成实现命令"
+            },
+            "takeover": {
+              "seen": true,
+              "evidence": "可复制命令、补充细节、切换渠道或关闭"
+            },
+            "artifact": {
+              "seen": true,
+              "evidence": "包含 Design URL、README 与 HTML 目标的命令"
+            },
+            "exit": {
+              "seen": false,
+              "evidence": "Claude Code 接收、执行与回传未见"
+            }
+          },
+          "status": "PARTIAL",
+          "missing": [
+            "Claude Code 接收端 UI",
+            "接收后的执行状态",
+            "实现结果与返回路径"
+          ],
+          "next_step": "需要官方接收端 demo 或可访问的 Design/Claude Code 测试账号，使用无敏感内容的临时项目执行 handoff 并录制接收、运行、结果"
+        },
+        {
+          "id": "claude-code-multi-agent",
+          "name": "Claude Code 的 Skills / Subagents / Agent Teams",
+          "required": "抽象在界面上如何看见和管理，多 agent 同时工作如何呈现；截图至少 3 张",
+          "actual_files": [
+            "assets/claude-code-multi-agent/01-skills-command.png",
+            "assets/claude-code-multi-agent/02-skills-panel.png",
+            "assets/claude-code-multi-agent/03-skill-invocation.png",
+            "assets/claude-code-multi-agent/04-subagents-official-slide.png",
+            "assets/claude-code-multi-agent/05-agent-teams-official-terminal.png",
+            "assets/claude-code-multi-agent/clip.mp4"
+          ],
+          "sources": [
+            {
+              "title": "Claude Code Skills Changed Everything (And Nobody Noticed)",
+              "url": "https://www.youtube.com/watch?v=epZy_NajGnA",
+              "published": "2026-03-24",
+              "official": false,
+              "window": "primary"
+            },
+            {
+              "title": "Claude Code Advanced Patterns: Subagents, MCP, and Scaling to Real Codebases",
+              "url": "https://resources.anthropic.com/hubfs/Claude%20Code%20Advanced%20Patterns_%20Subagents%2C%20MCP%2C%20and%20Scaling%20to%20Real%20Codebases.pdf",
+              "published": "2026-03-24",
+              "official": true,
+              "window": "primary"
+            }
+          ],
+          "stage_visibility": {
+            "entry": {
+              "seen": true,
+              "evidence": "/ 命令列表与 /skills 面板"
+            },
+            "delegation": {
+              "seen": true,
+              "evidence": "/skill-creator 输入；Subagents hands-off delegation 说明"
+            },
+            "process": {
+              "seen": true,
+              "evidence": "官方终端显示 4 agents launched / Running in the background"
+            },
+            "takeover": {
+              "seen": false,
+              "evidence": "只有官方文档文字说明，没有连续 UI 截图"
+            },
+            "artifact": {
+              "seen": false,
+              "evidence": "未见最终代码产物"
+            },
+            "exit": {
+              "seen": false,
+              "evidence": "未见结束 subagent/team"
+            }
+          },
+          "status": "PARTIAL",
+          "missing": [
+            "Subagents 的 live 管理 UI",
+            "Agent Teams 的用户切换/消息/任务列表接管过程",
+            "同一任务的产物与结束",
+            "一条连续官方视频"
+          ],
+          "next_step": "使用 Claude Code v2.1.32+ 的安全测试 repo，分别录制 /skills、/agents 与 experimental team 的创建、切换、消息、task list 和结束；若无实验权限则寻找 Anthropic 官方长版 webinar 录屏"
+        }
+      ],
+      "viewpoint_placeholder_empty": true
+    },
+    {
+      "brand": "Google",
+      "slug": "03-google",
+      "required_feature_count": 4,
+      "actual_feature_count": 4,
+      "feature_counts": {
+        "PARTIAL": 4
+      },
+      "png": 32,
+      "mp4": 5,
+      "missing_headers": [],
+      "source_md_count": 6,
+      "ledger_missing": [],
+      "ledger_extra": [],
+      "readme_unlisted": [],
+      "bad_png_formats": [],
+      "media_issues": [],
+      "features": [
+        {
+          "id": "gemini-spark",
+          "status": "PARTIAL",
+          "png_count": 9,
+          "video_count": 1,
+          "observed": [
+            "entry",
+            "delegation",
+            "task dashboard",
+            "tool progress",
+            "needs input state",
+            "artifact",
+            "proactive notification",
+            "turn-off settings screen"
+          ],
+          "missing": [
+            "first permission screen",
+            "reject suggestion action",
+            "approve or reject dialog"
+          ]
+        },
+        {
+          "id": "compute-billing",
+          "status": "PARTIAL",
+          "png_count": 2,
+          "video_count": 0,
+          "observed": [
+            "current usage percent",
+            "weekly usage percent",
+            "AI credits balance",
+            "activity page"
+          ],
+          "missing": [
+            "per-task cost",
+            "pre-task estimate",
+            "near-limit notification screenshot"
+          ]
+        },
+        {
+          "id": "gemini-in-chrome",
+          "status": "PARTIAL",
+          "png_count": 7,
+          "video_count": 1,
+          "source_width": 1080,
+          "canvas_width": 1920,
+          "resolution_gap": "7 portrait frames use white side padding; effective source width remains 1080",
+          "observed": [
+            "entry",
+            "delegation",
+            "plan confirmation",
+            "task started",
+            "pause control",
+            "merchant review",
+            "added to cart result"
+          ],
+          "missing": [
+            "state after pause or takeover",
+            "Gemini approval before payment",
+            "payment completion"
+          ]
+        },
+        {
+          "id": "omni-entries",
+          "status": "PARTIAL",
+          "png_count": 4,
+          "video_count": 3,
+          "youtube_shorts_source_width": 1080,
+          "youtube_shorts_canvas_width": 1280,
+          "resolution_gap": "2 YouTube Shorts frames have source width 1080 and padded canvas width 1280; Gemini app and Flow sources are 1920 wide",
+          "observed": [
+            "Gemini app Create with Omni",
+            "Flow agent entry",
+            "YouTube Shorts Remix",
+            "YouTube Shorts Reimagine"
+          ],
+          "missing": [
+            "explicit Omni model selector inside Flow project canvas"
+          ]
+        }
+      ],
+      "viewpoint_placeholder_empty": true
+    },
+    {
+      "brand": "Apple",
+      "slug": "04-apple",
+      "required_feature_count": 5,
+      "actual_feature_count": 5,
+      "feature_counts": {
+        "PARTIAL": 4,
+        "MISSING": 1
+      },
+      "png": 33,
+      "mp4": 3,
+      "missing_headers": [],
+      "source_md_count": 6,
+      "ledger_missing": [],
+      "ledger_extra": [],
+      "readme_unlisted": [],
+      "bad_png_formats": [],
+      "media_issues": [],
+      "features": [
+        {
+          "id": "foldable-input",
+          "name": "折叠形态对输入的连带改动",
+          "requirement": {
+            "png_min": 5,
+            "checks": [
+              "外内屏接续",
+              "展开布局",
+              "笔/多指/悬停",
+              "内屏键盘"
+            ]
+          },
+          "status": "PARTIAL",
+          "release_date": "2026-09-09",
+          "time_window": "official product film 2026-09-09; retail 2026-10-23",
+          "sources": [
+            "https://www.apple.com/iphone-duo/",
+            "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+          ],
+          "files": [
+            "assets/foldable-input/01-outer-display.png",
+            "assets/foldable-input/02-opening.png",
+            "assets/foldable-input/03-inner-home.png",
+            "assets/foldable-input/04-inner-photos.png",
+            "assets/foldable-input/05-inner-web.png",
+            "assets/foldable-input/06-split-view.png",
+            "assets/foldable-input/07-split-view-swapped.png",
+            "assets/foldable-input/08-two-thumb-game.png",
+            "assets/foldable-input/09-inner-keyboard-write-with-siri.png",
+            "assets/foldable-input/clip.mp4",
+            "assets/foldable-input/source.md"
+          ],
+          "timestamps": [
+            "00:04",
+            "00:08",
+            "00:12",
+            "00:16",
+            "00:28",
+            "00:34",
+            "00:38",
+            "01:52"
+          ],
+          "flow": {
+            "entry": "observed",
+            "delegation": "missing",
+            "process": "observed",
+            "takeover": "partial manual interaction only",
+            "artifact": "observed split view",
+            "exit": "missing"
+          },
+          "missing": [
+            "same-task outer-to-inner continuation",
+            "keyboard input motion",
+            "Pencil visual",
+            "hover",
+            "exit"
+          ],
+          "resolution_gap": "none; PNG 1920x1080",
+          "next_action": "After retail, record one real-device task covering outer-to-inner, keyboard, Pencil and exit."
+        },
+        {
+          "id": "home-hub-presence",
+          "name": "Home Hub 的存在感知",
+          "requirement": {
+            "png_min": 5,
+            "checks": [
+              "走近触发",
+              "无声行为",
+              "身份",
+              "隐私"
+            ]
+          },
+          "status": "MISSING",
+          "release_date": null,
+          "time_window": "official event and pages checked 2026-09-09",
+          "sources": [
+            "https://www.apple.com/apple-events/",
+            "https://www.apple.com/home-app/",
+            "https://www.apple.com/newsroom/archive/tv-home/"
+          ],
+          "files": [
+            "assets/home-hub-presence/source.md"
+          ],
+          "timestamps": [],
+          "flow": {
+            "entry": "missing",
+            "delegation": "missing",
+            "process": "missing",
+            "takeover": "missing",
+            "artifact": "missing",
+            "exit": "missing"
+          },
+          "missing": [
+            "announced 7-inch product",
+            "all interaction frames",
+            "presence",
+            "identity",
+            "privacy",
+            "exit"
+          ],
+          "resolution_gap": "no valid requested-product image; existing Home app UI excluded",
+          "next_action": "Monitor future launch and capture official or credible hands-on presence sequence."
+        },
+        {
+          "id": "siri-delegation",
+          "name": "Siri 的委托面变化",
+          "requirement": {
+            "png_min": 4,
+            "checks": [
+              "sentence",
+              "selection/pointing",
+              "cross-app reference"
+            ]
+          },
+          "status": "PARTIAL",
+          "release_date": "2026-06-08",
+          "time_window": "announcement 2026-06-08; user beta rollout 2026-09-14",
+          "sources": [
+            "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"
+          ],
+          "files": [
+            "assets/siri-delegation/01-dynamic-island.png",
+            "assets/siri-delegation/02-swipe-down-entry.png",
+            "assets/siri-delegation/03-screen-aware-result.png",
+            "assets/siri-delegation/04-jeff-query.png",
+            "assets/siri-delegation/05-message-address.png",
+            "assets/siri-delegation/06-route-result.png",
+            "assets/siri-delegation/07-selection-context-menu.png",
+            "assets/siri-delegation/08-visual-intelligence-ipad.png",
+            "assets/siri-delegation/clip.mp4",
+            "assets/siri-delegation/source.md"
+          ],
+          "timestamps": [
+            "Dynamic 00:00.3",
+            "Dynamic 00:01.3",
+            "Personal 01:20",
+            "Personal 01:30",
+            "Personal 01:40",
+            "Personal 01:58"
+          ],
+          "flow": {
+            "entry": "observed",
+            "delegation": "observed",
+            "process": "partial",
+            "takeover": "missing",
+            "artifact": "observed route preview",
+            "exit": "missing"
+          },
+          "missing": [
+            "approval",
+            "rejection",
+            "pause",
+            "takeover",
+            "undo",
+            "exit"
+          ],
+          "resolution_gap": "none; execution controls absent from motion evidence",
+          "next_action": "Record mutating iOS 27 beta tasks and observe confirmation, cancel, undo and exit."
+        },
+        {
+          "id": "cross-device-handoff",
+          "name": "跨设备接力",
+          "requirement": {
+            "png_min": 3,
+            "checks": [
+              "start here",
+              "continue there",
+              "same task"
+            ]
+          },
+          "status": "PARTIAL",
+          "release_date": "2026-06-08",
+          "time_window": "checked through 2026-09-09",
+          "sources": [
+            "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+            "https://www.apple.com/os/ios/",
+            "https://www.apple.com/os/ipados/",
+            "https://www.androidauthority.com/siri-ai-vs-gemini-hands-on-comparison-3677330/"
+          ],
+          "files": [
+            "assets/cross-device-handoff/01-iphone-siri-app.png",
+            "assets/cross-device-handoff/02-ipad-siri-app.png",
+            "assets/cross-device-handoff/03-watch-siri-answer.png",
+            "assets/cross-device-handoff/04-vision-pro-siri.png",
+            "assets/cross-device-handoff/source.md"
+          ],
+          "timestamps": [
+            "Watch 00:07"
+          ],
+          "flow": {
+            "entry": "separate device UIs",
+            "delegation": "partial separate tasks",
+            "process": "missing",
+            "takeover": "missing",
+            "artifact": "separate device UIs",
+            "exit": "missing"
+          },
+          "missing": [
+            "continuous same-conversation handoff",
+            "handoff prompt",
+            "sync latency",
+            "conflict handling",
+            "exit"
+          ],
+          "resolution_gap": "none; continuity is the gap",
+          "next_action": "Self-test one Siri conversation on two beta devices with the same Apple Account."
+        },
+        {
+          "id": "watch-airpods-input",
+          "name": "Watch / AirPods 上的新交互",
+          "requirement": {
+            "png_min": 2,
+            "checks": [
+              "wrist/ear input",
+              "gesture/pinch/head motion"
+            ]
+          },
+          "status": "PARTIAL",
+          "release_date": "2026-09-09",
+          "time_window": "Watch demo 2026-06-08; AirPods 5 launch 2026-09-09",
+          "sources": [
+            "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+            "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"
+          ],
+          "files": [
+            "assets/watch-airpods-input/01-watch-query.png",
+            "assets/watch-airpods-input/02-watch-answer.png",
+            "assets/watch-airpods-input/03-airpods-press-to-translate.png",
+            "assets/watch-airpods-input/04-live-translation-conversation.png",
+            "assets/watch-airpods-input/05-conversation-outcome.png",
+            "assets/watch-airpods-input/06-volume-swipe.png",
+            "assets/watch-airpods-input/07-head-gesture-background-2024.png",
+            "assets/watch-airpods-input/clip.mp4",
+            "assets/watch-airpods-input/source.md"
+          ],
+          "timestamps": [
+            "Watch 00:00.5",
+            "Watch 00:07",
+            "Translation 00:03",
+            "Translation 00:08",
+            "Translation 00:13",
+            "Swipe 00:01.5",
+            "2024 background 00:17"
+          ],
+          "flow": {
+            "entry": "observed",
+            "delegation": "observed",
+            "process": "partial",
+            "takeover": "missing",
+            "artifact": "partial; Watch answer visible, AirPods translation content not visible",
+            "exit": "missing"
+          },
+          "missing": [
+            "AirPods translation content UI",
+            "clear 2026 nod/shake footage",
+            "Series 12 gesture",
+            "pinch",
+            "cancel/takeover",
+            "exit"
+          ],
+          "resolution_gap": "none; 2024 frame explicitly background",
+          "next_action": "After 2026-09-18, record AirPods 5 head response/cancel and Series 12 Smart Stack continuation."
+        }
+      ],
+      "viewpoint_placeholder_empty": true
+    },
+    {
+      "brand": "开源阵营",
+      "slug": "05-opensource",
+      "required_feature_count": 6,
+      "actual_feature_count": 6,
+      "feature_counts": {
+        "PARTIAL": 5,
+        "COMPLETE": 1
+      },
+      "png": 22,
+      "mp4": 1,
+      "missing_headers": [],
+      "source_md_count": 7,
+      "ledger_missing": [],
+      "ledger_extra": [],
+      "readme_unlisted": [],
+      "bad_png_formats": [],
+      "media_issues": [],
+      "features": [
+        {
+          "id": "openwork-desktop",
+          "name": "OpenWork 桌面端",
+          "required": "自录屏 + 截图；进入→委托→过程→接管→产物→退出",
+          "actual_files": [
+            "assets/openwork-desktop/01-entry-global-ui.png",
+            "assets/openwork-desktop/02-delegate-ready.png",
+            "assets/openwork-desktop/03-running.png",
+            "assets/openwork-desktop/04-success-result.png",
+            "assets/openwork-desktop/05-artifact-preview.png",
+            "assets/openwork-desktop/06-exit-new-session.png",
+            "assets/openwork-desktop/04-failure-no-result.png",
+            "assets/openwork-desktop/05-artifact-result.png"
+          ],
+          "sources": [
+            "https://github.com/different-ai/openwork",
+            "https://github.com/different-ai/openwork/releases/tag/v0.18.44"
+          ],
+          "release_window": "v0.18.44 published 2026-09-09; captured 2026-09-09",
+          "status": "PARTIAL",
+          "seen_states": [
+            "进入/全局 UI",
+            "委托提示",
+            "Working 与 Wrote",
+            "Read 与成功回复",
+            "内置产物预览",
+            "失败后的 Resume 接管入口",
+            "退出到新会话"
+          ],
+          "missing_states": [
+            "未演示人工编辑产物后继续 agent；接管仅以 Resume 入口与内置预览证明",
+            "没有连续原生自录屏，任务书的自录屏要求未满足"
+          ],
+          "next_step": "保留 PARTIAL；编辑报告时把成功链与失败链写成两次独立运行，不拼成同一次流程"
+        },
+        {
+          "id": "cross-agent-skills",
+          "name": "跨 agent 技能复用",
+          "required": "Codex、Claude Code、Cursor 配置流程；帧序列 ≥4",
+          "actual_files": [
+            "assets/cross-agent-skills/01-codex-claude-cursor-dry-run.png",
+            "assets/cross-agent-skills/02-codex-dry-run.png",
+            "assets/cross-agent-skills/03-claude-dry-run.png",
+            "assets/cross-agent-skills/04-cursor-dry-run.png"
+          ],
+          "sources": [
+            "https://github.com/nexu-io/open-design"
+          ],
+          "release_window": "Open Design v0.19.0 local CLI captured 2026-09-09",
+          "status": "PARTIAL",
+          "seen_states": [
+            "配置入口",
+            "Codex 目标命令预览",
+            "Claude Code 目标命令预览",
+            "Cursor 配置文件预览"
+          ],
+          "missing_states": [
+            "未写入三端配置",
+            "未在三端实际加载并调用同一 MCP/skill",
+            "无三端结果态"
+          ],
+          "next_step": "需各 agent 的隔离配置目录或用户明确授权后做真实加载测试"
+        },
+        {
+          "id": "opendesign-cli",
+          "name": "OpenDesign 的 CLI 优先",
+          "required": "真实 headless CLI 终端录屏 + 截图",
+          "actual_files": [
+            "assets/opendesign-cli/01-headless-cli-status.png",
+            "assets/opendesign-cli/02-clean-global-ui.png",
+            "assets/opendesign-cli/03-headless-artifact-complete.png",
+            "assets/opendesign-cli/clip.mp4"
+          ],
+          "sources": [
+            "https://github.com/nexu-io/open-design",
+            "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.19.0"
+          ],
+          "release_window": "Open Design v0.19.0 local app/CLI; latest upstream 0.22.1 published 2026-09-09",
+          "status": "PARTIAL",
+          "seen_states": [
+            "CLI/daemon 帮助",
+            "loopback daemon 运行",
+            "独立 project 创建",
+            "artifact 写入并由文件 API 返回 complete",
+            "桌面全局 UI",
+            "7.68 秒实时 CLI stdout 转录视频，ffprobe/全解码/代表帧通过"
+          ],
+          "missing_states": [
+            "原生 Terminal 录屏未取得：系统接口仅 1 帧，窗口/区域抓取被拒；现有 MP4 是明确标注的自建实时转录查看器"
+          ],
+          "next_step": "保留 PARTIAL 与原生录屏缺口；fixture 写入不得称为模型生成"
+        },
+        {
+          "id": "design-token-library",
+          "name": "151 套设计系统 token 库",
+          "required": "同任务选择 token 前后对比图",
+          "actual_files": [
+            "assets/design-token-library/01-apple-token-picker.png"
+          ],
+          "sources": [
+            "https://github.com/nexu-io/open-design"
+          ],
+          "release_window": "Open Design v0.19.0 local UI captured 2026-09-09; upstream README checked 2026-09-09",
+          "status": "PARTIAL",
+          "seen_states": [
+            "真实 design-system 选择器",
+            "Apple token/palette 预览",
+            "实测目录返回 151 项",
+            "同任务 baseline 项目与 Apple 项目均已创建"
+          ],
+          "missing_states": [
+            "同任务无 token 基线产物",
+            "同任务选用 Apple 后产物",
+            "前后差异"
+          ],
+          "next_step": "四条生成通道均失败且0产物；官方定向替代检索已完成，未找到同任务成对素材。保留PARTIAL，待可用生成环境或公开连续演示补齐。"
+        },
+        {
+          "id": "plugin-marketplace",
+          "name": "插件市场与自扩展",
+          "required": "脚手架→验证→发布前状态；帧序列 ≥3",
+          "actual_files": [
+            "assets/plugin-marketplace/01-scaffold-created.png",
+            "assets/plugin-marketplace/02-validate-warning.png",
+            "assets/plugin-marketplace/03-pack-prepublish-stop.png"
+          ],
+          "sources": [
+            "https://open-design.ai/zh/blog/open-design-0-8-0-everything-is-a-plugin/",
+            "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.8.0"
+          ],
+          "release_window": "v0.8.0 published 2026-05-22; CLI v0.19.0 captured 2026-09-09",
+          "status": "PARTIAL",
+          "seen_states": [
+            "真实 scaffold 创建文件",
+            "真实 validate ok:true",
+            "真实 pack 生成 tgz",
+            "publish 边界提示"
+          ],
+          "missing_states": [
+            "validate 有 context.unresolved warning",
+            "未实际发布或上架（按授权禁止）",
+            "无市场发现 UI"
+          ],
+          "next_step": "保留 warning 与预发布边界；不执行 publish-repo/open-design-pr"
+        },
+        {
+          "id": "community-issues",
+          "name": "社区分歧点",
+          "required": "两个项目 issue 中争议最强三条；截图 + 链接",
+          "actual_files": [
+            "assets/community-issues/01-opendesign-login-required-6599.png",
+            "assets/community-issues/02-opendesign-byok-local-2986.png",
+            "assets/community-issues/03-openwork-summary-loop-1103.png"
+          ],
+          "sources": [
+            "https://github.com/nexu-io/open-design/issues/6599",
+            "https://github.com/nexu-io/open-design/issues/2986",
+            "https://github.com/different-ai/openwork/issues/1103"
+          ],
+          "release_window": "issues active/closed between 2026-03-22 and 2026-09-09; live checked 2026-09-09",
+          "status": "COMPLETE",
+          "seen_states": [
+            "登录强制争议",
+            "BYOK/私网兼容争议",
+            "会话摘要循环可靠性争议",
+            "状态/评论/日期核验"
+          ],
+          "missing_states": [],
+          "next_step": "报告中区分 closed（#6599/#1103）与 open（#2986）"
+        }
+      ],
+      "viewpoint_placeholder_empty": true
+    },
+    {
+      "brand": "Microsoft",
+      "slug": "06-microsoft",
+      "required_feature_count": 3,
+      "actual_feature_count": 3,
+      "feature_counts": {
+        "PARTIAL": 3
+      },
+      "png": 25,
+      "mp4": 4,
+      "missing_headers": [],
+      "source_md_count": 4,
+      "ledger_missing": [],
+      "ledger_extra": [],
+      "readme_unlisted": [],
+      "bad_png_formats": [],
+      "media_issues": [],
+      "features": [
+        {
+          "id": "windows-agent-runtime",
+          "requirement": "注册、调度、限权、运行数、kill；帧序列 >=5",
+          "actual_files": [
+            "assets/windows-agent-runtime/01-agent-entry-teams.png",
+            "assets/windows-agent-runtime/02-agent-session-processes.png",
+            "assets/windows-agent-runtime/03-mxc-declarative-contract.png",
+            "assets/windows-agent-runtime/04-runtime-file-write-denied.png",
+            "assets/windows-agent-runtime/05-malicious-agent-contained.png",
+            "assets/windows-agent-runtime/06-agent-registry-inventory.png",
+            "assets/windows-agent-runtime/07-block-agent-governance.png",
+            "assets/windows-agent-runtime/clip-agent-identity.mp4",
+            "assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
+            "assets/windows-agent-runtime/source.md"
+          ],
+          "sources": [
+            {
+              "url": "https://www.youtube.com/watch?v=CU4Wngb3JnA",
+              "title": "Building Agents You Can Trust on Windows | BRK262",
+              "publisher": "Microsoft Developer",
+              "published": "2026-06-03",
+              "official": true,
+              "review_state": "VISUALLY_REVIEWED_AND_DECODED"
+            },
+            {
+              "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide",
+              "title": "Govern agents in the Microsoft 365 admin center",
+              "publisher": "Microsoft Learn",
+              "updated": "2026-08-31",
+              "official": true,
+              "review_state": "PAGE_AND_IMAGES_REVIEWED"
+            }
+          ],
+          "time_window": "PRIMARY_AFTER_2026-03-09",
+          "result": "PARTIAL",
+          "observed_states": [
+            "进入",
+            "用户会话/进程清单",
+            "限权配置",
+            "运行时拒绝",
+            "治理侧注册库存",
+            "治理侧block配置入口"
+          ],
+          "missing_states": [
+            "同一runtime流程中的委托",
+            "用户接管",
+            "完整用户产物",
+            "退出",
+            "本机调度队列",
+            "本机正在运行agent数量",
+            "本机kill"
+          ],
+          "boundary": "Task Manager frame has no readable agent-identity field. Agent365 inventory/block-entry are supplemental governance evidence, not Windows local running-count/kill proof; the block action was not executed in the static image."
+        },
+        {
+          "id": "system-permissions",
+          "requirement": "文件夹、应用、能力粒度；截图 >=3",
+          "actual_files": [
+            "assets/system-permissions/01-declarative-permission-model.png",
+            "assets/system-permissions/02-filesystem-readonly-paths.png",
+            "assets/system-permissions/03-file-write-denied.png",
+            "assets/system-permissions/04-copilot-cli-filesystem-policy.png",
+            "assets/system-permissions/05-copilot-cli-network-policy.png",
+            "assets/system-permissions/06-app-host-scope.png",
+            "assets/system-permissions/07-known-folders-background.png",
+            "assets/system-permissions/clip-filesystem-denial.mp4",
+            "assets/system-permissions/source.md"
+          ],
+          "sources": [
+            {
+              "url": "https://www.youtube.com/watch?v=CU4Wngb3JnA",
+              "title": "Building Agents You Can Trust on Windows | BRK262",
+              "publisher": "Microsoft Developer",
+              "published": "2026-06-03",
+              "official": true,
+              "review_state": "VISUALLY_REVIEWED_AND_DECODED"
+            },
+            {
+              "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide",
+              "title": "Govern agents in the Microsoft 365 admin center",
+              "publisher": "Microsoft Learn",
+              "updated": "2026-08-31",
+              "official": true,
+              "review_state": "PAGE_AND_IMAGES_REVIEWED"
+            },
+            {
+              "url": "https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/",
+              "title": "Securing AI agents on Windows",
+              "publisher": "Windows Experience Blog",
+              "published": "2025-10-16",
+              "official": true,
+              "review_state": "BACKGROUND_IMAGE_REVIEWED"
+            }
+          ],
+          "time_window": "PRIMARY_AFTER_2026-03-09; KNOWN_FOLDER_VISUAL_IS_BACKGROUND",
+          "result": "PARTIAL",
+          "observed_states": [
+            "进入/配置",
+            "委托上下文",
+            "过程",
+            "拒绝结果"
+          ],
+          "missing_states": [
+            "接管",
+            "退出",
+            "2026消费者统一应用×能力权限总览"
+          ],
+          "boundary": "Folder granularity visual is BACKGROUND; app granularity is Agent365 host-product deployment, not an OS one-time consent dialog."
+        },
+        {
+          "id": "copilot-agent-mode",
+          "requirement": "过程可见性与接管机制；帧序列 >=3",
+          "actual_files": [
+            "assets/copilot-agent-mode/01-enter-browse-with-copilot.png",
+            "assets/copilot-agent-mode/02-delegate-task.png",
+            "assets/copilot-agent-mode/03-working-on-linkedin.png",
+            "assets/copilot-agent-mode/04-progress-draft-modal.png",
+            "assets/copilot-agent-mode/05-artifact-confirmation.png",
+            "assets/copilot-agent-mode/06-take-control-background.png",
+            "assets/copilot-agent-mode/clip-edge-agentic-30s.mp4",
+            "assets/copilot-agent-mode/source.md"
+          ],
+          "sources": [
+            {
+              "url": "https://www.youtube.com/watch?v=mQv0EBvj2nI",
+              "title": "Edge for Business demo: Browse with Copilot",
+              "publisher": "Microsoft Edge",
+              "published": "2026-05-12",
+              "official": true,
+              "review_state": "FULL_VIDEO_DECODED_AND_VISUALLY_REVIEWED"
+            },
+            {
+              "url": "https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/",
+              "title": "Securing AI agents on Windows",
+              "publisher": "Windows Experience Blog",
+              "published": "2025-10-16",
+              "official": true,
+              "review_state": "BACKGROUND_IMAGE_REVIEWED"
+            }
+          ],
+          "time_window": "PRIMARY_AFTER_2026-03-09; TAKE_CONTROL_VISUAL_IS_BACKGROUND",
+          "result": "PARTIAL",
+          "observed_states": [
+            "进入",
+            "委托",
+            "过程",
+            "产物",
+            "最终确认",
+            "接管控件_BACKGROUND"
+          ],
+          "missing_states": [
+            "2026当前版本接管点击",
+            "退出"
+          ],
+          "boundary": "The 2025 Take control image is not part of the 2026 Edge sequence; no click was observed."
+        }
+      ],
+      "viewpoint_placeholder_empty": true
+    },
+    {
+      "brand": "Meta",
+      "slug": "07-meta",
+      "required_feature_count": 5,
+      "actual_feature_count": 5,
+      "feature_counts": {
+        "PARTIAL": 4,
+        "COMPLETE": 1
+      },
+      "png": 46,
+      "mp4": 6,
+      "missing_headers": [],
+      "source_md_count": 7,
+      "ledger_missing": [],
+      "ledger_extra": [],
+      "readme_unlisted": [],
+      "bad_png_formats": [],
+      "media_issues": [
+        {
+          "path": "assets/beyond-glasses/01-garmin-unified-cabin.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/beyond-glasses/02-smart-home-research.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/beyond-glasses/04-smart-home-utah.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/neural-handwriting-update/01-writing-start.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/neural-handwriting-update/02-writing-yes.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/neural-handwriting-update/03-writing-sou.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/neural-handwriting-update/04-writing-sounds.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/neural-handwriting-update/05-writing-fun.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/neural-handwriting-update/06-complete-message.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/teleprompter/01-hud-card.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/teleprompter/02-setup-modes-and-text-size.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/teleprompter/03-through-lens-card-state-a.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/teleprompter/04-through-lens-card-state-b.png",
+          "issue": "width_below_1280"
+        },
+        {
+          "path": "assets/teleprompter/05-through-lens-card-state-c.png",
+          "issue": "width_below_1280"
+        }
+      ],
+      "features": [
+        {
+          "id": "neural-handwriting",
+          "name": "Meta Neural Band 神经手写",
+          "required": "At least 6 distinct interaction frames covering pose/surface/recognition plus correction/delete when evidenced, and a continuous clip.",
+          "actual": {
+            "formal_images": 15,
+            "valid_interaction_frames": 12,
+            "context_only_frames": 3,
+            "continuous_clips": 2,
+            "window_clips": 1,
+            "background_clips": 1
+          },
+          "status": "PARTIAL",
+          "seen": {
+            "进入": false,
+            "委托": true,
+            "过程": true,
+            "接管": false,
+            "产物": true,
+            "退出": false
+          },
+          "evidence_notes": {
+            "委托": "Finger writes on book cover or table while wearing Neural Band.",
+            "过程": "Distinct partial text states and completed draft are visible.",
+            "产物": "BACKGROUND demo shows Sent confirmation and reply; in-window clip ends at completed draft."
+          },
+          "missing": [
+            "Full entry path",
+            "Correction flow",
+            "Delete flow",
+            "Exit state",
+            "Unedited optical latency evidence"
+          ],
+          "next": "Obtain an official or reliable hands-on sequence that explicitly shows correction, delete and exit; do not infer these from Send controls.",
+          "files": [
+            "assets/neural-handwriting/clip.mp4",
+            "assets/neural-handwriting/01-context.png",
+            "assets/neural-handwriting/02-wearer.png",
+            "assets/neural-handwriting/03-surface-hand.png",
+            "assets/neural-handwriting/04-partial-word-start.png",
+            "assets/neural-handwriting/05-partial-word-late.png",
+            "assets/neural-handwriting/06-draft-and-send-control.png",
+            "assets/neural-handwriting/07-sent-confirmation.png",
+            "assets/neural-handwriting/08-wearer-after-send.png",
+            "assets/neural-handwriting/09-reply.png",
+            "assets/neural-handwriting-update/clip.mp4",
+            "assets/neural-handwriting-update/01-writing-start.png",
+            "assets/neural-handwriting-update/02-writing-yes.png",
+            "assets/neural-handwriting-update/03-writing-sou.png",
+            "assets/neural-handwriting-update/04-writing-sounds.png",
+            "assets/neural-handwriting-update/05-writing-fun.png",
+            "assets/neural-handwriting-update/06-complete-message.png"
+          ],
+          "sources": [
+            {
+              "url": "https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/",
+              "publication_date": "2026-01-06",
+              "window_class": "BACKGROUND",
+              "officiality": "Meta official"
+            },
+            {
+              "url": "https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/",
+              "publication_date": "2026-03-31",
+              "window_class": "IN_WINDOW",
+              "officiality": "Meta official"
+            }
+          ]
+        },
+        {
+          "id": "gesture-set",
+          "name": "Meta Neural Band 手势集",
+          "required": "One actual group per gesture, mapping, false-activation handling and walking boundary.",
+          "actual": {
+            "formal_images": 7,
+            "valid_gesture_frames": 6,
+            "walking_context_only_frames": 1,
+            "continuous_clips": 2,
+            "officially_documented_web_app_gestures": 6,
+            "visually_grouped_current_gestures": 2,
+            "visually_grouped_concept_gestures": 1
+          },
+          "status": "PARTIAL",
+          "seen": {
+            "进入": false,
+            "委托": true,
+            "过程": true,
+            "接管": true,
+            "产物": false,
+            "退出": false
+          },
+          "evidence_notes": {
+            "委托": "FAQ maps index pinch to enter and middle pinch to cancel; four directional swipes are text-only evidence.",
+            "过程": "Official video shows finger motion and EMG traces, not a consumer HUD result.",
+            "接管": "Cancel mapping exists in official text; the actual cancel UI is not shown."
+          },
+          "missing": [
+            "Actual visual group for each directional swipe",
+            "Consumer HUD result per gesture",
+            "False-positive threshold or rate",
+            "Controlled walking gesture test",
+            "Actual cancel/exit UI"
+          ],
+          "next": "Capture current-product demonstrations for all six Web App gestures and a documented false-activation/mobility test.",
+          "files": [
+            "assets/gesture-set/clip-emg-signals.mp4",
+            "assets/gesture-set/clip-wrist-roll-concept.mp4",
+            "assets/gesture-set/01-index-pinch-start.png",
+            "assets/gesture-set/02-index-pinch-contact.png",
+            "assets/gesture-set/03-middle-pinch-start.png",
+            "assets/gesture-set/04-middle-pinch-contact.png",
+            "assets/gesture-set/05-wrist-roll-start-concept.png",
+            "assets/gesture-set/06-wrist-roll-end-concept.png",
+            "assets/gesture-set/07-walking-hud-context.png"
+          ],
+          "sources": [
+            {
+              "url": "https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/",
+              "publication_date": null,
+              "window_class": "DATE_UNKNOWN",
+              "officiality": "Meta official"
+            },
+            {
+              "url": "https://developers.meta.com/wearables/faq/",
+              "publication_date": null,
+              "window_class": "DATE_UNKNOWN",
+              "officiality": "Meta official"
+            },
+            {
+              "url": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+              "publication_date": "2025-09-17",
+              "window_class": "BACKGROUND",
+              "officiality": "Meta official"
+            }
+          ]
+        },
+        {
+          "id": "hud",
+          "name": "Meta Ray-Ban Display 镜内 HUD",
+          "required": "At least 3 first-person frames covering position, information quantity and disappearance.",
+          "actual": {
+            "formal_images": 6,
+            "valid_first_person_composite_frames": 6,
+            "optical_through_lens_frames": 0,
+            "continuous_clips": 1
+          },
+          "status": "PARTIAL",
+          "seen": {
+            "进入": true,
+            "委托": false,
+            "过程": true,
+            "接管": false,
+            "产物": true,
+            "退出": false
+          },
+          "evidence_notes": {
+            "进入": "Edited composite begins with a region-selection state; trigger is not shown.",
+            "过程": "Region, message and map HUD states are visible.",
+            "产物": "Message/reply chips and map states are visible; expanded map has no route line."
+          },
+          "missing": [
+            "Optical through-lens recording",
+            "Unedited appearance/disappearance timing",
+            "Verified command name for the region box",
+            "Failure/back/cancel states"
+          ],
+          "next": "Obtain a continuous through-lens task recording with trigger, response, dismissal and timing.",
+          "files": [
+            "assets/hud/clip.mp4",
+            "assets/hud/01-region-selection-start.png",
+            "assets/hud/02-region-selection-progress.png",
+            "assets/hud/03-region-selection-confirmation.png",
+            "assets/hud/04-message-reply.png",
+            "assets/hud/05-map-card.png",
+            "assets/hud/06-map-expanded.png"
+          ],
+          "sources": [
+            {
+              "url": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+              "publication_date": "2025-09-17",
+              "window_class": "BACKGROUND",
+              "officiality": "Meta official"
+            }
+          ]
+        },
+        {
+          "id": "teleprompter",
+          "name": "提词器",
+          "required": "At least 3 frames showing rolling/card states, speed control and Neural Band linkage.",
+          "actual": {
+            "formal_images": 5,
+            "valid_state_frames": 5,
+            "third_party_through_lens_frames": 3,
+            "local_continuous_clips": 0,
+            "max_third_party_frame_width_px": 1250
+          },
+          "status": "PARTIAL",
+          "seen": {
+            "进入": true,
+            "委托": true,
+            "过程": true,
+            "接管": true,
+            "产物": true,
+            "退出": false
+          },
+          "evidence_notes": {
+            "进入": "Phone setup shows Send to Meta RB Display.",
+            "委托": "Vertical scroll/horizontal swipe mode and text size are visible.",
+            "过程": "Three separate through-lens card states are shown, but local continuity is unavailable.",
+            "接管": "Official text says users navigate with Neural Band at their own pace; screenshots do not prove the exact gesture sequence.",
+            "产物": "Imported text appears as glasses cards."
+          },
+          "missing": [
+            "Locally auditable continuous clip",
+            "Independent speed controller or speed value",
+            "Verified adjacency between captured states",
+            "Exit state",
+            "1280px-wide third-party capture"
+          ],
+          "next": "Acquire a continuous demo showing mode, Band action, text movement and exit; retain the 1250px resolution gap.",
+          "files": [
+            "assets/teleprompter/01-hud-card.png",
+            "assets/teleprompter/02-setup-modes-and-text-size.png",
+            "assets/teleprompter/03-through-lens-card-state-a.png",
+            "assets/teleprompter/04-through-lens-card-state-b.png",
+            "assets/teleprompter/05-through-lens-card-state-c.png"
+          ],
+          "sources": [
+            {
+              "url": "https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/",
+              "publication_date": "2026-01-06",
+              "window_class": "BACKGROUND",
+              "officiality": "Meta official"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=wKCAFUscTao",
+              "publication_date": "2026-02-04",
+              "window_class": "BACKGROUND",
+              "officiality": "Third-party hands-on with paid/affiliate disclosure"
+            }
+          ]
+        },
+        {
+          "id": "beyond-glasses",
+          "name": "腕带脱离眼镜的用途",
+          "required": "Official proof plus real media; distinguish research, demo, announced and usable.",
+          "actual": {
+            "formal_images": 10,
+            "continuous_clips": 1,
+            "clip_duration_seconds": 29,
+            "in_window_research_frames": 6,
+            "background_static_frames": 4
+          },
+          "status": "COMPLETE",
+          "seen": {
+            "进入": true,
+            "委托": true,
+            "过程": true,
+            "接管": true,
+            "产物": true,
+            "退出": false
+          },
+          "evidence_notes": {
+            "进入": "All paths enter partner PoC/research apparatus, not a consumer setup flow.",
+            "委托": "Garmin, Utah and CMU route EMG input to non-glasses systems.",
+            "过程": "CMU clip shows two bands, calibration, labeled outputs, EMG traces and gameplay.",
+            "接管": "Researcher calibration is visible; no consumer takeover workflow is claimed.",
+            "产物": "Vehicle/home/assistive/game state outside the glasses HUD."
+          },
+          "missing": [
+            "Consumer availability outside glasses",
+            "Consumer pairing and exit flow"
+          ],
+          "next": "Track separately for productization; do not promote PoC or research demonstrations to consumer features.",
+          "files": [
+            "assets/beyond-glasses/clip-cmu-two-band-research.mp4",
+            "assets/beyond-glasses/01-garmin-unified-cabin.png",
+            "assets/beyond-glasses/02-smart-home-research.png",
+            "assets/beyond-glasses/03-tetraski-research.png",
+            "assets/beyond-glasses/04-smart-home-utah.png",
+            "assets/beyond-glasses/05-cass-two-bands.png",
+            "assets/beyond-glasses/06-cass-calibration.png",
+            "assets/beyond-glasses/07-cass-game-comparison.png",
+            "assets/beyond-glasses/08-cass-decoded-output.png",
+            "assets/beyond-glasses/09-cass-active-play.png",
+            "assets/beyond-glasses/10-cass-hand-muscle-closeup.png"
+          ],
+          "sources": [
+            {
+              "url": "https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/",
+              "publication_date": "2026-01-06",
+              "window_class": "BACKGROUND",
+              "officiality": "Meta official"
+            },
+            {
+              "url": "https://www.garmin.com/en-US/newsroom/press-release/automotive/garmin-and-meta-announce-automotive-oem-proof-of-concept-with-garmin-unified-cabin-and-meta-neural-band/",
+              "publication_date": "2026-01-06",
+              "window_class": "BACKGROUND",
+              "officiality": "Official partner"
+            },
+            {
+              "url": "https://www.price.utah.edu/2026/01/06/u-of-u-and-meta-launch-research-to-enable-tetraski-and-smart-home-control-via-accessible-emg-wristband",
+              "publication_date": "2026-01-06",
+              "window_class": "BACKGROUND",
+              "officiality": "Official partner"
+            },
+            {
+              "url": "https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/",
+              "publication_date": "2026-05-18",
+              "modified_date": "2026-05-22",
+              "window_class": "IN_WINDOW",
+              "officiality": "Meta official research"
+            }
+          ]
+        }
+      ],
+      "viewpoint_placeholder_empty": true
+    }
+  ],
+  "broken_links": [],
+  "feature_totals": {
+    "PARTIAL": 31,
+    "COMPLETE": 3,
+    "MISSING": 1
+  },
+  "duplicate_groups": [
+    {
+      "brand": "OpenAI",
+      "groups": [
+        [
+          "assets/atlas/02-background-agent-running.png",
+          "assets/atlas/global-video-ui.png"
+        ],
+        [
+          "assets/work-browser/02-computer-progress.png",
+          "assets/work-browser/global-video-ui.png"
+        ]
+      ]
+    },
+    {
+      "brand": "Apple",
+      "groups": [
+        [
+          "assets/cross-device-handoff/03-watch-siri-answer.png",
+          "assets/watch-airpods-input/02-watch-answer.png"
+        ]
+      ]
+    },
+    {
+      "brand": "Microsoft",
+      "groups": [
+        [
+          "assets/system-permissions/01-declarative-permission-model.png",
+          "assets/windows-agent-runtime/03-mxc-declarative-contract.png"
+        ],
+        [
+          "assets/system-permissions/03-file-write-denied.png",
+          "assets/windows-agent-runtime/04-runtime-file-write-denied.png"
+        ],
+        [
+          "assets/system-permissions/06-app-host-scope.png",
+          "assets/windows-agent-runtime/06-agent-registry-inventory.png"
+        ]
+      ]
+    }
+  ],
+  "png_count": 269,
+  "mp4_count": 32,
+  "root_ledger_missing": [],
+  "root_ledger_extra": [],
+  "root_ledger_media_count": 301,
+  "global_unique_image_hashes": 263,
+  "source_width_gaps": [
+    "07-meta/assets/beyond-glasses/01-garmin-unified-cabin.png",
+    "07-meta/assets/beyond-glasses/02-smart-home-research.png",
+    "07-meta/assets/beyond-glasses/04-smart-home-utah.png",
+    "07-meta/assets/neural-handwriting-update/01-writing-start.png",
+    "07-meta/assets/neural-handwriting-update/02-writing-yes.png",
+    "07-meta/assets/neural-handwriting-update/03-writing-sou.png",
+    "07-meta/assets/neural-handwriting-update/04-writing-sounds.png",
+    "07-meta/assets/neural-handwriting-update/05-writing-fun.png",
+    "07-meta/assets/neural-handwriting-update/06-complete-message.png",
+    "07-meta/assets/teleprompter/01-hud-card.png",
+    "07-meta/assets/teleprompter/02-setup-modes-and-text-size.png",
+    "07-meta/assets/teleprompter/03-through-lens-card-state-a.png",
+    "07-meta/assets/teleprompter/04-through-lens-card-state-b.png",
+    "07-meta/assets/teleprompter/05-through-lens-card-state-c.png",
+    "03-google/assets/gemini-in-chrome/06-merchant-review.png",
+    "03-google/assets/gemini-in-chrome/02-delegate.png",
+    "03-google/assets/gemini-in-chrome/04-task-started.png",
+    "03-google/assets/gemini-in-chrome/03-plan-confirmation.png",
+    "03-google/assets/gemini-in-chrome/05-pause-control.png",
+    "03-google/assets/gemini-in-chrome/01-entry.png",
+    "03-google/assets/gemini-in-chrome/07-added-to-cart.png",
+    "03-google/assets/omni-entries/03-youtube-shorts-remix-entry.png",
+    "03-google/assets/omni-entries/04-youtube-shorts-reimagine.png"
+  ],
+  "source_width_gap_count": 23,
+  "huawei_placeholder_only": true,
+  "final_video_decode": [
+    {
+      "path": "01-openai/assets/atlas/clip.mp4",
+      "sha256": "4d233fa94aab65023382756c396e819fad8e1f7fc23be2c2c7e5a0166a91b1c0",
+      "duration": 20.0,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "01-openai/assets/gpt-live/clip.mp4",
+      "sha256": "85ee032eab2ee379688fa555053a861dbc5538f4e837e02a0668627c6da39d68",
+      "duration": 8.05,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "01-openai/assets/gpt-live/image-clip.mp4",
+      "sha256": "d2da0653db4268c1e936532f0eebc8f438bdbedb6d3b2f72fafe4d482d79ce6e",
+      "duration": 29.821458,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "01-openai/assets/work-artifacts/clip.mp4",
+      "sha256": "2188ba716fb3ef7f0a379a421e011c801b8c324db75db4c4b6d023b3fa413c63",
+      "duration": 22.0,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "01-openai/assets/work-browser/clip.mp4",
+      "sha256": "11775045b78826c3821dd9b4594a8141a4ba3a4cfa66e93d0ce4e026049da482",
+      "duration": 20.0,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "01-openai/assets/work-mention/clip.mp4",
+      "sha256": "0d1ad7aff53204247d6e6c92616d23bb5983692e41a6865087c315e7368fcfa5",
+      "duration": 10.009292,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "02-anthropic/assets/claude-code-multi-agent/clip.mp4",
+      "sha256": "2ad5b28b60ee0bae0622c052d69dfd124e030c3d7c9a7f16309c17179e600f68",
+      "duration": 29.5,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "02-anthropic/assets/claude-tag-slack/clip.mp4",
+      "sha256": "c2aa7b456665ac633d75d6c2bd434a3b77305b031b8a9a26e437e992b1139b69",
+      "duration": 29.528792,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "02-anthropic/assets/cowork-cross-device/clip.mp4",
+      "sha256": "e64a83355132a5d19cfe421a08bd55ff206243d3c46fee612737f918cbe21473",
+      "duration": 29.5,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "02-anthropic/assets/cowork-folder-permission/clip.mp4",
+      "sha256": "52b85ae74a5821870954878ce0e6814994970414fef55fc6ad5f9e49151abf46",
+      "duration": 29.5,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "02-anthropic/assets/cowork-process-visibility/clip.mp4",
+      "sha256": "dde15dbe23a026a36611ed72944ca33c48fd812c7fd498683ec63531bbcf0764",
+      "duration": 29.5295,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "02-anthropic/assets/design-code-handoff/clip.mp4",
+      "sha256": "8f74ffb6ecb1b5171a5ee7a69e46c9f8069717dc0242ff765e2fd08183dd950d",
+      "duration": 7.5,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "02-anthropic/assets/design-convergence/clip.mp4",
+      "sha256": "8e6f4f4be3958456c3f0a49a31235b02f8f26171a0957e206bf5953a301c692e",
+      "duration": 10.0,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "03-google/assets/gemini-in-chrome/clip.mp4",
+      "sha256": "4824f0286f555203da710e078491b0e605b74a152c486fddfe64efe19105ff0d",
+      "duration": 29.5,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "03-google/assets/gemini-spark/clip.mp4",
+      "sha256": "c2eee35bcea4de7c8a5eba6f66b1f869333a730ca25b568b5b4ddf1098e8e04a",
+      "duration": 6.940271,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "03-google/assets/omni-entries/clip-flow.mp4",
+      "sha256": "1e977cab2e5901a3da7c4038bacfb4d01c15b359035f420407bfcda7c4e80c9d",
+      "duration": 22.666667,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "03-google/assets/omni-entries/clip-gemini-app.mp4",
+      "sha256": "087f7ef8ead66646f35538f94e543cb52be953e76bda6153cfbbe5b9ceff8972",
+      "duration": 19.8198,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "03-google/assets/omni-entries/clip-youtube-shorts.mp4",
+      "sha256": "9c652881502d3c57a4e9ff3fb2e8a46d42193680342d23ee0fe49e60bdb91530",
+      "duration": 23.125,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "04-apple/assets/foldable-input/clip.mp4",
+      "sha256": "3ff9d15417a9b5545736ebf3fb4c1b382abfeb8cab6ff6107dc68b580506f382",
+      "duration": 29.996633,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "04-apple/assets/siri-delegation/clip.mp4",
+      "sha256": "73e55a2d34648acdc8b489a95246207d345e4276d884dda1191543333e582016",
+      "duration": 29.996633,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "04-apple/assets/watch-airpods-input/clip.mp4",
+      "sha256": "8575f5f7521fb85dff9924f81d9e9e1a6e707f603f9b2ed0e98afe262bbcd3c2",
+      "duration": 14.825,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "05-opensource/assets/opendesign-cli/clip.mp4",
+      "sha256": "b0127bd2aa2fdbb1716e7b020bd5af8fc40c7348bdcf32e09497d35a4896f759",
+      "duration": 7.68,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "06-microsoft/assets/copilot-agent-mode/clip-edge-agentic-30s.mp4",
+      "sha256": "d8aad4454e9542d4d8a9b753c45025d6342a2423a6661a9c2c5bddbc7c710042",
+      "duration": 29.904875,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4",
+      "sha256": "331ffbf76a4299c5a1c33a97acdc5caaa351c0cc0f0a52991c8c78589a41a69b",
+      "duration": 29.996633,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4",
+      "sha256": "839eb0f520388381795d40925c623244d4bc49c892a9f1edaaa95142c9d439b6",
+      "duration": 29.9299,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
+      "sha256": "331ffbf76a4299c5a1c33a97acdc5caaa351c0cc0f0a52991c8c78589a41a69b",
+      "duration": 29.996633,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "07-meta/assets/beyond-glasses/clip-cmu-two-band-research.mp4",
+      "sha256": "bce538e0dfc715348e9c82fab9c25e16a7f5eba641b5486cdf3f415d4c77341f",
+      "duration": 29.0,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "07-meta/assets/gesture-set/clip-emg-signals.mp4",
+      "sha256": "39e15bd7c042cdb56782eeadc1f267eb47f64782e8f038d86edd813c817a3ff0",
+      "duration": 9.726708,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "07-meta/assets/gesture-set/clip-wrist-roll-concept.mp4",
+      "sha256": "c502b4a9982e4d5f6c21ee64443ecc7168f8ac4f704e598ee881358bc461684f",
+      "duration": 8.488042,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "07-meta/assets/hud/clip.mp4",
+      "sha256": "e780114e72293b4e878fcca71f1688b0b3fb742be3cbbfb39b46b1652ef1db5d",
+      "duration": 12.0,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "07-meta/assets/neural-handwriting/clip.mp4",
+      "sha256": "cf7283bc5e42dc8ca0b55f0151fcae2a21e19d53c5a0980bf2f55c9233e53075",
+      "duration": 18.069333,
+      "exit_code": 0,
+      "errors": ""
+    },
+    {
+      "path": "07-meta/assets/neural-handwriting-update/clip.mp4",
+      "sha256": "4e3212a672fc6a3378be18581ed8a6e403eee0a5564ce2f36d9097c289c0fbff",
+      "duration": 5.833333,
+      "exit_code": 0,
+      "errors": ""
+    }
+  ],
+  "finalized_at": "2026-09-10",
+  "original_ppt_integrity": {
+    "zip_crc_error": null,
+    "slide_count": 72,
+    "sha256_final_snapshot_only": "bdf732605d83ce77cadb221d8140fe0811a1cb63df6a1804e6b7549f6e80eb4f"
+  },
+  "final_root_links_after_supplement": "passed",
+  "acceptance_document": "_control/FINAL-ACCEPTANCE.md",
+  "source_supplement": "_control/synthesis-sources.md",
+  "completion_scope": "Public-source collection disposition and requested documents; recorded PARTIAL/MISSING evidence is not claimed complete."
+}

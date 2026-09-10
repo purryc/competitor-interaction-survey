@@ -1,0 +1,182 @@
+﻿id,brand,name,category,layer,slide,enter,use,finish,media,clips,images
+XMI-F01,小米,小爱全局唤醒,系统入口,系统入口,3,语音 / 电源键 / 双击导航条；新小白条可按住说话,口述任务；按住说话时抬手提交,检查回答或执行回执；收起面板＊,video,X4-V03,IMG-207|EXT-012
+XMI-F02,小米,连续语音陪伴,系统入口,系统入口,3,唤醒小爱说打开陪伴模式，或点小爱陪伴,持续语音对话；片中已处于陪伴界面,暂停与关闭按钮可见；片段未实际退出,video,XCOMP8-01,XCOMP8-ENTRY|XMIT7-21
+XMI-F03,小米,专家模式与代执行,系统入口,系统入口,4,进入专家模式后描述复杂任务,提出任务并授权所需数据 → 核对计划与敏感动作,查看完成结果；退出路径待补实机,video,XM-01,
+XMI-F04,小米,跨设备接力,系统入口,系统入口,4,描述电脑文件名或接续同一会话,确认关联设备和文件,在手机查看结果并继续；退出路径待补实机,video,X4-V11,IMG-205
+XMI-F05,小米,当前屏幕问答,当前屏幕问答,条件入口,5,相机已打开时唤醒小爱，询问当前画面；具体唤醒动作未见,上传含相机控件的画面并生成环境描述；附件拍摄与添加屏幕按钮未演示,返回关闭小爱浮层，恢复原相机；具体手势未见，未退出相机,video,XC22-01|XC22-02|XC22-03,EXT-010|XC22-UPLOAD|XC22-ANSWER|XC22-UPLOAD-THUMB|XC22-UPLOAD-CONTROLS
+XMI-F06,小米,圈屏选对象,圈屏交互,条件入口,6,先唤醒小爱；识物片从圈选开始，日程片从已有菜单开始,圈对象→问小爱；日程支线点创建日程,看回答或日历回执；未关闭，也未打开日历核对,video,XC15-01|XC15-02,EXT-010
+XMI-F07,小米,灵感球指向操作,屏幕与对象,条件入口,7,边缘侧滑停顿呼出灵感球，再拖向攻略中的地址,同时说导航请求并松手，查看路线结果,原片停在路线待确认；未展示开始导航或返回原任务,video,X4-V04|X4-V05|X4-V06|X4-V07,
+XMI-F08,小米,相机拍照问答,屏幕与对象,条件入口,7,历史图见小爱输入栏左侧拍照按钮；未演示点击,拍摄后提问据文档；取景与问答画面仍待补,未展示完成、返回或关闭；仅补历史入口控件图,image,,XC25-CAMERA-ENTRY|XC25-CAMERA-CONTROL
+XMI-F19,小米,本地图片与文档问答,屏幕与对象,条件入口,7,小爱对话附件入口选择本地图片或文档；图仅见右侧＋按钮,添加材料后提问；选择器、提交与回答画面未展示,核对答案；返回或关闭路径未展示,image,,XC22-ATTACHMENT-ENTRY|EXT-012
+XMI-F09,小米,记忆保存与管理,小爱记忆管理,条件入口,8,自动记忆与数据源见设置图；新片从已有记忆列表开始,浏览分类和条目；中途详情仅见加载中,滑退回“我的”页；未新增、编辑或删除记忆,video,XM26-01,IMG-212|EXT-008
+XMI-F10,小米,自然语言找内容,记忆与主动建议,条件入口,9,唤醒小爱,描述要找的照片、文档等内容,查看匹配结果,image,,IMG-194
+XMI-F11,小米,超级岛进度与结果,记忆与主动建议,条件入口,9,任务进行中查看或点击超级岛,任务在超级岛显示进度,点击回到任务或查看自动展开的结果；退出路径待补实机,video,X4-V01|X4-V02,
+XMI-F12,小米,首页个性化推荐（入口待核）,记忆与主动建议,条件入口,9,首页到达方式待核,政策声明个性化推荐；卡片形态待核,单卡接受、忽略及返回均待核,gap,,
+XMI-F13,小米,小爱输入法,写作与办公,应用AI入口,10,编辑框打开小爱输入法，输入或口述原文,打开AI表达，选正式等风格并预览,选候选后核对再发送；图未展示发送动作,image,,XMI-F13-DETAIL7-0|XMI-F13-DETAIL7-1|XMI-F13-DETAIL7-2|XMIKEY7-A|XMIKEY7-B|XMIKEY7-C|XMIKEY7-MEMORY|XMIT7-28|XMIT7-29
+XMI-F14,小米,手机办公套件,写作与办公,应用AI入口,10,点办公套件；网页也可直接向小爱提要求,说明主题，查看生成回执，再打开网页结果,检查内容；本组图未展示导出或退出,image,,XOFF8-ENTRY|XOFF8-REQUEST|XOFF8-RESULT|XMIT7-21|XOFF8-13
+XMI-F16,小米,录音会议总结,写作与办公,应用AI入口,11,录音机开始录音；打开录音详情的AI识音,看会议总结、原文与AI大纲，按时间回听,保存录音并返回；图中未展示点击操作,image,,XC8-REC-SUMMARY|XC8-REC-OUTLINE|XC8-REC-FULL
+XMI-F15,小米,笔记速记与整理,笔记语音速记入口,应用AI入口,12,笔记列表点底部麦克风,语音速记面板展开，计时与波形变化,片尾仍在录音；停止和总结未拍,video,XM40-01,XMI-F15-DETAIL7-0|XMI-F15-DETAIL7-1|XMI-F15-DETAIL7-2|XMINOTE7-A|XMINOTE7-B|XMINOTE7-C|XMINOTE7-TRANSCRIPT|XMINOTE7-SUMMARY|XMINOTE7-QA|XMIT7-25|XMIT7-26|XMIT7-27|XMI-NOTE-V3
+XMI-F17,小米,AI自动代接,通话与影像,应用AI入口,13,待上线：官网预计9月中旬；上线后口述代接时段,核对启用状态，按设定由AI代接,查看摘要与回复建议；当前不作为已上线实测,gap,,
+XMI-F18,小米,一句话修图,通话与影像,应用AI入口,13,片头照片已在AI处理中,随后出现编辑结果与工具栏,停在编辑器；未见保存或关闭,video,RE04,
+OPP-F01,OPPO,小布全局唤醒,系统入口,系统入口,15,语音 / 长按电源键 / 导航条；耳机按键,在小布面板说出任务；看屏问题用当前页面,核对结果；实景会话需单独结束，节选未挂断,video,RE01,
+OPP-F19,OPPO,小布看屏实时对话,系统入口,系统入口,15,唤起小布后开启屏幕实时对话,切换页面，围绕共享画面连续提问,红色结束控件可见；节选未点击结束,video,OP01,
+OPP-F02,OPPO,AI实景对话,实景对话与指向,系统入口,16,长按侧键唤醒小布，再点实景对话；官方图示进入取景,屏幕点选红辣椒；另一段以取景内手指指向黄辣椒，查看对应信息卡,本片未展示挂断或返回；两种指向均不能代表屏幕上方悬浮定位,video,OP25-01|OP25-02|OP25-03|MED-V004|OP-V02,
+OPP-F03,OPPO,双指识屏,屏幕与对象,条件入口,17,首次开启识屏；在目标页面双指按压,从识屏动作列表选比价、提取等服务,核对结果并返回；片段未展示退出,video,OGS7-01,
+OPP-F04,OPPO,拖入小布胶囊,屏幕与对象,条件入口,17,长按文件，保持拖动,拖到小布胶囊，出现添加提示,图停在“松手添加文件”；未见发送,image,,OPP-CAPSULE-V4
+OPP-F05,OPPO,附件问答与摘要,屏幕与对象,条件入口,17,小布对话点附件；旧版图示文档按钮,选文件后看摘要，围绕文档继续提问,核对回答；选文件与退出操作未展示,image,,OGDOC7-A|OGDOC7-B|OGDOC7-C|OG7-F05-02|OG7-F05-03
+OPP-F06,OPPO,扫一扫与拍照翻译,屏幕与对象,条件入口,17,翻译 > 拍照翻译,点击拍照翻译 → 对准菜单并拍照,按需切换目标语言并查看译文；退出路径待补实机,video,MED-V006,
+OPP-F07,OPPO,一键闪记屏幕,闪记采集与找回,条件入口,18,设置开启一键闪记；在目标页面三指上滑。快捷键和截图缩略图为其他入口,当前页面闪记后，打开桌面小布记忆并选择记录,查看同标题文章的AI屏幕摘要；详情退出与删除未展示,video,OM19-01|OP-V03,OM19-PHONE-31|OM19-PHONE-29|OM19-PHONE-24
+OPP-F08,OPPO,语音闪记与收藏同步,记忆与主动建议,条件入口,19,配置快捷键后长按口述；片中只见收音UI,松开记住语音，再点提示查看转写,核对记忆详情；收藏同步与退出未展示,video,OGV7-01,
+OPP-F09,OPPO,订单提醒与建议卡,记忆与主动建议,条件入口,19,设置开启小布建议，添加桌面卡并绑定服务,情境匹配后看建议；片中仅展示配置,点卡承接服务；订单出卡与退出画面待补,video,OGA7-01,
+OPP-F10,OPPO,桌面全局AI搜索,记忆与主动建议,条件入口,19,桌面下滑后输入或说出搜索请求,输入模糊描述或语音搜索要求,查看匹配的本机内容；退出路径待补实机,image,,EXT-007
+OPP-F11,OPPO,键盘AI写作与回复,AI写作,应用AI入口,20,聊天中点键盘AI写作，再选回聊天,选择候选，回填到输入框,核对后发送，回到聊天；未演示撤回,video,OPW14-01,EXT-003
+OPP-F12,OPPO,便签与文档AI工具,AI写作,应用AI入口,20,文档工具栏点AI写作；便签是另一路径,选自由写，输入要求并生成,点替换原文，正文回填；保存与退出未展示,video,OPW14-03,OPW14-NOTE|AUDIMG-317
+OPP-F20,OPPO,便签配图生成文案,AI写作,应用AI入口,21,便签插入图片，点AI写作→发社媒,选平台与风格，生成并核对候选,点替换原文回填便签；未发布到社交平台,video,OPW14-02,
+OPP-F21,OPPO,选区入口与AI润色,AI写作,条件入口,21,选中文字→AI写作；见独立入口图,视频另示文档润色：选风格、看候选,替换后回编辑；未演示撤销或保存,video,OPW14-04,OPW14-SELECTION
+OPP-F13,OPPO,AI录音与纪要,写作与办公,应用AI入口,22,打开录音，开始录制,结束录音后打开录音文件,查看原文或摘要，按需选纪要模板,video,OP-V01,EXT-006
+OPP-F14,OPPO,侧边栏语音摘记,侧边栏语音摘记,应用AI入口,23,视频中调出侧边栏，点AI语音摘记,分别启动应用录音、AI摘要或字幕,面板可收起，任务仍在；停止未拍,video,OA38-01|OA38-02|OA38-03,OPP-F14-OFFICIAL-202503
+OPP-F15,OPPO,小布代接与本人接管,小布代接与回看,应用AI入口,24,片头已在小布代接通话中,查看问候与来电方的实时转写,收到要点通知 → 点击 → 回看记录,video,OC38-01|OC38-02,OPP-F15-OFFICIAL-202503
+OPP-F16,OPPO,通话翻译与摘要,通话与影像,应用AI入口,25,通话中点击翻译入口,点击AI通话助手 > 通话翻译,自动识别不准时手动选择对方语言；退出路径待补实机,image,,EXT-004|EXT-005
+OPP-F18,OPPO,一键与自动指令,通话与影像,应用AI入口,25,小布指令→我的→自动指令→加号,添加触发条件与动作，点右上勾保存,列表中管理开关；实际执行及一键分支待补,image,,OG7-F18-03|OG7-F18-09|OG7-F18-10|OG7-F18-04|OG7-F18-07
+OPP-F17,OPPO,相册AI消除,相册AI消除与采用,应用AI入口,26,日本：照片→编辑→AI编辑器→AI消除,圈住右侧玩偶，处理后目标消失,另段：保存→保存副本→回照片浏览,video,OP30-01|OP30-02|OP30-03,AUDIMG-318
+VIV-F01,vivo,蓝心小V全局对话,系统入口,系统入口,28,语音、长按电源键或桌面图标唤起小V,说出或键入请求，核对答复与执行回执,收起路径未在节选展示；不能把回执当作退出,video,VB-01|VB-02|MED-V008,
+VIV-F03,vivo,桌面与锁屏快捷指令,系统入口,系统入口,28,点击已配置的桌面指令组件,查看指令执行状态；首次配置另行完成,核对执行回执；本片未展示退出或撤销,video,MED-V007,
+VIV-F04,vivo,X Fold6远程Claw,系统入口,系统入口,28,PC部署后，从手机已连接通道发任务,通过小V、微信或QQ描述PC任务,核对返回结果；退出路径待核实,image,,VIVF6-UI-2284
+VIV-F02,vivo,探索发现：智能体与指令,探索发现与智能体,系统入口,29,点击或下拉小V标题栏，进入探索发现,可选智能体；本片点查询天气旁的“试试”,核对小V回答；两条动图均未展示关闭,video,VD16-01|VD6-01,VDISC6-AGENTS-V6
+VIV-F05,vivo,小V圈搜2.0,屏幕与对象,条件入口,30,双指长按屏幕，或长按底部导航条,查看自动识别主体；点服务气泡，必要时圈选,结果落在推荐服务；关闭未展示,video,VI01|VB-04,MED-I001
+VIV-F06,vivo,原子岛拖放到服务,屏幕与对象,条件入口,30,打开原子岛的拖放直达设置,进入置顶服务，添加常用应用,点完成，返回拖放直达设置页,video,VI-SET,
+VIV-F07,vivo,分享给小V问答（OS4）,屏幕与对象,条件入口,30,OS4：在相册 / 文件管理选内容，点分享,分享面板选蓝心小V，对传入内容提问,核对回答；退出与操作画面待补,gap,,
+VIV-F08,vivo,识屏、问屏与输入法填表,识屏填表与资料准备,条件入口,31,双指长按表单，左滑动作栏后点快速填写,核对资料面板，点击填充；先录入资料另算配置,回到原表单，字段已有内容；未登录或提交,video,VB-03|VM33-01|VM33-04,
+VIV-F09,vivo,小V记忆收藏,小V记忆收录与查看,条件入口,32,双指识屏点加入收藏；另一路三指截屏拖向原子岛,识屏路在已收藏提示中打开摘要；拖拽路只见已收藏,收藏后原文仍在；未演示摘要详情退出或撤销,video,VM33-02|VM33-03,MED-I002
+VIV-F10,vivo,小V建议与原子岛,记忆与主动建议,条件入口,33,设置 → 蓝心智能 → 小V建议，启用服务,设置展示位置；情境出现后可点原子岛建议,核对并进入服务；关闭建议用设置开关,video,VS6-01,
+VIV-F11,vivo,小V写作：笔记与键盘,键盘润色与笔记写作,应用AI入口,34,输入文字后点键盘AI,选润色候选，点击采用；动图为旧版演示,原文替换，回到键盘；撤销与保存未演示,video,VQ13-01|VB-05|VV40-01,
+VIV-F12,vivo,小V帮记与媒体摘记,写作与办公,应用AI入口,36,媒体场景侧滑出侧边栏，点小V帮记并授权,查看字幕，选择AI总结或分角色；会议另有支线,回看文本或收起浮窗；节选未关闭,video,VN-01|VN-02,
+VIV-F13,vivo,X Fold6文件管家,写作与办公,应用AI入口,36,打开AI文件管家，选择文件来源或类型,提出搜索或整理要求，核对匹配文件,打开目标文件处理；退出路径待实测,image,,VIVF6-UI-1877|VIVF6-UI-1875
+VIV-F14,vivo,X Fold6会议助手,录音指定说话人总结,应用AI入口,37,在已有录音的总结模板展开指定说话人,仅保留目标发言人，确认后开始生成,正文逐步出现；片尾仍正在生成,video,VV40-02,VIVF6-UI-2267|VIVF6-UI-2263
+VIV-F15,vivo,电话助手与AI找人工,通话与影像,应用AI入口,38,客服电话接通后，点小V电话助手,15秒内选择AI找人工，等待助手接入,接管后继续通话；原演示未展示挂断,video,VC-01|VC-02,
+VIV-F16,vivo,来电反诈提醒,通话与影像,应用AI入口,38,首次在设置开启AI防诈盾牌,通话中识别到风险，出现提醒说明,选挂断、信任或忽略；图未展示选择结果,image,,NS7-VIV-F16-01
+VIV-F20,vivo,AI相机摄影助手,通话与影像,应用AI入口,38,进入相机取景界面,查看场景识别与构图建议,按建议拍摄；可返回普通取景,image,,VIVF6-UI-3334
+VIV-F21,vivo,图库超智能搜索,通话与影像,应用AI入口,38,打开相册搜索,描述人物、演出或场景,选择结果查看；返回搜索列表,image,,VIVF6-UI-3335
+VIV-F17,vivo,Live Photo AI消除,AI照片消除,应用AI入口,39,动态照片→编辑→AI修图→AI消除,圈选路人，开始识别，再开始消除,点✓回编辑，再点完成；保存后的相册回显未展示,video,VEX15-01|VI02|MED-V010,VEX15-ENTRY|VEX15-CONFIRM|VEX15-RETURN|VEX15-FINISH
+VIV-F18,vivo,vivo看见问环境与认人,无障碍,应用AI入口,40,设置中打开vivo看见，选环境问答,相机对准对象提问；认人需另行录入人像,结束按钮可见；片中拍挂饰，未展示认人或结束,video,RE02,AUDIMG-319
+VIV-F19,vivo,vivo听说声音记忆,声音记忆,应用AI入口,41,听说设置→声音记忆→添加姓名,点开始录制，再长按录入声音,录制成功后校验中；保存、返回未展示,video,VV23-01|VV-01|VV-02,VV23-SUCCESS
+HON-F01,荣耀,YOYO全局唤醒,系统入口,系统入口,43,说出已录入的YOYO唤醒词,说出问题或设备操作要求,查看或听取YOYO反馈,image,,HON-WIN-UI-117|HON-WIN-UI-144|HON-TIP-390
+HON-F02,荣耀,YOYO看见视频通话,系统入口,系统入口,43,电源键1秒 → YOYO音视频通话,切到视频，对准目标，边看边问,点击结束，或说“退出通话”,image,,HON-LIVE-REF538
+HON-F03,荣耀,指关节圈选任意门,屏幕与对象,条件入口,44,指关节圈选图库照片,点任意门中的YOYO，询问照片地点,查看回复；片尾开始下一次收音,video,MED-V012,HON-CIRCLE-V3-A|HON-CIRCLE-V3-B
+HON-F05,荣耀,照片识物与Magic文本,屏幕与对象,条件入口,44,唤醒YOYO，进入看见,拍照或导入图片,查看识物结果,image,,HON-WIN-UI-123
+HON-F06,荣耀,图库自然语言搜图,屏幕与对象,条件入口,44,图库 > 相册 > 搜索框输入描述,在搜索框描述目标画面,按照片、文字、视频等分类查看匹配结果；退出路径待补实机,image,,HON-SEARCH-V3
+HON-F04,荣耀,拖拽任意门,任意门拖拽建日程,条件入口,45,聊天截屏，或长按消息选中文字,拖到任意门的“新建日程”后释放,解析出待确认表单；保存/返回未拍,video,HN39-01|HN39-02,HND36-FILE
+HON-F07,荣耀,YOYO记忆,记忆采集与找回,条件入口,46,三指下滑、对话记住、应用收藏；AI键需先绑定,查看收录反馈；对话日程支线再打开日历,三条独立支线；具体关闭手势未展示，日程星期标注不一致,video,HM17-01|HM17-02|MED-V011,HM17-RETURN-1|HM17-RETURN-2|HM17-RETURN-3|HM17-RETURN-4|HM17-CROP-RECEIPT|HM17-CROP-CALENDAR
+HON-F08,荣耀,YOYO情境服务卡,记忆与主动建议,条件入口,47,负一屏快递卡先绑定；桌面可出现取件提醒,查看待取件数与位置，按需点查看详情,两张独立状态图；未展示绑定操作、详情、取件码或退出,image,,HON-WIN-UI-130|HON-WIN-UI-133
+HON-F09,荣耀,AI帮写,写作与办公,应用AI入口,48,长按输入框点AI帮写；或点智能配文,说明要求，核对生成内容,点插入内容或×；回填、关闭后状态未展示,image,,HON-TIP-414|HONW13-RESULT|HONW13-ENTRY
+HON-F10,荣耀,荣耀文档生成PPT,写作与办公,应用AI入口,48,荣耀文档 → AI文档 → 生成PPT,输入要求，选模板并生成,打开结果修改；退出路径待核实,video,MED-V014,
+HON-F12,荣耀,面对面对话与同传,写作与办公,应用AI入口,48,打开智慧空间，选择翻译场景与语言,点击开始；双方轮流说话或听同声传译,图中Done仅表示说完了；整个会话退出待核实,video,MED-V016,
+HON-F11,荣耀,AI帮记与会议纪要,笔记内会议纪要,应用AI入口,49,笔记中进入录音状态，显示实时波形,识别发言人；另段进入AI会议纪要,提示纪要已生成；插入与返回未拍,video,HN39-03|HN39-04,HON-WIN-UI-206
+HON-F13,荣耀,AI接听与文字回复,通话与影像,应用AI入口,50,AI接听 > 通话字幕,输入文字并发送给对方听,需要时退出回到语音通话,image,,HON-CALL-V3
+HON-F14,荣耀,通话翻译,通话与影像,应用AI入口,50,通话中点击通话翻译,设置双方语言,继续交谈并查看或收听译文；退出路径待补实机,image,,HON-WIN-UI-210
+HON-F15,荣耀,反诈提示与主动检测,通话与影像,应用AI入口,50,已开启后在支持通话中自动检测并提示,警告与处置建议,出现风险提示时查看并另行核实；退出路径待补实机,image,,HON-WIN-UI-055|HON-WIN-UI-059
+HON-F16,荣耀,图库魔法修图,通话与影像,应用AI入口,50,图库 > 魔法修图 > AI消除,进入魔法修图 > AI消除 → 圈选、涂抹或选用相应消除模式,对比效果后保存,video,MED-V015,
+HON-F17,荣耀,当前图片购物建议,当前图片购物建议,条件入口,51,图片 → 长按导航条,点购物平台 → 查看 → 切平台,停在相似商品列表；未演示返回,video,HN43-01,
+HON-F18,荣耀,分屏图文对话,分屏图文对话,条件入口,52,YOYO 浮层 → 分屏对话,保留图片 → 提问 → 点建议追问,保持分屏；关闭与回图库未展示,video,HN43-02,
+HUA-F01,华为,小艺全局唤醒,导航条语音入口,系统入口,54,桌面长按底部导航条，展开小艺,保持按住，说“明日天气”,松手发送；原片停在等待回复,video,HW38-01,IMG-001|IMG-146|AUDIMG-245|AUDIMG-246|AUDIMG-247|AUDIMG-248|AUDIMG-249|AUDIMG-250|AUDIMG-251|AUDIMG-252|AUDIMG-253|AUDIMG-254
+HUA-F02,华为,首页侧栏与智能体广场,系统入口,系统入口,55,点击桌面小艺图标,在主对话首页点击输入框或语音入口,输入或说出需求并查看回答；退出路径待补实机,video,H7-V01,HS19-SIDEBAR|AUDIMG-085|AUDIMG-088|AUDIMG-089|AUDIMG-128|AUDIMG-129|AUDIMG-130|AUDIMG-131|AUDIMG-132|AUDIMG-133|AUDIMG-134|AUDIMG-135|AUDIMG-136|AUDIMG-137|AUDIMG-138|AUDIMG-139|AUDIMG-140|AUDIMG-141|AUDIMG-142|AUDIMG-143|AUDIMG-144|AUDIMG-145|AUDIMG-146|AUDIMG-147|AUDIMG-148|AUDIMG-170
+HUA-F03,华为,小艺Claw执行与结束,小艺Claw任务,系统入口,56,本片点桌面Claw图标进已有Beta会话；新版侧栏另见入口图,另段头条任务显示发布成功；家居宣传为独立任务,执行中确认框点结束，加载后手动切回头条；不代表撤销发布,video,HC21-01|HC21-02|H7-V05,HS19-SIDEBAR|CE21-CONFIRM
+HUA-F30,华为,小艺任务管理与删除,任务管理与删除,系统入口,57,新版从小艺侧栏进任务；视频用旧版右上更多菜单,任务列表长按护眼模式卡，点删除,确认后该卡移除；删聊天卡不能终止任务。视频未离开任务列表,video,HT21-01,AUDIMG-312|AUDIMG-313|AUDIMG-314|AUDIMG-315|HT21-LIST|HT21-CONFIRM|HT21-REMOVED
+HUA-F31,华为,负一屏Claw消息关联,Claw消息与停止关联,条件入口,58,负一屏头像→四点→动态管理→关联账号；先完成Claw关联,接收AI任务动态，点消息看详情；电脑执行任务,关联页点停止关联并确认，旧授权码失效；不代表电脑任务停止,image,,AUDIMG-256|AUDIMG-257|AUDIMG-261|AUDIMG-265|CL21-ASSOC|CL21-CARD|CL21-DETAIL|CL21-STOP|CL21-CONFIRM|CL21-REOPEN
+HUA-F04,华为,生成任务后台回流,后台任务与回流,系统入口,59,向小艺提问；回答生成中可返回桌面,在其他界面看任务提示：正在回复中 → 已回复完成,点任务完成提示，回到回答；未展示最终退出,image,,HB19-COMPLETE-ZOOM|HB19-GENERATING-PANEL|HB19-STATUS|HB19-COMPLETE-RETURN|HB19-RETURN|HB19-COMPLETE|HB19-RUNNING|HB19-REPLYING|AUDIMG-266|AUDIMG-267
+HUA-F05,华为,双击导航条开启伴随,伴随窗口关闭与返回,条件入口,60,文档入口：双击导航条开启伴随,本片从应用与伴随窗并列开始,点右上关闭，应用恢复满屏,video,HW39-01,IMG-002|IMG-003|HUA-EXIT-V2|HC12-WINDOW|HC12-CLOSE
+HUA-F06,华为,单次识屏与主动建议,伴随式AI,条件入口,61,伴随式内点击识别屏幕，或使用允许自动分析的App,读话题或服务卡，核对地址、日期和对象,点服务卡承接；回桌面仍保留伴随，需另行退出,video,HW-01,IMG-009|IMG-010|IMG-014|IMG-015|AUDIMG-311
+HUA-F07,华为,鸿蒙7圈选与智能填表,伴随式AI,条件入口,62,先进入伴随式AI（鸿蒙7适配机型）,圈选后点话题；表单点智能填表,核对再提交；用伴随关闭按钮退出,image,,HUA-CIRCLE-UI-014|HUA-CIRCLE-UI-015|HUA-CIRCLE-UI-016|HUA-CIRCLE-UI-017|HUA-F07-readable-v4-menu-entry|HUA-F07-readable-v4-menu-dialog|HUA-F07-readable-v4-menu-result|HUA-F07-readable-v4-fill-trigger|HUA-F07-readable-v4-fill-candidates
+HUA-F08,华为,小艺看世界实时对话,伴随式AI,条件入口,63,说“小艺你看”；6.0+半屏点视频，全屏点通话后开摄像头,对准对象口述，可打断；按需开字幕、翻转或静音,点右下挂断，回到小艺主对话；静音仅停止收音,video,MED-V021,HV12-ENTRY|HV12-FULL|HV12-VIEW|HV12-MUTE|HV12-HANGUP
+HUA-F09,华为,指关节圈选问小艺,指关节圈选,条件入口,64,指关节圈住消息，点问问小艺,点转账建议，再按提示验证指纹,停在转账信息页；未点下一步或返回,video,HW28-01,IMG-149|IMG-150
+HUA-F10,华为,双指／智控键识屏,双指与智控键识屏,条件入口,65,双指据旧图；智控键设置未见绑定完成,另段双触智控键识屏，展示全屏翻译,译文已显示；未关闭或返回原文,video,HW28-05|HW28-06,IMG-141|IMG-143
+HUA-F11,华为,拖给导航条与输入框,拖给小艺,条件入口,66,将已选地址拖给小艺；旧文档另支线,地址点记地址；旧文档请求加入知识库,分别见记忆卡与回执；两段均未关闭,video,HW28-02|HZ11-01|MED-V018,HZ11-RECEIPT
+HUA-F12,华为,鸿蒙7复制与连续翻译,屏幕与对象,条件入口,67,长按聊天口令并复制,点击底部导航条的淘宝建议,打开对应商品页,video,H7-V02,
+HUA-F13,华为,帮记屏幕与口述,记忆与主动建议,条件入口,68,唤醒小艺，使用语音输入,说“记一下”及内容；也可要求记住当前屏幕,核对生日记忆卡；屏幕保存回执与退出未展示,image,,AUDIMG-094|AUDIMG-096|AUDIMG-097|AUDIMG-098|AUDIMG-102|AUDIMG-126|AUDIMG-255|HMEM10-094|HMEM10-096|HMEM10-097
+HUA-F14,华为,帮记分享与收藏同步,记忆与主动建议,条件入口,68,"分享页点小艺帮记；
+同步收藏从帮记四点菜单设置",分享所选内容；或开启同步收藏后在浏览器收藏,到帮记核对内容；两支线回执和退出未展示,image,,HSHARE10-TARGET|HSHARE10-SYNC|AUDIMG-099|AUDIMG-100
+HUA-F15,华为,资料库按范围提问,记忆与主动建议,条件入口,69,打开小艺帮记；点加号添加资料,在全局、合集或单条内容的提问框发问,旧版实录可见答案与参考来源；未打开引用或退出,video,HZ11-02,HLIB10-ADD|HLIB10-SCOPE1|HLIB10-SCOPE2|HLIB10-SCOPE3|AUDIMG-092|AUDIMG-095|AUDIMG-101|AUDIMG-103|AUDIMG-104|AUDIMG-105|AUDIMG-106|AUDIMG-107|AUDIMG-108|AUDIMG-109|AUDIMG-111|AUDIMG-113|AUDIMG-117|AUDIMG-123
+HUA-F16,华为,小艺简报与搜索,记忆与主动建议,条件入口,69,"点桌面简报卡片；
+搜索用桌面下滑",简报查看摘要；搜索输入关键词找内容,打开目标内容；图中未展示播放或退出,image,,HBRIEF10-CARD|HBRIEF10-VIEW|HBRIEF10-SEARCH|AUDIMG-240|AUDIMG-241|AUDIMG-242|AUDIMG-243|AUDIMG-244|AUDIMG-268|AUDIMG-270|AUDIMG-271|AUDIMG-272
+HUA-F29,华为,帮记生成互动播客,记忆与主动建议,应用AI入口,70,在帮记或小艺对话中点“播客生成”,选资料和篇幅，确认生成；播放时可点“我要提问”,旧版实录展示识别问题并开始回应；未录到关闭或恢复播放,video,HZ11-03,HPOD10-SETUP|HPOD10-PLAY|HPOD10-TEXT|HPOD10-ENTRY|AUDIMG-124|AUDIMG-125
+HUA-F17,华为,小艺慧记,小艺慧记开始记录,应用AI入口,71,唤醒小艺，输入“打开小艺慧记”,在慧记卡片点击“开始慧记”,录音面板显示计时；停止/退出未拍,video,HW39-02,HN19-DETAIL-TOP|HN19-CARD-ACTIONS|HN19-CARD-TITLE|HN19-DETAIL|HN19-SAVED|AUDIMG-192|AUDIMG-193|AUDIMG-194|AUDIMG-196|AUDIMG-197|AUDIMG-198|AUDIMG-199|AUDIMG-200|AUDIMG-201|AUDIMG-202|AUDIMG-203|AUDIMG-204|AUDIMG-206|AUDIMG-207|AUDIMG-208|AUDIMG-209|AUDIMG-210|AUDIMG-211|AUDIMG-212|AUDIMG-213|AUDIMG-215|AUDIMG-217|HUA-F17-readable-v4-entry|HUA-F17-readable-v4-start|HUA-F17-readable-v4-record-controls|HUA-F17-readable-v4-saving|HUA-F17-readable-v4-summary|HUA-F17-readable-v4-export
+HUA-F33,华为,备忘录转写与AI整理,备忘录转写与摘要,应用AI入口,72,片头录音转写已开始；点停止,转写添加至原文，再选智能摘要,摘要添加至原文，回笔记；未退出应用,video,HW28-04,
+HUA-F34,华为,小艺输入法 · 小艺帮写,写作与办公,应用AI入口,,当前输入框调出小艺输入法，点帮写,输入要求并选择场景/语气，生成或重试,点插入回填输入框；发送/保存/退出未见,image,,HW45-IMG01|HW45-IMG02|HW45-IMG03
+HUA-F18,华为,录音机智能摘要,写作与办公,应用AI入口,73,录音机打开录音，先转为文本,在转写页点智能摘要，检查要点,复制、分享或添加到文本；退出待实测,image,,AUDIMG-188|AUDIMG-189|AUDIMG-191|HUA-F18-readable-v4-transcribe-button|HUA-F18-readable-v4-transcribe-settings|HUA-F18-readable-v4-summary-button|HUA-F18-readable-v4-summary-actions|HUA-F18-readable-v4-summary-in-text
+HUA-F19,华为,AI字幕与媒体翻译,写作与办公,应用AI入口,73,从控制中心或设置打开AI字幕,选择源语言与译文语言，播放音视频,核对字幕；关闭浮窗或关闭AI字幕开关,image,,AUDIMG-219|HUA-F19-readable-v4-subtitle-window|HUA-F19-readable-v4-settings|HUA-F19-readable-v4-source-language|HUA-F19-readable-v4-target-language
+HUA-F20,华为,小艺帮接与通话摘要,通话与影像,应用AI入口,74,电话中打开目标通话记录详情,点击对应通话右侧小艺记录标识,查看帮接内容与摘要,image,,AUDIMG-294|AUDIMG-295|AUDIMG-296|AUDIMG-297|AUDIMG-298|AUDIMG-299|AUDIMG-300|AUDIMG-301|AUDIMG-302|AUDIMG-303|AUDIMG-304|AUDIMG-305|AUDIMG-306|AUDIMG-307|AUDIMG-308|AUDIMG-309|AUDIMG-310
+HUA-F22,华为,相机识物与图库抠图,通话与影像,应用AI入口,74,图库长按照片主体；相机路径据文档：快门下方上滑,图库点识图搜索；相机选小艺视觉扫一扫后拍摄,图仅见图库主体菜单；相机画面和两路退出待补,image,,IMG-153|IMG-161|IMG-162
+HUA-F23,华为,图库一键成片,通话与影像,应用AI入口,74,图库多选 > 创作 > 一键成片,点击创作 > 一键成片 → 选择主题、时长；在支持机型选择AI灵动,生成后检查并编辑模板，保存成片,video,HW42-01,AUDIMG-223|AUDIMG-227|AUDIMG-228|AUDIMG-229|AUDIMG-230|AUDIMG-231|AUDIMG-232|AUDIMG-234|AUDIMG-235|AUDIMG-236|AUDIMG-237|AUDIMG-238
+HUA-F21,华为,导航条一句话修图,图库修图与取消,应用AI入口,76,图库打开照片，长按底部导航条,提出油画风修图要求；图示进入生成中3%,处理中可见取消；未展示取消后状态、保存或返回原图,image,,HE20-CANCEL|AUDIMG-149|AUDIMG-150|AUDIMG-151|AUDIMG-152|AUDIMG-153|AUDIMG-154|AUDIMG-155|AUDIMG-156|AUDIMG-157|AUDIMG-158|AUDIMG-159|AUDIMG-160|AUDIMG-161|AUDIMG-162|AUDIMG-163|AUDIMG-164|AUDIMG-165|AUDIMG-166|AUDIMG-167|AUDIMG-168|AUDIMG-169
+HUA-F32,华为,图库AI修图工具,图库AI修图,应用AI入口,77,图库照片点编辑，再点小艺修图,选中路人后点开始消除，查看生成结果,仍在编辑器；未保存、撤销或退出,video,HW28-03,
+HUA-F24,华为,音乐推荐与歌单收藏,原生应用Agent,应用AI入口,78,音乐首页展开助手，提出音乐推荐要求,查看推荐，随后进入歌单编辑页,回到助手，歌单显示已保存；未验证播放或退出,video,H7-V08,
+HUA-F25,华为,影视推荐与边看边问,原生应用Agent,应用AI入口,78,视频首页展开助手；具体点击未核实,先看影片推荐；后段在播放页追问剧情,回答仍在浮层；未展示关闭或停止播放,video,H7-V09,AUDIMG-171|AUDIMG-172|AUDIMG-173|AUDIMG-174|AUDIMG-175|AUDIMG-176|AUDIMG-177|AUDIMG-178|AUDIMG-179|AUDIMG-180|AUDIMG-181|AUDIMG-182|AUDIMG-183
+HUA-F26,华为,阅读荐书、问书与选词,原生应用Agent,应用AI入口,79,书城进入阅读助手；具体触发手势未见,输入找书要求，查看推荐并打开书籍,停在《宋史》详情；未进入阅读或返回,video,HR35-01|HR35-02|H7-V10,AUDIMG-187
+HUA-F27,华为,主题个性化与新预览,原生应用Agent,应用AI入口,79,主题详情点AI个性化，进入编辑预览,键入换人要求并提交，显示生成进度,新人物预览出现；应用按钮未点击，未退出,video,H7-V11,
+HUA-F28,华为,帮帮忙代操作与教学,旧版代操作,应用AI入口,81,长按导航条说缓存请求；教学展示打开华为视频,上滑收至后台，可继续聊天；点导航条胶囊返回任务页,收起仍执行；停止路径见右图，未录到确认后的终止结果,video,RE05|HW26-01|HW26-02,HT12-STOP|HT12-HANDOFF
+APL-F01,Apple iPhone,Siri语音与侧键,Siri语音与侧键,系统入口,83,文档：语音或侧键；本片唤醒动作未核,Siri出现，显示天气卡；传统历史界面,底部触屏后收起回答，回原设置页,video,AP29-01,APL24-V3-019
+APL-F02,Apple iPhone,Type to Siri,系统入口,系统入口,84,双击屏幕底部 → 键入请求并提交,键入请求并提交,查看回复或继续追问；退出路径待补实机,video,A3-01,APL-F02-UI-000
+APL-F03,Apple iPhone,视觉智能实景入口,屏幕与对象,条件入口,85,按住Camera Control；或操作按钮 / 控制中心,对准物体，点搜索；文字可用翻译等动作,关闭结果或上滑返回主屏幕（实机见右图）,video,AP01,APL-F03-UI-000
+APL-F04,Apple iPhone,截图视觉智能,屏幕与对象,条件入口,85,同时短按侧键与音量上键截屏,划过目标进行视觉搜索；也可Ask提问,关闭截图；按需要保存或删除,video,A26-V01,MED-I006
+APL-F06,Apple iPhone,长按提取照片主体,屏幕与对象,条件入口,86,全屏打开照片或暂停视频，长按主体,出现轮廓后，点Copy Subject或Share,在目标应用粘贴或分享,image,,AUDIMG-014
+APL-F05,Apple iPhone,实况文本与视觉查询,照片查询与返回,条件入口,87,照片点带星标的信息键，再点Look Up；实况文本为另一入口,查看识别结果和物种详情；文字复制/翻译未在本片展示,详情面板下收后关闭，回到原照片信息页；仍在Photos,video,AE20-01|A2-01,AE20-01-PHONE-3|AE20-01-PHONE-2|AE20-01-PHONE-1
+APL-F07,Apple iPhone,Writing Tools,写作与办公,应用AI入口,88,选中文字菜单 / 键盘右上Writing Tools,校对、改写、摘要或输入自定义要求,选择保留 / 复制 / 撤回；发送仍由用户决定,video,A2-03,MED-I007
+APL-F10,Apple iPhone,Notes录音摘要,写作与办公,应用AI入口,88,笔记中打开已有录音附件；新建录音另行操作,转写页点Summary，查看摘要,Back回转写，Done结束；图未展示点击动作,image,,NSNOTE7-A|NS7-APL-F10-02|NS7-APL-F10-01|NSNOTE7-B|NSNOTE7-C
+APL-F08,Apple iPhone,邮件摘要与智能回复,邮件串摘要流程,应用AI入口,89,收件箱点邮件串，进入会话详情,点Summarize，等待顶部摘要出现,原文留在摘要下方；返回未演示,video,AM39-01,AUDIMG-001
+APL-F09,Apple iPhone,Safari网页摘要,Safari摘要与回读,应用AI入口,90,页面菜单 → Show Reader → Summary,查看摘要；再点Summary折叠，仍在Reader,手指按返回区域；Google画面为原片跳切,video,AS40-01|AS40-02,APL-SAF-UI-V3-5|APL-SAF-UI-V3-6|APL-SAF-UI-V3-7|APL-SAF-UI-V3-8
+APL-F11,Apple iPhone,通知摘要与专注模式,主动建议与通信,条件入口,91,打开通知中心或锁屏通知 → 阅读摘要或优先通知,阅读摘要或优先通知 → 展开相关通知核对完整内容,点击进入对应应用；退出路径待补实机,image,,AUDIMG-021
+APL-F12,Apple iPhone,Messages摘要/回复/投票,主动建议与通信,条件入口,91,Messages群聊中点Create Poll建议,核对投票选项；摘要/回复操作图待补,图示已出现投票卡；退出群聊未展示,image,,APL-F12-V6-01|APL-F12-V6-02
+APL-F13,Apple iPhone,提醒事项建议与分组,主动建议与通信,条件入口,91,打开内容，点Share → Reminders,选择清单，勾选建议或Include All,点击完成，保存提醒事项,image,,APL-F13-UI-000
+APL-F14,Apple iPhone,消息与FaceTime翻译,主动建议与通信,条件入口,91,外语信息会话中点顶部联系人或群组,调整Translate From / Translate To,返回看译文；在Translating中看原文或停止,image,,AUDIMG-016
+APL-F15,Apple iPhone,电话实时翻译,通话,应用AI入口,92,一对一电话中点更多 → Live Translation,选择双方语言，点Start Translation,听取并查看译文；退出路径待核实,image,,APL-F15-UI-003
+APL-F16,Apple iPhone,Hold Assist等待助理,通话,应用AI入口,92,通话被置于等待时点击更多 → 点击 Hold Assist,点击 Hold Assist → 收到接通提醒时查看提示,点击重新加入通话；退出路径待补实机,image,,APL-F16-UI-002
+APL-F17,Apple iPhone,通话录音与留言摘要,通话录音与回看,应用AI入口,93,通话中点More → Call Recording,显示录音告知，随后出现计时条,另段在Notes打开录音；挂断未拍,video,AC39-01|AC39-03,APL-LAUNCH-UI-V3-3
+APL-F18,Apple iPhone,Genmoji表情键盘,Genmoji生成与返回,应用AI入口,94,表情键盘中点Genmoji,添加建议组合，左右浏览生成候选,底部上滑回主屏幕；未展示采用或发送,video,AE17-01|A2-04,APL-F18-UI-000
+APL-F19,Apple iPhone,Image Playground,图像生成与返回,应用AI入口,95,桌面滑至App资源库，搜索Playground并点New Image,新建页为Genmoji；后段展示Animation人物候选,上滑进入多任务，再回App资源库；未证明点Save保存,video,A2-05|AP26-01|AP27-01|A26-V02,APL-F12-UI-005|AUDIMG-005
+APL-F20,Apple iPhone,Notes Image Wand,笔记图像魔杖,应用AI入口,96,Notes绘图工具中选Image Wand；左侧为海滩草图示例,圈住草图并补描述；机器人为另一段文字上下文任务,机器人示例点Done后回笔记，可继续编辑；未离开Notes,video,A4-01|A4-02|AP26-02,
+APL-F21,Apple iPhone,Photos Clean Up,照片消除与完成,应用AI入口,97,打开照片，点编辑→Clean Up,点选、涂抹或圈出对象，检查修补结果,点Done结束编辑；原片后段回到照片查看页，未离开Photos,video,AE16-01|A2-02,
+APL-F22,Apple iPhone,照片搜索与回忆影片,照片搜索与回忆,应用AI入口,98,图库点底部搜索，展开输入键盘,输入Tower；显示No Results与分析提示,另段People搜索后返回Library,video,AP38-01|AP38-02,APL-F21-UI-000|MED-I008
+APL-F23,Apple iPhone,Live Recognition快捷入口,无障碍,应用AI入口,99,先开启VoiceOver，再四指三击启用实时识别,选择识别类别，对准环境；图中已选文字,再四指三击或点Stop Recognition；退出未拍到,image,,AV8-IMG-01
+PIX-F01,Google Pixel,Gemini全局唤醒,Gemini唤起与返回,系统入口,101,主屏按右侧实体键区域，Gemini展开,点Ask Gemini输入；另段滚动回答,点回答卡外主屏区域，面板消失,video,PX38-02|PX38-01,PIX-GEMINI-PANEL-v2
+PIX-F02,Google Pixel,Gemini Live相机,系统入口,系统入口,102,Gemini面板 → Live → 相机按钮,对准目标并口述；此教程预览黑屏,点相机按钮停止共享；红叉结束整个Live,video,PX01|P3-01,
+PIX-F03,Google Pixel,Gemini Live共享屏幕,系统入口,系统入口,102,Gemini面板点Share screen with Live；也可从Live内开启共享,切回需要讨论的App，围绕共享画面持续提问,在通知中停止共享；点Hang up结束整个Live,video,P5-01,P5-ENTRY-V5|P5-END-V5
+PIX-F04,Google Pixel,问当前屏幕/网页/视频,屏幕与对象,条件入口,103,打开目标App或网页，唤起Gemini,点Ask about screen / page，输入问题,图为通用Android，机型未标；退出未展示,image,,GEMCONTEXT6-0|GEMCONTEXT6-1|GEMCONTEXT6-2
+PIX-F05,Google Pixel,Circle to Search,屏幕与对象,条件入口,103,长按Home或底部导航条,圈选目标；可在Add to your search补充文字,查看结果，返回原应用,video,MED-V028,
+PIX-F06,Google Pixel,AI Mode与个人搜索,屏幕与对象,条件入口,103,点主屏搜索栏的AI Mode图标,输入问题并追问；本图只显示入口,返回主屏；个人搜索和退出操作图待补,image,,PG7-A01
+PIX-F07,Google Pixel,Lens拍照翻译,屏幕与对象,条件入口,103,主屏搜索栏点Lens；图为2023年官方演示,选Translate，再选已存图片；拍照为另支线,查看覆盖译文；本片未展示返回动作,video,PGL7-01,PG7-A02|PG7-A03|PG7-A04
+PIX-F08,Google Pixel,Screenshots保存与检索,记忆与主动建议,条件入口,104,截图后点缩略图；也可打开Screenshots App,在App搜索已保存截图，或进入单张截图,核对来源并使用建议动作；返回图库,image,,PIX-SHOTS-UI-003
+PIX-F09,Google Pixel,Magic Cue,记忆与主动建议,条件入口,104,在支持的App情境中接收Magic Cue建议,点建议信息使用；长按可查看来源,核对引用内容；设置中管理数据源和开关,image,,PIX-CUE-UI-001|PIX-CUE-UI-002
+PIX-F10,Google Pixel,主动建议与At a Glance,记忆与主动建议,条件入口,104,启用Proactive assistance并授权数据源,点击消息或At a Glance情境建议，进入任务,核对预填信息；预订仍需确认，节选未完成,video,MED-V027,
+PIX-F11,Google Pixel,Gboard Rambler语音,写作与无障碍,应用AI入口,105,文本框中调出Gboard，点麦克风,自然口述；点Done或松开麦克风结束,核对写入文字，按需口述修改,video,MED-V026,RAMBLER-V5-0|RAMBLER-V5-1
+PIX-F13,Google Pixel,手语转文字入口,写作与无障碍,应用AI入口,105,Gboard点Sign-to-text；或在Live Transcribe使用,对前摄用ASL表达；双手移出后查看英语文字,Gboard再点Sign-to-text回键盘；图示为转写App,image,,PXSIGN-UI-V3-001
+PIX-F14,Google Pixel,Recorder摘要,写作与无障碍,应用AI入口,106,Recorder中打开录音，进入Transcript,按提示启用后，点Summarize,展开摘要，回听录音；退出路径待核实,video,REC6-01,
+PIX-F12,Google Pixel,Gboard Writing tools,键盘改写与回填,应用AI入口,107,Gboard写草稿后点Writing tools,选风格，查看Professional候选，再点Use this,新文回填，普通键盘恢复；未点Undo或发送,video,P4-01|PX26-01,
+PIX-F15,Google Pixel,Call Screen筛选来电,通话与翻译,应用AI入口,108,收到来电时点击 Screen call → 阅读实时转写,阅读实时转写,选择建议回复或接听、挂断；退出路径待补实机,video,PX-02,
+PIX-F16,Google Pixel,Take a Message留言,通话与翻译,应用AI入口,108,未接或拒接后查看Taking a Message通知,可点Answer接听；或在Phone的Home打开记录,查看录音、转写和后续建议；退出待核实,image,,PIX-MESSAGE-UI-000
+PIX-F18,Google Pixel,聊天与媒体Live Translate,通话与翻译,应用AI入口,108,聊天收到外语信息，按提示启用翻译,来信转译；输入回复并检查目标语言,确认发送；媒体翻译与退出未在本片展示,video,PGC7-01,PG7-A08|PG7-A05|PG7-A06|PG7-A07
+PIX-F17,Google Pixel,电话语音翻译,通话语音翻译,应用AI入口,109,通话中点通话辅助，选语音翻译,确认对方语言，进入通译界面,片中未停止翻译或挂断；译音效果未测,video,AU23-01,PIX-DROP-UI-003|AU23-LANGUAGE|AU23-ACTIVE
+PIX-F19,Google Pixel,Magic Capture,相机与照片,应用AI入口,110,相机模式滑条中选Magic Capture,对准场景拍摄，点Stop结束,点缩略图查看；本片仍显示Processing,video,MC6-01|MC6-02,
+PIX-F20,Google Pixel,Google Photos问答与编辑,相机与照片,应用AI入口,110,打开照片：点Ask提问，或进编辑中的Ask,描述照片问题或编辑要求，核对回答或预览,编辑结果按需保存；问答退出路径待核实,image,,PIX-DROP-UI-005
+SAM-F01,Samsung Galaxy,侧键/语音Gemini与Bixby,系统入口,系统入口,112,Hey Google / Hi Bixby，或长按已配置侧键,向当前助手提问；Bixby可查找与调整设置,核对回答或设置变化；节选未展示收起面板,video,MED-V030|MED-V031,SAMG-V3-148
+SAM-F02,Samsung Galaxy,Gemini Live相机与屏幕,系统入口,系统入口,112,Gemini面板点Live图标,点相机对准对象；或点共享屏幕并确认,红叉结束整个Live；配图B为共享屏幕分支,image,,SAMG-V3-158|SAMG-V3-160|SAMG-V3-162|SAMG-V3-164|SAMG-V3-166
+SAM-F03,Samsung Galaxy,Circle to Search,圈选搜索与返回,条件入口,113,图库选照片后长按Home；手势导航可长按底部导航条,圈选对象，上滑搜索结果；本片查看盆栽匹配,实录按Home键回到主屏幕，未回原照片；S25官方片未展示退出,video,CTS20-01|CTS20-02,CTS20-02-PHONE-4|CTS20-02-PHONE-3|CTS20-02-PHONE-2|CTS20-02-PHONE-1|MED-I014
+SAM-F04,Samsung Galaxy,Edge AI Select,AI Select日历动作,条件入口,114,邮件已打开：长按右侧Edge handle,斜向划过票据，点识别出的日期,日历改标题→Save→月历显示日程,video,AS31-01|AS31-02|AR32-01|AR32-02|AR32-03|AR32-04,MED-I009
+SAM-F05,Samsung Galaxy,Gemini问当前屏幕,屏幕与对象,条件入口,116,在目标页面唤起Gemini面板,点Ask about this screen或video并提问,图为通用Android，机型未标；退出未展示,image,,GEMCONTEXT6-0|GEMCONTEXT6-1|GEMCONTEXT6-2
+SAM-F06,Samsung Galaxy,Finder与Gallery搜索,屏幕与对象,条件入口,116,先启用主屏Finder，再点Finder按钮,用自然语言搜索；Gallery搜索操作图待补,点结果继续处理；图中未展示退出,image,,FINDER6-SET|FINDER6-HOME|FINDER6-QUERY|FINDER6-RESULT|SAM-F06-V6-03|SAM-F06-V6-02|SAM-F06-V6-01
+SAM-F07,Samsung Galaxy,Now Brief与Now Bar,个人简报,条件入口,117,入口有小组件、Edge与锁屏；录像另示设置,本页右上开启Audio brief播报,点暂停后控件变为播放；仍在简报页,video,SA23-02|SA08,AUDIMG-059|SA23-PLAYING|SA23-PAUSED
+SAM-F08,Samsung Galaxy,Now Nudge,主动建议,条件入口,118,在消息会话中点View calendar等建议,查看日历；也可点Add event创建事件,新事件需点Save；节选只展示查看日历,video,MED-V029,
+SAM-F09,Samsung Galaxy,通知摘要与Health Assist,主动建议,条件入口,118,打开通知面板 → 阅读优先排序或聊天摘要,阅读优先排序或聊天摘要 → 展开通知核对原文,点击进入原App；退出路径待补实机,video,SA09,
+SAM-F10,Samsung Galaxy,Flip外屏建议回复,主动建议,条件入口,118,在Flip外屏点开消息通知,点Suggest replies，浏览并选择建议,核对内容后发送；图示尚未发送,image,,SAMWRITE-V4-180|SAMWRITE-V4-182|SAMWRITE-V4-184
+SAM-F11,Samsung Galaxy,Samsung Keyboard写作,键盘AI风格改写,应用AI入口,119,键盘AI菜单点Writing style；拼写纠正为左侧另一支线,浏览风格候选，找到Polite；本页省略中间8秒浏览,点Replace回填邮件，普通键盘恢复；未发送、撤销或退出Outlook,video,SA02|SA25-01|SA25-02,
+SAM-F12,Samsung Galaxy,Samsung Notes整理,笔记自动整理,应用AI入口,120,打开笔记，点AI→Auto format,查看排版结果；摘要和录音为另路,Add to→New note；新笔记已显示，未返回列表,video,SA23-01|SA04,AUDIMG-024|AUDIMG-025|AUDIMG-026|AUDIMG-027|AUDIMG-028|AUDIMG-029|AUDIMG-030|AUDIMG-031|AUDIMG-032|AUDIMG-033|AUDIMG-034|AUDIMG-037|AUDIMG-038|AUDIMG-039|AUDIMG-044|SA23-NEW-MENU|SA23-NEW-NOTE
+SAM-F13,Samsung Galaxy,Recorder转写摘要,录音摘要与格式,应用AI入口,121,文档：录音页点Transcribe；新片从摘要样式面板开始,从Topical outline切到Timeline，点Done确认,摘要更新后可继续查看；未导入Notes或退出录音机,video,SA26-01,AUDIMG-035|AUDIMG-036|AUDIMG-047|AUDIMG-048|AUDIMG-049|AUDIMG-050|AUDIMG-051|AUDIMG-052|AUDIMG-055|AUDIMG-056
+SAM-F14,Samsung Galaxy,Browser网页摘要,网页浏览辅助,应用AI入口,122,网页底栏点AI，再点Summarise,生成摘要；原片另示摘要风格切换,结果仍显示；关闭动作未展示,video,BR37-01|SA05,AUDIMG-062|AUDIMG-064|AUDIMG-065|AUDIMG-070|AUDIMG-075|AUDIMG-076|AUDIMG-077|AUDIMG-078
+SAM-F15,Samsung Galaxy,通话筛选与文字接听,通话筛选与挂断,应用AI入口,123,来电页Call assist → Call screening,点Text call，输入No thanks并发送,点红色电话按钮，显示Call ended,video,CL37-01|CL37-02|SA01,MED-I011
+SAM-F16,Samsung Galaxy,电话实时翻译与摘要,电话翻译与摘要,应用AI入口,124,来电页点Call assist，再点Live translate,语言已预设；查看通话双语字幕,停止控件仅可见；未点停止或挂断,video,SA29-01|SA29-02,AUDIMG-058
+SAM-F17,Samsung Galaxy,快捷面板Interpreter,面对面同传,应用AI入口,125,下拉展开快捷面板，选择Interpreter,对话模式点麦克风；听译为独立片段,听译点麦克风停止，译文保留；未退出应用,video,SI29-01|SI29-02|SI29-03,AUDIMG-040|AUDIMG-041
+SAM-F18,Samsung Galaxy,Photo Assist与建议修图,图像与音频,应用AI入口,126,图库照片 → AI / Photo assist,点选或圈选主体；擦除、移动、生成并继续调整,核对结果 → Save as copy；保留原片,video,SA03|MED-V032,MED-I013
+SAM-F21,Samsung Galaxy,Gallery Instant Slow-mo,图像与音频,应用AI入口,126,图库打开视频，按住画面启动慢放,松手结束该段；出现保存慢动作按钮,点保存，等待进度完成，在图库查看新片段,video,SL6-01|SL6-02,SAM-F21-V6-01
+SAM-F22,Samsung Galaxy,相机文档扫描,图像与音频,应用AI入口,126,相机对准文档，点击Scan,按需旋转、加滤镜或清理干扰,点击Save存入图库,image,,MED-I012
+SAM-F23,Samsung Galaxy,Studio Auto Trim自动剪辑,图像与音频,应用AI入口,126,图库菜单 → Studio，新建项目并选视频,编辑页点Auto Trim，选时长后Apply,完成编辑后点Save movie，回图库查看,video,AUT6-01|AUT6-02|AUT6-03,SAM-F21-V6-02|SAM-F21-V6-03|SAM-F21-V6-04|SAM-F21-V6-05|SAM-F21-V6-06
+SAM-F19,Samsung Galaxy,Drawing / Creative Studio,图像创作与返回,应用AI入口,127,打开Creative Studio；本片含选图与创作入口支线,选照片、查看候选，再用文字继续修改,侧边返回到结果页；后段跳切回首页。未展示导出或应用壁纸,video,SC18-01|SC18-02|SA06,
+SAM-F20,Samsung Galaxy,视频Audio Eraser,音频分类消除,应用AI入口,128,图库视频点底部星形AI按钮,分析后选Noise，将数值调至−100,编辑器内预览；保存和退出未展示,video,AU37-01|SA07,

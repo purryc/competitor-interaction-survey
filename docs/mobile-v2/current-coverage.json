@@ -1,0 +1,25 @@
+{
+  "features": 179,
+  "slides": 129,
+  "counts": {
+    "video": 118,
+    "image": 58,
+    "gap": 3
+  },
+  "gap_ids": [
+    "XMI-F12",
+    "XMI-F17",
+    "VIV-F07"
+  ],
+  "all_source_files_present": true,
+  "unique_features": true,
+  "core_flow_truncation_count": 0,
+  "unique_media_assets": 733,
+  "unique_clips_in_index": 202,
+  "entry_records": 304,
+  "unverified_candidate_ids": [
+    "XMI-E015"
+  ],
+  "media_completion": "partial",
+  "device_testing": "not_performed"
+}

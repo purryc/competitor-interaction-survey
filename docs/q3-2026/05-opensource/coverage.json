@@ -1,0 +1,191 @@
+{
+  "brand": "开源阵营",
+  "updated_at": "2026-09-09",
+  "overall_status": "COMPLETE_WITH_DOCUMENTED_GAPS",
+  "features": [
+    {
+      "id": "openwork-desktop",
+      "name": "OpenWork 桌面端",
+      "required": "自录屏 + 截图；进入→委托→过程→接管→产物→退出",
+      "actual_files": [
+        "assets/openwork-desktop/01-entry-global-ui.png",
+        "assets/openwork-desktop/02-delegate-ready.png",
+        "assets/openwork-desktop/03-running.png",
+        "assets/openwork-desktop/04-success-result.png",
+        "assets/openwork-desktop/05-artifact-preview.png",
+        "assets/openwork-desktop/06-exit-new-session.png",
+        "assets/openwork-desktop/04-failure-no-result.png",
+        "assets/openwork-desktop/05-artifact-result.png"
+      ],
+      "sources": [
+        "https://github.com/different-ai/openwork",
+        "https://github.com/different-ai/openwork/releases/tag/v0.18.44"
+      ],
+      "release_window": "v0.18.44 published 2026-09-09; captured 2026-09-09",
+      "status": "PARTIAL",
+      "seen_states": [
+        "进入/全局 UI",
+        "委托提示",
+        "Working 与 Wrote",
+        "Read 与成功回复",
+        "内置产物预览",
+        "失败后的 Resume 接管入口",
+        "退出到新会话"
+      ],
+      "missing_states": [
+        "未演示人工编辑产物后继续 agent；接管仅以 Resume 入口与内置预览证明",
+        "没有连续原生自录屏，任务书的自录屏要求未满足"
+      ],
+      "next_step": "保留 PARTIAL；编辑报告时把成功链与失败链写成两次独立运行，不拼成同一次流程"
+    },
+    {
+      "id": "cross-agent-skills",
+      "name": "跨 agent 技能复用",
+      "required": "Codex、Claude Code、Cursor 配置流程；帧序列 ≥4",
+      "actual_files": [
+        "assets/cross-agent-skills/01-codex-claude-cursor-dry-run.png",
+        "assets/cross-agent-skills/02-codex-dry-run.png",
+        "assets/cross-agent-skills/03-claude-dry-run.png",
+        "assets/cross-agent-skills/04-cursor-dry-run.png"
+      ],
+      "sources": [
+        "https://github.com/nexu-io/open-design"
+      ],
+      "release_window": "Open Design v0.19.0 local CLI captured 2026-09-09",
+      "status": "PARTIAL",
+      "seen_states": [
+        "配置入口",
+        "Codex 目标命令预览",
+        "Claude Code 目标命令预览",
+        "Cursor 配置文件预览"
+      ],
+      "missing_states": [
+        "未写入三端配置",
+        "未在三端实际加载并调用同一 MCP/skill",
+        "无三端结果态"
+      ],
+      "next_step": "需各 agent 的隔离配置目录或用户明确授权后做真实加载测试"
+    },
+    {
+      "id": "opendesign-cli",
+      "name": "OpenDesign 的 CLI 优先",
+      "required": "真实 headless CLI 终端录屏 + 截图",
+      "actual_files": [
+        "assets/opendesign-cli/01-headless-cli-status.png",
+        "assets/opendesign-cli/02-clean-global-ui.png",
+        "assets/opendesign-cli/03-headless-artifact-complete.png",
+        "assets/opendesign-cli/clip.mp4"
+      ],
+      "sources": [
+        "https://github.com/nexu-io/open-design",
+        "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.19.0"
+      ],
+      "release_window": "Open Design v0.19.0 local app/CLI; latest upstream 0.22.1 published 2026-09-09",
+      "status": "PARTIAL",
+      "seen_states": [
+        "CLI/daemon 帮助",
+        "loopback daemon 运行",
+        "独立 project 创建",
+        "artifact 写入并由文件 API 返回 complete",
+        "桌面全局 UI",
+        "7.68 秒实时 CLI stdout 转录视频，ffprobe/全解码/代表帧通过"
+      ],
+      "missing_states": [
+        "原生 Terminal 录屏未取得：系统接口仅 1 帧，窗口/区域抓取被拒；现有 MP4 是明确标注的自建实时转录查看器"
+      ],
+      "next_step": "保留 PARTIAL 与原生录屏缺口；fixture 写入不得称为模型生成"
+    },
+    {
+      "id": "design-token-library",
+      "name": "151 套设计系统 token 库",
+      "required": "同任务选择 token 前后对比图",
+      "actual_files": [
+        "assets/design-token-library/01-apple-token-picker.png"
+      ],
+      "sources": [
+        "https://github.com/nexu-io/open-design"
+      ],
+      "release_window": "Open Design v0.19.0 local UI captured 2026-09-09; upstream README checked 2026-09-09",
+      "status": "PARTIAL",
+      "seen_states": [
+        "真实 design-system 选择器",
+        "Apple token/palette 预览",
+        "实测目录返回 151 项",
+        "同任务 baseline 项目与 Apple 项目均已创建"
+      ],
+      "missing_states": [
+        "同任务无 token 基线产物",
+        "同任务选用 Apple 后产物",
+        "前后差异"
+      ],
+      "next_step": "四条生成通道均失败且0产物；官方定向替代检索已完成，未找到同任务成对素材。保留PARTIAL，待可用生成环境或公开连续演示补齐。"
+    },
+    {
+      "id": "plugin-marketplace",
+      "name": "插件市场与自扩展",
+      "required": "脚手架→验证→发布前状态；帧序列 ≥3",
+      "actual_files": [
+        "assets/plugin-marketplace/01-scaffold-created.png",
+        "assets/plugin-marketplace/02-validate-warning.png",
+        "assets/plugin-marketplace/03-pack-prepublish-stop.png"
+      ],
+      "sources": [
+        "https://open-design.ai/zh/blog/open-design-0-8-0-everything-is-a-plugin/",
+        "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.8.0"
+      ],
+      "release_window": "v0.8.0 published 2026-05-22; CLI v0.19.0 captured 2026-09-09",
+      "status": "PARTIAL",
+      "seen_states": [
+        "真实 scaffold 创建文件",
+        "真实 validate ok:true",
+        "真实 pack 生成 tgz",
+        "publish 边界提示"
+      ],
+      "missing_states": [
+        "validate 有 context.unresolved warning",
+        "未实际发布或上架（按授权禁止）",
+        "无市场发现 UI"
+      ],
+      "next_step": "保留 warning 与预发布边界；不执行 publish-repo/open-design-pr"
+    },
+    {
+      "id": "community-issues",
+      "name": "社区分歧点",
+      "required": "两个项目 issue 中争议最强三条；截图 + 链接",
+      "actual_files": [
+        "assets/community-issues/01-opendesign-login-required-6599.png",
+        "assets/community-issues/02-opendesign-byok-local-2986.png",
+        "assets/community-issues/03-openwork-summary-loop-1103.png"
+      ],
+      "sources": [
+        "https://github.com/nexu-io/open-design/issues/6599",
+        "https://github.com/nexu-io/open-design/issues/2986",
+        "https://github.com/different-ai/openwork/issues/1103"
+      ],
+      "release_window": "issues active/closed between 2026-03-22 and 2026-09-09; live checked 2026-09-09",
+      "status": "COMPLETE",
+      "seen_states": [
+        "登录强制争议",
+        "BYOK/私网兼容争议",
+        "会话摘要循环可靠性争议",
+        "状态/评论/日期核验"
+      ],
+      "missing_states": [],
+      "next_step": "报告中区分 closed（#6599/#1103）与 open（#2986）"
+    }
+  ],
+  "hardware": {
+    "status": "COMPLETE",
+    "claim": "截至 2026-09-09，官方产品页/仓库只呈现桌面、CLI、agent 与设计能力层；未发现 OpenWork 或 Open Design 自有硬件发布。该结论是未发现，不是绝对不存在证明。",
+    "actual_files": [
+      "assets/openwork-desktop/01-entry-global-ui.png",
+      "assets/opendesign-cli/02-clean-global-ui.png"
+    ],
+    "next_step": "趋势页可与 Apple 的载体优先、Google 的软硬两端并列，但不要把未发现写成永久路线承诺"
+  },
+  "counts": {
+    "COMPLETE": 1,
+    "PARTIAL": 5,
+    "MISSING": 0
+  }
+}

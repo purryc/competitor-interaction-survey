@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Microsoft 2026 Q3 交互素材审阅</title>
+<style>
+    :root{color-scheme:dark;--bg:#0b0d12;--card:#151922;--line:#2a3140;--text:#f4f6fb;--muted:#aab3c4;--accent:#63a8ff;--warn:#ffcc66}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:1500px;margin:auto;padding:36px 28px 80px} h1{font-size:40px;margin:0 0 8px} h2{margin:56px 0 12px;font-size:28px} p{color:var(--muted);max-width:1000px}
+    .status{display:inline-block;padding:5px 10px;border:1px solid #765f2a;border-radius:99px;color:var(--warn);background:#2a2415;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:18px;margin-top:22px}
+    figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden} img,video{display:block;width:100%;height:auto;background:#000} figcaption{padding:12px 14px;color:var(--muted)} figcaption b{color:var(--text)}
+    .boundary{border-left:4px solid var(--warn);padding:10px 14px;background:#201c12;color:#e9d5a1;max-width:1100px}
+    a{color:var(--accent)}
+  </style>
+</head>
+<body><main>
+<h1>Microsoft｜真实交互素材审阅</h1>
+<p><span class="status">3 项均 PARTIAL</span></p>
+<p>采集日期 2026-09-09。画面保持完整界面边界；2025 素材明确标为 BACKGROUND。完整来源、时间码与证据边界见 <a href="README.md">README</a> 与 <a href="SOURCES.md">SOURCES</a>。</p>
+<h2>A · Windows 作为 agent runtime</h2>
+<div class="boundary">三组来源不可拼成一次连续任务。Agent365 的总数是库存，不是本机运行数；Block 是治理动作，不是本机 kill。</div>
+<div class="grid">
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/01-agent-entry-teams.png"/><figcaption><b>01 进入</b> · Agent ID 演示中的 Teams agent 会话</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/02-agent-session-processes.png"/><figcaption><b>02 过程 / 监督</b> · Task Manager Users 视图；无可读 agent identity 字段</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/03-mxc-declarative-contract.png"/><figcaption><b>03 限权合同</b> · MXC declarative approach</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/04-runtime-file-write-denied.png"/><figcaption><b>04 拒绝</b> · 未授权文件写入返回 PermissionError</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/05-malicious-agent-contained.png"/><figcaption><b>05 拦截</b> · 文件、网络、UI 等行为被 blocked</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/06-agent-registry-inventory.png"/><figcaption><b>06 注册库存补充</b> · Agent365 Deploy agent</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/07-block-agent-governance.png"/><figcaption><b>07 停用入口</b> · Agent365 Block agent 配置态，未执行</figcaption></figure>
+<figure><video controls="" preload="metadata" src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4"></video><figcaption><b>连续片段</b> · BRK262 08:00–08:29.9</figcaption></figure>
+<figure><video controls="" preload="metadata" src="../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4"></video><figcaption><b>连续片段</b> · BRK262 15:00–15:30</figcaption></figure>
+</div>
+<h2>B · 系统级权限模型</h2>
+<div class="boundary">当前能证明路径、网络、UI/clipboard 能力与 host product 范围；消费者统一权限总览未观察到。最后一张为 2025 BACKGROUND。</div>
+<div class="grid">
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/system-permissions/01-declarative-permission-model.png"/><figcaption><b>01 声明</b> · 文件、网络、UI 能力</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/system-permissions/02-filesystem-readonly-paths.png"/><figcaption><b>02 路径</b> · readwritePaths / readonlyPaths</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/system-permissions/03-file-write-denied.png"/><figcaption><b>03 运行时</b> · 写入拒绝</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/system-permissions/04-copilot-cli-filesystem-policy.png"/><figcaption><b>04 文件系统</b> · Copilot CLI sandbox</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/system-permissions/05-copilot-cli-network-policy.png"/><figcaption><b>05 网络</b> · Copilot CLI sandbox</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/system-permissions/06-app-host-scope.png"/><figcaption><b>06 应用范围</b> · Agent365 host products</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/system-permissions/07-known-folders-background.png"/><figcaption><b>07 文件夹</b> · BACKGROUND 2025 known folders</figcaption></figure>
+<figure><video controls="" preload="metadata" src="../../../media/q3-2026/06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4"></video><figcaption><b>连续片段</b> · BRK262 15:00–15:30</figcaption></figure>
+</div>
+<h2>C · Copilot agent 模式</h2>
+<div class="boundary">01–05 是 2026 Edge 同一条连续演示；06 是 2025 BACKGROUND，只证明 Paused / Take control 控件存在。退出未观察到。</div>
+<div class="grid">
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/01-enter-browse-with-copilot.png"/><figcaption><b>01 进入</b> · Browse with Copilot 模式</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/02-delegate-task.png"/><figcaption><b>02 委托</b> · 输入 LinkedIn 发帖任务</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/03-working-on-linkedin.png"/><figcaption><b>03 过程</b> · browsing / working 反馈</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/04-progress-draft-modal.png"/><figcaption><b>04 过程</b> · 目标站草稿弹窗</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/05-artifact-confirmation.png"/><figcaption><b>05 产物</b> · 完成 6 步，等待最终确认</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/06-take-control-background.png"/><figcaption><b>06 接管补充</b> · BACKGROUND 2025 Paused / Take control</figcaption></figure>
+<figure><video controls="" preload="metadata" src="../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/clip-edge-agentic-30s.mp4"></video><figcaption><b>连续片段</b> · 2026 Edge 00:06–00:35.9</figcaption></figure>
+</div>
+<h2>D · 2026 新硬件</h2>
+<div class="grid">
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/hardware/01-surface-pro-laptop-2026.png"/><figcaption><b>Surface Pro / Laptop</b> · 2026 官方发布图</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/hardware/02-surface-pro-2026.png"/><figcaption><b>Surface Pro 13-inch</b></figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/hardware/03-surface-laptop-2026.png"/><figcaption><b>Surface Laptop</b></figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/hardware/04-surface-rtx-spark-dev-box.png"/><figcaption><b>Surface RTX Spark Dev Box</b> · Pre-release</figcaption></figure>
+<figure><img src="../../../media/q3-2026/06-microsoft/assets/hardware/05-surface-rtx-spark-ports.png"/><figcaption><b>Surface RTX Spark</b> · 端口视图</figcaption></figure>
+</div>
+</main></body></html>

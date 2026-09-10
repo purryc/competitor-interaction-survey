@@ -1,0 +1,106 @@
+{
+  "brand": "Apple",
+  "goal_id": "01a087b6-6756-7e01-aa9f-37608a80f5b5",
+  "checked_at": "2026-09-09T17:15:21-04:00",
+  "scope": "Apple only",
+  "status_counts": {"COMPLETE": 0, "PARTIAL": 4, "MISSING": 1, "UNVERIFIED": 0},
+  "features": [
+    {
+      "id": "foldable-input",
+      "name": "折叠形态对输入的连带改动",
+      "requirement": {"png_min": 5, "checks": ["外内屏接续", "展开布局", "笔/多指/悬停", "内屏键盘"]},
+      "status": "PARTIAL",
+      "release_date": "2026-09-09",
+      "time_window": "official product film 2026-09-09; retail 2026-10-23",
+      "sources": ["https://www.apple.com/iphone-duo/", "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"],
+      "files": ["assets/foldable-input/01-outer-display.png", "assets/foldable-input/02-opening.png", "assets/foldable-input/03-inner-home.png", "assets/foldable-input/04-inner-photos.png", "assets/foldable-input/05-inner-web.png", "assets/foldable-input/06-split-view.png", "assets/foldable-input/07-split-view-swapped.png", "assets/foldable-input/08-two-thumb-game.png", "assets/foldable-input/09-inner-keyboard-write-with-siri.png", "assets/foldable-input/clip.mp4", "assets/foldable-input/source.md"],
+      "timestamps": ["00:04", "00:08", "00:12", "00:16", "00:28", "00:34", "00:38", "01:52"],
+      "flow": {"entry": "observed", "delegation": "missing", "process": "observed", "takeover": "partial manual interaction only", "artifact": "observed split view", "exit": "missing"},
+      "missing": ["same-task outer-to-inner continuation", "keyboard input motion", "Pencil visual", "hover", "exit"],
+      "resolution_gap": "none; PNG 1920x1080",
+      "next_action": "After retail, record one real-device task covering outer-to-inner, keyboard, Pencil and exit."
+    },
+    {
+      "id": "home-hub-presence",
+      "name": "Home Hub 的存在感知",
+      "requirement": {"png_min": 5, "checks": ["走近触发", "无声行为", "身份", "隐私"]},
+      "status": "MISSING",
+      "release_date": null,
+      "time_window": "official event and pages checked 2026-09-09",
+      "sources": ["https://www.apple.com/apple-events/", "https://www.apple.com/home-app/", "https://www.apple.com/newsroom/archive/tv-home/"],
+      "files": ["assets/home-hub-presence/source.md"],
+      "timestamps": [],
+      "flow": {"entry": "missing", "delegation": "missing", "process": "missing", "takeover": "missing", "artifact": "missing", "exit": "missing"},
+      "missing": ["announced 7-inch product", "all interaction frames", "presence", "identity", "privacy", "exit"],
+      "resolution_gap": "no valid requested-product image; existing Home app UI excluded",
+      "next_action": "Monitor future launch and capture official or credible hands-on presence sequence."
+    },
+    {
+      "id": "siri-delegation",
+      "name": "Siri 的委托面变化",
+      "requirement": {"png_min": 4, "checks": ["sentence", "selection/pointing", "cross-app reference"]},
+      "status": "PARTIAL",
+      "release_date": "2026-06-08",
+      "time_window": "announcement 2026-06-08; user beta rollout 2026-09-14",
+      "sources": ["https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"],
+      "files": ["assets/siri-delegation/01-dynamic-island.png", "assets/siri-delegation/02-swipe-down-entry.png", "assets/siri-delegation/03-screen-aware-result.png", "assets/siri-delegation/04-jeff-query.png", "assets/siri-delegation/05-message-address.png", "assets/siri-delegation/06-route-result.png", "assets/siri-delegation/07-selection-context-menu.png", "assets/siri-delegation/08-visual-intelligence-ipad.png", "assets/siri-delegation/clip.mp4", "assets/siri-delegation/source.md"],
+      "timestamps": ["Dynamic 00:00.3", "Dynamic 00:01.3", "Personal 01:20", "Personal 01:30", "Personal 01:40", "Personal 01:58"],
+      "flow": {"entry": "observed", "delegation": "observed", "process": "partial", "takeover": "missing", "artifact": "observed route preview", "exit": "missing"},
+      "missing": ["approval", "rejection", "pause", "takeover", "undo", "exit"],
+      "resolution_gap": "none; execution controls absent from motion evidence",
+      "next_action": "Record mutating iOS 27 beta tasks and observe confirmation, cancel, undo and exit."
+    },
+    {
+      "id": "cross-device-handoff",
+      "name": "跨设备接力",
+      "requirement": {"png_min": 3, "checks": ["start here", "continue there", "same task"]},
+      "status": "PARTIAL",
+      "release_date": "2026-06-08",
+      "time_window": "checked through 2026-09-09",
+      "sources": ["https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/", "https://www.apple.com/os/ios/", "https://www.apple.com/os/ipados/", "https://www.androidauthority.com/siri-ai-vs-gemini-hands-on-comparison-3677330/"],
+      "files": ["assets/cross-device-handoff/01-iphone-siri-app.png", "assets/cross-device-handoff/02-ipad-siri-app.png", "assets/cross-device-handoff/03-watch-siri-answer.png", "assets/cross-device-handoff/04-vision-pro-siri.png", "assets/cross-device-handoff/source.md"],
+      "timestamps": ["Watch 00:07"],
+      "flow": {"entry": "separate device UIs", "delegation": "partial separate tasks", "process": "missing", "takeover": "missing", "artifact": "separate device UIs", "exit": "missing"},
+      "missing": ["continuous same-conversation handoff", "handoff prompt", "sync latency", "conflict handling", "exit"],
+      "resolution_gap": "none; continuity is the gap",
+      "next_action": "Self-test one Siri conversation on two beta devices with the same Apple Account."
+    },
+    {
+      "id": "watch-airpods-input",
+      "name": "Watch / AirPods 上的新交互",
+      "requirement": {"png_min": 2, "checks": ["wrist/ear input", "gesture/pinch/head motion"]},
+      "status": "PARTIAL",
+      "release_date": "2026-09-09",
+      "time_window": "Watch demo 2026-06-08; AirPods 5 launch 2026-09-09",
+      "sources": ["https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/", "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"],
+      "files": ["assets/watch-airpods-input/01-watch-query.png", "assets/watch-airpods-input/02-watch-answer.png", "assets/watch-airpods-input/03-airpods-press-to-translate.png", "assets/watch-airpods-input/04-live-translation-conversation.png", "assets/watch-airpods-input/05-conversation-outcome.png", "assets/watch-airpods-input/06-volume-swipe.png", "assets/watch-airpods-input/07-head-gesture-background-2024.png", "assets/watch-airpods-input/clip.mp4", "assets/watch-airpods-input/source.md"],
+      "timestamps": ["Watch 00:00.5", "Watch 00:07", "Translation 00:03", "Translation 00:08", "Translation 00:13", "Swipe 00:01.5", "2024 background 00:17"],
+      "flow": {"entry": "observed", "delegation": "observed", "process": "partial", "takeover": "missing", "artifact": "partial; Watch answer visible, AirPods translation content not visible", "exit": "missing"},
+      "missing": ["AirPods translation content UI", "clear 2026 nod/shake footage", "Series 12 gesture", "pinch", "cancel/takeover", "exit"],
+      "resolution_gap": "none; 2024 frame explicitly background",
+      "next_action": "After 2026-09-18, record AirPods 5 head response/cancel and Series 12 Smart Stack continuation."
+    }
+  ],
+  "hardware": {
+    "announced_models": ["iPhone Duo", "iPhone 18 Pro", "iPhone 18 Pro Max", "Apple Watch Series 12", "Apple Watch Ultra 4", "AirPods 5"],
+    "not_announced_at_event": ["7-inch Home Hub", "new Apple TV 4K"],
+    "unverified_claims": ["John Ternus was the actual first-time event host"],
+    "files": ["assets/hardware-status/01-iphone-duo.png", "assets/hardware-status/02-iphone-18-pro.png", "assets/hardware-status/03-watch-series-12.png", "assets/hardware-status/04-watch-ultra-4.png", "assets/hardware-status/05-airpods-5.png", "assets/hardware-status/source.md"]
+  },
+  "qa": {
+    "completed_at": "2026-09-09T17:15:21-04:00",
+    "result": "PASS_WITH_DOCUMENTED_GAPS",
+    "png": {"count": 33, "min_required_width": 1280, "min_actual_width": 1306, "max_actual_width": 3840, "result": "pass"},
+    "clips": {
+      "count": 3,
+      "max_seconds": 30,
+      "items": [
+        {"file": "assets/foldable-input/clip.mp4", "codec": "h264", "pix_fmt": "yuv420p", "duration_seconds": 29.996633, "full_decode": "pass"},
+        {"file": "assets/siri-delegation/clip.mp4", "codec": "h264", "pix_fmt": "yuv420p", "duration_seconds": 29.996633, "full_decode": "pass"},
+        {"file": "assets/watch-airpods-input/clip.mp4", "codec": "h264", "pix_fmt": "yuv420p", "duration_seconds": 14.825, "audio": "aac", "full_decode": "pass"}
+      ]
+    },
+    "structure": {"required_sections": 7, "final_empty_heading": "pass", "json_parse": "pass", "html_parse": "pass", "local_links": "pass", "readme_ledger_rows": 36, "sources_ledger_rows": 36},
+    "visual_review": "pass; evidence boundaries preserved for AirPods trigger/result, cross-device continuity, Siri execution controls, and missing Home Hub"
+  }
+}

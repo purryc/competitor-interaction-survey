@@ -1,0 +1,240 @@
+[
+  {
+    "number": "01",
+    "brand": "OpenAI",
+    "features": [
+      {
+        "feature": "Work 的 @ 提及调用",
+        "observable_details": "输入 @ 后弹出的应用列表长什么样；选中后输入框和上下文条的变化；一句话串多个应用时怎么显示",
+        "specified_assets": "帧序列 ≥4"
+      },
+      {
+        "feature": "Work 的人工审批门",
+        "observable_details": "agent 停下来请求批准的那一屏：怎么描述自己要做的事、给不给「只这一次 / 一直允许」、拒绝后任务怎么继续或终止",
+        "specified_assets": "帧序列 ≥4 + 截图"
+      },
+      {
+        "feature": "内置浏览器 + Computer Use",
+        "observable_details": "agent 点网页时用户看到什么：实时画面、录像回放、还是文字日志？能不能中途接管鼠标",
+        "specified_assets": "帧序列 ≥5"
+      },
+      {
+        "feature": "Work 的产物落地",
+        "observable_details": "spreadsheet / 演示文稿 / dashboard / web app 的成品界面；产物留在对话里还是落到 Drive、SharePoint",
+        "specified_assets": "每类产物 1 张"
+      },
+      {
+        "feature": "GPT-Live 全双工语音",
+        "observable_details": "用户打断时界面反应；模型接话时有无视觉提示；天气/体育/地图视觉卡片长什么样；后台委派用户感知得到吗",
+        "specified_assets": "帧序列 ≥4"
+      },
+      {
+        "feature": "Atlas 浏览器 agent 模式",
+        "observable_details": "agent 接管标签页时的边框/状态条/停止按钮；用户怎么收回控制权",
+        "specified_assets": "帧序列 ≥3"
+      }
+    ],
+    "hardware_requirements": "§4 新硬件**\n- 出了什么：与 Jony Ive 团队合作的消费级 AI 设备。2026-02 有报道称推迟至 2027 且不再叫 io。`未证实`\n- 为什么要有：查 OpenAI 官方与 Ive 本人的公开表述，找他们自己给的理由；找不到就写「无官方说明」。\n- 新交互形式：目前只有传闻级信息。**不要展开写**，只做一页「悬念 + 已知可验证信息 + 需要盯的信号」。\n",
+    "general_minimum": "≥3 个真实状态帧 + 1 全局 UI；不足应标缺口，不能将静态图重复凑帧",
+    "source_contract": "每个 assets 子目录 source.md；总表记录路径、特性、URL、时间码、抓取日期、官方性"
+  },
+  {
+    "number": "02",
+    "brand": "Anthropic",
+    "features": [
+      {
+        "feature": "Cowork 的文件夹授权",
+        "observable_details": "选文件夹那一屏；授权后界面怎么持续显示「它能碰到哪些东西」；「Claude asks before acting」的提示形态；删除动作的审批弹窗",
+        "specified_assets": "帧序列 ≥4"
+      },
+      {
+        "feature": "Cowork 跨设备接力",
+        "observable_details": "桌面起任务 → 手机看到的进度界面 → 回桌面拿产物，三端各截；手机端能做什么、不能做什么",
+        "specified_assets": "三端各 ≥2 帧"
+      },
+      {
+        "feature": "Cowork 的过程可见性",
+        "observable_details": "它干活时显示什么：计划清单？逐步日志？文件变更列表？中途能不能插话改需求",
+        "specified_assets": "帧序列 ≥4"
+      },
+      {
+        "feature": "Design 的三种收敛方式",
+        "observable_details": "内联批注、滑杆调参、直接改文字各录一段，看清「改一下」怎么被翻译成可执行指令",
+        "specified_assets": "每种 ≥3 帧"
+      },
+      {
+        "feature": "Design → Code 的交接",
+        "observable_details": "打包交接那一步的界面：交出去的是图、规格还是代码；接收端长什么样",
+        "specified_assets": "帧序列 ≥3"
+      },
+      {
+        "feature": "Claude Code 的 Skills / Subagents / Agent Teams",
+        "observable_details": "这些抽象在界面上怎么被看见和管理；多 agent 同时干活时的呈现",
+        "specified_assets": "截图 ≥3"
+      }
+    ],
+    "hardware_requirements": "§4 新硬件：没有自有硬件。**\n写成一段：查 Anthropic 有没有公开表态过为什么不做硬件，以及靠什么替代——目前看是「进别人的载体」（桌面 App、移动端、Slack、IDE，以及 Bedrock / Vertex / Foundry 三家云）。这段和 Google、Meta、Apple 的硬件策略构成对比。\n",
+    "general_minimum": "≥3 个真实状态帧 + 1 全局 UI；不足应标缺口，不能将静态图重复凑帧",
+    "source_contract": "每个 assets 子目录 source.md；总表记录路径、特性、URL、时间码、抓取日期、官方性"
+  },
+  {
+    "number": "03",
+    "brand": "Google",
+    "features": [
+      {
+        "feature": "Gemini Spark 常驻监听",
+        "observable_details": "初次授权那一屏（它要求看什么）；主动冒出来时长什么样（通知？卡片？收件箱里一行？）；怎么否决一次建议；怎么整体关掉",
+        "specified_assets": "帧序列 ≥5"
+      },
+      {
+        "feature": "从条数到算力的计费",
+        "observable_details": "界面上怎么表达「这次花了多少」；能不能事前看到代价；额度快用完的提示",
+        "specified_assets": "截图 ≥2"
+      },
+      {
+        "feature": "Gemini in Chrome 的 agent",
+        "observable_details": "接管页面时的视觉边界；与 ChatGPT Atlas 同类功能并排比",
+        "specified_assets": "帧序列 ≥3"
+      },
+      {
+        "feature": "生成能力的 UI 暴露方式",
+        "observable_details": "Omni Flash 视频生成在 Gemini app / Flow / YouTube Shorts 三处的入口分别长什么样",
+        "specified_assets": "三处各 1 张"
+      }
+    ],
+    "hardware_requirements": "§4 新硬件：Android XR 智能眼镜**（2026 秋出货，分**纯音频版**与**镜片内显示版**；伙伴：三星、高通、Gentle Monster、Warby Parker、XREAL）\n- 为什么要有：分开答——音频版解决什么、显示版解决什么。**两条产品线并存本身就是观点素材**，说明 Google 自己也没确定眼镜的杀手场景。找 I/O keynote 原话。\n- 新交互形式：抽 I/O 2026 keynote 眼镜片段帧序列——怎么唤醒、信息怎么呈现在镜片上、怎么确认和取消、有无手势或触摸镜腿；查有无与 Pixel 手机的联动演示。\n",
+    "general_minimum": "≥3 个真实状态帧 + 1 全局 UI；不足应标缺口，不能将静态图重复凑帧",
+    "source_contract": "每个 assets 子目录 source.md；总表记录路径、特性、URL、时间码、抓取日期、官方性"
+  },
+  {
+    "number": "04",
+    "brand": "Apple",
+    "features": [
+      {
+        "feature": "折叠形态对输入的连带改动",
+        "observable_details": "外屏与内屏之间任务怎么接续；展开后是分屏还是单任务；有无笔、多指、悬停相关新手势；键盘在内屏怎么摆",
+        "specified_assets": "帧序列 ≥5"
+      },
+      {
+        "feature": "Home Hub 的存在感知",
+        "observable_details": "**本季最值得看的点**：人走近时它做什么、不用说话能触发哪些行为、怎么区分「谁」走近、隐私怎么表达",
+        "specified_assets": "帧序列 ≥5"
+      },
+      {
+        "feature": "Siri 的委托面变化",
+        "observable_details": "重构后「把活交出去」的方式变了没有：还是一句话，还是有了选中、指向、跨 App 引用",
+        "specified_assets": "帧序列 ≥4"
+      },
+      {
+        "feature": "跨设备接力",
+        "observable_details": "有无「这台起、那台接」的演示；和 Cowork 的跨设备接力并排比",
+        "specified_assets": "帧序列 ≥3"
+      },
+      {
+        "feature": "Watch / AirPods 上的新交互",
+        "observable_details": "腕上耳上有无新输入方式（手势、捏合、头部动作）",
+        "specified_assets": "截图 ≥2"
+      }
+    ],
+    "hardware_requirements": "§4 新硬件（Apple 这节硬件就是主角）**\n- 预期机型：折叠 iPhone（Ultra 或 Duo）· iPhone 18 Pro / Pro Max · Watch Series 12 与 Ultra 4 · AirPods 5 · 7 英寸 Home Hub · 新 Apple TV 4K。`以上全部为会前传闻，会后逐条替换为官方口径`\n- 为什么要有：每件硬件答一句「它解决了软件解决不了的什么」。折叠 = 大屏要能装进口袋；Home Hub = 家里需要一个不用掏手机的常驻入口。都关于「载体在哪」，不是关于模型多强。\n- 新交互形式：折叠看外屏/内屏的任务接续与分屏；Home Hub 的存在感知 = 委托面趋近于空，**和 Gemini Spark 是同一方向的两种实现，这个对比要写进去**。\n",
+    "general_minimum": "≥3 个真实状态帧 + 1 全局 UI；不足应标缺口，不能将静态图重复凑帧",
+    "source_contract": "每个 assets 子目录 source.md；总表记录路径、特性、URL、时间码、抓取日期、官方性"
+  },
+  {
+    "number": "05",
+    "brand": "开源阵营",
+    "features": [
+      {
+        "feature": "Openwork 桌面端",
+        "observable_details": "主界面长什么样；和 Cowork 并排比缺了什么、多了什么",
+        "specified_assets": "自录屏 + 截图"
+      },
+      {
+        "feature": "跨 agent 技能复用",
+        "observable_details": "同一套 skills / MCP 接到 Codex、Claude Code、Cursor 的配置流程；抽象边界画在哪",
+        "specified_assets": "帧序列 ≥4"
+      },
+      {
+        "feature": "OpenDesign 的 CLI 优先",
+        "observable_details": "headless CLI 的实际使用流程；桌面端「只是个壳」在体验上表现成什么样",
+        "specified_assets": "终端录屏 + 截图"
+      },
+      {
+        "feature": "149 套设计系统 token 库",
+        "observable_details": "选一套设计系统后产出怎么变；和 Claude Design 的「自动套用团队样式」对比",
+        "specified_assets": "前后对比图"
+      },
+      {
+        "feature": "插件市场与自扩展",
+        "observable_details": "agent 自己脚手架、验证并发布插件的流程",
+        "specified_assets": "帧序列 ≥3"
+      },
+      {
+        "feature": "社区分歧点",
+        "observable_details": "各扫一遍 issue，挑争论最凶的三条（通常是权限、隐私、和大厂的兼容性）——**比 changelog 有信息量**",
+        "specified_assets": "issue 截图 + 链接"
+      }
+    ],
+    "hardware_requirements": "§4 新硬件：没有。**\n写一段：开源阵营完全放弃载体，只争能力层。这和 Apple 完全押载体、Google 两头都做，构成三种路线，**可作趋势总览页的一张对比图**。\n",
+    "general_minimum": "≥3 个真实状态帧 + 1 全局 UI；不足应标缺口，不能将静态图重复凑帧",
+    "source_contract": "每个 assets 子目录 source.md；总表记录路径、特性、URL、时间码、抓取日期、官方性"
+  },
+  {
+    "number": "06",
+    "brand": "Microsoft",
+    "features": [
+      {
+        "feature": "Windows 作为 agent runtime",
+        "observable_details": "agent 在系统里怎么被注册、调度、限权；用户在哪看到「现在有几个 agent 在跑」；怎么杀掉一个跑飞的 agent",
+        "specified_assets": "帧序列 ≥5"
+      },
+      {
+        "feature": "系统级权限模型",
+        "observable_details": "授权粒度是文件夹、应用还是能力？和 Cowork 的文件夹授权并排比",
+        "specified_assets": "截图 ≥3"
+      },
+      {
+        "feature": "Copilot 的 agent 模式",
+        "observable_details": "过程可见性与接管机制，按五轴填",
+        "specified_assets": "帧序列 ≥3"
+      }
+    ],
+    "hardware_requirements": "§4 新硬件**\n- 要查：2026 年 Microsoft 自有硬件（Surface 线、Copilot+ PC 规格要求）有没有为 agent 做的专门改动——常驻算力、NPU 门槛、专用按键。`未核实，先查再写`\n- 为什么要有：如果有，答一句是为了让 agent 能长时间在本地跑，还是只是营销分层。\n- 新交互形式：重点看有无**硬件级的召唤入口**（专用键、触控板手势）——这条和我们自己的方向直接相关。\n",
+    "general_minimum": "≥3 个真实状态帧 + 1 全局 UI；不足应标缺口，不能将静态图重复凑帧",
+    "source_contract": "每个 assets 子目录 source.md；总表记录路径、特性、URL、时间码、抓取日期、官方性"
+  },
+  {
+    "number": "07",
+    "brand": "Meta",
+    "features": [
+      {
+        "feature": "Neural Band 神经手写",
+        "observable_details": "手在什么姿势下写；写在哪（腿上？空中？）；识别延迟与纠错怎么呈现；写错了怎么删",
+        "specified_assets": "帧序列 ≥6 · **必须拿到**"
+      },
+      {
+        "feature": "Neural Band 手势集",
+        "observable_details": "有哪几个手势、分别对应什么、误触怎么处理；戴着走路时怎么防误触",
+        "specified_assets": "每手势 1 组帧"
+      },
+      {
+        "feature": "Ray-Ban Display 的镜内 HUD",
+        "observable_details": "信息排在视野哪个位置、显示多少内容、什么时候自动消失",
+        "specified_assets": "第一视角图 ≥3"
+      },
+      {
+        "feature": "提词器功能",
+        "observable_details": "文本怎么滚动、速度谁控制、和腕带怎么配合",
+        "specified_assets": "帧序列 ≥3"
+      },
+      {
+        "feature": "腕带脱离眼镜的用法",
+        "observable_details": "有报道称 EMG 腕带在往眼镜之外扩——查证并找官方素材",
+        "specified_assets": "截图 + 链接 `待核`"
+      }
+    ],
+    "hardware_requirements": "§4 新硬件（Meta 这节硬件也是主角）**\n- 出了什么：**Ray-Ban Display**（带镜内显示的眼镜）+ **Neural Band**（sEMG 腕带）。CES 2026 追加了提词器与神经手写演示。\n- 为什么要有：眼镜解决「输出去哪」（不掏手机看），腕带解决「输入从哪来」（不掏手机操作）。**两件一起卖是核心观点**——它承认了单靠语音撑不起随身入口。找 Meta 官方对这点的表述。\n- 新交互形式：无表面输入——手写不需要纸笔和屏幕，手势不需要被看见。答一句：它替代的是键盘、语音还是触控？各在什么场景下更优？\n",
+    "general_minimum": "≥3 个真实状态帧 + 1 全局 UI；不足应标缺口，不能将静态图重复凑帧",
+    "source_contract": "每个 assets 子目录 source.md；总表记录路径、特性、URL、时间码、抓取日期、官方性"
+  }
+]
