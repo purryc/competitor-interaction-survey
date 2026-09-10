@@ -14,3 +14,7 @@
 | `clip-filesystem-denial.mp4` | 文件路径配置→拒绝 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 `15:00–15:30` | 是 | 1920×1080，30.0 秒 | 仅这一段为连续流程 |
 
 当前素材可确认三层：MXC 能按文件路径、网络与 UI/clipboard 等能力声明；Copilot CLI 有文件系统和网络沙箱面板；Agent365 可按 host product 部署。普通消费者 Windows 的统一“应用×能力”权限总览未在当前公开素材中观察到。
+
+## V47 网页可读性派生
+
+原 1920×1080 Microsoft Build 会场录像包含彩色舞台边框，在网页缩略图中容易被误判为花屏。V47 从同一官方录像和同一时间码裁出中央演示区；只改变网页展示构图，不改变来源、动作判断或证据边界。原始派生文件的 SHA-256 保存在 `qa/iteration-47-unified-survey/microsoft-media-repair.json`。

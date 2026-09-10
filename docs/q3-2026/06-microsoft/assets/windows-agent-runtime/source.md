@@ -15,3 +15,7 @@
 | `clip-mxc-runtime-denial.mp4` | 限权 / 拒绝 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 `15:00–15:30` | 是 | 1920×1080，30.0 秒 | 与 Agent ID 演示是不同片段 |
 
 未观察到的要求：公开 2026 UI 中的调度队列、本机正在运行 agent 数量、面向用户的一键 kill。Agent365 的库存数字和 Block 操作不得替代这些状态。
+
+## V47 网页可读性派生
+
+原 1920×1080 Microsoft Build 会场录像包含彩色舞台边框，在网页缩略图中容易被误判为花屏。V47 从同一官方录像和同一时间码裁出中央演示区；只改变网页展示构图，不改变来源、动作判断或证据边界。原始派生文件的 SHA-256 保存在 `qa/iteration-47-unified-survey/microsoft-media-repair.json`。

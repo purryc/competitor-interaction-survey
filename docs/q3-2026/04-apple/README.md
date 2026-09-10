@@ -33,14 +33,14 @@ Apple 本季把“把活交出去”的载体扩到可折叠大屏、系统级 S
 
 | 流程环节 | 是否看见 | 证据 |
 |---|---|---|
-| 进入 | 已看见 | [01 外屏](../../../media/q3-2026/04-apple/assets/foldable-input/01-outer-display.png)、[02 展开](../../../media/q3-2026/04-apple/assets/foldable-input/02-opening.png) |
+| 进入 | 已看见 | [01 外屏](assets/foldable-input/01-outer-display.png)、[02 展开](assets/foldable-input/02-opening.png) |
 | 委托 | 未看见 | 该片段是形态与多任务演示，没有 agent 委托 |
-| 过程 | 已看见 | [03 内屏主屏](../../../media/q3-2026/04-apple/assets/foldable-input/03-inner-home.png) → [05 宽屏网页](../../../media/q3-2026/04-apple/assets/foldable-input/05-inner-web.png) → [06 分屏](../../../media/q3-2026/04-apple/assets/foldable-input/06-split-view.png) |
+| 过程 | 已看见 | [03 内屏主屏](assets/foldable-input/03-inner-home.png) → [05 宽屏网页](assets/foldable-input/05-inner-web.png) → [06 分屏](assets/foldable-input/06-split-view.png) |
 | 接管 | 部分看见 | 手指滚动、交换窗口和双拇指操作可见；没有 agent 执行后的人工接管节点 |
-| 产物 | 已看见 | 分屏布局与并行 App 可见，[07 对换后分屏](../../../media/q3-2026/04-apple/assets/foldable-input/07-split-view-swapped.png) |
+| 产物 | 已看见 | 分屏布局与并行 App 可见，[07 对换后分屏](assets/foldable-input/07-split-view-swapped.png) |
 | 退出 | 未看见 | 没有关闭分屏、回到外屏或任务结束状态 |
 
-键盘静态证据：[09 内屏全宽键盘 + Write with Siri](../../../media/q3-2026/04-apple/assets/foldable-input/09-inner-keyboard-write-with-siri.png)。下载片段：[00:08–00:38，29.997 秒](../../../media/q3-2026/04-apple/assets/foldable-input/clip.mp4)。逐帧时码见 [source.md](assets/foldable-input/source.md)。
+键盘静态证据：[09 内屏全宽键盘 + Write with Siri](assets/foldable-input/09-inner-keyboard-write-with-siri.png)。下载片段：[00:08–00:38，29.997 秒](assets/foldable-input/clip.mp4)。逐帧时码见 [source.md](assets/foldable-input/source.md)。
 
 ### 3.2 Home Hub 的存在感知 — MISSING
 
@@ -65,14 +65,14 @@ Apple 9 月 9 日活动的官方发布清单只有 iPhone Duo、iPhone 18 Pro、
 
 | 流程环节 | 是否看见 | 证据 |
 |---|---|---|
-| 进入 | 已看见 | [Dynamic Island](../../../media/q3-2026/04-apple/assets/siri-delegation/01-dynamic-island.png) → [下拉展开](../../../media/q3-2026/04-apple/assets/siri-delegation/02-swipe-down-entry.png) |
-| 委托 | 已看见 | [当前屏幕追问](../../../media/q3-2026/04-apple/assets/siri-delegation/03-screen-aware-result.png)、[“Jeff 的新住址在哪？”](../../../media/q3-2026/04-apple/assets/siri-delegation/04-jeff-query.png) |
-| 过程 | 部分看见 | [从消息取得地址](../../../media/q3-2026/04-apple/assets/siri-delegation/05-message-address.png)；没有完整工具调用或阶段反馈 |
+| 进入 | 已看见 | [Dynamic Island](assets/siri-delegation/01-dynamic-island.png) → [下拉展开](assets/siri-delegation/02-swipe-down-entry.png) |
+| 委托 | 已看见 | [当前屏幕追问](assets/siri-delegation/03-screen-aware-result.png)、[“Jeff 的新住址在哪？”](assets/siri-delegation/04-jeff-query.png) |
+| 过程 | 部分看见 | [从消息取得地址](assets/siri-delegation/05-message-address.png)；没有完整工具调用或阶段反馈 |
 | 接管 | 未看见 | 后续追问属于追加约束，不是明确暂停/批准/接管 |
-| 产物 | 已看见 | [组合路线结果](../../../media/q3-2026/04-apple/assets/siri-delegation/06-route-result.png) |
+| 产物 | 已看见 | [组合路线结果](assets/siri-delegation/06-route-result.png) |
 | 退出 | 未看见 | 没有关闭 Siri 或清除上下文演示 |
 
-选择/指向补充：[Mac 上下文菜单](../../../media/q3-2026/04-apple/assets/siri-delegation/07-selection-context-menu.png)、[iPad Visual Intelligence](../../../media/q3-2026/04-apple/assets/siri-delegation/08-visual-intelligence-ipad.png)。下载片段：[01:30–02:00，29.997 秒](../../../media/q3-2026/04-apple/assets/siri-delegation/clip.mp4)。详见 [source.md](assets/siri-delegation/source.md)。
+选择/指向补充：[Mac 上下文菜单](assets/siri-delegation/07-selection-context-menu.png)、[iPad Visual Intelligence](assets/siri-delegation/08-visual-intelligence-ipad.png)。下载片段：[01:30–02:00，29.997 秒](assets/siri-delegation/clip.mp4)。详见 [source.md](assets/siri-delegation/source.md)。
 
 ### 3.4 跨设备接力 — PARTIAL
 
@@ -82,11 +82,11 @@ Apple 9 月 9 日活动的官方发布清单只有 iPhone Duo、iPhone 18 Pro、
 
 | 流程环节 | 是否看见 | 证据 |
 |---|---|---|
-| 进入 | 已看见（分立） | [iPhone Siri 会话](../../../media/q3-2026/04-apple/assets/cross-device-handoff/01-iphone-siri-app.png)、[iPad Siri App](../../../media/q3-2026/04-apple/assets/cross-device-handoff/02-ipad-siri-app.png) |
+| 进入 | 已看见（分立） | [iPhone Siri 会话](assets/cross-device-handoff/01-iphone-siri-app.png)、[iPad Siri App](assets/cross-device-handoff/02-ipad-siri-app.png) |
 | 委托 | 部分看见 | 每台设备各有 Siri 查询/会话，但不是同一任务连续录屏 |
 | 过程 | 未看见 | 未看到 iCloud 同步等待、跨设备提示或冲突处理 |
 | 接管 | 未看见 | 未看到 B 设备接管同一任务的动作 |
-| 产物 | 已看见（分立） | [Watch 回答](../../../media/q3-2026/04-apple/assets/cross-device-handoff/03-watch-siri-answer.png)、[Vision Pro Siri 空间界面](../../../media/q3-2026/04-apple/assets/cross-device-handoff/04-vision-pro-siri.png) |
+| 产物 | 已看见（分立） | [Watch 回答](assets/cross-device-handoff/03-watch-siri-answer.png)、[Vision Pro Siri 空间界面](assets/cross-device-handoff/04-vision-pro-siri.png) |
 | 退出 | 未看见 | 未看到 A 设备结束或 B 设备完成后的退出 |
 
 详见 [source.md](assets/cross-device-handoff/source.md)。
@@ -99,14 +99,14 @@ Watch 官方演示可见腕上语音提问与回答；AirPods 5 官方演示可�
 
 | 流程环节 | 是否看见 | 证据 |
 |---|---|---|
-| 进入 | 已看见 | [Watch 语音查询](../../../media/q3-2026/04-apple/assets/watch-airpods-input/01-watch-query.png)、[AirPods 佩戴/触碰](../../../media/q3-2026/04-apple/assets/watch-airpods-input/03-airpods-press-to-translate.png)；双柄触发方式来自官方文字 |
+| 进入 | 已看见 | [Watch 语音查询](assets/watch-airpods-input/01-watch-query.png)、[AirPods 佩戴/触碰](assets/watch-airpods-input/03-airpods-press-to-translate.png)；双柄触发方式来自官方文字 |
 | 委托 | 已看见 | Watch 语音问题；AirPods 发起翻译 |
-| 过程 | 部分看见 | [Live Translation 场景](../../../media/q3-2026/04-apple/assets/watch-airpods-input/04-live-translation-conversation.png)；识别、翻译与播放状态不可见 |
+| 过程 | 部分看见 | [Live Translation 场景](assets/watch-airpods-input/04-live-translation-conversation.png)；识别、翻译与播放状态不可见 |
 | 接管 | 未看见 | 没有暂停、取消或人工改写翻译 |
-| 产物 | 部分看见 | [Watch 回答](../../../media/q3-2026/04-apple/assets/watch-airpods-input/02-watch-answer.png)可见；AirPods 只见[交流继续](../../../media/q3-2026/04-apple/assets/watch-airpods-input/05-conversation-outcome.png)，没有翻译内容 UI |
+| 产物 | 部分看见 | [Watch 回答](assets/watch-airpods-input/02-watch-answer.png)可见；AirPods 只见[交流继续](assets/watch-airpods-input/05-conversation-outcome.png)，没有翻译内容 UI |
 | 退出 | 未看见 | 没有结束翻译/离开 Siri 的明确状态 |
 
-补充动作：[柄部音量滑动](../../../media/q3-2026/04-apple/assets/watch-airpods-input/06-volume-swipe.png)；背景帧：[2024 头部动作](../../../media/q3-2026/04-apple/assets/watch-airpods-input/07-head-gesture-background-2024.png)。下载片段：[Live Translation，14.825 秒](../../../media/q3-2026/04-apple/assets/watch-airpods-input/clip.mp4)。详见 [source.md](assets/watch-airpods-input/source.md)。
+补充动作：[柄部音量滑动](assets/watch-airpods-input/06-volume-swipe.png)；背景帧：[2024 头部动作](assets/watch-airpods-input/07-head-gesture-background-2024.png)。下载片段：[Live Translation，14.825 秒](assets/watch-airpods-input/clip.mp4)。详见 [source.md](assets/watch-airpods-input/source.md)。
 
 ## §4 新硬件
 
@@ -210,42 +210,42 @@ iPhone Duo 补的是“更大的并行工作面仍能装进口袋”；Watch 补
 
 | 文件名 | 对应特性 | 来源 URL | 源时间码 | 官方性 | 抓取日期 |
 | --- | --- | --- | ---: | --- | --- |
-| [assets/foldable-input/01-outer-display.png](../../../media/q3-2026/04-apple/assets/foldable-input/01-outer-display.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:04 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/02-opening.png](../../../media/q3-2026/04-apple/assets/foldable-input/02-opening.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:08 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/03-inner-home.png](../../../media/q3-2026/04-apple/assets/foldable-input/03-inner-home.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:12 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/04-inner-photos.png](../../../media/q3-2026/04-apple/assets/foldable-input/04-inner-photos.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:16 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/05-inner-web.png](../../../media/q3-2026/04-apple/assets/foldable-input/05-inner-web.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:28 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/06-split-view.png](../../../media/q3-2026/04-apple/assets/foldable-input/06-split-view.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:34 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/07-split-view-swapped.png](../../../media/q3-2026/04-apple/assets/foldable-input/07-split-view-swapped.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:38 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/08-two-thumb-game.png](../../../media/q3-2026/04-apple/assets/foldable-input/08-two-thumb-game.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 01:52 | Apple 官方演示 | 2026-09-09 |
-| [assets/foldable-input/09-inner-keyboard-write-with-siri.png](../../../media/q3-2026/04-apple/assets/foldable-input/09-inner-keyboard-write-with-siri.png) | 折叠输入 | [Duo Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-write-with-Siri-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；非同源连续片 | 2026-09-09 |
-| [assets/foldable-input/clip.mp4](../../../media/q3-2026/04-apple/assets/foldable-input/clip.mp4) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:08–00:38 | Apple 官方演示剪段 | 2026-09-09 |
-| [assets/siri-delegation/01-dynamic-island.png](../../../media/q3-2026/04-apple/assets/siri-delegation/01-dynamic-island.png) | Siri 委托 | [Dynamic Island 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-dynamic-island-gesture/large_2x.mp4) | 00:00.3 | Apple 官方演示 | 2026-09-09 |
-| [assets/siri-delegation/02-swipe-down-entry.png](../../../media/q3-2026/04-apple/assets/siri-delegation/02-swipe-down-entry.png) | Siri 委托 | [Dynamic Island 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-dynamic-island-gesture/large_2x.mp4) | 00:01.3 | Apple 官方演示 | 2026-09-09 |
-| [assets/siri-delegation/03-screen-aware-result.png](../../../media/q3-2026/04-apple/assets/siri-delegation/03-screen-aware-result.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:20 | Apple 官方演示 | 2026-09-09 |
-| [assets/siri-delegation/04-jeff-query.png](../../../media/q3-2026/04-apple/assets/siri-delegation/04-jeff-query.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:30 | Apple 官方演示 | 2026-09-09 |
-| [assets/siri-delegation/05-message-address.png](../../../media/q3-2026/04-apple/assets/siri-delegation/05-message-address.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:40 | Apple 官方演示 | 2026-09-09 |
-| [assets/siri-delegation/06-route-result.png](../../../media/q3-2026/04-apple/assets/siri-delegation/06-route-result.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:58 | Apple 官方演示；GO 未点击 | 2026-09-09 |
-| [assets/siri-delegation/07-selection-context-menu.png](../../../media/q3-2026/04-apple/assets/siri-delegation/07-selection-context-menu.png) | Siri 委托 | [Mac “Ask Siri” 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-ask-about-images-260608_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；独立场景 | 2026-09-09 |
-| [assets/siri-delegation/08-visual-intelligence-ipad.png](../../../media/q3-2026/04-apple/assets/siri-delegation/08-visual-intelligence-ipad.png) | Siri 委托 | [iPad Visual Intelligence 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-Visual-Intelligence-on-iPad-260608_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；独立场景 | 2026-09-09 |
-| [assets/siri-delegation/clip.mp4](../../../media/q3-2026/04-apple/assets/siri-delegation/clip.mp4) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:30–02:00 | Apple 官方演示剪段 | 2026-09-09 |
-| [assets/cross-device-handoff/01-iphone-siri-app.png](../../../media/q3-2026/04-apple/assets/cross-device-handoff/01-iphone-siri-app.png) | 跨设备 | [iPhone Siri 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-app-chat-260608_inline.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；非连续接力 | 2026-09-09 |
-| [assets/cross-device-handoff/02-ipad-siri-app.png](../../../media/q3-2026/04-apple/assets/cross-device-handoff/02-ipad-siri-app.png) | 跨设备 | [iPad Siri App 图](https://www.apple.com/v/os/g/images/shared/siri/siri_app__bf82k75xd8z6_large_2x.jpg) | 静态 | Apple 官方 UI；非连续接力 | 2026-09-09 |
-| [assets/cross-device-handoff/03-watch-siri-answer.png](../../../media/q3-2026/04-apple/assets/cross-device-handoff/03-watch-siri-answer.png) | 跨设备 | [Watch Siri 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-on-apple-watch/large_2x.mp4) | 00:07 | Apple 官方 UI；非连续接力 | 2026-09-09 |
-| [assets/cross-device-handoff/04-vision-pro-siri.png](../../../media/q3-2026/04-apple/assets/cross-device-handoff/04-vision-pro-siri.png) | 跨设备 | [Vision Pro Siri 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-on-Apple-Vision-Pro-260608_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；非连续接力 | 2026-09-09 |
-| [assets/watch-airpods-input/01-watch-query.png](../../../media/q3-2026/04-apple/assets/watch-airpods-input/01-watch-query.png) | Watch/AirPods | [Watch Siri 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-on-apple-watch/large_2x.mp4) | 00:00.5 | Apple 官方演示 | 2026-09-09 |
-| [assets/watch-airpods-input/02-watch-answer.png](../../../media/q3-2026/04-apple/assets/watch-airpods-input/02-watch-answer.png) | Watch/AirPods | [Watch Siri 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-on-apple-watch/large_2x.mp4) | 00:07 | Apple 官方演示 | 2026-09-09 |
-| [assets/watch-airpods-input/03-airpods-press-to-translate.png](../../../media/q3-2026/04-apple/assets/watch-airpods-input/03-airpods-press-to-translate.png) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:03 | Apple 官方场景；单帧不证明双柄按压 | 2026-09-09 |
-| [assets/watch-airpods-input/04-live-translation-conversation.png](../../../media/q3-2026/04-apple/assets/watch-airpods-input/04-live-translation-conversation.png) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:08 | Apple 官方场景；无翻译状态 UI | 2026-09-09 |
-| [assets/watch-airpods-input/05-conversation-outcome.png](../../../media/q3-2026/04-apple/assets/watch-airpods-input/05-conversation-outcome.png) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:13 | Apple 官方场景；无翻译内容 UI | 2026-09-09 |
-| [assets/watch-airpods-input/06-volume-swipe.png](../../../media/q3-2026/04-apple/assets/watch-airpods-input/06-volume-swipe.png) | Watch/AirPods | [Volume Swipe 视频](https://www.apple.com/newsroom/videos/2026/autoplay/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/apple-airpods-5-volume-swiping/large_2x.mp4) | 00:01.5 | Apple 官方演示 | 2026-09-09 |
-| [assets/watch-airpods-input/07-head-gesture-background-2024.png](../../../media/q3-2026/04-apple/assets/watch-airpods-input/07-head-gesture-background-2024.png) | Watch/AirPods | [2024 Newsroom](https://www.apple.com/newsroom/2024/09/apple-introduces-airpods-4-and-a-hearing-health-experience-with-airpods-pro-2/) | 00:17 | Apple 官方背景；不计 2026 新证据 | 2026-09-09 |
-| [assets/watch-airpods-input/clip.mp4](../../../media/q3-2026/04-apple/assets/watch-airpods-input/clip.mp4) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:00–00:14.825 | Apple 官方演示剪段 | 2026-09-09 |
-| [assets/hardware-status/01-iphone-duo.png](../../../media/q3-2026/04-apple/assets/hardware-status/01-iphone-duo.png) | 新硬件 | [Duo Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
-| [assets/hardware-status/02-iphone-18-pro.png](../../../media/q3-2026/04-apple/assets/hardware-status/02-iphone-18-pro.png) | 新硬件 | [18 Pro/Max Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-2up-260909_inline.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
-| [assets/hardware-status/03-watch-series-12.png](../../../media/q3-2026/04-apple/assets/hardware-status/03-watch-series-12.png) | 新硬件 | [Series 12 Newsroom 图](https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-2up-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
-| [assets/hardware-status/04-watch-ultra-4.png](../../../media/q3-2026/04-apple/assets/hardware-status/04-watch-ultra-4.png) | 新硬件 | [Ultra 4 Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-unveils-apple-watch-ultra-4/article/Apple-Watch-Ultra-4-hero-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
-| [assets/hardware-status/05-airpods-5.png](../../../media/q3-2026/04-apple/assets/hardware-status/05-airpods-5.png) | 新硬件 | [AirPods 5 Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/article/Apple-AirPods-5-hero-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
+| [assets/foldable-input/01-outer-display.png](assets/foldable-input/01-outer-display.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:04 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/02-opening.png](assets/foldable-input/02-opening.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:08 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/03-inner-home.png](assets/foldable-input/03-inner-home.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:12 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/04-inner-photos.png](assets/foldable-input/04-inner-photos.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:16 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/05-inner-web.png](assets/foldable-input/05-inner-web.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:28 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/06-split-view.png](assets/foldable-input/06-split-view.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:34 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/07-split-view-swapped.png](assets/foldable-input/07-split-view-swapped.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:38 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/08-two-thumb-game.png](assets/foldable-input/08-two-thumb-game.png) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 01:52 | Apple 官方演示 | 2026-09-09 |
+| [assets/foldable-input/09-inner-keyboard-write-with-siri.png](assets/foldable-input/09-inner-keyboard-write-with-siri.png) | 折叠输入 | [Duo Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-write-with-Siri-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；非同源连续片 | 2026-09-09 |
+| [assets/foldable-input/clip.mp4](assets/foldable-input/clip.mp4) | 折叠输入 | [Duo 产品片](https://www.apple.com/iphone-duo/) | 00:08–00:38 | Apple 官方演示剪段 | 2026-09-09 |
+| [assets/siri-delegation/01-dynamic-island.png](assets/siri-delegation/01-dynamic-island.png) | Siri 委托 | [Dynamic Island 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-dynamic-island-gesture/large_2x.mp4) | 00:00.3 | Apple 官方演示 | 2026-09-09 |
+| [assets/siri-delegation/02-swipe-down-entry.png](assets/siri-delegation/02-swipe-down-entry.png) | Siri 委托 | [Dynamic Island 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-dynamic-island-gesture/large_2x.mp4) | 00:01.3 | Apple 官方演示 | 2026-09-09 |
+| [assets/siri-delegation/03-screen-aware-result.png](assets/siri-delegation/03-screen-aware-result.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:20 | Apple 官方演示 | 2026-09-09 |
+| [assets/siri-delegation/04-jeff-query.png](assets/siri-delegation/04-jeff-query.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:30 | Apple 官方演示 | 2026-09-09 |
+| [assets/siri-delegation/05-message-address.png](assets/siri-delegation/05-message-address.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:40 | Apple 官方演示 | 2026-09-09 |
+| [assets/siri-delegation/06-route-result.png](assets/siri-delegation/06-route-result.png) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:58 | Apple 官方演示；GO 未点击 | 2026-09-09 |
+| [assets/siri-delegation/07-selection-context-menu.png](assets/siri-delegation/07-selection-context-menu.png) | Siri 委托 | [Mac “Ask Siri” 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-ask-about-images-260608_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；独立场景 | 2026-09-09 |
+| [assets/siri-delegation/08-visual-intelligence-ipad.png](assets/siri-delegation/08-visual-intelligence-ipad.png) | Siri 委托 | [iPad Visual Intelligence 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-Visual-Intelligence-on-iPad-260608_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；独立场景 | 2026-09-09 |
+| [assets/siri-delegation/clip.mp4](assets/siri-delegation/clip.mp4) | Siri 委托 | [Personal Assistant](https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/) | 01:30–02:00 | Apple 官方演示剪段 | 2026-09-09 |
+| [assets/cross-device-handoff/01-iphone-siri-app.png](assets/cross-device-handoff/01-iphone-siri-app.png) | 跨设备 | [iPhone Siri 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-app-chat-260608_inline.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；非连续接力 | 2026-09-09 |
+| [assets/cross-device-handoff/02-ipad-siri-app.png](assets/cross-device-handoff/02-ipad-siri-app.png) | 跨设备 | [iPad Siri App 图](https://www.apple.com/v/os/g/images/shared/siri/siri_app__bf82k75xd8z6_large_2x.jpg) | 静态 | Apple 官方 UI；非连续接力 | 2026-09-09 |
+| [assets/cross-device-handoff/03-watch-siri-answer.png](assets/cross-device-handoff/03-watch-siri-answer.png) | 跨设备 | [Watch Siri 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-on-apple-watch/large_2x.mp4) | 00:07 | Apple 官方 UI；非连续接力 | 2026-09-09 |
+| [assets/cross-device-handoff/04-vision-pro-siri.png](assets/cross-device-handoff/04-vision-pro-siri.png) | 跨设备 | [Vision Pro Siri 图](https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/article/Apple-Siri-AI-on-Apple-Vision-Pro-260608_big.jpg.large_2x.jpg) | 静态 | Apple 官方 UI；非连续接力 | 2026-09-09 |
+| [assets/watch-airpods-input/01-watch-query.png](assets/watch-airpods-input/01-watch-query.png) | Watch/AirPods | [Watch Siri 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-on-apple-watch/large_2x.mp4) | 00:00.5 | Apple 官方演示 | 2026-09-09 |
+| [assets/watch-airpods-input/02-watch-answer.png](assets/watch-airpods-input/02-watch-answer.png) | Watch/AirPods | [Watch Siri 视频](https://www.apple.com/newsroom/videos/2026/autoplay/06/apple-siri-ai-on-apple-watch/large_2x.mp4) | 00:07 | Apple 官方演示 | 2026-09-09 |
+| [assets/watch-airpods-input/03-airpods-press-to-translate.png](assets/watch-airpods-input/03-airpods-press-to-translate.png) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:03 | Apple 官方场景；单帧不证明双柄按压 | 2026-09-09 |
+| [assets/watch-airpods-input/04-live-translation-conversation.png](assets/watch-airpods-input/04-live-translation-conversation.png) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:08 | Apple 官方场景；无翻译状态 UI | 2026-09-09 |
+| [assets/watch-airpods-input/05-conversation-outcome.png](assets/watch-airpods-input/05-conversation-outcome.png) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:13 | Apple 官方场景；无翻译内容 UI | 2026-09-09 |
+| [assets/watch-airpods-input/06-volume-swipe.png](assets/watch-airpods-input/06-volume-swipe.png) | Watch/AirPods | [Volume Swipe 视频](https://www.apple.com/newsroom/videos/2026/autoplay/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/apple-airpods-5-volume-swiping/large_2x.mp4) | 00:01.5 | Apple 官方演示 | 2026-09-09 |
+| [assets/watch-airpods-input/07-head-gesture-background-2024.png](assets/watch-airpods-input/07-head-gesture-background-2024.png) | Watch/AirPods | [2024 Newsroom](https://www.apple.com/newsroom/2024/09/apple-introduces-airpods-4-and-a-hearing-health-experience-with-airpods-pro-2/) | 00:17 | Apple 官方背景；不计 2026 新证据 | 2026-09-09 |
+| [assets/watch-airpods-input/clip.mp4](assets/watch-airpods-input/clip.mp4) | Watch/AirPods | [AirPods 5 Newsroom](https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/) | 00:00–00:14.825 | Apple 官方演示剪段 | 2026-09-09 |
+| [assets/hardware-status/01-iphone-duo.png](assets/hardware-status/01-iphone-duo.png) | 新硬件 | [Duo Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
+| [assets/hardware-status/02-iphone-18-pro.png](assets/hardware-status/02-iphone-18-pro.png) | 新硬件 | [18 Pro/Max Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-2up-260909_inline.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
+| [assets/hardware-status/03-watch-series-12.png](assets/hardware-status/03-watch-series-12.png) | 新硬件 | [Series 12 Newsroom 图](https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-2up-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
+| [assets/hardware-status/04-watch-ultra-4.png](assets/hardware-status/04-watch-ultra-4.png) | 新硬件 | [Ultra 4 Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-unveils-apple-watch-ultra-4/article/Apple-Watch-Ultra-4-hero-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
+| [assets/hardware-status/05-airpods-5.png](assets/hardware-status/05-airpods-5.png) | 新硬件 | [AirPods 5 Newsroom 图](https://www.apple.com/newsroom/images/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/article/Apple-AirPods-5-hero-260909_big.jpg.large_2x.jpg) | 静态 | Apple 官方产品图 | 2026-09-09 |
 
 ### 证据等级
 

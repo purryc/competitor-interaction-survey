@@ -28,15 +28,15 @@ Microsoft 正把 Windows 做成 agent 的受控运行底座：2026 Build 的重�
 2. MXC 实机：声明运行约束 → 未授权文件写入被拒绝 → 恶意文件/网络/UI 行为被 MXC Shield 拦截。
 3. Agent365 管理补充：管理中心看到 agent 库存与部署入口 → Block agent 配置入口。这里的总数是注册/治理库存，不是本机“正在运行数”；Block 图中复选框未勾、Save 为灰，不证明动作已经执行，也不是本机 kill。
 
-![Agent 会话入口](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/01-agent-entry-teams.png)
-![Task Manager Users 视图中的会话进程](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/02-agent-session-processes.png)
-![MXC 声明式运行合同](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/03-mxc-declarative-contract.png)
-![未授权写入被拒绝](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/04-runtime-file-write-denied.png)
-![恶意行为被 MXC Shield 拦截](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/05-malicious-agent-contained.png)
-![Agent365 注册与部署库存](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/06-agent-registry-inventory.png)
-![Agent365 Block 操作](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/07-block-agent-governance.png)
+![Agent 会话入口](assets/windows-agent-runtime/01-agent-entry-teams.png)
+![Task Manager Users 视图中的会话进程](assets/windows-agent-runtime/02-agent-session-processes.png)
+![MXC 声明式运行合同](assets/windows-agent-runtime/03-mxc-declarative-contract.png)
+![未授权写入被拒绝](assets/windows-agent-runtime/04-runtime-file-write-denied.png)
+![恶意行为被 MXC Shield 拦截](assets/windows-agent-runtime/05-malicious-agent-contained.png)
+![Agent365 注册与部署库存](assets/windows-agent-runtime/06-agent-registry-inventory.png)
+![Agent365 Block 操作](assets/windows-agent-runtime/07-block-agent-governance.png)
 
-短片：[Agent ID `08:00–08:29.9`](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4) · [MXC 拒绝 `15:00–15:30`](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4)
+短片：[Agent ID `08:00–08:29.9`](assets/windows-agent-runtime/clip-agent-identity.mp4) · [MXC 拒绝 `15:00–15:30`](assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4)
 
 一句差异点：系统把 agent 从“某个应用里的功能”提升为带独立身份、进程/会话隔离和 OS 强制约束的执行主体；当前公开 UI 仍更偏开发者与管理员。
 
@@ -48,15 +48,15 @@ Microsoft 正把 Windows 做成 agent 的受控运行底座：2026 Build 的重�
 
 权限粒度可见证据：MXC 合同同时声明 workload、execution entrypoint、文件读写路径、网络 allow/block 与 UI/clipboard 能力；GitHub Copilot CLI 的 sandbox 直接分成 Filesystem 和 Network；Agent365 部署页按 Copilot/Microsoft 365/Outlook/Teams 等 host product 限定应用面。已知文件夹清单只来自 2025 背景图。
 
-![文件、网络、UI 能力的声明式模型](../../../media/q3-2026/06-microsoft/assets/system-permissions/01-declarative-permission-model.png)
-![readwritePaths 与 readonlyPaths](../../../media/q3-2026/06-microsoft/assets/system-permissions/02-filesystem-readonly-paths.png)
-![文件写入拒绝态](../../../media/q3-2026/06-microsoft/assets/system-permissions/03-file-write-denied.png)
-![Copilot CLI Filesystem policy](../../../media/q3-2026/06-microsoft/assets/system-permissions/04-copilot-cli-filesystem-policy.png)
-![Copilot CLI Network policy](../../../media/q3-2026/06-microsoft/assets/system-permissions/05-copilot-cli-network-policy.png)
-![Agent365 host product 范围](../../../media/q3-2026/06-microsoft/assets/system-permissions/06-app-host-scope.png)
-![已知文件夹设置提示，BACKGROUND](../../../media/q3-2026/06-microsoft/assets/system-permissions/07-known-folders-background.png)
+![文件、网络、UI 能力的声明式模型](assets/system-permissions/01-declarative-permission-model.png)
+![readwritePaths 与 readonlyPaths](assets/system-permissions/02-filesystem-readonly-paths.png)
+![文件写入拒绝态](assets/system-permissions/03-file-write-denied.png)
+![Copilot CLI Filesystem policy](assets/system-permissions/04-copilot-cli-filesystem-policy.png)
+![Copilot CLI Network policy](assets/system-permissions/05-copilot-cli-network-policy.png)
+![Agent365 host product 范围](assets/system-permissions/06-app-host-scope.png)
+![已知文件夹设置提示，BACKGROUND](assets/system-permissions/07-known-folders-background.png)
 
-短片：[文件系统配置→拒绝 `15:00–15:30`](../../../media/q3-2026/06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4)
+短片：[文件系统配置→拒绝 `15:00–15:30`](assets/system-permissions/clip-filesystem-denial.mp4)
 
 一句差异点：Microsoft 的公开方向是把权限合同下沉到执行容器，并允许按路径、网络与 UI 能力拆开；消费者侧“应用×能力”的统一可视总览尚未被本包证据证明。
 
@@ -68,14 +68,14 @@ Microsoft 正把 Windows 做成 agent 的受控运行底座：2026 Build 的重�
 
 `01–05` 是同一条 2026 Edge 官方连续演示：选择 Browse with Copilot → 输入 LinkedIn 发帖任务 → Copilot 打开目标站并持续显示 working/browsing → 生成草稿 → 显示“Reasoning completed in 6 steps”，把发布动作留给用户确认。`06` 是另一条 2025 Copilot Actions 背景图，只证明 paused + Take control 控件存在，不能接在前五帧后面当作同一任务。
 
-![进入 Browse with Copilot](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/01-enter-browse-with-copilot.png)
-![委托任务](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/02-delegate-task.png)
-![Copilot 正在 LinkedIn 工作](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/03-working-on-linkedin.png)
-![草稿弹窗形成](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/04-progress-draft-modal.png)
-![完成六步推理并等待最终确认](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/05-artifact-confirmation.png)
-![Paused 与 Take control，BACKGROUND](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/06-take-control-background.png)
+![进入 Browse with Copilot](assets/copilot-agent-mode/01-enter-browse-with-copilot.png)
+![委托任务](assets/copilot-agent-mode/02-delegate-task.png)
+![Copilot 正在 LinkedIn 工作](assets/copilot-agent-mode/03-working-on-linkedin.png)
+![草稿弹窗形成](assets/copilot-agent-mode/04-progress-draft-modal.png)
+![完成六步推理并等待最终确认](assets/copilot-agent-mode/05-artifact-confirmation.png)
+![Paused 与 Take control，BACKGROUND](assets/copilot-agent-mode/06-take-control-background.png)
 
-短片：[2026 Edge 连续 29.90 秒](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/clip-edge-agentic-30s.mp4)
+短片：[2026 Edge 连续 29.90 秒](assets/copilot-agent-mode/clip-edge-agentic-30s.mp4)
 
 一句差异点：委托仍需明确文字表达，但执行期间在目标网页保留全局进度提示，外部发布动作在最后一步回到用户确认；当前 2026 片段没有证明即时接管与退出。
 
@@ -86,11 +86,11 @@ Microsoft 正把 Windows 做成 agent 的受控运行底座：2026 Build 的重�
 - 新 Surface Pro 13 英寸与 Surface Laptop 13.8/15 英寸使用 Snapdragon X2 系列，属于 Copilot+ PC 路线。官方发布页把它们描述为兼顾本地 AI 与云端能力的常规生产力设备；本包未发现专门为 agent 增加的新手势或常驻控制面。
 - Surface RTX Spark Dev Box 面向开发者和持续本地 AI 工作负载，官方页标注 `Pre-release product; not available for sale`；Build 资料称 later 2026、美国 Microsoft.com。它用 GPU/大显存补长时间、本地、多 agent/模型工作负载，不应与普通 Copilot+ PC 的 NPU 营销口径混为一谈。
 
-![2026 Surface Pro / Laptop](../../../media/q3-2026/06-microsoft/assets/hardware/01-surface-pro-laptop-2026.png)
-![2026 Surface Pro](../../../media/q3-2026/06-microsoft/assets/hardware/02-surface-pro-2026.png)
-![2026 Surface Laptop](../../../media/q3-2026/06-microsoft/assets/hardware/03-surface-laptop-2026.png)
-![Surface RTX Spark Dev Box](../../../media/q3-2026/06-microsoft/assets/hardware/04-surface-rtx-spark-dev-box.png)
-![Surface RTX Spark 端口](../../../media/q3-2026/06-microsoft/assets/hardware/05-surface-rtx-spark-ports.png)
+![2026 Surface Pro / Laptop](assets/hardware/01-surface-pro-laptop-2026.png)
+![2026 Surface Pro](assets/hardware/02-surface-pro-2026.png)
+![2026 Surface Laptop](assets/hardware/03-surface-laptop-2026.png)
+![Surface RTX Spark Dev Box](assets/hardware/04-surface-rtx-spark-dev-box.png)
+![Surface RTX Spark 端口](assets/hardware/05-surface-rtx-spark-ports.png)
 
 为什么要有：普通 Surface 用 NPU 承接低功耗、持续的本地 AI；RTX Spark Dev Box 用 GPU 与 128GB 统一内存承接更长、更重的本地 agent 开发和执行。前者改善移动载体，后者解决开发工作站级持续算力，不是同一层产品。
 
@@ -120,35 +120,35 @@ Microsoft 正把 Windows 做成 agent 的受控运行底座：2026 Build 的重�
 
 | 文件名 | 对应特性 | 来源 URL | 时间码 / 页面状态 | 抓取日期 | 官方 |
 | --- | --- | --- | --- | --- | --- |
-| [assets/windows-agent-runtime/01-agent-entry-teams.png](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/01-agent-entry-teams.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 08:20 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/02-agent-session-processes.png](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/02-agent-session-processes.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 08:45；Users 视图，没有可读 agent identity 字段 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/03-mxc-declarative-contract.png](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/03-mxc-declarative-contract.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 14:00 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/04-runtime-file-write-denied.png](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/04-runtime-file-write-denied.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:20 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/05-malicious-agent-contained.png](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/05-malicious-agent-contained.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 16:35 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/06-agent-registry-inventory.png](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/06-agent-registry-inventory.png) | Windows runtime | https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide | Agent365 Deploy agent；页更新 2026-08-31 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/07-block-agent-governance.png](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/07-block-agent-governance.png) | Windows runtime | https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide | Agent365 Block agent 配置入口，未勾选/未执行；页更新 2026-08-31 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/clip-agent-identity.mp4](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 08:00–08:29.9 | 2026-09-09 | 是 |
-| [assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4](../../../media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:00–15:30 | 2026-09-09 | 是 |
-| [assets/system-permissions/01-declarative-permission-model.png](../../../media/q3-2026/06-microsoft/assets/system-permissions/01-declarative-permission-model.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 14:00 | 2026-09-09 | 是 |
-| [assets/system-permissions/02-filesystem-readonly-paths.png](../../../media/q3-2026/06-microsoft/assets/system-permissions/02-filesystem-readonly-paths.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:35 | 2026-09-09 | 是 |
-| [assets/system-permissions/03-file-write-denied.png](../../../media/q3-2026/06-microsoft/assets/system-permissions/03-file-write-denied.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:20 | 2026-09-09 | 是 |
-| [assets/system-permissions/04-copilot-cli-filesystem-policy.png](../../../media/q3-2026/06-microsoft/assets/system-permissions/04-copilot-cli-filesystem-policy.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 22:25；Filesystem，No paths yet | 2026-09-09 | 是 |
-| [assets/system-permissions/05-copilot-cli-network-policy.png](../../../media/q3-2026/06-microsoft/assets/system-permissions/05-copilot-cli-network-policy.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 23:30；Network，No hosts yet | 2026-09-09 | 是 |
-| [assets/system-permissions/06-app-host-scope.png](../../../media/q3-2026/06-microsoft/assets/system-permissions/06-app-host-scope.png) | 系统权限 | https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide | Host products；页更新 2026-08-31 | 2026-09-09 | 是 |
-| [assets/system-permissions/07-known-folders-background.png](../../../media/q3-2026/06-microsoft/assets/system-permissions/07-known-folders-background.png) | 系统权限 | https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/ | Known folders；BACKGROUND 2025-10-16 | 2026-09-09 | 是 |
-| [assets/system-permissions/clip-filesystem-denial.mp4](../../../media/q3-2026/06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:00–15:30 | 2026-09-09 | 是 |
-| [assets/copilot-agent-mode/01-enter-browse-with-copilot.png](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/01-enter-browse-with-copilot.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:03 | 2026-09-09 | 是 |
-| [assets/copilot-agent-mode/02-delegate-task.png](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/02-delegate-task.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:12 | 2026-09-09 | 是 |
-| [assets/copilot-agent-mode/03-working-on-linkedin.png](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/03-working-on-linkedin.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:21 | 2026-09-09 | 是 |
-| [assets/copilot-agent-mode/04-progress-draft-modal.png](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/04-progress-draft-modal.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:27 | 2026-09-09 | 是 |
-| [assets/copilot-agent-mode/05-artifact-confirmation.png](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/05-artifact-confirmation.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:33 | 2026-09-09 | 是 |
-| [assets/copilot-agent-mode/06-take-control-background.png](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/06-take-control-background.png) | Copilot agent mode | https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/ | Paused + Take control；BACKGROUND 2025-10-16 | 2026-09-09 | 是 |
-| [assets/copilot-agent-mode/clip-edge-agentic-30s.mp4](../../../media/q3-2026/06-microsoft/assets/copilot-agent-mode/clip-edge-agentic-30s.mp4) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:06–00:35.9 | 2026-09-09 | 是 |
-| [assets/hardware/01-surface-pro-laptop-2026.png](../../../media/q3-2026/06-microsoft/assets/hardware/01-surface-pro-laptop-2026.png) | 新硬件 | https://news.microsoft.com/source/asia/2026/06/16/微软推出新一代-surface-pro-与-surface-laptop，兼顾性能与灵活性/?lang=zh-hans | 2026-06-16 发布页主图 | 2026-09-09 | 是 |
-| [assets/hardware/02-surface-pro-2026.png](../../../media/q3-2026/06-microsoft/assets/hardware/02-surface-pro-2026.png) | 新硬件 | https://news.microsoft.com/source/asia/2026/06/16/微软推出新一代-surface-pro-与-surface-laptop，兼顾性能与灵活性/?lang=zh-hans | Surface Pro 产品图 | 2026-09-09 | 是 |
-| [assets/hardware/03-surface-laptop-2026.png](../../../media/q3-2026/06-microsoft/assets/hardware/03-surface-laptop-2026.png) | 新硬件 | https://news.microsoft.com/source/asia/2026/06/16/微软推出新一代-surface-pro-与-surface-laptop，兼顾性能与灵活性/?lang=zh-hans | Surface Laptop 产品图 | 2026-09-09 | 是 |
-| [assets/hardware/04-surface-rtx-spark-dev-box.png](../../../media/q3-2026/06-microsoft/assets/hardware/04-surface-rtx-spark-dev-box.png) | 新硬件 | https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box | Pre-release 主图 | 2026-09-09 | 是 |
-| [assets/hardware/05-surface-rtx-spark-ports.png](../../../media/q3-2026/06-microsoft/assets/hardware/05-surface-rtx-spark-ports.png) | 新硬件 | https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box | Ports | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/01-agent-entry-teams.png](assets/windows-agent-runtime/01-agent-entry-teams.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 08:20 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/02-agent-session-processes.png](assets/windows-agent-runtime/02-agent-session-processes.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 08:45；Users 视图，没有可读 agent identity 字段 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/03-mxc-declarative-contract.png](assets/windows-agent-runtime/03-mxc-declarative-contract.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 14:00 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/04-runtime-file-write-denied.png](assets/windows-agent-runtime/04-runtime-file-write-denied.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:20 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/05-malicious-agent-contained.png](assets/windows-agent-runtime/05-malicious-agent-contained.png) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 16:35 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/06-agent-registry-inventory.png](assets/windows-agent-runtime/06-agent-registry-inventory.png) | Windows runtime | https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide | Agent365 Deploy agent；页更新 2026-08-31 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/07-block-agent-governance.png](assets/windows-agent-runtime/07-block-agent-governance.png) | Windows runtime | https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide | Agent365 Block agent 配置入口，未勾选/未执行；页更新 2026-08-31 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/clip-agent-identity.mp4](assets/windows-agent-runtime/clip-agent-identity.mp4) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 08:00–08:29.9 | 2026-09-09 | 是 |
+| [assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4](assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4) | Windows runtime | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:00–15:30 | 2026-09-09 | 是 |
+| [assets/system-permissions/01-declarative-permission-model.png](assets/system-permissions/01-declarative-permission-model.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 14:00 | 2026-09-09 | 是 |
+| [assets/system-permissions/02-filesystem-readonly-paths.png](assets/system-permissions/02-filesystem-readonly-paths.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:35 | 2026-09-09 | 是 |
+| [assets/system-permissions/03-file-write-denied.png](assets/system-permissions/03-file-write-denied.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:20 | 2026-09-09 | 是 |
+| [assets/system-permissions/04-copilot-cli-filesystem-policy.png](assets/system-permissions/04-copilot-cli-filesystem-policy.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 22:25；Filesystem，No paths yet | 2026-09-09 | 是 |
+| [assets/system-permissions/05-copilot-cli-network-policy.png](assets/system-permissions/05-copilot-cli-network-policy.png) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 23:30；Network，No hosts yet | 2026-09-09 | 是 |
+| [assets/system-permissions/06-app-host-scope.png](assets/system-permissions/06-app-host-scope.png) | 系统权限 | https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-actions?view=o365-worldwide | Host products；页更新 2026-08-31 | 2026-09-09 | 是 |
+| [assets/system-permissions/07-known-folders-background.png](assets/system-permissions/07-known-folders-background.png) | 系统权限 | https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/ | Known folders；BACKGROUND 2025-10-16 | 2026-09-09 | 是 |
+| [assets/system-permissions/clip-filesystem-denial.mp4](assets/system-permissions/clip-filesystem-denial.mp4) | 系统权限 | https://www.youtube.com/watch?v=CU4Wngb3JnA | BRK262 15:00–15:30 | 2026-09-09 | 是 |
+| [assets/copilot-agent-mode/01-enter-browse-with-copilot.png](assets/copilot-agent-mode/01-enter-browse-with-copilot.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:03 | 2026-09-09 | 是 |
+| [assets/copilot-agent-mode/02-delegate-task.png](assets/copilot-agent-mode/02-delegate-task.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:12 | 2026-09-09 | 是 |
+| [assets/copilot-agent-mode/03-working-on-linkedin.png](assets/copilot-agent-mode/03-working-on-linkedin.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:21 | 2026-09-09 | 是 |
+| [assets/copilot-agent-mode/04-progress-draft-modal.png](assets/copilot-agent-mode/04-progress-draft-modal.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:27 | 2026-09-09 | 是 |
+| [assets/copilot-agent-mode/05-artifact-confirmation.png](assets/copilot-agent-mode/05-artifact-confirmation.png) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:33 | 2026-09-09 | 是 |
+| [assets/copilot-agent-mode/06-take-control-background.png](assets/copilot-agent-mode/06-take-control-background.png) | Copilot agent mode | https://blogs.windows.com/windowsexperience/2025/10/16/securing-ai-agents-on-windows/ | Paused + Take control；BACKGROUND 2025-10-16 | 2026-09-09 | 是 |
+| [assets/copilot-agent-mode/clip-edge-agentic-30s.mp4](assets/copilot-agent-mode/clip-edge-agentic-30s.mp4) | Copilot agent mode | https://www.youtube.com/watch?v=mQv0EBvj2nI | 00:06–00:35.9 | 2026-09-09 | 是 |
+| [assets/hardware/01-surface-pro-laptop-2026.png](assets/hardware/01-surface-pro-laptop-2026.png) | 新硬件 | https://news.microsoft.com/source/asia/2026/06/16/微软推出新一代-surface-pro-与-surface-laptop，兼顾性能与灵活性/?lang=zh-hans | 2026-06-16 发布页主图 | 2026-09-09 | 是 |
+| [assets/hardware/02-surface-pro-2026.png](assets/hardware/02-surface-pro-2026.png) | 新硬件 | https://news.microsoft.com/source/asia/2026/06/16/微软推出新一代-surface-pro-与-surface-laptop，兼顾性能与灵活性/?lang=zh-hans | Surface Pro 产品图 | 2026-09-09 | 是 |
+| [assets/hardware/03-surface-laptop-2026.png](assets/hardware/03-surface-laptop-2026.png) | 新硬件 | https://news.microsoft.com/source/asia/2026/06/16/微软推出新一代-surface-pro-与-surface-laptop，兼顾性能与灵活性/?lang=zh-hans | Surface Laptop 产品图 | 2026-09-09 | 是 |
+| [assets/hardware/04-surface-rtx-spark-dev-box.png](assets/hardware/04-surface-rtx-spark-dev-box.png) | 新硬件 | https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box | Pre-release 主图 | 2026-09-09 | 是 |
+| [assets/hardware/05-surface-rtx-spark-ports.png](assets/hardware/05-surface-rtx-spark-ports.png) | 新硬件 | https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box | Ports | 2026-09-09 | 是 |
 
 ### 文字事实补充
 

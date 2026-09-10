@@ -36,11 +36,11 @@ CES 官方演示的六个交互帧（均为 BACKGROUND；HUD 为官方合成；�
 
 | 05.0s 手指在书封书写 | 06.0s `Co` | 06.8s `Com` |
 |---|---|---|
-| ![书封手写](../../../media/q3-2026/07-meta/assets/neural-handwriting/03-surface-hand.png) | ![识别早期](../../../media/q3-2026/07-meta/assets/neural-handwriting/04-partial-word-start.png) | ![识别后续](../../../media/q3-2026/07-meta/assets/neural-handwriting/05-partial-word-late.png) |
+| ![书封手写](assets/neural-handwriting/03-surface-hand.png) | ![识别早期](assets/neural-handwriting/04-partial-word-start.png) | ![识别后续](assets/neural-handwriting/05-partial-word-late.png) |
 
 | 08.0s 草稿与 Send | 09.2s Sent | 12.0s 对方回复 |
 |---|---|---|
-| ![完整草稿](../../../media/q3-2026/07-meta/assets/neural-handwriting/06-draft-and-send-control.png) | ![发送完成](../../../media/q3-2026/07-meta/assets/neural-handwriting/07-sent-confirmation.png) | ![收到回复](../../../media/q3-2026/07-meta/assets/neural-handwriting/09-reply.png) |
+| ![完整草稿](assets/neural-handwriting/06-draft-and-send-control.png) | ![发送完成](assets/neural-handwriting/07-sent-confirmation.png) | ![收到回复](assets/neural-handwriting/09-reply.png) |
 
 [CES 逐帧来源](assets/neural-handwriting/source.md) · [3 月更新的六帧与短片](assets/neural-handwriting-update/source.md) · [全部素材审阅](review.html)
 
@@ -56,9 +56,9 @@ CES 官方演示的六个交互帧（均为 BACKGROUND；HUD 为官方合成；�
 
 | 动作组 | 准备 | 接触 / 后续 |
 |---|---|---|
-| 食指 pinch：官方动作与 EMG，未见消费 UI 结果 | ![食指准备](../../../media/q3-2026/07-meta/assets/gesture-set/01-index-pinch-start.png) | ![食指接触](../../../media/q3-2026/07-meta/assets/gesture-set/02-index-pinch-contact.png) |
-| 中指 pinch：官方动作与 EMG，未见消费 UI 结果 | ![中指准备](../../../media/q3-2026/07-meta/assets/gesture-set/03-middle-pinch-start.png) | ![中指接触](../../../media/q3-2026/07-meta/assets/gesture-set/04-middle-pinch-contact.png) |
-| wrist roll：旧概念演示，非当前消费映射验证 | ![滚腕起始](../../../media/q3-2026/07-meta/assets/gesture-set/05-wrist-roll-start-concept.png) | ![滚腕后续](../../../media/q3-2026/07-meta/assets/gesture-set/06-wrist-roll-end-concept.png) |
+| 食指 pinch：官方动作与 EMG，未见消费 UI 结果 | ![食指准备](assets/gesture-set/01-index-pinch-start.png) | ![食指接触](assets/gesture-set/02-index-pinch-contact.png) |
+| 中指 pinch：官方动作与 EMG，未见消费 UI 结果 | ![中指准备](assets/gesture-set/03-middle-pinch-start.png) | ![中指接触](assets/gesture-set/04-middle-pinch-contact.png) |
+| wrist roll：旧概念演示，非当前消费映射验证 | ![滚腕起始](assets/gesture-set/05-wrist-roll-start-concept.png) | ![滚腕后续](assets/gesture-set/06-wrist-roll-end-concept.png) |
 
 [动作、映射与步行背景的来源边界](assets/gesture-set/source.md)。
 
@@ -72,9 +72,9 @@ CES 官方演示的六个交互帧（均为 BACKGROUND；HUD 为官方合成；�
 - 退出：官方剪辑转场不能当真实消失时机；没有未剪辑退出证据。
 - 差异点：Meta 把视觉反馈压到视野侧边和短卡片，但目前证据主要是官方合成 POV，不是透镜光学实拍。
 
-![中性区域选择状态](../../../media/q3-2026/07-meta/assets/hud/01-region-selection-start.png)
-![消息与快捷回复](../../../media/q3-2026/07-meta/assets/hud/04-message-reply.png)
-![扩展地图状态](../../../media/q3-2026/07-meta/assets/hud/06-map-expanded.png)
+![中性区域选择状态](assets/hud/01-region-selection-start.png)
+![消息与快捷回复](assets/hud/04-message-reply.png)
+![扩展地图状态](assets/hud/06-map-expanded.png)
 
 ### 3.4 Teleprompter — `PARTIAL`
 
@@ -86,10 +86,10 @@ CES 官方演示的六个交互帧（均为 BACKGROUND；HUD 为官方合成；�
 - 退出：没有结束/关闭画面。本地没有连续第三方视频，三个状态不能声称相邻或构成连续滚动。
 - 差异点：控制权集中在腕带翻页/导航，眼镜只承载低信息量提示卡；“滚动方式”不等于“速度控制”。
 
-![提词器设置与模式](../../../media/q3-2026/07-meta/assets/teleprompter/02-setup-modes-and-text-size.png)
-![透镜取景状态 A](../../../media/q3-2026/07-meta/assets/teleprompter/03-through-lens-card-state-a.png)
-![透镜取景状态 B，页码未可靠辨认](../../../media/q3-2026/07-meta/assets/teleprompter/04-through-lens-card-state-b.png)
-![透镜取景状态 C](../../../media/q3-2026/07-meta/assets/teleprompter/05-through-lens-card-state-c.png)
+![提词器设置与模式](assets/teleprompter/02-setup-modes-and-text-size.png)
+![透镜取景状态 A](assets/teleprompter/03-through-lens-card-state-a.png)
+![透镜取景状态 B，页码未可靠辨认](assets/teleprompter/04-through-lens-card-state-b.png)
+![透镜取景状态 C](assets/teleprompter/05-through-lens-card-state-c.png)
 
 ### 3.5 腕带脱离眼镜 — `COMPLETE（研究/PoC 证据）`
 
@@ -101,10 +101,10 @@ CES 官方演示的六个交互帧（均为 BACKGROUND；HUD 为官方合成；�
 - 退出：没有研究任务退出流程。
 - 差异点：它证明 Neural Band 的载体潜力超过眼镜，但当前全部是 PoC/研究，不能写成已开放的跨设备平台。
 
-![Garmin Unified Cabin PoC](../../../media/q3-2026/07-meta/assets/beyond-glasses/01-garmin-unified-cabin.png)
-![CMU 双腕带研究](../../../media/q3-2026/07-meta/assets/beyond-glasses/05-cass-two-bands.png)
-![CMU 校准界面](../../../media/q3-2026/07-meta/assets/beyond-glasses/06-cass-calibration.png)
-![CMU 指令标签、EMG 轨迹与游戏](../../../media/q3-2026/07-meta/assets/beyond-glasses/09-cass-active-play.png)
+![Garmin Unified Cabin PoC](assets/beyond-glasses/01-garmin-unified-cabin.png)
+![CMU 双腕带研究](assets/beyond-glasses/05-cass-two-bands.png)
+![CMU 校准界面](assets/beyond-glasses/06-cass-calibration.png)
+![CMU 指令标签、EMG 轨迹与游戏](assets/beyond-glasses/09-cass-active-play.png)
 
 ## §4 新硬件
 
@@ -160,58 +160,58 @@ CES 官方演示的六个交互帧（均为 BACKGROUND；HUD 为官方合成；�
 
 | 特性 | 文件 | 完整来源 URL | 发布日期 | 抓取时间 | 页面/时间码 | 官方性 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 新硬件 | [assets/hardware/01-display-band-pair.png](../../../media/q3-2026/07-meta/assets/hardware/01-display-band-pair.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 静态官方产品图 | Meta 官方，`BACKGROUND` |
-| 新硬件 | [assets/hardware/02-display-front.png](../../../media/q3-2026/07-meta/assets/hardware/02-display-front.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 静态官方产品图 | Meta 官方，`BACKGROUND` |
-| 新硬件 | [assets/hardware/03-display-sand.png](../../../media/q3-2026/07-meta/assets/hardware/03-display-sand.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 静态官方产品图 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/clip.mp4](../../../media/q3-2026/07-meta/assets/neural-handwriting/clip.mp4) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:00–00:18.069 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/01-context.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/01-context.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:00.500 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/02-wearer.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/02-wearer.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:02.500 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/03-surface-hand.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/03-surface-hand.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:05.000 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/04-partial-word-start.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/04-partial-word-start.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:06.000 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/05-partial-word-late.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/05-partial-word-late.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:06.800 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/06-draft-and-send-control.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/06-draft-and-send-control.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:08.000 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/07-sent-confirmation.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/07-sent-confirmation.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:09.200 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/08-wearer-after-send.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/08-wearer-after-send.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:10.300 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting/09-reply.png](../../../media/q3-2026/07-meta/assets/neural-handwriting/09-reply.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:12.000 | Meta 官方，`BACKGROUND` |
-| Neural Handwriting | [assets/neural-handwriting-update/clip.mp4](../../../media/q3-2026/07-meta/assets/neural-handwriting-update/clip.mp4) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:00–00:05.833 | Meta 官方，窗口内 |
-| Neural Handwriting | [assets/neural-handwriting-update/01-writing-start.png](../../../media/q3-2026/07-meta/assets/neural-handwriting-update/01-writing-start.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:00.200 | Meta 官方，窗口内 |
-| Neural Handwriting | [assets/neural-handwriting-update/02-writing-yes.png](../../../media/q3-2026/07-meta/assets/neural-handwriting-update/02-writing-yes.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:01.000 | Meta 官方，窗口内 |
-| Neural Handwriting | [assets/neural-handwriting-update/03-writing-sou.png](../../../media/q3-2026/07-meta/assets/neural-handwriting-update/03-writing-sou.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:02.000 | Meta 官方，窗口内 |
-| Neural Handwriting | [assets/neural-handwriting-update/04-writing-sounds.png](../../../media/q3-2026/07-meta/assets/neural-handwriting-update/04-writing-sounds.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:03.000 | Meta 官方，窗口内 |
-| Neural Handwriting | [assets/neural-handwriting-update/05-writing-fun.png](../../../media/q3-2026/07-meta/assets/neural-handwriting-update/05-writing-fun.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:04.000 | Meta 官方，窗口内 |
-| Neural Handwriting | [assets/neural-handwriting-update/06-complete-message.png](../../../media/q3-2026/07-meta/assets/neural-handwriting-update/06-complete-message.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:05.200 | Meta 官方，窗口内 |
-| 手势集 | [assets/gesture-set/clip-emg-signals.mp4](../../../media/q3-2026/07-meta/assets/gesture-set/clip-emg-signals.mp4) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:00–00:09.727 | Meta 官方，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/01-index-pinch-start.png](../../../media/q3-2026/07-meta/assets/gesture-set/01-index-pinch-start.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:00.500 | Meta 官方，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/02-index-pinch-contact.png](../../../media/q3-2026/07-meta/assets/gesture-set/02-index-pinch-contact.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:01.500 | Meta 官方，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/03-middle-pinch-start.png](../../../media/q3-2026/07-meta/assets/gesture-set/03-middle-pinch-start.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:04.500 | Meta 官方，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/04-middle-pinch-contact.png](../../../media/q3-2026/07-meta/assets/gesture-set/04-middle-pinch-contact.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:05.500 | Meta 官方，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/clip-wrist-roll-concept.mp4](../../../media/q3-2026/07-meta/assets/gesture-set/clip-wrist-roll-concept.mp4) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:00–00:08.488 | Meta 官方概念片，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/05-wrist-roll-start-concept.png](../../../media/q3-2026/07-meta/assets/gesture-set/05-wrist-roll-start-concept.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:01.000 | Meta 官方概念片，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/06-wrist-roll-end-concept.png](../../../media/q3-2026/07-meta/assets/gesture-set/06-wrist-roll-end-concept.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:03.000 | Meta 官方概念片，`DATE_UNKNOWN` |
-| 手势集 | [assets/gesture-set/07-walking-hud-context.png](../../../media/q3-2026/07-meta/assets/gesture-set/07-walking-hud-context.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:09.000 | Meta 官方合成，`BACKGROUND` |
-| 镜内 HUD | [assets/hud/clip.mp4](../../../media/q3-2026/07-meta/assets/hud/clip.mp4) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:00–00:12.000 | Meta 官方合成，`BACKGROUND` |
-| 镜内 HUD | [assets/hud/01-region-selection-start.png](../../../media/q3-2026/07-meta/assets/hud/01-region-selection-start.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:00.500 | Meta 官方合成，`BACKGROUND` |
-| 镜内 HUD | [assets/hud/02-region-selection-progress.png](../../../media/q3-2026/07-meta/assets/hud/02-region-selection-progress.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:02.500 | Meta 官方合成，`BACKGROUND` |
-| 镜内 HUD | [assets/hud/03-region-selection-later.png](../../../media/q3-2026/07-meta/assets/hud/03-region-selection-later.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:05.000 | Meta 官方合成，`BACKGROUND` |
-| 镜内 HUD | [assets/hud/04-message-reply.png](../../../media/q3-2026/07-meta/assets/hud/04-message-reply.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:07.000 | Meta 官方合成，`BACKGROUND` |
-| 镜内 HUD | [assets/hud/05-map-card.png](../../../media/q3-2026/07-meta/assets/hud/05-map-card.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:09.000 | Meta 官方合成，`BACKGROUND` |
-| 镜内 HUD | [assets/hud/06-map-expanded.png](../../../media/q3-2026/07-meta/assets/hud/06-map-expanded.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:11.000 | Meta 官方合成，`BACKGROUND` |
-| 提词器 | [assets/teleprompter/01-hud-card.png](../../../media/q3-2026/07-meta/assets/teleprompter/01-hud-card.png) | https://about.fb.com/br/wp-content/uploads/sites/11/2026/01/download-_3_.jpg | 2026-01-06 | 2026-09-09 | 官方静态图 | Meta 官方合成，`BACKGROUND` |
-| 提词器 | [assets/teleprompter/02-setup-modes-and-text-size.png](../../../media/q3-2026/07-meta/assets/teleprompter/02-setup-modes-and-text-size.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:01:47 | 第三方实机，`BACKGROUND` |
-| 提词器 | [assets/teleprompter/03-through-lens-card-state-a.png](../../../media/q3-2026/07-meta/assets/teleprompter/03-through-lens-card-state-a.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:03:39 | 第三方透镜取景，`BACKGROUND` |
-| 提词器 | [assets/teleprompter/04-through-lens-card-state-b.png](../../../media/q3-2026/07-meta/assets/teleprompter/04-through-lens-card-state-b.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:03:44 | 第三方透镜取景，`BACKGROUND` |
-| 提词器 | [assets/teleprompter/05-through-lens-card-state-c.png](../../../media/q3-2026/07-meta/assets/teleprompter/05-through-lens-card-state-c.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:03:49 | 第三方透镜取景，`BACKGROUND` |
-| 脱离眼镜用途 | [assets/beyond-glasses/01-garmin-unified-cabin.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/01-garmin-unified-cabin.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 官方静态图 | Meta 官方 PoC，`BACKGROUND` |
-| 脱离眼镜用途 | [assets/beyond-glasses/02-smart-home-research.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/02-smart-home-research.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 官方静态图 | Meta 官方研究，`BACKGROUND` |
-| 脱离眼镜用途 | [assets/beyond-glasses/03-tetraski-research.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/03-tetraski-research.png) | https://www.price.utah.edu/2026/01/06/u-of-u-and-meta-launch-research-to-enable-tetraski-and-smart-home-control-via-accessible-emg-wristband | 2026-01-06 | 2026-09-09 | 官方合作页静态图 | Utah 官方研究，`BACKGROUND` |
-| 脱离眼镜用途 | [assets/beyond-glasses/04-smart-home-utah.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/04-smart-home-utah.png) | https://www.price.utah.edu/2026/01/06/u-of-u-and-meta-launch-research-to-enable-tetraski-and-smart-home-control-via-accessible-emg-wristband | 2026-01-06 | 2026-09-09 | 官方合作页静态图 | Utah 官方研究，`BACKGROUND` |
-| 脱离眼镜用途 | [assets/beyond-glasses/clip-cmu-two-band-research.mp4](../../../media/q3-2026/07-meta/assets/beyond-glasses/clip-cmu-two-band-research.mp4) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:38–01:07；本地 29 秒 | Meta 官方研究，窗口内 |
-| 脱离眼镜用途 | [assets/beyond-glasses/05-cass-two-bands.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/05-cass-two-bands.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:24.000 | Meta 官方研究，窗口内 |
-| 脱离眼镜用途 | [assets/beyond-glasses/06-cass-calibration.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/06-cass-calibration.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:32.000 | Meta 官方研究，窗口内 |
-| 脱离眼镜用途 | [assets/beyond-glasses/07-cass-game-comparison.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/07-cass-game-comparison.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:40.000 | Meta 官方研究，窗口内 |
-| 脱离眼镜用途 | [assets/beyond-glasses/08-cass-decoded-output.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/08-cass-decoded-output.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:48.000 | Meta 官方研究，窗口内 |
-| 脱离眼镜用途 | [assets/beyond-glasses/09-cass-active-play.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/09-cass-active-play.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 01:00.000 | Meta 官方研究，窗口内 |
-| 脱离眼镜用途 | [assets/beyond-glasses/10-cass-hand-muscle-closeup.png](../../../media/q3-2026/07-meta/assets/beyond-glasses/10-cass-hand-muscle-closeup.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 01:04.000 | Meta 官方研究，窗口内 |
+| 新硬件 | [assets/hardware/01-display-band-pair.png](assets/hardware/01-display-band-pair.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 静态官方产品图 | Meta 官方，`BACKGROUND` |
+| 新硬件 | [assets/hardware/02-display-front.png](assets/hardware/02-display-front.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 静态官方产品图 | Meta 官方，`BACKGROUND` |
+| 新硬件 | [assets/hardware/03-display-sand.png](assets/hardware/03-display-sand.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 静态官方产品图 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/clip.mp4](assets/neural-handwriting/clip.mp4) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:00–00:18.069 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/01-context.png](assets/neural-handwriting/01-context.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:00.500 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/02-wearer.png](assets/neural-handwriting/02-wearer.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:02.500 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/03-surface-hand.png](assets/neural-handwriting/03-surface-hand.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:05.000 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/04-partial-word-start.png](assets/neural-handwriting/04-partial-word-start.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:06.000 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/05-partial-word-late.png](assets/neural-handwriting/05-partial-word-late.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:06.800 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/06-draft-and-send-control.png](assets/neural-handwriting/06-draft-and-send-control.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:08.000 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/07-sent-confirmation.png](assets/neural-handwriting/07-sent-confirmation.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:09.200 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/08-wearer-after-send.png](assets/neural-handwriting/08-wearer-after-send.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:10.300 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting/09-reply.png](assets/neural-handwriting/09-reply.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 00:12.000 | Meta 官方，`BACKGROUND` |
+| Neural Handwriting | [assets/neural-handwriting-update/clip.mp4](assets/neural-handwriting-update/clip.mp4) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:00–00:05.833 | Meta 官方，窗口内 |
+| Neural Handwriting | [assets/neural-handwriting-update/01-writing-start.png](assets/neural-handwriting-update/01-writing-start.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:00.200 | Meta 官方，窗口内 |
+| Neural Handwriting | [assets/neural-handwriting-update/02-writing-yes.png](assets/neural-handwriting-update/02-writing-yes.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:01.000 | Meta 官方，窗口内 |
+| Neural Handwriting | [assets/neural-handwriting-update/03-writing-sou.png](assets/neural-handwriting-update/03-writing-sou.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:02.000 | Meta 官方，窗口内 |
+| Neural Handwriting | [assets/neural-handwriting-update/04-writing-sounds.png](assets/neural-handwriting-update/04-writing-sounds.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:03.000 | Meta 官方，窗口内 |
+| Neural Handwriting | [assets/neural-handwriting-update/05-writing-fun.png](assets/neural-handwriting-update/05-writing-fun.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:04.000 | Meta 官方，窗口内 |
+| Neural Handwriting | [assets/neural-handwriting-update/06-complete-message.png](assets/neural-handwriting-update/06-complete-message.png) | https://about.fb.com/br/news/2026/03/apresentando-uma-nova-linha-de-oculos-ray-ban-meta-desenvolvida-para-lentes-de-grau-e-conforto-o-dia-todo-alem-de-mais-cores-lentes-e-atualizacoes-de-software-em-toda-a-colecao/ | 2026-03-31 | 2026-09-09 | 00:05.200 | Meta 官方，窗口内 |
+| 手势集 | [assets/gesture-set/clip-emg-signals.mp4](assets/gesture-set/clip-emg-signals.mp4) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:00–00:09.727 | Meta 官方，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/01-index-pinch-start.png](assets/gesture-set/01-index-pinch-start.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:00.500 | Meta 官方，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/02-index-pinch-contact.png](assets/gesture-set/02-index-pinch-contact.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:01.500 | Meta 官方，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/03-middle-pinch-start.png](assets/gesture-set/03-middle-pinch-start.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:04.500 | Meta 官方，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/04-middle-pinch-contact.png](assets/gesture-set/04-middle-pinch-contact.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:05.500 | Meta 官方，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/clip-wrist-roll-concept.mp4](assets/gesture-set/clip-wrist-roll-concept.mp4) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:00–00:08.488 | Meta 官方概念片，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/05-wrist-roll-start-concept.png](assets/gesture-set/05-wrist-roll-start-concept.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:01.000 | Meta 官方概念片，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/06-wrist-roll-end-concept.png](assets/gesture-set/06-wrist-roll-end-concept.png) | https://www.meta.com/en-gb/emerging-tech/emg-wearable-technology/ | 未提供 | 2026-09-09 | 00:03.000 | Meta 官方概念片，`DATE_UNKNOWN` |
+| 手势集 | [assets/gesture-set/07-walking-hud-context.png](assets/gesture-set/07-walking-hud-context.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:09.000 | Meta 官方合成，`BACKGROUND` |
+| 镜内 HUD | [assets/hud/clip.mp4](assets/hud/clip.mp4) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:00–00:12.000 | Meta 官方合成，`BACKGROUND` |
+| 镜内 HUD | [assets/hud/01-region-selection-start.png](assets/hud/01-region-selection-start.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:00.500 | Meta 官方合成，`BACKGROUND` |
+| 镜内 HUD | [assets/hud/02-region-selection-progress.png](assets/hud/02-region-selection-progress.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:02.500 | Meta 官方合成，`BACKGROUND` |
+| 镜内 HUD | [assets/hud/03-region-selection-later.png](assets/hud/03-region-selection-later.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:05.000 | Meta 官方合成，`BACKGROUND` |
+| 镜内 HUD | [assets/hud/04-message-reply.png](assets/hud/04-message-reply.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:07.000 | Meta 官方合成，`BACKGROUND` |
+| 镜内 HUD | [assets/hud/05-map-card.png](assets/hud/05-map-card.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:09.000 | Meta 官方合成，`BACKGROUND` |
+| 镜内 HUD | [assets/hud/06-map-expanded.png](assets/hud/06-map-expanded.png) | https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/ | 2025-09-17 | 2026-09-09 | 00:11.000 | Meta 官方合成，`BACKGROUND` |
+| 提词器 | [assets/teleprompter/01-hud-card.png](assets/teleprompter/01-hud-card.png) | https://about.fb.com/br/wp-content/uploads/sites/11/2026/01/download-_3_.jpg | 2026-01-06 | 2026-09-09 | 官方静态图 | Meta 官方合成，`BACKGROUND` |
+| 提词器 | [assets/teleprompter/02-setup-modes-and-text-size.png](assets/teleprompter/02-setup-modes-and-text-size.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:01:47 | 第三方实机，`BACKGROUND` |
+| 提词器 | [assets/teleprompter/03-through-lens-card-state-a.png](assets/teleprompter/03-through-lens-card-state-a.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:03:39 | 第三方透镜取景，`BACKGROUND` |
+| 提词器 | [assets/teleprompter/04-through-lens-card-state-b.png](assets/teleprompter/04-through-lens-card-state-b.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:03:44 | 第三方透镜取景，`BACKGROUND` |
+| 提词器 | [assets/teleprompter/05-through-lens-card-state-c.png](assets/teleprompter/05-through-lens-card-state-c.png) | https://www.youtube.com/watch?v=wKCAFUscTao | 2026-02-04 | 2026-09-09 | 00:03:49 | 第三方透镜取景，`BACKGROUND` |
+| 脱离眼镜用途 | [assets/beyond-glasses/01-garmin-unified-cabin.png](assets/beyond-glasses/01-garmin-unified-cabin.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 官方静态图 | Meta 官方 PoC，`BACKGROUND` |
+| 脱离眼镜用途 | [assets/beyond-glasses/02-smart-home-research.png](assets/beyond-glasses/02-smart-home-research.png) | https://about.fb.com/br/news/2026/01/ces-2026-novidades-no-meta-ray-ban-display-colaboracoes-com-a-industria-e-pesquisa-e-mais/ | 2026-01-06 | 2026-09-09 | 官方静态图 | Meta 官方研究，`BACKGROUND` |
+| 脱离眼镜用途 | [assets/beyond-glasses/03-tetraski-research.png](assets/beyond-glasses/03-tetraski-research.png) | https://www.price.utah.edu/2026/01/06/u-of-u-and-meta-launch-research-to-enable-tetraski-and-smart-home-control-via-accessible-emg-wristband | 2026-01-06 | 2026-09-09 | 官方合作页静态图 | Utah 官方研究，`BACKGROUND` |
+| 脱离眼镜用途 | [assets/beyond-glasses/04-smart-home-utah.png](assets/beyond-glasses/04-smart-home-utah.png) | https://www.price.utah.edu/2026/01/06/u-of-u-and-meta-launch-research-to-enable-tetraski-and-smart-home-control-via-accessible-emg-wristband | 2026-01-06 | 2026-09-09 | 官方合作页静态图 | Utah 官方研究，`BACKGROUND` |
+| 脱离眼镜用途 | [assets/beyond-glasses/clip-cmu-two-band-research.mp4](assets/beyond-glasses/clip-cmu-two-band-research.mp4) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:38–01:07；本地 29 秒 | Meta 官方研究，窗口内 |
+| 脱离眼镜用途 | [assets/beyond-glasses/05-cass-two-bands.png](assets/beyond-glasses/05-cass-two-bands.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:24.000 | Meta 官方研究，窗口内 |
+| 脱离眼镜用途 | [assets/beyond-glasses/06-cass-calibration.png](assets/beyond-glasses/06-cass-calibration.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:32.000 | Meta 官方研究，窗口内 |
+| 脱离眼镜用途 | [assets/beyond-glasses/07-cass-game-comparison.png](assets/beyond-glasses/07-cass-game-comparison.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:40.000 | Meta 官方研究，窗口内 |
+| 脱离眼镜用途 | [assets/beyond-glasses/08-cass-decoded-output.png](assets/beyond-glasses/08-cass-decoded-output.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 00:48.000 | Meta 官方研究，窗口内 |
+| 脱离眼镜用途 | [assets/beyond-glasses/09-cass-active-play.png](assets/beyond-glasses/09-cass-active-play.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 01:00.000 | Meta 官方研究，窗口内 |
+| 脱离眼镜用途 | [assets/beyond-glasses/10-cass-hand-muscle-closeup.png](assets/beyond-glasses/10-cass-hand-muscle-closeup.png) | https://about.fb.com/news/2026/05/meta-ai-wearables-changing-the-game-for-disabled-people/ | 2026-05-18（05-22 更新） | 2026-09-09 | 原片 01:04.000 | Meta 官方研究，窗口内 |
 
 ### 未转化为正式证据的候选
 

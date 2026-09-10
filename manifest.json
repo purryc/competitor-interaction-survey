@@ -12,7 +12,7 @@
     "q3_png": 269,
     "q3_mp4": 32,
     "published_video_count": 235,
-    "published_video_bytes": 170134273,
+    "published_video_bytes": 168974817,
     "total_files_in_repository": 2374
   },
   "files": [
@@ -20,15 +20,15 @@
       "group": "generated",
       "source_relative": "README-打开方式.txt",
       "portable_path": "README-打开方式.txt",
-      "bytes": 924,
-      "sha256": "e3ff60b3140d2473d91660a9023441e2815271ca01bc13cc4af289651f4ebd3b"
+      "bytes": 1387,
+      "sha256": "22e76741e1c0a4f976786bd1b7b781a7951969cbc627d10338d2b17f48684ddd"
     },
     {
       "group": "generated",
       "source_relative": "data/catalog.json",
       "portable_path": "data/catalog.json",
-      "bytes": 228788,
-      "sha256": "36fe468566ca61d28b2e3c980f6b77ba7a6bd3832e8da0a407321cd661da72d6"
+      "bytes": 259578,
+      "sha256": "f7af25d4f2b068b22ed209d63e329a28f5bfb3b7a5232ca6b3d2208b2779dca8"
     },
     {
       "group": "mobile-v2-doc",
@@ -76,8 +76,8 @@
       "group": "q3-doc",
       "source_relative": "00-趋势总览.md",
       "portable_path": "docs/q3-2026/00-趋势总览.md",
-      "bytes": 16710,
-      "sha256": "4436d9fb8a80515330c38adc9651f9f46be11ac6d2c374f60c255e794237ac02"
+      "bytes": 16290,
+      "sha256": "dae350b0bc00665f3cc0ef824db6615393e2ca3b39deaf658067e225a02b9ffe"
     },
     {
       "group": "q3-doc",
@@ -97,8 +97,8 @@
       "group": "q3-doc",
       "source_relative": "01-openai/README.md",
       "portable_path": "docs/q3-2026/01-openai/README.md",
-      "bytes": 60608,
-      "sha256": "8850b53f870347d59ba497a3e73fe13ae615619780eb8222b2d5b5f8baa5d5d8"
+      "bytes": 56549,
+      "sha256": "51394f3c3aedbc90a489b212a1fda910244b138158ec1549fa62eb828d327cfa"
     },
     {
       "group": "q3-doc",
@@ -111,8 +111,8 @@
       "group": "q3-doc",
       "source_relative": "01-openai/SOURCES.md",
       "portable_path": "docs/q3-2026/01-openai/SOURCES.md",
-      "bytes": 34443,
-      "sha256": "c7ec3d41f967007782823a5e6978df27d8f1b8d8eeeefb487eafbf407d4267a8"
+      "bytes": 32331,
+      "sha256": "814810aadad46d2183dff861c9fa091a03d450b2c2b44a0113419e88902f3291"
     },
     {
       "group": "q3-doc",
@@ -125,15 +125,15 @@
       "group": "q3-doc",
       "source_relative": "01-openai/assets/atlas/source.md",
       "portable_path": "docs/q3-2026/01-openai/assets/atlas/source.md",
-      "bytes": 4122,
-      "sha256": "d8cd5effc6c34b3b7c4834312fc98bd154245790fe7e49a8a1483e02f9d21766"
+      "bytes": 3858,
+      "sha256": "249c04483769c9c4feae1713143b17b4c3bac647da2e1c0626cdb66994f4ccb2"
     },
     {
       "group": "q3-doc",
       "source_relative": "01-openai/assets/gpt-live/source.md",
       "portable_path": "docs/q3-2026/01-openai/assets/gpt-live/source.md",
-      "bytes": 9010,
-      "sha256": "f81f3aafa1573dcb6f543b610fd31cd87f28e0219bb93cb32c91f5c8d65c5cb6"
+      "bytes": 8482,
+      "sha256": "7cc86838ba3e73b7e91e167519878a37d194733d9c75818d9bf9763696cb2937"
     },
     {
       "group": "q3-doc",
@@ -146,29 +146,29 @@
       "group": "q3-doc",
       "source_relative": "01-openai/assets/work-approval/source.md",
       "portable_path": "docs/q3-2026/01-openai/assets/work-approval/source.md",
-      "bytes": 2357,
-      "sha256": "9895eabe10e74a2acc176e233958443deff2b00cc445e93bb508f74e756f090f"
+      "bytes": 2258,
+      "sha256": "93e9039f6fafdc93768e885fb13933bb80c7189193c65150a2191b27eb35e93e"
     },
     {
       "group": "q3-doc",
       "source_relative": "01-openai/assets/work-artifacts/source.md",
       "portable_path": "docs/q3-2026/01-openai/assets/work-artifacts/source.md",
-      "bytes": 5974,
-      "sha256": "b27f979a1d6a3beadeb7fa1041ed011e9f9f00ca1a6d832687a70bf64f119901"
+      "bytes": 5611,
+      "sha256": "35dc821044ce59f870540dddb469bc3d7d35363d39eba5b6e1acc11118a86011"
     },
     {
       "group": "q3-doc",
       "source_relative": "01-openai/assets/work-browser/source.md",
       "portable_path": "docs/q3-2026/01-openai/assets/work-browser/source.md",
-      "bytes": 9361,
-      "sha256": "6b7e6fd07c7f78f8df44e0040c8b41688dbdf0decf447c402a92a2b102b01d40"
+      "bytes": 8800,
+      "sha256": "41726329b13836b164576674367750753146f2d5f2cc32887e9d5e4245f7c7ec"
     },
     {
       "group": "q3-doc",
       "source_relative": "01-openai/assets/work-mention/source.md",
       "portable_path": "docs/q3-2026/01-openai/assets/work-mention/source.md",
-      "bytes": 4829,
-      "sha256": "5b2ad84e34b1cad1bb91ffa129b419365e44faa19a01688096e167bb05f886fa"
+      "bytes": 4532,
+      "sha256": "dc20cbd9b1628c9a559dce78c8041c738317e3ad7d6d693cdf5384cd3f077a57"
     },
     {
       "group": "q3-doc",
@@ -181,15 +181,15 @@
       "group": "q3-doc",
       "source_relative": "01-openai/review.html",
       "portable_path": "docs/q3-2026/01-openai/review.html",
-      "bytes": 33016,
-      "sha256": "1105c0d241c067fc3b93a4b13389c7f85dc1703a497904d96e0eb731239e2dd9"
+      "bytes": 28784,
+      "sha256": "b1c550e2af1c4242bc388633f234e02914b5a22d9db4f46b061eebaa90c2db84"
     },
     {
       "group": "q3-doc",
       "source_relative": "02-anthropic/README.md",
       "portable_path": "docs/q3-2026/02-anthropic/README.md",
-      "bytes": 32462,
-      "sha256": "1b5f85ac3c6b5cc289c575518f1080445fd219855c8dc8b6c0e6fecac5422e81"
+      "bytes": 29042,
+      "sha256": "afd34e2070b9ae105c7c32a8a06102e04e01f744ee71b26f7bfbb18325dd4da7"
     },
     {
       "group": "q3-doc",
@@ -202,8 +202,8 @@
       "group": "q3-doc",
       "source_relative": "02-anthropic/SOURCES.md",
       "portable_path": "docs/q3-2026/02-anthropic/SOURCES.md",
-      "bytes": 15963,
-      "sha256": "182d0f0b55ce4ab70ad640d67a9f18c7f93a87d7c71922a9ae7a5febe36a24d6"
+      "bytes": 13803,
+      "sha256": "d2c6748fa6218fe7b295920fc935f2ac66440672f5e2bfc6878f19061fbbf0a3"
     },
     {
       "group": "q3-doc",
@@ -286,8 +286,8 @@
       "group": "q3-doc",
       "source_relative": "03-google/README.md",
       "portable_path": "docs/q3-2026/03-google/README.md",
-      "bytes": 27831,
-      "sha256": "1e51a2ef4cfeb4ae0a471e3de606bf0e46c255b9ffa26de55f0980cb443c9040"
+      "bytes": 25554,
+      "sha256": "7b633b50bbeb65dcf5c66cd1d14bff5d1d3f9dc2291b18205ccf911c209ea454"
     },
     {
       "group": "q3-doc",
@@ -300,8 +300,8 @@
       "group": "q3-doc",
       "source_relative": "03-google/SOURCES.md",
       "portable_path": "docs/q3-2026/03-google/SOURCES.md",
-      "bytes": 13078,
-      "sha256": "8fa03e23cbbd4e60fab36473a60ce1f91f497f2f0f13992a98ac094ccc1dc010"
+      "bytes": 11857,
+      "sha256": "be14e4d7f3d446b80c03f942d9333e24c3fd9b5ff25d520e53b66eb2dbcd54b8"
     },
     {
       "group": "q3-doc",
@@ -370,8 +370,8 @@
       "group": "q3-doc",
       "source_relative": "04-apple/README.md",
       "portable_path": "docs/q3-2026/04-apple/README.md",
-      "bytes": 36617,
-      "sha256": "e60acfcb26a2347aa0aea786fc24f0c7007f691d88ac86408532edb173f49947"
+      "bytes": 34537,
+      "sha256": "13ab0757a0d0b758cc75797bf266851ac8add59a9e34e52d3547ceef96c0c73d"
     },
     {
       "group": "q3-doc",
@@ -384,8 +384,8 @@
       "group": "q3-doc",
       "source_relative": "04-apple/SOURCES.md",
       "portable_path": "docs/q3-2026/04-apple/SOURCES.md",
-      "bytes": 18272,
-      "sha256": "60e0533ecd64d9c73142639afe9816017b3fd07789930450721deb44fa78e25f"
+      "bytes": 17120,
+      "sha256": "79002227ddb95250df181d8dd9899b3d9a89553873cccf75592e9c6f09a3bc52"
     },
     {
       "group": "q3-doc",
@@ -447,15 +447,15 @@
       "group": "q3-doc",
       "source_relative": "04-apple/review.html",
       "portable_path": "docs/q3-2026/04-apple/review.html",
-      "bytes": 7519,
-      "sha256": "d2a5b6d002b9091551d4cb741d6bccaf9efb9787b46af104ca9bff53fe8c40fc"
+      "bytes": 6606,
+      "sha256": "c37b73b3a9f15a8fbf37ef8257b65d991351d1ae028de6aadf08c477c462b5b9"
     },
     {
       "group": "q3-doc",
       "source_relative": "05-opensource/README.md",
       "portable_path": "docs/q3-2026/05-opensource/README.md",
-      "bytes": 20171,
-      "sha256": "cd34231a8c212b83dcaf2eb34ab50904b67eadee09f3166c44f197cfcae89e95"
+      "bytes": 19320,
+      "sha256": "85d68e0209c3087c3257cfedc838c871e39efd08aac968c62f97f832ddecf28f"
     },
     {
       "group": "q3-doc",
@@ -468,8 +468,8 @@
       "group": "q3-doc",
       "source_relative": "05-opensource/SOURCES.md",
       "portable_path": "docs/q3-2026/05-opensource/SOURCES.md",
-      "bytes": 8968,
-      "sha256": "aceedb8250d8735f31c4f3283850a704f324296d41176436659fdd74139816ac"
+      "bytes": 8117,
+      "sha256": "dd9a76a6f41923def180e9cedb361b0990ee798aae83747c847ed5f231e8dac6"
     },
     {
       "group": "q3-doc",
@@ -538,15 +538,15 @@
       "group": "q3-doc",
       "source_relative": "05-opensource/review.html",
       "portable_path": "docs/q3-2026/05-opensource/review.html",
-      "bytes": 10523,
-      "sha256": "f04e891ad1c7019e7d91349d8a2b8363668162b650e14b70d0d51a3ee3c4f26d"
+      "bytes": 10062,
+      "sha256": "33e137d78c44790f6212c42dcc2d5c5296f7208a5a5bff57391b0fb1cf0d8793"
     },
     {
       "group": "q3-doc",
       "source_relative": "06-microsoft/README.md",
       "portable_path": "docs/q3-2026/06-microsoft/README.md",
-      "bytes": 22768,
-      "sha256": "30229ff9273108355ac8a2d9c7e43c87f8b01253c88fb8acf64e36f575d746e3"
+      "bytes": 20680,
+      "sha256": "c5ae52d8f7ac82889e74aec8fcd764f64dde9010170f8fe4e2a0bc5b588d639e"
     },
     {
       "group": "q3-doc",
@@ -559,8 +559,8 @@
       "group": "q3-doc",
       "source_relative": "06-microsoft/SOURCES.md",
       "portable_path": "docs/q3-2026/06-microsoft/SOURCES.md",
-      "bytes": 9971,
-      "sha256": "8d36e02f02719f7b5c48e7a31def5f2f59931ef247d184fcd2dcbcdb055fef8a"
+      "bytes": 8927,
+      "sha256": "53b8753d9323c8743921cc2bee55b4f087e52fcb5423e506c05b30fb3478a561"
     },
     {
       "group": "q3-doc",
@@ -587,15 +587,15 @@
       "group": "q3-doc",
       "source_relative": "06-microsoft/assets/system-permissions/source.md",
       "portable_path": "docs/q3-2026/06-microsoft/assets/system-permissions/source.md",
-      "bytes": 2628,
-      "sha256": "e19729e48610600c82e699151210c56d949e45b9c145d4e44593e138a81bab90"
+      "bytes": 3026,
+      "sha256": "38bc9ce9e569a358f98b1c9e8b017f71b1257c4ea97aff230fe8a9439da8f38b"
     },
     {
       "group": "q3-doc",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/source.md",
       "portable_path": "docs/q3-2026/06-microsoft/assets/windows-agent-runtime/source.md",
-      "bytes": 2922,
-      "sha256": "6e3afaddd880b340da851c0b18195af1b2ebfcc487dc1ca6d62380d7b423b2ae"
+      "bytes": 3320,
+      "sha256": "6606e596ccad15000eab7caf460e35346e68395731cafe8f1a73e63ac792811c"
     },
     {
       "group": "q3-doc",
@@ -608,15 +608,15 @@
       "group": "q3-doc",
       "source_relative": "06-microsoft/review.html",
       "portable_path": "docs/q3-2026/06-microsoft/review.html",
-      "bytes": 8252,
-      "sha256": "6ffe87d856e8cb6493beb49d7539542d1beaab0430767b6059149ee1d99b379c"
+      "bytes": 7332,
+      "sha256": "202e39282b587e9261eadea7c95a97ff1eb1d58bed8ba8a63b11cdd97d524bf3"
     },
     {
       "group": "q3-doc",
       "source_relative": "07-meta/README.md",
       "portable_path": "docs/q3-2026/07-meta/README.md",
-      "bytes": 34663,
-      "sha256": "69aff624192a19ba66d719c9dc68e58f217f75252aafcddf7caf7dd5202ae598"
+      "bytes": 32338,
+      "sha256": "48e9c88902a3a135552cf685f4f1b5770bbae0de747fd0e09279b14cb9d4b7f1"
     },
     {
       "group": "q3-doc",
@@ -629,8 +629,8 @@
       "group": "q3-doc",
       "source_relative": "07-meta/SOURCES.md",
       "portable_path": "docs/q3-2026/07-meta/SOURCES.md",
-      "bytes": 21260,
-      "sha256": "8750baffa6b33fc7c4ad3af329c5c8d50c8aeae5d29213c236f119ae50131b69"
+      "bytes": 19648,
+      "sha256": "f8ba2fbe8a902d18e68254e716a38c91e062fcec8a50d09e69e716f4b213affd"
     },
     {
       "group": "q3-doc",
@@ -699,8 +699,8 @@
       "group": "q3-doc",
       "source_relative": "07-meta/review.html",
       "portable_path": "docs/q3-2026/07-meta/review.html",
-      "bytes": 7479,
-      "sha256": "2d994bfc46ede26aa0148f2c1ebf3d2db8c290f2eb16594f985c63af1dc3c988"
+      "bytes": 7524,
+      "sha256": "c1af5b8899a8c42d84d6e9f1049f84ba7a3a027441bcd034feb2a3bd1794e0e7"
     },
     {
       "group": "q3-doc",
@@ -720,8 +720,8 @@
       "group": "q3-doc",
       "source_relative": "SOURCES.md",
       "portable_path": "docs/q3-2026/SOURCES.md",
-      "bytes": 122951,
-      "sha256": "407fcf838ed7fcc42dc2f9ee8411ee98fcb2412751f31dc579b9706c82649f22"
+      "bytes": 116931,
+      "sha256": "d671a106a7dba8b720128e9cf7d341a9c6576b5a2adb02c50a436c1807024d84"
     },
     {
       "group": "q3-doc",
@@ -818,8 +818,8 @@
       "group": "generated",
       "source_relative": "index.html",
       "portable_path": "index.html",
-      "bytes": 1133371,
-      "sha256": "b8d1e2d8aecc69cac0824af152a28b15ff0516fd75c97cbad78ae3de2b574c81"
+      "bytes": 1899194,
+      "sha256": "ccfc1d0366c9bbd431f96b5bd237fa31952824b9fd6d03ac9a1e0b2ebb92c4e8"
     },
     {
       "group": "mobile-v2",
@@ -16099,36 +16099,36 @@
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/01-declarative-permission-model.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/01-declarative-permission-model.png",
-      "bytes": 411828,
-      "sha256": "6905761dadc3c9bac55c756cdccc0b83c7dc5a8d560f5511ddd3bb51800e342a"
+      "bytes": 216215,
+      "sha256": "9a7380edbf590d4fdf87035fcd32f6f5b471bcb48df876e16076241c71eee85b"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/02-filesystem-readonly-paths.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/02-filesystem-readonly-paths.png",
-      "bytes": 670892,
-      "sha256": "7675f748d9ee2b0ac9493da0d891b4aeaaeee91bbb5594717802277522ff0552"
+      "bytes": 350138,
+      "sha256": "1851df366796538376b0973b57a9d20fb009ce6acced020a35d6b2bbec4eda0c"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/03-file-write-denied.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/03-file-write-denied.png",
-      "bytes": 730289,
-      "sha256": "415bc98cf78feda3dd86346716f141889dc8017d12894903f89b2f2db414826e"
+      "bytes": 400232,
+      "sha256": "66bbcca9a47f92cca410456fc7967b2cb91094bec94500453c1a7abf4ea8345c"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/04-copilot-cli-filesystem-policy.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/04-copilot-cli-filesystem-policy.png",
-      "bytes": 351988,
-      "sha256": "f7248796077798a0089d272b3acfbab14c5e761fff2da4d30845dc440c4cac94"
+      "bytes": 130767,
+      "sha256": "cb98d164a71e57618ac5d15726f769501ad4bb89b585511be101d6ecb68c4f5f"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/05-copilot-cli-network-policy.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/05-copilot-cli-network-policy.png",
-      "bytes": 386199,
-      "sha256": "23553cf3d85a9492ba40ef2a7b8e57bef612e2eff672d493c7840031900bc893"
+      "bytes": 142178,
+      "sha256": "b8bc9be9d429ff7a9ea4126e864e3c89aab972e1ba3d63934a8bf15127cbd13d"
     },
     {
       "group": "q3-2026",
@@ -16148,43 +16148,43 @@
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4",
       "portable_path": "media/q3-2026/06-microsoft/assets/system-permissions/clip-filesystem-denial.mp4",
-      "bytes": 948189,
-      "sha256": "2a5f8f153c41c3cb6c339843a975ff74613cfb030759e15de57b8fcd610f84fa"
+      "bytes": 563531,
+      "sha256": "9309bceb5d68c9905e54d24854daf9b49b358cbafaba1463108f2950533eb0b4"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/01-agent-entry-teams.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/01-agent-entry-teams.png",
-      "bytes": 578610,
-      "sha256": "add840f067fc90ddabf64cae186d418d9d7217a229a721bcbee36d141740807b"
+      "bytes": 295467,
+      "sha256": "e80605c2995519e6f7a6d6542f5a7341f05b6d9dfd2acee19ca472f9f97283c9"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/02-agent-session-processes.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/02-agent-session-processes.png",
-      "bytes": 684737,
-      "sha256": "a640bf8777ba8cc10dfe41b7833b505b760ec5bbaaf087062fdf89a9d43eec34"
+      "bytes": 393797,
+      "sha256": "51003490deaf0e1826aa1e6fc9e437cd605d73be36137aa07d53e3841d6341a0"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/03-mxc-declarative-contract.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/03-mxc-declarative-contract.png",
-      "bytes": 411828,
-      "sha256": "6905761dadc3c9bac55c756cdccc0b83c7dc5a8d560f5511ddd3bb51800e342a"
+      "bytes": 216215,
+      "sha256": "9a7380edbf590d4fdf87035fcd32f6f5b471bcb48df876e16076241c71eee85b"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/04-runtime-file-write-denied.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/04-runtime-file-write-denied.png",
-      "bytes": 730289,
-      "sha256": "415bc98cf78feda3dd86346716f141889dc8017d12894903f89b2f2db414826e"
+      "bytes": 400232,
+      "sha256": "66bbcca9a47f92cca410456fc7967b2cb91094bec94500453c1a7abf4ea8345c"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/05-malicious-agent-contained.png",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/05-malicious-agent-contained.png",
-      "bytes": 1004038,
-      "sha256": "c7fe6fde9dd1fa315328d24aca0803c5b4e175df876cd5637b6a9b09fd197688"
+      "bytes": 636772,
+      "sha256": "e82efdc4d80a5aa2030273a3308faac1885c3afa1406bad118a740e1d67ef5ac"
     },
     {
       "group": "q3-2026",
@@ -16204,15 +16204,15 @@
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-agent-identity.mp4",
-      "bytes": 990428,
-      "sha256": "241cf2fc1c6e4eb66490a8ff35fc7bd5e356140d12f291e45e6c0768c3f958c8"
+      "bytes": 600288,
+      "sha256": "058827b3f7c566356fd4d2a3e507f7a337b80c10035b50a66499cd328e0e35c3"
     },
     {
       "group": "q3-2026",
       "source_relative": "06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
       "portable_path": "media/q3-2026/06-microsoft/assets/windows-agent-runtime/clip-mxc-runtime-denial.mp4",
-      "bytes": 948189,
-      "sha256": "2a5f8f153c41c3cb6c339843a975ff74613cfb030759e15de57b8fcd610f84fa"
+      "bytes": 563531,
+      "sha256": "9309bceb5d68c9905e54d24854daf9b49b358cbafaba1463108f2950533eb0b4"
     },
     {
       "group": "q3-2026",
@@ -16582,8 +16582,8 @@
       "group": "generated",
       "source_relative": "data/video-compression-manifest.json",
       "portable_path": "data/video-compression-manifest.json",
-      "bytes": 154035,
-      "sha256": "8787a13cff131a3b16e280b4919bd8cc99231de083161b073e59acfd905cf1df"
+      "bytes": 154029,
+      "sha256": "b4f8aa91f8eb7d1b433f068a4d47503fab475bf7a2fac61990d6d5164cb24580"
     },
     {
       "group": "generated",

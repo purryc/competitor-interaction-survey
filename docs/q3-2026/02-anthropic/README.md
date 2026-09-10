@@ -33,13 +33,13 @@ Claude 目前把通用对话、代码、文件工作、视觉产物和 Slack 协
 
 | 请求文件夹访问 `01:53` | 范围警告 `03:07` | `Always allow / Allow` `03:18` |
 |---|---|---|
-| ![文件夹访问请求](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/01-folder-access-request.png) | ![文件夹权限范围警告](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/03-folder-scope-warning.png) | ![Allow 与 Always allow](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/04-allow-and-always-allow.png) |
+| ![文件夹访问请求](assets/cowork-folder-permission/01-folder-access-request.png) | ![文件夹权限范围警告](assets/cowork-folder-permission/03-folder-scope-warning.png) | ![Allow 与 Always allow](assets/cowork-folder-permission/04-allow-and-always-allow.png) |
 
 素材序列 B（2026-02-09 官方背景）：
 
 | 进入选择器 `24:23` | 选择器打开 `24:25` | 目标目录选中 `24:27` | 返回 Cowork `24:29` |
 |---|---|---|---|
-| ![进入选择器](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/06-background-folder-picker-entry.png) | ![文件夹选择器](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/07-background-folder-picker.png) | ![目录选中](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/08-background-folder-selected.png) | ![返回 Cowork](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/09-background-folder-return.png) |
+| ![进入选择器](assets/cowork-folder-permission/06-background-folder-picker-entry.png) | ![文件夹选择器](assets/cowork-folder-permission/07-background-folder-picker.png) | ![目录选中](assets/cowork-folder-permission/08-background-folder-selected.png) | ![返回 Cowork](assets/cowork-folder-permission/09-background-folder-return.png) |
 
 逐图来源与边界：[assets/cowork-folder-permission/source.md](assets/cowork-folder-permission/source.md)。
 
@@ -58,11 +58,11 @@ Claude 目前把通用对话、代码、文件工作、视觉产物和 Slack 协
 
 | 手机委托 `00:06` | 手机/桌面工作 `00:10` | 桌面计划 `00:12` |
 |---|---|---|
-| ![手机委托](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/02-mobile-delegation.png) | ![手机与桌面同时工作](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/03-mobile-desktop-working.png) | ![桌面计划](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/04-desktop-plan.png) |
+| ![手机委托](assets/cowork-cross-device/02-mobile-delegation.png) | ![手机与桌面同时工作](assets/cowork-cross-device/03-mobile-desktop-working.png) | ![桌面计划](assets/cowork-cross-device/04-desktop-plan.png) |
 
 | 桌面产物 `00:14` | 手机结果 `00:22` | 手机追问 `00:28` |
 |---|---|---|
-| ![桌面产物](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/05-desktop-artifact.png) | ![手机结果](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/07-mobile-result.png) | ![手机追问](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/08-mobile-followup.png) |
+| ![桌面产物](assets/cowork-cross-device/05-desktop-artifact.png) | ![手机结果](assets/cowork-cross-device/07-mobile-result.png) | ![手机追问](assets/cowork-cross-device/08-mobile-followup.png) |
 
 逐图来源与边界：[assets/cowork-cross-device/source.md](assets/cowork-cross-device/source.md)。
 
@@ -81,7 +81,7 @@ Claude 目前把通用对话、代码、文件工作、视觉产物和 Slack 协
 
 | 计划 `25:10` | 清单推进 `25:20` | 运行状态 `25:28` | 插话入口 `25:32` | 输入附加要求 `25:37` |
 |---|---|---|---|---|
-| ![Cowork 计划](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/01-background-plan.png) | ![清单推进](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/03-background-checklist.png) | ![运行状态](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/04-background-progress.png) | ![插话入口](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/05-background-steering-entry.png) | ![输入附加要求](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/06-background-steering-input.png) |
+| ![Cowork 计划](assets/cowork-process-visibility/01-background-plan.png) | ![清单推进](assets/cowork-process-visibility/03-background-checklist.png) | ![运行状态](assets/cowork-process-visibility/04-background-progress.png) | ![插话入口](assets/cowork-process-visibility/05-background-steering-entry.png) | ![输入附加要求](assets/cowork-process-visibility/06-background-steering-input.png) |
 
 逐图来源与边界：[assets/cowork-process-visibility/source.md](assets/cowork-process-visibility/source.md)。
 
@@ -100,19 +100,19 @@ Claude 目前把通用对话、代码、文件工作、视觉产物和 Slack 协
 
 | Comment 打开 `00:50` | 指令完成 `00:51` | 图片替换结果 `00:52` |
 |---|---|---|
-| ![Comment 打开](../../../media/q3-2026/02-anthropic/assets/design-convergence/02-comment-entry.png) | ![指令完成](../../../media/q3-2026/02-anthropic/assets/design-convergence/03-comment-instruction.png) | ![图片替换结果](../../../media/q3-2026/02-anthropic/assets/design-convergence/04-comment-result.png) |
+| ![Comment 打开](assets/design-convergence/02-comment-entry.png) | ![指令完成](assets/design-convergence/03-comment-instruction.png) | ![图片替换结果](assets/design-convergence/04-comment-result.png) |
 
 官方序列 B：直接文字编辑。
 
 | Edit text 入口 `00:56.0` | 模式激活 `00:57.0` | 文字对象选中 `00:57.5` |
 |---|---|---|
-| ![Edit text 入口](../../../media/q3-2026/02-anthropic/assets/design-convergence/08-text-edit-entry.png) | ![Edit text 激活](../../../media/q3-2026/02-anthropic/assets/design-convergence/09-text-edit-activated.png) | ![文字对象选中](../../../media/q3-2026/02-anthropic/assets/design-convergence/10-text-selection.png) |
+| ![Edit text 入口](assets/design-convergence/08-text-edit-entry.png) | ![Edit text 激活](assets/design-convergence/09-text-edit-activated.png) | ![文字对象选中](assets/design-convergence/10-text-selection.png) |
 
 滑杆缺口证据（仅静态可见，不能冒充调参序列）：
 
 | 地球参数滑杆 `00:24` | 字体尺寸滑杆 `00:42` |
 |---|---|
-| ![地球参数滑杆](../../../media/q3-2026/02-anthropic/assets/design-convergence/11-globe-sliders-visible.png) | ![字体尺寸滑杆](../../../media/q3-2026/02-anthropic/assets/design-convergence/12-typography-sliders-visible.png) |
+| ![地球参数滑杆](assets/design-convergence/11-globe-sliders-visible.png) | ![字体尺寸滑杆](assets/design-convergence/12-typography-sliders-visible.png) |
 
 逐图来源与边界：[assets/design-convergence/source.md](assets/design-convergence/source.md)。
 
@@ -131,7 +131,7 @@ Claude 目前把通用对话、代码、文件工作、视觉产物和 Slack 协
 
 | Export 菜单 `01:06` | Handoff 渠道 `01:09` | 可复制实现命令 `01:10` |
 |---|---|---|
-| ![Export 菜单](../../../media/q3-2026/02-anthropic/assets/design-code-handoff/01-export-menu.png) | ![Handoff 渠道](../../../media/q3-2026/02-anthropic/assets/design-code-handoff/02-handoff-dialog.png) | ![Design 交接命令](../../../media/q3-2026/02-anthropic/assets/design-code-handoff/03-generated-command.png) |
+| ![Export 菜单](assets/design-code-handoff/01-export-menu.png) | ![Handoff 渠道](assets/design-code-handoff/02-handoff-dialog.png) | ![Design 交接命令](assets/design-code-handoff/03-generated-command.png) |
 
 逐图来源与边界：[assets/design-code-handoff/source.md](assets/design-code-handoff/source.md)。
 
@@ -150,13 +150,13 @@ Skills 实录序列（2026-03-24 第三方）：
 
 | `/` 命令列表 `07:44` | `/skill-creator` `07:48` | `/skills` 库面板 `08:06` |
 |---|---|---|
-| ![Skills 命令列表](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/01-skills-command.png) | ![Skill Creator](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/02-skills-panel.png) | ![Skills 库面板](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/03-skill-invocation.png) |
+| ![Skills 命令列表](assets/claude-code-multi-agent/01-skills-command.png) | ![Skill Creator](assets/claude-code-multi-agent/02-skills-panel.png) | ![Skills 库面板](assets/claude-code-multi-agent/03-skill-invocation.png) |
 
 官方讲义（2026-03-24；两张并非连续流程）：
 
 | Subagents 结构说明 p.13 | Agent Teams 终端 p.14 |
 |---|---|
-| ![Subagents 结构说明](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/04-subagents-official-slide.png) | ![Claude Code Agent Teams 终端](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/05-agent-teams-official-terminal.png) |
+| ![Subagents 结构说明](assets/claude-code-multi-agent/04-subagents-official-slide.png) | ![Claude Code Agent Teams 终端](assets/claude-code-multi-agent/05-agent-teams-official-terminal.png) |
 
 逐图来源与边界：[assets/claude-code-multi-agent/source.md](assets/claude-code-multi-agent/source.md)。
 
@@ -170,7 +170,7 @@ Skills 实录序列（2026-03-24 第三方）：
 
 可核实的替代载体：Web、Desktop、Mobile、Slack、CLI/IDE，以及 Amazon Bedrock、Google Cloud Vertex AI、Microsoft Azure 等云平台。MHS 又增加了“进入既有物理设备”的标准层，但不改变“没有自有硬件”的边界。
 
-![MHS 统一编排现有实验设备](../../../media/q3-2026/02-anthropic/assets/hardware-strategy/01-mhs-orchestration-diagram.png)
+![MHS 统一编排现有实验设备](assets/hardware-strategy/01-mhs-orchestration-diagram.png)
 
 ## §5 拆分逻辑
 
@@ -198,65 +198,65 @@ Skills 实录序列（2026-03-24 第三方）：
 
 | 文件路径 | 对应特性 | 来源 URL | 时间码 / 页码 | 抓取日期 | 属性 |
 | --- | --- | --- | --- | --- | --- |
-| [assets/cowork-folder-permission/01-folder-access-request.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/01-folder-access-request.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:01:53 | 2026-09-09 | 第三方 |
-| [assets/cowork-folder-permission/02-folder-access-options.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/02-folder-access-options.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:01:57 | 2026-09-09 | 第三方 |
-| [assets/cowork-folder-permission/03-folder-scope-warning.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/03-folder-scope-warning.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:07 | 2026-09-09 | 第三方 |
-| [assets/cowork-folder-permission/04-allow-and-always-allow.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/04-allow-and-always-allow.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:18 | 2026-09-09 | 第三方 |
-| [assets/cowork-folder-permission/05-folder-warning-late-state.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/05-folder-warning-late-state.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:28 | 2026-09-09 | 第三方 |
-| [assets/cowork-folder-permission/06-background-folder-picker-entry.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/06-background-folder-picker-entry.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:23 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-folder-permission/07-background-folder-picker.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/07-background-folder-picker.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:25 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-folder-permission/08-background-folder-selected.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/08-background-folder-selected.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:27 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-folder-permission/09-background-folder-return.png](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/09-background-folder-return.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:29 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-folder-permission/clip.mp4](../../../media/q3-2026/02-anthropic/assets/cowork-folder-permission/clip.mp4) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:04–00:03:33.5 | 2026-09-09 | 第三方 |
-| [assets/cowork-cross-device/01-mobile-empty.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/01-mobile-empty.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:02 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/02-mobile-delegation.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/02-mobile-delegation.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:06 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/03-mobile-desktop-working.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/03-mobile-desktop-working.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:10 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/04-desktop-plan.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/04-desktop-plan.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:12 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/05-desktop-artifact.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/05-desktop-artifact.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:14 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/06-desktop-artifact-later.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/06-desktop-artifact-later.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:16 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/07-mobile-result.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/07-mobile-result.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:22 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/08-mobile-followup.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/08-mobile-followup.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:28 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/09-mobile-followup-result.png](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/09-mobile-followup-result.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:32 | 2026-09-09 | 官方 |
-| [assets/cowork-cross-device/clip.mp4](../../../media/q3-2026/02-anthropic/assets/cowork-cross-device/clip.mp4) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:04–00:00:33.5 | 2026-09-09 | 官方 |
-| [assets/cowork-process-visibility/01-background-plan.png](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/01-background-plan.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:10 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-process-visibility/02-background-plan-expanded.png](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/02-background-plan-expanded.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:14 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-process-visibility/03-background-checklist.png](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/03-background-checklist.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:20 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-process-visibility/04-background-progress.png](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/04-background-progress.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:28 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-process-visibility/05-background-steering-entry.png](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/05-background-steering-entry.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:32 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-process-visibility/06-background-steering-input.png](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/06-background-steering-input.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:37 | 2026-09-09 | 官方/背景 |
-| [assets/cowork-process-visibility/clip.mp4](../../../media/q3-2026/02-anthropic/assets/cowork-process-visibility/clip.mp4) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:10–00:25:39.5 | 2026-09-09 | 官方/背景 |
-| [assets/design-convergence/01-global-ui.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/01-global-ui.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:48 | 2026-09-09 | 官方 |
-| [assets/design-convergence/02-comment-entry.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/02-comment-entry.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:50 | 2026-09-09 | 官方 |
-| [assets/design-convergence/03-comment-instruction.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/03-comment-instruction.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:51 | 2026-09-09 | 官方 |
-| [assets/design-convergence/04-comment-result.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/04-comment-result.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:52 | 2026-09-09 | 官方 |
-| [assets/design-convergence/05-knobs-entry.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/05-knobs-entry.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:53 | 2026-09-09 | 官方 |
-| [assets/design-convergence/06-knobs-panel.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/06-knobs-panel.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:54 | 2026-09-09 | 官方 |
-| [assets/design-convergence/07-knobs-object-selected.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/07-knobs-object-selected.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:55 | 2026-09-09 | 官方 |
-| [assets/design-convergence/08-text-edit-entry.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/08-text-edit-entry.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:56.0 | 2026-09-09 | 官方 |
-| [assets/design-convergence/09-text-edit-activated.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/09-text-edit-activated.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:57.0 | 2026-09-09 | 官方 |
-| [assets/design-convergence/10-text-selection.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/10-text-selection.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:57.5 | 2026-09-09 | 官方 |
-| [assets/design-convergence/11-globe-sliders-visible.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/11-globe-sliders-visible.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:24 | 2026-09-09 | 官方 |
-| [assets/design-convergence/12-typography-sliders-visible.png](../../../media/q3-2026/02-anthropic/assets/design-convergence/12-typography-sliders-visible.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:42 | 2026-09-09 | 官方 |
-| [assets/design-convergence/clip.mp4](../../../media/q3-2026/02-anthropic/assets/design-convergence/clip.mp4) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:48–00:00:58 | 2026-09-09 | 官方 |
-| [assets/design-code-handoff/01-export-menu.png](../../../media/q3-2026/02-anthropic/assets/design-code-handoff/01-export-menu.png) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:06 | 2026-09-09 | 官方 |
-| [assets/design-code-handoff/02-handoff-dialog.png](../../../media/q3-2026/02-anthropic/assets/design-code-handoff/02-handoff-dialog.png) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:09 | 2026-09-09 | 官方 |
-| [assets/design-code-handoff/03-generated-command.png](../../../media/q3-2026/02-anthropic/assets/design-code-handoff/03-generated-command.png) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:10 | 2026-09-09 | 官方 |
-| [assets/design-code-handoff/clip.mp4](../../../media/q3-2026/02-anthropic/assets/design-code-handoff/clip.mp4) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:04–00:01:11.5 | 2026-09-09 | 官方 |
-| [assets/claude-code-multi-agent/01-skills-command.png](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/01-skills-command.png) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:07:44 | 2026-09-09 | 第三方 |
-| [assets/claude-code-multi-agent/02-skills-panel.png](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/02-skills-panel.png) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:07:48 | 2026-09-09 | 第三方 |
-| [assets/claude-code-multi-agent/03-skill-invocation.png](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/03-skill-invocation.png) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:08:06 | 2026-09-09 | 第三方 |
-| [assets/claude-code-multi-agent/04-subagents-official-slide.png](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/04-subagents-official-slide.png) | Claude Code Skills/Subagents/Teams | https://resources.anthropic.com/hubfs/Claude%20Code%20Advanced%20Patterns_%20Subagents%2C%20MCP%2C%20and%20Scaling%20to%20Real%20Codebases.pdf | p.13 | 2026-09-09 | 官方讲义 |
-| [assets/claude-code-multi-agent/05-agent-teams-official-terminal.png](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/05-agent-teams-official-terminal.png) | Claude Code Skills/Subagents/Teams | https://resources.anthropic.com/hubfs/Claude%20Code%20Advanced%20Patterns_%20Subagents%2C%20MCP%2C%20and%20Scaling%20to%20Real%20Codebases.pdf | p.14 | 2026-09-09 | 官方讲义/终端截图 |
-| [assets/claude-code-multi-agent/clip.mp4](../../../media/q3-2026/02-anthropic/assets/claude-code-multi-agent/clip.mp4) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:07:43–00:08:12.5 | 2026-09-09 | 第三方 |
-| [assets/claude-tag-slack/01-slack-global-ui.png](../../../media/q3-2026/02-anthropic/assets/claude-tag-slack/01-slack-global-ui.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:36 | 2026-09-09 | 官方 |
-| [assets/claude-tag-slack/02-thread-delegation.png](../../../media/q3-2026/02-anthropic/assets/claude-tag-slack/02-thread-delegation.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:44 | 2026-09-09 | 官方 |
-| [assets/claude-tag-slack/03-claude-thread-response.png](../../../media/q3-2026/02-anthropic/assets/claude-tag-slack/03-claude-thread-response.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:52 | 2026-09-09 | 官方 |
-| [assets/claude-tag-slack/04-multiplayer-thread.png](../../../media/q3-2026/02-anthropic/assets/claude-tag-slack/04-multiplayer-thread.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:01:04 | 2026-09-09 | 官方 |
-| [assets/claude-tag-slack/05-artifact-link.png](../../../media/q3-2026/02-anthropic/assets/claude-tag-slack/05-artifact-link.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:01:20 | 2026-09-09 | 官方 |
-| [assets/claude-tag-slack/06-followup.png](../../../media/q3-2026/02-anthropic/assets/claude-tag-slack/06-followup.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:01:32 | 2026-09-09 | 官方 |
-| [assets/claude-tag-slack/clip.mp4](../../../media/q3-2026/02-anthropic/assets/claude-tag-slack/clip.mp4) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:36–00:01:05.5 | 2026-09-09 | 官方 |
-| [assets/hardware-strategy/01-mhs-orchestration-diagram.png](../../../media/q3-2026/02-anthropic/assets/hardware-strategy/01-mhs-orchestration-diagram.png) | 新硬件 / MHS | https://www.anthropic.com/news/model-hardware-standard-research-preview | 静态图 | 2026-09-09 | 官方 |
-| [assets/hardware-strategy/02-lab-plate-photo.png](../../../media/q3-2026/02-anthropic/assets/hardware-strategy/02-lab-plate-photo.png) | 新硬件 / MHS | https://www.anthropic.com/news/model-hardware-standard-research-preview | 静态图；官方 JPG 转 PNG | 2026-09-09 | 官方 |
-| [assets/hardware-strategy/03-mhs-lab-comparison.png](../../../media/q3-2026/02-anthropic/assets/hardware-strategy/03-mhs-lab-comparison.png) | 新硬件 / MHS | https://www.anthropic.com/news/model-hardware-standard-research-preview | 静态图 | 2026-09-09 | 官方 |
+| [assets/cowork-folder-permission/01-folder-access-request.png](assets/cowork-folder-permission/01-folder-access-request.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:01:53 | 2026-09-09 | 第三方 |
+| [assets/cowork-folder-permission/02-folder-access-options.png](assets/cowork-folder-permission/02-folder-access-options.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:01:57 | 2026-09-09 | 第三方 |
+| [assets/cowork-folder-permission/03-folder-scope-warning.png](assets/cowork-folder-permission/03-folder-scope-warning.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:07 | 2026-09-09 | 第三方 |
+| [assets/cowork-folder-permission/04-allow-and-always-allow.png](assets/cowork-folder-permission/04-allow-and-always-allow.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:18 | 2026-09-09 | 第三方 |
+| [assets/cowork-folder-permission/05-folder-warning-late-state.png](assets/cowork-folder-permission/05-folder-warning-late-state.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:28 | 2026-09-09 | 第三方 |
+| [assets/cowork-folder-permission/06-background-folder-picker-entry.png](assets/cowork-folder-permission/06-background-folder-picker-entry.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:23 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-folder-permission/07-background-folder-picker.png](assets/cowork-folder-permission/07-background-folder-picker.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:25 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-folder-permission/08-background-folder-selected.png](assets/cowork-folder-permission/08-background-folder-selected.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:27 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-folder-permission/09-background-folder-return.png](assets/cowork-folder-permission/09-background-folder-return.png) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:24:29 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-folder-permission/clip.mp4](assets/cowork-folder-permission/clip.mp4) | Cowork 文件夹授权 | https://www.youtube.com/watch?v=WWpJeiXgZpo | 00:03:04–00:03:33.5 | 2026-09-09 | 第三方 |
+| [assets/cowork-cross-device/01-mobile-empty.png](assets/cowork-cross-device/01-mobile-empty.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:02 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/02-mobile-delegation.png](assets/cowork-cross-device/02-mobile-delegation.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:06 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/03-mobile-desktop-working.png](assets/cowork-cross-device/03-mobile-desktop-working.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:10 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/04-desktop-plan.png](assets/cowork-cross-device/04-desktop-plan.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:12 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/05-desktop-artifact.png](assets/cowork-cross-device/05-desktop-artifact.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:14 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/06-desktop-artifact-later.png](assets/cowork-cross-device/06-desktop-artifact-later.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:16 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/07-mobile-result.png](assets/cowork-cross-device/07-mobile-result.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:22 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/08-mobile-followup.png](assets/cowork-cross-device/08-mobile-followup.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:28 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/09-mobile-followup-result.png](assets/cowork-cross-device/09-mobile-followup-result.png) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:32 | 2026-09-09 | 官方 |
+| [assets/cowork-cross-device/clip.mp4](assets/cowork-cross-device/clip.mp4) | Cowork 跨设备接力 | https://www.youtube.com/watch?v=fVIV-L49eBs | 00:00:04–00:00:33.5 | 2026-09-09 | 官方 |
+| [assets/cowork-process-visibility/01-background-plan.png](assets/cowork-process-visibility/01-background-plan.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:10 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-process-visibility/02-background-plan-expanded.png](assets/cowork-process-visibility/02-background-plan-expanded.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:14 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-process-visibility/03-background-checklist.png](assets/cowork-process-visibility/03-background-checklist.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:20 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-process-visibility/04-background-progress.png](assets/cowork-process-visibility/04-background-progress.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:28 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-process-visibility/05-background-steering-entry.png](assets/cowork-process-visibility/05-background-steering-entry.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:32 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-process-visibility/06-background-steering-input.png](assets/cowork-process-visibility/06-background-steering-input.png) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:37 | 2026-09-09 | 官方/背景 |
+| [assets/cowork-process-visibility/clip.mp4](assets/cowork-process-visibility/clip.mp4) | Cowork 过程可见性 | https://www.youtube.com/watch?v=zfWfczd6keE | 00:25:10–00:25:39.5 | 2026-09-09 | 官方/背景 |
+| [assets/design-convergence/01-global-ui.png](assets/design-convergence/01-global-ui.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:48 | 2026-09-09 | 官方 |
+| [assets/design-convergence/02-comment-entry.png](assets/design-convergence/02-comment-entry.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:50 | 2026-09-09 | 官方 |
+| [assets/design-convergence/03-comment-instruction.png](assets/design-convergence/03-comment-instruction.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:51 | 2026-09-09 | 官方 |
+| [assets/design-convergence/04-comment-result.png](assets/design-convergence/04-comment-result.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:52 | 2026-09-09 | 官方 |
+| [assets/design-convergence/05-knobs-entry.png](assets/design-convergence/05-knobs-entry.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:53 | 2026-09-09 | 官方 |
+| [assets/design-convergence/06-knobs-panel.png](assets/design-convergence/06-knobs-panel.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:54 | 2026-09-09 | 官方 |
+| [assets/design-convergence/07-knobs-object-selected.png](assets/design-convergence/07-knobs-object-selected.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:55 | 2026-09-09 | 官方 |
+| [assets/design-convergence/08-text-edit-entry.png](assets/design-convergence/08-text-edit-entry.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:56.0 | 2026-09-09 | 官方 |
+| [assets/design-convergence/09-text-edit-activated.png](assets/design-convergence/09-text-edit-activated.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:57.0 | 2026-09-09 | 官方 |
+| [assets/design-convergence/10-text-selection.png](assets/design-convergence/10-text-selection.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:57.5 | 2026-09-09 | 官方 |
+| [assets/design-convergence/11-globe-sliders-visible.png](assets/design-convergence/11-globe-sliders-visible.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:24 | 2026-09-09 | 官方 |
+| [assets/design-convergence/12-typography-sliders-visible.png](assets/design-convergence/12-typography-sliders-visible.png) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:42 | 2026-09-09 | 官方 |
+| [assets/design-convergence/clip.mp4](assets/design-convergence/clip.mp4) | Design 三种收敛方式 | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:00:48–00:00:58 | 2026-09-09 | 官方 |
+| [assets/design-code-handoff/01-export-menu.png](assets/design-code-handoff/01-export-menu.png) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:06 | 2026-09-09 | 官方 |
+| [assets/design-code-handoff/02-handoff-dialog.png](assets/design-code-handoff/02-handoff-dialog.png) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:09 | 2026-09-09 | 官方 |
+| [assets/design-code-handoff/03-generated-command.png](assets/design-code-handoff/03-generated-command.png) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:10 | 2026-09-09 | 官方 |
+| [assets/design-code-handoff/clip.mp4](assets/design-code-handoff/clip.mp4) | Design → Code | https://www.youtube.com/watch?v=t_LBECIQQqs | 00:01:04–00:01:11.5 | 2026-09-09 | 官方 |
+| [assets/claude-code-multi-agent/01-skills-command.png](assets/claude-code-multi-agent/01-skills-command.png) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:07:44 | 2026-09-09 | 第三方 |
+| [assets/claude-code-multi-agent/02-skills-panel.png](assets/claude-code-multi-agent/02-skills-panel.png) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:07:48 | 2026-09-09 | 第三方 |
+| [assets/claude-code-multi-agent/03-skill-invocation.png](assets/claude-code-multi-agent/03-skill-invocation.png) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:08:06 | 2026-09-09 | 第三方 |
+| [assets/claude-code-multi-agent/04-subagents-official-slide.png](assets/claude-code-multi-agent/04-subagents-official-slide.png) | Claude Code Skills/Subagents/Teams | https://resources.anthropic.com/hubfs/Claude%20Code%20Advanced%20Patterns_%20Subagents%2C%20MCP%2C%20and%20Scaling%20to%20Real%20Codebases.pdf | p.13 | 2026-09-09 | 官方讲义 |
+| [assets/claude-code-multi-agent/05-agent-teams-official-terminal.png](assets/claude-code-multi-agent/05-agent-teams-official-terminal.png) | Claude Code Skills/Subagents/Teams | https://resources.anthropic.com/hubfs/Claude%20Code%20Advanced%20Patterns_%20Subagents%2C%20MCP%2C%20and%20Scaling%20to%20Real%20Codebases.pdf | p.14 | 2026-09-09 | 官方讲义/终端截图 |
+| [assets/claude-code-multi-agent/clip.mp4](assets/claude-code-multi-agent/clip.mp4) | Claude Code Skills/Subagents/Teams | https://www.youtube.com/watch?v=epZy_NajGnA | 00:07:43–00:08:12.5 | 2026-09-09 | 第三方 |
+| [assets/claude-tag-slack/01-slack-global-ui.png](assets/claude-tag-slack/01-slack-global-ui.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:36 | 2026-09-09 | 官方 |
+| [assets/claude-tag-slack/02-thread-delegation.png](assets/claude-tag-slack/02-thread-delegation.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:44 | 2026-09-09 | 官方 |
+| [assets/claude-tag-slack/03-claude-thread-response.png](assets/claude-tag-slack/03-claude-thread-response.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:52 | 2026-09-09 | 官方 |
+| [assets/claude-tag-slack/04-multiplayer-thread.png](assets/claude-tag-slack/04-multiplayer-thread.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:01:04 | 2026-09-09 | 官方 |
+| [assets/claude-tag-slack/05-artifact-link.png](assets/claude-tag-slack/05-artifact-link.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:01:20 | 2026-09-09 | 官方 |
+| [assets/claude-tag-slack/06-followup.png](assets/claude-tag-slack/06-followup.png) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:01:32 | 2026-09-09 | 官方 |
+| [assets/claude-tag-slack/clip.mp4](assets/claude-tag-slack/clip.mp4) | Claude Tag 补充 | https://www.youtube.com/watch?v=VojDzHaciKQ | 00:00:36–00:01:05.5 | 2026-09-09 | 官方 |
+| [assets/hardware-strategy/01-mhs-orchestration-diagram.png](assets/hardware-strategy/01-mhs-orchestration-diagram.png) | 新硬件 / MHS | https://www.anthropic.com/news/model-hardware-standard-research-preview | 静态图 | 2026-09-09 | 官方 |
+| [assets/hardware-strategy/02-lab-plate-photo.png](assets/hardware-strategy/02-lab-plate-photo.png) | 新硬件 / MHS | https://www.anthropic.com/news/model-hardware-standard-research-preview | 静态图；官方 JPG 转 PNG | 2026-09-09 | 官方 |
+| [assets/hardware-strategy/03-mhs-lab-comparison.png](assets/hardware-strategy/03-mhs-lab-comparison.png) | 新硬件 / MHS | https://www.anthropic.com/news/model-hardware-standard-research-preview | 静态图 | 2026-09-09 | 官方 |
 
 ## 待人填：观点 / 对我们的启发

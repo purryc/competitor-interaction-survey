@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>开源阵营素材复核</title>
-<style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>开源阵营素材复核</title>
+  <style>
     :root { color-scheme: dark; --bg:#0b0d12; --panel:#141821; --line:#2a3140; --text:#edf1f7; --muted:#9ba7ba; --ok:#67d391; --partial:#ffbd5c; --accent:#81a8ff; }
     * { box-sizing: border-box; }
     body { margin:0; background:var(--bg); color:var(--text); font:15px/1.55 -apple-system,BlinkMacSystemFont,"Noto Sans SC",sans-serif; }
@@ -32,74 +31,80 @@
   </style>
 </head>
 <body>
-<header>
-<h1>05 · 开源阵营｜素材复核</h1>
-<p>OpenWork v0.18.44 · Open Design v0.19.0 实测 · 2026-09-09</p>
-<div class="summary"><span class="pill">6 个特性</span><span class="status complete">COMPLETE 1</span><span class="status partial">PARTIAL 5</span><span class="pill">MISSING 0</span></div>
-</header>
-<main>
-<section>
-<h2>OpenWork 桌面端 <span class="status partial">PARTIAL</span></h2>
-<p class="boundary">01–06 是同一隔离成功链；failure 是另一次真实失败，不能接到成功链；MacDown 图是外部查看器。缺连续原生录屏与实际人工编辑后续跑。</p>
-<div class="grid">
-<figure><img alt="OpenWork 全局入口" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/01-entry-global-ui.png"/><figcaption><strong>01 · 进入 / 全局 UI</strong><span>新会话与历史侧栏可见。</span></figcaption></figure>
-<figure><img alt="OpenWork 委托" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/02-delegate-ready.png"/><figcaption><strong>02 · 委托</strong><span>严格三行文件任务已输入、未执行。</span></figcaption></figure>
-<figure><img alt="OpenWork 运行" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/03-running.png"/><figcaption><strong>03 · 过程</strong><span>真实 Working 6s 与 Wrote。</span></figcaption></figure>
-<figure><img alt="OpenWork 成功" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/04-success-result.png"/><figcaption><strong>04 · 完成回复</strong><span>Wrote、Read 与成功说明同屏。</span></figcaption></figure>
-<figure><img alt="OpenWork 产物" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/05-artifact-preview.png"/><figcaption><strong>05 · 产品内产物</strong><span>内置文件面板显示三行内容。</span></figcaption></figure>
-<figure><img alt="OpenWork 退出" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/06-exit-new-session.png"/><figcaption><strong>06 · 退出</strong><span>回到新会话，旧任务仍可恢复。</span></figcaption></figure>
-<figure><img alt="OpenWork 失败" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/04-failure-no-result.png"/><figcaption><strong>独立失败链 · Resume</strong><span>task accepted 但无结果；这里只证明接管入口。</span></figcaption></figure>
-<figure><img alt="外部产物核验" src="../../../media/q3-2026/05-opensource/assets/openwork-desktop/05-artifact-result.png"/><figcaption><strong>外部查看器补充</strong><span>MacDown 图不是 OpenWork UI，也不是同一隔离链。</span></figcaption></figure>
-</div>
-</section>
-<section>
-<h2>跨 agent 技能复用 <span class="status partial">PARTIAL</span></h2>
-<p class="boundary">全部是 <code>--print</code> dry-run：证明目标适配格式，不证明 Codex / Claude Code / Cursor 已安装、加载或调用。</p>
-<div class="grid">
-<figure><img alt="三端汇总" src="../../../media/q3-2026/05-opensource/assets/cross-agent-skills/01-codex-claude-cursor-dry-run.png"/><figcaption><strong>三端配置预览</strong><span>同一 MCP server，各端拥有不同配置入口。</span></figcaption></figure>
-<figure><img alt="Codex dry run" src="../../../media/q3-2026/05-opensource/assets/cross-agent-skills/02-codex-dry-run.png"/><figcaption><strong>Codex</strong><span>目标命令预览；未改用户配置。</span></figcaption></figure>
-<figure><img alt="Claude dry run" src="../../../media/q3-2026/05-opensource/assets/cross-agent-skills/03-claude-dry-run.png"/><figcaption><strong>Claude Code</strong><span>目标命令预览；未改用户配置。</span></figcaption></figure>
-<figure><img alt="Cursor dry run" src="../../../media/q3-2026/05-opensource/assets/cross-agent-skills/04-cursor-dry-run.png"/><figcaption><strong>Cursor</strong><span>会写入的 JSON 位置可见；未实际写入。</span></figcaption></figure>
-</div>
-</section>
-<section>
-<h2>OpenDesign CLI <span class="status partial">PARTIAL</span></h2>
-<p class="boundary">真实 CLI 创建 project 并写入本地 HTML fixture；不是模型生成。MP4 是自建实时 stdout 查看器的录屏，非原生 Terminal UI。</p>
-<div class="grid">
-<figure><img alt="OpenDesign CLI status" src="../../../media/q3-2026/05-opensource/assets/opendesign-cli/01-headless-cli-status.png"/><figcaption><strong>原生 Terminal · status/help</strong><span>loopback daemon 与 MCP agent 目标。</span></figcaption></figure>
-<figure><img alt="OpenDesign UI" src="../../../media/q3-2026/05-opensource/assets/opendesign-cli/02-clean-global-ui.png"/><figcaption><strong>桌面壳全局 UI</strong><span>选择入口、项目与生成表面。</span></figcaption></figure>
-<figure><img alt="CLI artifact complete" src="../../../media/q3-2026/05-opensource/assets/opendesign-cli/03-headless-artifact-complete.png"/><figcaption><strong>文件通道完成态</strong><span>manifestStatus=complete；重复写会 409。</span></figcaption></figure>
-<figure><video controls="" preload="metadata" src="../../../media/q3-2026/05-opensource/assets/opendesign-cli/clip.mp4"></video><figcaption><strong>7.68 秒实时 CLI 转录</strong><span>H.264 1600×1000；全解码与代表帧已检查。</span></figcaption></figure>
-</div>
-</section>
-<section>
-<h2>151 套设计系统 token 库 <span class="status partial">PARTIAL</span></h2>
-<p class="boundary">只能证明可选择 Apple design system。四条真实生成通道均 0 artifact；没有同任务 baseline / Apple 结果，不能用 picker 冒充前后对照。</p>
-<div class="grid"><figure><img alt="Apple design system picker" src="../../../media/q3-2026/05-opensource/assets/design-token-library/01-apple-token-picker.png"/><figcaption><strong>Apple picker / palette</strong><span>id=apple，status=published；白、灰、深灰、蓝色板可见。</span></figcaption></figure></div>
-</section>
-<section>
-<h2>插件市场与自扩展 <span class="status partial">PARTIAL</span></h2>
-<p class="boundary">三步均为真实 CLI。validate 的 warning 未解决；按授权停在发布前，没有市场上架态。</p>
-<div class="grid">
-<figure><img alt="插件脚手架" src="../../../media/q3-2026/05-opensource/assets/plugin-marketplace/01-scaffold-created.png"/><figcaption><strong>01 · Scaffold</strong><span>本地创建 3 个文件。</span></figcaption></figure>
-<figure><img alt="插件验证" src="../../../media/q3-2026/05-opensource/assets/plugin-marketplace/02-validate-warning.png"/><figcaption><strong>02 · Validate</strong><span>ok:true，同时保留 context.unresolved warning。</span></figcaption></figure>
-<figure><img alt="插件打包" src="../../../media/q3-2026/05-opensource/assets/plugin-marketplace/03-pack-prepublish-stop.png"/><figcaption><strong>03 · Pack / pre-publish stop</strong><span>生成 974-byte tgz；未发布。</span></figcaption></figure>
-</div>
-</section>
-<section>
-<h2>社区分歧点 <span class="status complete">COMPLETE</span></h2>
-<p class="boundary">截图内容是 issue 报告，不自动等于当前产品事实。#6599 / #1103 已关闭；#2986 截至核验日 open。</p>
-<div class="grid">
-<figure><img alt="OpenDesign 6599" src="../../../media/q3-2026/05-opensource/assets/community-issues/01-opendesign-login-required-6599.png"/><figcaption><strong>Open Design #6599</strong><span>48 comments · 27 top-level reactions · closed。</span></figcaption></figure>
-<figure><img alt="OpenDesign 2986" src="../../../media/q3-2026/05-opensource/assets/community-issues/02-opendesign-byok-local-2986.png"/><figcaption><strong>Open Design #2986</strong><span>40 comments · priority:p1 · open。</span></figcaption></figure>
-<figure><img alt="OpenWork 1103" src="../../../media/q3-2026/05-opensource/assets/community-issues/03-openwork-summary-loop-1103.png"/><figcaption><strong>OpenWork #1103</strong><span>22 comments · closed。</span></figcaption></figure>
-</div>
-</section>
-<section>
-<h2>新硬件 <span class="status complete">COMPLETE · NEGATIVE FINDING</span></h2>
-<p class="boundary">官方公开来源未发现 OpenWork / Open Design 自有硬件发布。无硬件图可采，因此不放生成图或无关设备图；这是“未发现”，不是永久路线承诺。</p>
-</section>
-</main>
-<footer>逐图来源：<a href="SOURCES.md">SOURCES.md</a> · 缺口：<a href="coverage.json">coverage.json</a> · 运行与失败：<a href="SEARCH-LOG.md">SEARCH-LOG.md</a></footer>
+  <header>
+    <h1>05 · 开源阵营｜素材复核</h1>
+    <p>OpenWork v0.18.44 · Open Design v0.19.0 实测 · 2026-09-09</p>
+    <div class="summary"><span class="pill">6 个特性</span><span class="status complete">COMPLETE 1</span><span class="status partial">PARTIAL 5</span><span class="pill">MISSING 0</span></div>
+  </header>
+  <main>
+    <section>
+      <h2>OpenWork 桌面端 <span class="status partial">PARTIAL</span></h2>
+      <p class="boundary">01–06 是同一隔离成功链；failure 是另一次真实失败，不能接到成功链；MacDown 图是外部查看器。缺连续原生录屏与实际人工编辑后续跑。</p>
+      <div class="grid">
+        <figure><img src="assets/openwork-desktop/01-entry-global-ui.png" alt="OpenWork 全局入口"><figcaption><strong>01 · 进入 / 全局 UI</strong><span>新会话与历史侧栏可见。</span></figcaption></figure>
+        <figure><img src="assets/openwork-desktop/02-delegate-ready.png" alt="OpenWork 委托"><figcaption><strong>02 · 委托</strong><span>严格三行文件任务已输入、未执行。</span></figcaption></figure>
+        <figure><img src="assets/openwork-desktop/03-running.png" alt="OpenWork 运行"><figcaption><strong>03 · 过程</strong><span>真实 Working 6s 与 Wrote。</span></figcaption></figure>
+        <figure><img src="assets/openwork-desktop/04-success-result.png" alt="OpenWork 成功"><figcaption><strong>04 · 完成回复</strong><span>Wrote、Read 与成功说明同屏。</span></figcaption></figure>
+        <figure><img src="assets/openwork-desktop/05-artifact-preview.png" alt="OpenWork 产物"><figcaption><strong>05 · 产品内产物</strong><span>内置文件面板显示三行内容。</span></figcaption></figure>
+        <figure><img src="assets/openwork-desktop/06-exit-new-session.png" alt="OpenWork 退出"><figcaption><strong>06 · 退出</strong><span>回到新会话，旧任务仍可恢复。</span></figcaption></figure>
+        <figure><img src="assets/openwork-desktop/04-failure-no-result.png" alt="OpenWork 失败"><figcaption><strong>独立失败链 · Resume</strong><span>task accepted 但无结果；这里只证明接管入口。</span></figcaption></figure>
+        <figure><img src="assets/openwork-desktop/05-artifact-result.png" alt="外部产物核验"><figcaption><strong>外部查看器补充</strong><span>MacDown 图不是 OpenWork UI，也不是同一隔离链。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>跨 agent 技能复用 <span class="status partial">PARTIAL</span></h2>
+      <p class="boundary">全部是 <code>--print</code> dry-run：证明目标适配格式，不证明 Codex / Claude Code / Cursor 已安装、加载或调用。</p>
+      <div class="grid">
+        <figure><img src="assets/cross-agent-skills/01-codex-claude-cursor-dry-run.png" alt="三端汇总"><figcaption><strong>三端配置预览</strong><span>同一 MCP server，各端拥有不同配置入口。</span></figcaption></figure>
+        <figure><img src="assets/cross-agent-skills/02-codex-dry-run.png" alt="Codex dry run"><figcaption><strong>Codex</strong><span>目标命令预览；未改用户配置。</span></figcaption></figure>
+        <figure><img src="assets/cross-agent-skills/03-claude-dry-run.png" alt="Claude dry run"><figcaption><strong>Claude Code</strong><span>目标命令预览；未改用户配置。</span></figcaption></figure>
+        <figure><img src="assets/cross-agent-skills/04-cursor-dry-run.png" alt="Cursor dry run"><figcaption><strong>Cursor</strong><span>会写入的 JSON 位置可见；未实际写入。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>OpenDesign CLI <span class="status partial">PARTIAL</span></h2>
+      <p class="boundary">真实 CLI 创建 project 并写入本地 HTML fixture；不是模型生成。MP4 是自建实时 stdout 查看器的录屏，非原生 Terminal UI。</p>
+      <div class="grid">
+        <figure><img src="assets/opendesign-cli/01-headless-cli-status.png" alt="OpenDesign CLI status"><figcaption><strong>原生 Terminal · status/help</strong><span>loopback daemon 与 MCP agent 目标。</span></figcaption></figure>
+        <figure><img src="assets/opendesign-cli/02-clean-global-ui.png" alt="OpenDesign UI"><figcaption><strong>桌面壳全局 UI</strong><span>选择入口、项目与生成表面。</span></figcaption></figure>
+        <figure><img src="assets/opendesign-cli/03-headless-artifact-complete.png" alt="CLI artifact complete"><figcaption><strong>文件通道完成态</strong><span>manifestStatus=complete；重复写会 409。</span></figcaption></figure>
+        <figure><video controls preload="metadata" src="assets/opendesign-cli/clip.mp4"></video><figcaption><strong>7.68 秒实时 CLI 转录</strong><span>H.264 1600×1000；全解码与代表帧已检查。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>151 套设计系统 token 库 <span class="status partial">PARTIAL</span></h2>
+      <p class="boundary">只能证明可选择 Apple design system。四条真实生成通道均 0 artifact；没有同任务 baseline / Apple 结果，不能用 picker 冒充前后对照。</p>
+      <div class="grid"><figure><img src="assets/design-token-library/01-apple-token-picker.png" alt="Apple design system picker"><figcaption><strong>Apple picker / palette</strong><span>id=apple，status=published；白、灰、深灰、蓝色板可见。</span></figcaption></figure></div>
+    </section>
+
+    <section>
+      <h2>插件市场与自扩展 <span class="status partial">PARTIAL</span></h2>
+      <p class="boundary">三步均为真实 CLI。validate 的 warning 未解决；按授权停在发布前，没有市场上架态。</p>
+      <div class="grid">
+        <figure><img src="assets/plugin-marketplace/01-scaffold-created.png" alt="插件脚手架"><figcaption><strong>01 · Scaffold</strong><span>本地创建 3 个文件。</span></figcaption></figure>
+        <figure><img src="assets/plugin-marketplace/02-validate-warning.png" alt="插件验证"><figcaption><strong>02 · Validate</strong><span>ok:true，同时保留 context.unresolved warning。</span></figcaption></figure>
+        <figure><img src="assets/plugin-marketplace/03-pack-prepublish-stop.png" alt="插件打包"><figcaption><strong>03 · Pack / pre-publish stop</strong><span>生成 974-byte tgz；未发布。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>社区分歧点 <span class="status complete">COMPLETE</span></h2>
+      <p class="boundary">截图内容是 issue 报告，不自动等于当前产品事实。#6599 / #1103 已关闭；#2986 截至核验日 open。</p>
+      <div class="grid">
+        <figure><img src="assets/community-issues/01-opendesign-login-required-6599.png" alt="OpenDesign 6599"><figcaption><strong>Open Design #6599</strong><span>48 comments · 27 top-level reactions · closed。</span></figcaption></figure>
+        <figure><img src="assets/community-issues/02-opendesign-byok-local-2986.png" alt="OpenDesign 2986"><figcaption><strong>Open Design #2986</strong><span>40 comments · priority:p1 · open。</span></figcaption></figure>
+        <figure><img src="assets/community-issues/03-openwork-summary-loop-1103.png" alt="OpenWork 1103"><figcaption><strong>OpenWork #1103</strong><span>22 comments · closed。</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>新硬件 <span class="status complete">COMPLETE · NEGATIVE FINDING</span></h2>
+      <p class="boundary">官方公开来源未发现 OpenWork / Open Design 自有硬件发布。无硬件图可采，因此不放生成图或无关设备图；这是“未发现”，不是永久路线承诺。</p>
+    </section>
+  </main>
+  <footer>逐图来源：<a href="SOURCES.md">SOURCES.md</a> · 缺口：<a href="coverage.json">coverage.json</a> · 运行与失败：<a href="SEARCH-LOG.md">SEARCH-LOG.md</a></footer>
 </body>
 </html>
