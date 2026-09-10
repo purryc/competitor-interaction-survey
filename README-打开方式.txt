@@ -19,4 +19,3 @@ Competitor Interaction Survey｜人机交互实验室便携调研库
 - 不包含 _work、浏览器缓存、未引用长原片、原 PPT/PDF 或任务运行记录。
 
 在线地址：https://purryc.github.io/mobile-ai-interactions-2026q3/
-下载地址：https://github.com/purryc/mobile-ai-interactions-2026q3/archive/refs/heads/main.zip

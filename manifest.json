@@ -20,8 +20,8 @@
       "group": "generated",
       "source_relative": "README-打开方式.txt",
       "portable_path": "README-打开方式.txt",
-      "bytes": 1387,
-      "sha256": "22e76741e1c0a4f976786bd1b7b781a7951969cbc627d10338d2b17f48684ddd"
+      "bytes": 1288,
+      "sha256": "fcb0fee45f72450013c3099c6a0bcaa247c7976f426c4fb401c2835de6424ee0"
     },
     {
       "group": "generated",
@@ -818,8 +818,8 @@
       "group": "generated",
       "source_relative": "index.html",
       "portable_path": "index.html",
-      "bytes": 1901295,
-      "sha256": "9733c19f562de585940376381ee26e12967628e0e316628f72007efd56cf2325"
+      "bytes": 1901172,
+      "sha256": "17935e1b653b25d6181a1778b161c2ce8f5237cd3dd3af87447c33ce7da43301"
     },
     {
       "group": "mobile-v2",
