@@ -18,4 +18,5 @@ Competitor Interaction Survey｜人机交互实验室便携调研库
 - 包含 Q3 七阵营 269 张 PNG、32 段 MP4、研究文档和来源表。
 - 不包含 _work、浏览器缓存、未引用长原片、原 PPT/PDF 或任务运行记录。
 
-在线地址：https://purryc.github.io/mobile-ai-interactions-2026q3/
+在线地址：https://purryc.github.io/competitor-interaction-survey/
+GitHub 项目：https://github.com/purryc/competitor-interaction-survey
