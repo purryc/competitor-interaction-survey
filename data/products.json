@@ -699,6 +699,48 @@
       ]
     },
     {
+      "slug": "codex-micro",
+      "locale": "zh-CN",
+      "title": "Codex Micro：十位实际使用者的完整反馈",
+      "path": "docs/products/codex-micro.html",
+      "snapshot_path": "docs/products/codex-micro-2026-10-06.md",
+      "research_date": "2026-10-06",
+      "org": "worklouder",
+      "description": "状态灯、六线程槽位、语音、旋钮、摇杆与自定义技能：十位使用者的具体操作、常用与闲置控件、连接故障和购买关系。",
+      "related_card_ids": [
+        "OCT26-HW-CODEX-MICRO"
+      ],
+      "hero": {
+        "src": "../../media/products/codex-micro/moritomo-agent-keys.jpg",
+        "source_url": "https://note.com/fair_honest9360/n/nb3eee99a5df6?hl=en",
+        "caption": "作者圈出的六个 Agent 键；左上旋钮、右上摇杆、大宽语音键与右下发送键。键帽是当时布局，可重映射。 もりとも，2026-08-02，OpenAI赠机。"
+      },
+      "source_links": [
+        "https://learn.chatgpt.com/docs/whats-new",
+        "https://openai.com/supply/co-lab/work-louder/",
+        "https://learn.chatgpt.com/docs/features/codex-micro",
+        "https://worklouder.cc/codex-micro",
+        "https://worklouder.cc/openai-micro-setup",
+        "https://note.com/fair_honest9360/n/nb3eee99a5df6?hl=en",
+        "https://note.com/martins_day/n/n076a55dfba84?hl=en",
+        "https://www.reddit.com/r/OpenAI/comments/1vfd91h/codex_micro_an_honest_review/",
+        "https://www.reddit.com/r/codex/comments/1v98ukr/a_week_with_the_codex_micro/",
+        "https://www.reddit.com/r/MechanicalKeyboards/comments/1vil4uy/if_you_bought_the_codex_micro_i_feel_so_sorry_for/",
+        "https://www.linkedin.com/posts/aditya-bawankule_i-decided-to-buy-one-of-the-codex-micro-keyboards-activity-7485518993777188864-QMx8",
+        "https://www.reddit.com/r/OpenAI/comments/1v7lbg0/i_bought_the_codex_micro_regretted_it_and_rebuilt/",
+        "https://www.linkedin.com/posts/yangshun_ive-been-using-codex-micro-for-a-week-now-activity-7492832202913665024-mry2",
+        "https://kingy.ai/blog/codex-micro-review/",
+        "https://www.reddit.com/r/OpenAI/comments/1uzfdh4/got_my_codex_micro_love_it_so_far_but_wish_it_had/",
+        "https://arthurcolle.github.io/codex-micro-open/",
+        "https://news.ycombinator.com/item?id=48923079",
+        "https://www.cnet.com/tech/services-and-software/openai-ai-codex-micro-keypad-hands-on-review/",
+        "https://www.youtube.com/watch?v=AM5jzu6Be3k",
+        "https://www.youtube.com/watch?v=3-2OH6ReiPM",
+        "https://github.com/worklouder/cm-v2-fw-releases/releases",
+        "https://community.openai.com/t/in-app-browser-use-can-crash-codex-while-loading-its-bundled-serialport-native-module/1387051"
+      ]
+    },
+    {
       "slug": "workbuddy",
       "locale": "en",
       "title": "Tencent WorkBuddy",
@@ -1392,6 +1434,48 @@
         "https://docs.wisprflow.ai/articles/4678293671-Context-Awareness",
         "https://superwhisper.com/",
         "https://aquavoice.com/docs/api"
+      ]
+    },
+    {
+      "slug": "codex-micro",
+      "locale": "en",
+      "title": "Codex Micro: Full Evidence from Ten Actual Users",
+      "path": "docs/products/codex-micro.en.html",
+      "snapshot_path": "docs/products/codex-micro-2026-10-06.en.md",
+      "research_date": "2026-10-06",
+      "org": "worklouder",
+      "description": "Status lights, six thread slots, voice, dial, joystick and custom skills: concrete workflows, used and unused controls, connection failures and purchase/gift disclosures across ten users.",
+      "related_card_ids": [
+        "OCT26-HW-CODEX-MICRO"
+      ],
+      "hero": {
+        "src": "../../media/products/codex-micro/moritomo-agent-keys.jpg",
+        "source_url": "https://note.com/fair_honest9360/n/nb3eee99a5df6?hl=en",
+        "caption": "Six Agent keys outlined by the original author. Physical device photographed by Moritomo on 2026-08-02; OpenAI supplied it free. Keycaps show the photographed layout, not fixed mappings."
+      },
+      "source_links": [
+        "https://learn.chatgpt.com/docs/whats-new",
+        "https://openai.com/supply/co-lab/work-louder/",
+        "https://learn.chatgpt.com/docs/features/codex-micro",
+        "https://worklouder.cc/codex-micro",
+        "https://worklouder.cc/openai-micro-setup",
+        "https://note.com/fair_honest9360/n/nb3eee99a5df6?hl=en",
+        "https://note.com/martins_day/n/n076a55dfba84?hl=en",
+        "https://www.reddit.com/r/OpenAI/comments/1vfd91h/codex_micro_an_honest_review/",
+        "https://www.reddit.com/r/codex/comments/1v98ukr/a_week_with_the_codex_micro/",
+        "https://www.reddit.com/r/MechanicalKeyboards/comments/1vil4uy/if_you_bought_the_codex_micro_i_feel_so_sorry_for/",
+        "https://www.linkedin.com/posts/aditya-bawankule_i-decided-to-buy-one-of-the-codex-micro-keyboards-activity-7485518993777188864-QMx8",
+        "https://www.reddit.com/r/OpenAI/comments/1v7lbg0/i_bought_the_codex_micro_regretted_it_and_rebuilt/",
+        "https://www.linkedin.com/posts/yangshun_ive-been-using-codex-micro-for-a-week-now-activity-7492832202913665024-mry2",
+        "https://kingy.ai/blog/codex-micro-review/",
+        "https://www.reddit.com/r/OpenAI/comments/1uzfdh4/got_my_codex_micro_love_it_so_far_but_wish_it_had/",
+        "https://arthurcolle.github.io/codex-micro-open/",
+        "https://news.ycombinator.com/item?id=48923079",
+        "https://www.cnet.com/tech/services-and-software/openai-ai-codex-micro-keypad-hands-on-review/",
+        "https://www.youtube.com/watch?v=AM5jzu6Be3k",
+        "https://www.youtube.com/watch?v=3-2OH6ReiPM",
+        "https://github.com/worklouder/cm-v2-fw-releases/releases",
+        "https://community.openai.com/t/in-app-browser-use-can-crash-codex-while-loading-its-bundled-serialport-native-module/1387051"
       ]
     }
   ]

@@ -13,9 +13,9 @@
     "q3_mp4": 32,
     "published_video_count": 237,
     "published_video_bytes": 169112159,
-    "total_files_in_repository": 2522,
+    "total_files_in_repository": 2530,
     "oct_2026_features": 43,
-    "product_dossiers": 16,
+    "product_dossiers": 17,
     "product_dossier_languages": 2,
     "new_product_entry_cards": 10
   },
@@ -31,8 +31,8 @@
       "group": "generated",
       "source_relative": "data/catalog.json",
       "portable_path": "data/catalog.json",
-      "bytes": 845196,
-      "sha256": "d096f3382b81926977183f2b5758ae9c4a89608ba6626c9f6831689609977a16"
+      "bytes": 845468,
+      "sha256": "bda5aeafd001f9e78fab6f6a291ced2a426b109eacd5ed5552af76418cdbf9bc"
     },
     {
       "group": "mobile-v2-doc",
@@ -822,8 +822,8 @@
       "group": "generated",
       "source_relative": "index.html",
       "portable_path": "index.html",
-      "bytes": 2247621,
-      "sha256": "52525b0fba7e6e7e09f0522bcbd67d3b7f8f6b41e0616f8d7e4bafa4f2f86cd8"
+      "bytes": 2247769,
+      "sha256": "ec14fea085253c9a1ad54a1f0aa39371949f651c9baa6cd4873b2de6c236688d"
     },
     {
       "group": "mobile-v2",
@@ -16593,8 +16593,8 @@
       "group": "generated",
       "source_relative": "README.md",
       "portable_path": "README.md",
-      "bytes": 2758,
-      "sha256": "7955ce1955b1d37fe7b3f5ed6c658207fd6756516494f5ed3396ee1e56a74e23"
+      "bytes": 3603,
+      "sha256": "2edcf922b15a204300e19a8e3999880d5738ba15225a76ce1fec7763e6012570"
     },
     {
       "group": "generated",
@@ -16628,8 +16628,8 @@
       "group": "oct-2026-update",
       "source_relative": "data/oct-2026-update.json",
       "portable_path": "data/oct-2026-update.json",
-      "bytes": 252017,
-      "sha256": "d6c9cbf0538fba947cc384a3037cf0f0f67250d0c5143af750c037d602787b96"
+      "bytes": 252289,
+      "sha256": "f6342f50a2c2fa134277eb5cb95a0a24f95f396518eaece67190092395ad1f3a"
     },
     {
       "group": "oct-2026-update",
@@ -16957,29 +16957,29 @@
       "group": "product-dossiers-2026-10",
       "source_relative": "index.en.html",
       "portable_path": "index.en.html",
-      "bytes": 1915825,
-      "sha256": "97ef1bc3abd3f1b8eebbbd3de60ef625ca3b8b3cf11a1c4b0a4db046e6ca0a7e"
+      "bytes": 1915974,
+      "sha256": "6f958c3f7c9446455ca53ce1d1db038a8e54654c2efc69d21109877f6ab0e53a"
     },
     {
       "group": "product-dossiers-2026-10",
       "source_relative": "data/catalog.en.json",
       "portable_path": "data/catalog.en.json",
-      "bytes": 912436,
-      "sha256": "06264a1f2a899242c3f1d54fd3e40181a666bd564348dade66dd08da18291c55"
+      "bytes": 912708,
+      "sha256": "75efcc9215c86fa5a26eb968587688fac649465ce92d71790c6f65807d5ef8a7"
     },
     {
       "group": "product-dossiers-2026-10",
       "source_relative": "data/products.json",
       "portable_path": "data/products.json",
-      "bytes": 66353,
-      "sha256": "53a235271c97aa499218d6d744d1be1360f6b083f0d8e76d244ea2add26431e8"
+      "bytes": 71910,
+      "sha256": "64f9060b723723849304c1fa66f21e7c6ba99d6992f8748a5a8bd845e7f118d9"
     },
     {
       "group": "product-dossiers-2026-10",
       "source_relative": "data/product-media-provenance.json",
       "portable_path": "data/product-media-provenance.json",
-      "bytes": 13123,
-      "sha256": "e2f2b47efd708f1a76f6e65e0d294a42942a444cf49f52cff4b7439d303837f7"
+      "bytes": 16628,
+      "sha256": "47ef84d6764d468ee353287ce78a84c30869257bdac5858060740629fcd09c46"
     },
     {
       "group": "product-dossiers-2026-10",
@@ -17146,8 +17146,8 @@
       "group": "product-dossiers-2026-10",
       "source_relative": "docs/products/index.en.html",
       "portable_path": "docs/products/index.en.html",
-      "bytes": 6760,
-      "sha256": "ab7d9dd07803f4cddfd58214926efad5517642c65837f6e0587574f1af32b998"
+      "bytes": 7125,
+      "sha256": "7a6b959c394403db9053c8d8b31d1e56ceaa2b4d4f2125f83b5d3c1ff95beafa"
     },
     {
       "group": "product-dossiers-2026-10",
@@ -17167,8 +17167,8 @@
       "group": "product-dossiers-2026-10",
       "source_relative": "docs/products/index.html",
       "portable_path": "docs/products/index.html",
-      "bytes": 6052,
-      "sha256": "d83425d9210ffe7b777a4e90576d23873572e5d8e800d4f62abfa9880f7cf7cc"
+      "bytes": 6390,
+      "sha256": "56cdf19b171567971fc3d3686b622aa783387352f8181e7b767c862573fa673d"
     },
     {
       "group": "product-dossiers-2026-10",
@@ -17659,6 +17659,62 @@
       "portable_path": "media/products/voice/wechat.jpg",
       "bytes": 47906,
       "sha256": "0d509d26d068e4f4321b5ec30d06c9e8dd0a1393d89de5b3e85ecf01bef24fa9"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "docs/products/codex-micro.en.html",
+      "portable_path": "docs/products/codex-micro.en.html",
+      "bytes": 39062,
+      "sha256": "193f2de0f890d2d176a52505dcf1552fb5b1a597486c7fde1e6035293e9b8d28"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "docs/products/codex-micro-2026-10-06.md",
+      "portable_path": "docs/products/codex-micro-2026-10-06.md",
+      "bytes": 17876,
+      "sha256": "afaaec4e413e8439ca8c587bfea91ff081c9aba70e6b99672307b0e703c6c12c"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "docs/products/codex-micro-2026-10-06.en.md",
+      "portable_path": "docs/products/codex-micro-2026-10-06.en.md",
+      "bytes": 25571,
+      "sha256": "99828243c81adbb5c3b7a1104e4655374f820b95151510447ae7e4b43c12e099"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "docs/products/codex-micro.html",
+      "portable_path": "docs/products/codex-micro.html",
+      "bytes": 29490,
+      "sha256": "7a9efc40f7d6013a81d994e4aec6929af6d5c96581f9f76325402de18db6122a"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "media/products/codex-micro/moritomo-voice-scroll.jpg",
+      "portable_path": "media/products/codex-micro/moritomo-voice-scroll.jpg",
+      "bytes": 159270,
+      "sha256": "38e4ba750b2f139a31ebbd397acaf4b17940064c39e65fffd1dd5773247cb510"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "media/products/codex-micro/moritomo-agent-keys.jpg",
+      "portable_path": "media/products/codex-micro/moritomo-agent-keys.jpg",
+      "bytes": 197078,
+      "sha256": "b41cfb16dd841c9fbd5537d10724847da31f206c5f4b0781d6eedce82c505d9f"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "media/products/codex-micro/martin-layout.jpg",
+      "portable_path": "media/products/codex-micro/martin-layout.jpg",
+      "bytes": 52610,
+      "sha256": "3ce6601f26fc2101cb2580e14023f40f848c83ada71d06a3e90be25f1aa855fa"
+    },
+    {
+      "group": "codex-micro-user-evidence",
+      "source_relative": "media/products/codex-micro/martin-joystick.jpg",
+      "portable_path": "media/products/codex-micro/martin-joystick.jpg",
+      "bytes": 39299,
+      "sha256": "66940920514bd631abbb9e194dcaf2a4082186aac3e2fb0d51da50470864047f"
     }
   ]
 }

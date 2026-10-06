@@ -268,6 +268,66 @@
       "source_url": "https://help.willowvoice.com/en/articles/10876920-dictating-with-willow-voice",
       "description": "H.264/yuv420p faststart conversion of the source GIF; no synthetic frames or reconstructed interface",
       "original_url": "https://downloads.intercomcdn.com/i/o/zr6s0f6o/1435076904/c322e82a702ebecab50cb348c915/Clipboard-20250322-033100-947.gif"
+    },
+    {
+      "collection": "codex-micro",
+      "id": "cm-agent-keys",
+      "source_page": "https://note.com/fair_honest9360/n/nb3eee99a5df6?hl=en",
+      "image_url": "https://assets.st-note.com/img/1785638283-PLcfosrTk8vxFuHZWYmqGw4e.png?width=1200",
+      "creator": "もりとも",
+      "date": "2026-08-02",
+      "type": "hands-on photograph with original author's red annotation",
+      "disclosure": "OpenAI supplied device free",
+      "verified_visually": true,
+      "recommended": true,
+      "caption_zh": "作者圈出的六个 Agent 键；左上旋钮、右上摇杆、大宽语音键与右下发送键。键帽是当时布局，可重映射。",
+      "path": "media/products/codex-micro/moritomo-agent-keys.jpg",
+      "caption_en": "Six Agent keys outlined by the original author. Physical device photographed by Moritomo on 2026-08-02; OpenAI supplied it free. Keycaps show the photographed layout, not fixed mappings."
+    },
+    {
+      "collection": "codex-micro",
+      "id": "cm-voice-scroll",
+      "source_page": "https://note.com/fair_honest9360/n/nb3eee99a5df6?hl=en",
+      "image_url": "https://assets.st-note.com/img/1785638788-EVrZl807pMisAu3wCXDtILY1.jpg?width=1200",
+      "creator": "もりとも",
+      "date": "2026-08-02",
+      "type": "hands-on desk photograph",
+      "disclosure": "OpenAI supplied device free",
+      "verified_visually": true,
+      "recommended": true,
+      "caption_zh": "左手语音＋滚动、电脑屏幕读上下文；不是独立脱离电脑使用。",
+      "path": "media/products/codex-micro/moritomo-voice-scroll.jpg",
+      "caption_en": "Moritomo uses the voice key and scrolling while reading the computer screen. Gifted device, 2026-08-02; the photograph does not demonstrate a measured efficiency gain."
+    },
+    {
+      "collection": "codex-micro",
+      "id": "cm-custom-layout",
+      "source_page": "https://note.com/martins_day/n/n076a55dfba84?hl=en",
+      "image_url": "https://assets.st-note.com/img/1788532120-T4rBsjiCaUtvDe7c1uYJdSbG.png?width=1200",
+      "creator": "Martin",
+      "date": "2026-09-05",
+      "type": "owner app screenshot",
+      "disclosure": "Self-reported buyer; no gift disclosure found",
+      "verified_visually": true,
+      "recommended": true,
+      "caption_zh": "真实自定义布局界面：常用技能取代默认确认/拒绝组合；图标不能直接按默认功能解读。",
+      "path": "media/products/codex-micro/martin-layout.jpg",
+      "caption_en": "Martin’s actual customized app layout after about five weeks. Self-reported buyer, 2026-09-05; custom skills replace default confirmation/rejection mappings."
+    },
+    {
+      "collection": "codex-micro",
+      "id": "cm-custom-stick",
+      "source_page": "https://note.com/martins_day/n/n076a55dfba84?hl=en",
+      "image_url": "https://assets.st-note.com/img/1788532459-Cno3r19YgJfihFzBHjmO5qd8.png?width=1200",
+      "creator": "Martin",
+      "date": "2026-09-05",
+      "type": "owner app screenshot",
+      "disclosure": "Self-reported buyer; no gift disclosure found",
+      "verified_visually": true,
+      "recommended": true,
+      "caption_zh": "日文设置截图：上下调推理负荷，右切 Chat、左切 Codex；用户将不喜欢的旋钮功能移到摇杆。",
+      "path": "media/products/codex-micro/martin-joystick.jpg",
+      "caption_en": "Martin’s actual joystick settings: up/down adjust reasoning, right switches to Chat, left to Codex. Self-reported buyer, 2026-09-05."
     }
   ]
 }

@@ -15935,7 +15935,15 @@
         "from_card": "OCT26-HW-CODEX-MICRO",
         "historical_demo": false,
         "asset_verified": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "codex-micro",
+          "title": "Codex Micro：十位实际使用者的完整反馈",
+          "path": "docs/products/codex-micro.html",
+          "path_en": "docs/products/codex-micro.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-TOUCHBAR-BTT",
