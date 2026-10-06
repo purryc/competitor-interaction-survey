@@ -70,7 +70,29 @@
           "original_url": "https://cdn.prod.website-files.com/68bad4196ea4422858dc1574/6a97cc0f32e6b0aff69ed835_ShuttleProV2FRONT_Originalratio_1920x2880_U_100_1x1_1920x1920_U_100.png",
           "caption": "Contour Shuttle Pro v2：jog/shuttle与可编程按键（官方产品图，非实测）"
         }
-      ]
+      ],
+      "chronology": {
+        "date": "2003-05",
+        "kind": "evidence",
+        "label": "来源月份",
+        "source": "https://www.lafcpug.org/tutorials/basic_shuttlepro.html",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2003-05",
+        "source_url": "https://www.lafcpug.org/tutorials/basic_shuttlepro.html"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/control-5.jpg",
+        "poster": null,
+        "source_url": "https://www.contourdesign.com/collection/contour-shuttle",
+        "source_urls": [
+          "https://www.contourdesign.com/collection/contour-shuttle",
+          "https://www.lafcpug.org/tutorials/basic_shuttlepro.html"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-SHUTTLE",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-STREAM-DECK",
@@ -173,7 +195,33 @@
           "original_url": "https://elgato-assets.imgix.net/image/upload/q_auto,f_auto/v1748943464/Products/10GBA9901/above-the-fold/New/01_ATF_Animation_alternative.jpg",
           "caption": "Stream Deck：固定的实体按键位置与动态LCD标签结合（官方产品图，非实测）"
         }
-      ]
+      ],
+      "chronology": {
+        "date": "2024-12",
+        "kind": "evidence",
+        "label": "来源月份",
+        "source": "https://www.reddit.com/r/elgato/comments/1hhu8oj/are_stream_decks_good_for_work_productivity/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2024-12 主题；评论精确日期未核",
+        "source_url": "https://www.reddit.com/r/elgato/comments/1hhu8oj/are_stream_decks_good_for_work_productivity/"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/control-1.jpg",
+        "poster": null,
+        "source_url": "https://www.elgato.com/us/en/p/stream-deck",
+        "source_urls": [
+          "https://www.elgato.com/us/en/p/stream-deck",
+          "https://www.evehome.com/en/news/elgato-stream-deck-brings-tactile-control-live-content-creation",
+          "https://www.reddit.com/r/elgato/comments/1hhu8oj/are_stream_decks_good_for_work_productivity/",
+          "https://www.reddit.com/r/streamdeckprofiles/comments/1gv1ut6/stream_deck_for_cad/",
+          "https://www.reddit.com/r/elgato/comments/10b5755/",
+          "https://www.reddit.com/r/Helldivers/comments/1as7rek/"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-STREAM-DECK",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-TOURBOX",
@@ -277,7 +325,34 @@
           "original_url": "https://cdn.tourboxtech.com/static4frontend/tourbox-elite/en/pc/pic_src/black.webp",
           "caption": "TourBox Elite：不同形状的按钮与旋钮，支持单手触觉定位（官方产品图，非实测）"
         }
-      ]
+      ],
+      "chronology": {
+        "date": "2026-05-19",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/tourbox/comments/1thwy95/deinfluence_me/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-05-19",
+        "source_url": "https://www.reddit.com/r/tourbox/comments/1thwy95/deinfluence_me/"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/control-2.jpg",
+        "poster": null,
+        "source_url": "https://tourboxtech.com/oap/manual/macro-commands/",
+        "source_urls": [
+          "https://tourboxtech.com/oap/manual/macro-commands/",
+          "https://www.reddit.com/r/tourbox/comments/1l7ry5n/just_watched_a_bunch_of_tourbox_elite_reviews_do/",
+          "https://www.reddit.com/r/tourbox/comments/1hfud97/tourbox_elite_made_me_slower_what_am_i_doing_wrong/",
+          "https://www.reddit.com/r/tourbox/comments/1thwy95/deinfluence_me/",
+          "https://www.reddit.com/r/tourbox/comments/1snhqua/finally/",
+          "https://www.youtube.com/watch?v=Ma6gUdjiGsY",
+          "https://www.tourboxtech.com/en/tourbox-elite/"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-TOURBOX",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-LOUPEDECK-CT",
@@ -302,7 +377,7 @@
         "结束": "检查主应用结果并保存映射；迁移设备时复核插件和预设"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://loupedeck.com/us/shop/loupedeck-ct/",
         "https://loupedeck.com/blog/important-update-end-of-loupedeck-sales-and-future-development-plans/",
@@ -339,7 +414,33 @@
           "implication": "迁移应验证软件层与预设兼容，不能只比较硬件控制数量"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2025-03-28",
+        "kind": "event",
+        "label": "停售公告",
+        "source": "https://loupedeck.com/blog/important-update-end-of-loupedeck-sales-and-future-development-plans/",
+        "note": "生命周期公告，非首次产品发布日期",
+        "source_url": "https://loupedeck.com/blog/important-update-end-of-loupedeck-sales-and-future-development-plans/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-LOUPEDECK-CT.jpg",
+        "source_url": "https://loupedeck.com/us/shop/loupedeck-ct/",
+        "caption": "官方 CT 产品照片；非实測",
+        "original_url": "https://loupedeck.com/us/wp-content/uploads/sites/14/2023/04/CT-shop-1.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-LOUPEDECK-CT.jpg",
+        "source_url": "https://loupedeck.com/us/shop/loupedeck-ct/",
+        "caption": "官方 CT 产品照片；非实測",
+        "original_url": "https://loupedeck.com/us/wp-content/uploads/sites/14/2023/04/CT-shop-1.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-MX-CREATIVE",
@@ -415,7 +516,31 @@
           "original_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-creative-console/buy/gallery/2025/mx-creative-console-top-view-pale-gray-2.png",
           "caption": "MX Creative Console：分体式keypad与dialpad（官方产品图，非实测）"
         }
-      ]
+      ],
+      "chronology": {
+        "date": "2024-09-24",
+        "kind": "event",
+        "label": "发布日",
+        "source": "https://news.logitech.com/press-releases/news-details/2024/Logitech-Launches-MX-Creative-Console-Redefining-Digital-Creation-and-Unleashing-Your-Creative-Potential/default.aspx",
+        "note": "MX Creative Console 发布；出货日另为10月14日",
+        "source_url": "https://news.logitech.com/press-releases/news-details/2024/Logitech-Launches-MX-Creative-Console-Redefining-Digital-Creation-and-Unleashing-Your-Creative-Potential/default.aspx"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/control-4.jpg",
+        "poster": null,
+        "source_url": "https://www.logitech.com/en-us/products/keyboards/mx-creative-console.html",
+        "source_urls": [
+          "https://www.logitech.com/en-us/products/keyboards/mx-creative-console.html",
+          "https://news.logitech.com/press-releases/news-details/2024/Logitech-Launches-MX-Creative-Console-Redefining-Digital-Creation-and-Unleashing-Your-Creative-Potential/default.aspx",
+          "https://www.reddit.com/r/logitech/comments/1kdzd56/",
+          "https://www.reddit.com/r/logitech/comments/1wtw61e/i_made_a_mac_app_that_turns_the_mx_creative/"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-MX-CREATIVE",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-MACROPAD-EXCEL",
@@ -440,7 +565,7 @@
         "结束": "在表格中检查执行结果；随真实使用调整布局"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/MechanicalKeyboards/comments/1nrbrl2/",
         "https://www.reddit.com/r/macro_pads/comments/1ue6yqu/macropad_placement/"
@@ -488,7 +613,33 @@
           "implication": "静态标签也能降低回忆负担，不必把收益归因于动态 UI"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-06-24",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/macro_pads/comments/1ue6yqu/macropad_placement/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-06-24",
+        "source_url": "https://www.reddit.com/r/macro_pads/comments/1ue6yqu/macropad_placement/"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-HW-MACROPAD-EXCEL.jpg",
+        "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1nrbrl2/",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-MACROPAD-EXCEL.jpg",
+        "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1nrbrl2/",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-MIMOUSE",
@@ -513,7 +664,7 @@
         "结束": "检查客户端返回或生成文件；是否能在原应用原位写回需单独验证"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.mimouse.com/",
         "https://www.mimouse.com/userRules.html",
@@ -550,7 +701,33 @@
           "implication": "应按型号 / 软件版本核验入口、结果位置和权限，不能描述为鼠标内置任意任务理解"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-07",
+        "kind": "event",
+        "label": "AI 6.0 公布月份",
+        "source": "https://www.mimouse.com/",
+        "note": "官网标注 AI 6.0 的月份；不代表 M7C/M4 每个型号首发日",
+        "source_url": "https://www.mimouse.com/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-MIMOUSE.jpg",
+        "source_url": "https://www.mimouse.com/",
+        "caption": "M7C 官方产品照片；不证明软件功能实测",
+        "original_url": "https://www.mimouse.com/v2/assets/m7c-D_nUFSJD.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-MIMOUSE.jpg",
+        "source_url": "https://www.mimouse.com/",
+        "caption": "M7C 官方产品照片；不证明软件功能实测",
+        "original_url": "https://www.mimouse.com/v2/assets/m7c-D_nUFSJD.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-LOGI-PROMPT-RETIRED",
@@ -575,7 +752,7 @@
         "结束": "检查结果并回原任务；浏览器替代有不同上下文与焦点路径"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://news.logitech.com/press-releases/news-details/2024/New-Logi-AI-Prompt-Builder-Software-Fast-Fluent-Fluid-AI-Access-For-Free/default.aspx",
         "https://support.logi.com/hc/en-us/articles/22394071652759-Feature-retirement-Logi-AI-Prompt-Builder",
@@ -613,7 +790,33 @@
           "implication": "短输入路径的持续可用性本身是价值；入口被替换需计入迁移成本"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-06-07",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/logitech/comments/1tzdy6j/logi_ai_prompt_builder_no_longer/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-06-07",
+        "source_url": "https://www.reddit.com/r/logitech/comments/1tzdy6j/logi_ai_prompt_builder_no_longer/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-LOGI-PROMPT-RETIRED.jpg",
+        "source_url": "https://news.logitech.com/press-releases/news-details/2024/New-Logi-AI-Prompt-Builder-Software-Fast-Fluent-Fluid-AI-Access-For-Free/default.aspx",
+        "caption": "2024 年官方发布配图；历史功能，现已退役",
+        "original_url": "https://mms.businesswire.com/media/20240417972240/en/2099381/4/Logi_AI_Prompt_Builder_Signature_AI_Edition.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-LOGI-PROMPT-RETIRED.jpg",
+        "source_url": "https://news.logitech.com/press-releases/news-details/2024/New-Logi-AI-Prompt-Builder-Software-Fast-Fluent-Fluid-AI-Access-For-Free/default.aspx",
+        "caption": "2024 年官方发布配图；历史功能，现已退役",
+        "original_url": "https://mms.businesswire.com/media/20240417972240/en/2099381/4/Logi_AI_Prompt_Builder_Signature_AI_Edition.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-MX-KEYPAD",
@@ -687,7 +890,31 @@
           "source_page": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
           "caption": "MX Keypad 官方产品图：九键动态标签"
         }
-      ]
+      ],
+      "chronology": {
+        "date": "2026-09-16",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/logitech/comments/1whsmwv/turning_the_logitech_mx_keypad_into_a_codex/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-09-16",
+        "source_url": "https://www.reddit.com/r/logitech/comments/1whsmwv/turning_the_logitech_mx_keypad_into_a_codex/"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/mx-keypad.jpg",
+        "poster": null,
+        "source_url": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+        "source_urls": [
+          "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+          "https://ir.logitech.com/news/news-details/2026/Logitech-Unveils-MX-Keypad-for-Developers-The-Customizable-Multi-App-AI-Control-Center/default.aspx",
+          "https://www.logitech.com/blog/2026/09/10/how-mx-keypad-was-built-for-developers-by-developers/",
+          "https://www.reddit.com/r/logitech/comments/1whsmwv/turning_the_logitech_mx_keypad_into_a_codex/"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-MX-KEYPAD",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-K980-COPILOT",
@@ -712,7 +939,7 @@
         "结束": "在目标工具完成操作后返回原任务；上下文是否带入取决于软件"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf"
       ],
@@ -747,7 +974,34 @@
           "implication": "AI 键是入口层能力，需与对象感知、状态回传分别列示"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-K980-COPILOT.jpg",
+        "source_url": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf",
+        "caption": "K980 官方指南第3页，标注 AI Launch Key；非实测",
+        "original_url": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf#page=3",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-K980-COPILOT.jpg",
+        "source_url": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf",
+        "caption": "K980 官方指南第3页，标注 AI Launch Key；非实测",
+        "original_url": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf#page=3",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-VIBE-AU05-X",
@@ -817,7 +1071,30 @@
           "original_url": "https://docs.ulanzistudio.com/assets/05-device-page.B7jgh8zc.png",
           "caption": "Vibe Key 官方 Studio 配置截图：语音输入、消息发送与停止生成"
         }
-      ]
+      ],
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://docs.ulanzistudio.com/vibekey/en/au05-x/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://docs.ulanzistudio.com/vibekey/en/au05-x/",
+        "verified_date": "2026-10-06"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/vibe-interface.jpg",
+        "poster": null,
+        "source_url": "https://docs.ulanzistudio.com/vibekey/en/au05-x/",
+        "source_urls": [
+          "https://docs.ulanzistudio.com/vibekey/en/au05-x/",
+          "https://docs.ulanzistudio.com/vibekey/en/faq/codex-claude-status.html"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-VIBE-AU05-X",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-CODEX-MICRO",
@@ -904,7 +1181,31 @@
           "source_page": "https://worklouder.cc/codex-micro",
           "caption": "Codex Micro 官方产品图：实体控制与 Agent 状态键"
         }
-      ]
+      ],
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://worklouder.cc/codex-micro",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://worklouder.cc/codex-micro",
+        "verified_date": "2026-10-06"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/codex-specific.jpg",
+        "poster": null,
+        "source_url": "https://worklouder.cc/codex-micro",
+        "source_urls": [
+          "https://worklouder.cc/codex-micro",
+          "https://feedback.worklouder.cc/en/p/codex-micro-disconnects-after-any-button-press-through-a-usb",
+          "https://feedback.worklouder.cc/en/p/critical-codex-micro-v041-hidrpc-stalls-116-disconnects-in-2"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-CODEX-MICRO",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-TOUCHBAR-BTT",
@@ -929,7 +1230,7 @@
         "结束": "观察主屏结果；必要时回实体键，重新评估配置维护是否仍有收益"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.apple.com.cn/newsroom/2016/10/apple-unveils-groundbreaking-new-macbook-pro/",
         "https://docs.folivora.ai/docs/touch-bar/widgets/",
@@ -987,7 +1288,33 @@
           "implication": "副屏价值会随主 UI 改善变化，不能把早期缺口视作永久需求"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2023-08-15",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/mac/comments/15r50f6/i_admit_it_i_miss_the_touch_bar/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2023-08-15",
+        "source_url": "https://www.reddit.com/r/mac/comments/15r50f6/i_admit_it_i_miss_the_touch_bar/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-TOUCHBAR-BTT.jpg",
+        "source_url": "https://docs.folivora.ai/docs/touch-bar/widgets/",
+        "caption": "BTT 官方 Touch Bar widget 配置截图；非实机复测",
+        "original_url": "https://docs.folivora.ai/assets/images/tb12-72ab8075121b886fdf7b6044a5830d0a.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-TOUCHBAR-BTT.jpg",
+        "source_url": "https://docs.folivora.ai/docs/touch-bar/widgets/",
+        "caption": "BTT 官方 Touch Bar widget 配置截图；非实机复测",
+        "original_url": "https://docs.folivora.ai/assets/images/tb12-72ab8075121b886fdf7b6044a5830d0a.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-POCK",
@@ -1012,7 +1339,7 @@
         "结束": "点击后转到应用，或扫视后继续主屏工作；兼容异常需核对构建来源"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://pock.app/",
         "https://pock.app/docs/",
@@ -1050,7 +1377,34 @@
           "implication": "长期维护与可迁移性是外围显示能力的一部分；有 fork 不等于可靠性已解决"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://pock.app/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://pock.app/",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-POCK.jpg",
+        "source_url": "https://pock.app/",
+        "caption": "Pock 官方 Touch Bar widgets 截图；非实机复测",
+        "original_url": "https://pock.app/_nuxt/img/pock_widgets.5cf5510.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-POCK.jpg",
+        "source_url": "https://pock.app/",
+        "caption": "Pock 官方 Touch Bar widgets 截图；非实机复测",
+        "original_url": "https://pock.app/_nuxt/img/pock_widgets.5cf5510.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-MTMR",
@@ -1075,7 +1429,7 @@
         "结束": "检查脚本输出和命令效果；配置或 OS 改变后重新验证"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://github.com/toxblh/mtmr"
       ],
@@ -1112,7 +1466,34 @@
           "implication": "配置可扩展性与默认可用性必须分开；内容动态化不应被当作 Agent 状态集成"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://github.com/toxblh/mtmr",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://github.com/toxblh/mtmr",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-MTMR.jpg",
+        "source_url": "https://github.com/toxblh/mtmr",
+        "caption": "MTMR 作者 README 预设截图；非实机复测",
+        "original_url": "https://raw.githubusercontent.com/toxblh/MTMR/master/Resources/Artboard.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-MTMR.jpg",
+        "source_url": "https://github.com/toxblh/mtmr",
+        "caption": "MTMR 作者 README 预设截图；非实机复测",
+        "original_url": "https://raw.githubusercontent.com/toxblh/MTMR/master/Resources/Artboard.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-USAGE-TOUCHBAR",
@@ -1137,7 +1518,7 @@
         "结束": "扫视后返回工作；将估算 / 过期读数与真实服务状态区分"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://github.com/neelashkannan/usage-touchbar"
       ],
@@ -1175,7 +1556,34 @@
           "implication": "状态面应公开数据来源、更新时间和估算性质，避免把额度当运行进度"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://github.com/neelashkannan/usage-touchbar",
+        "note": "2026-10-06仅为仓库读取日；原记录未固定提交日期，不能作为来源发布日用于排序。来源未注明可确认的事件或发布日期。",
+        "source_url": "https://github.com/neelashkannan/usage-touchbar",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-HW-USAGE-TOUCHBAR.jpg",
+        "source_url": "https://github.com/neelashkannan/usage-touchbar",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-USAGE-TOUCHBAR.jpg",
+        "source_url": "https://github.com/neelashkannan/usage-touchbar",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-VIOLOOP",
@@ -1243,7 +1651,30 @@
           "source_page": "https://violoop.com/qa/",
           "caption": "Violoop 官方概念产品图，交付与可靠性尚待验证"
         }
-      ]
+      ],
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://violoop.com/qa/",
+        "note": "2026-10-06仅为资料核查日；2026-11是计划首波时间，均不作为来源发布日或已发生事件用于排序。来源未注明可确认的事件或发布日期。",
+        "source_url": "https://violoop.com/qa/",
+        "verified_date": "2026-10-06"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/violoop.jpg",
+        "poster": null,
+        "source_url": "https://violoop.com/qa/",
+        "source_urls": [
+          "https://violoop.com/qa/",
+          "https://violoop.com/privacy/"
+        ],
+        "caption": "本卡已归档的界面／产品证据图",
+        "from_card": "OCT26-HW-VIOLOOP",
+        "historical_demo": false,
+        "asset_verified": true
+      }
     },
     {
       "id": "OCT26-HW-ORBTILE",
@@ -1268,7 +1699,7 @@
         "结束": "回到目标会话处理等待或继续任务；异常时核对原应用真实状态"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/logitech/comments/1wtw61e/i_made_a_mac_app_that_turns_the_mx_creative/",
         "https://www.logitech.com/en-us/products/keyboards/mx-creative-console.html"
@@ -1306,7 +1737,33 @@
           "implication": "同一硬件的价值取决于软件对象和事件绑定，而非按钮数量"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-09-30",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/logitech/comments/1wtw61e/i_made_a_mac_app_that_turns_the_mx_creative/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-09-30",
+        "source_url": "https://www.reddit.com/r/logitech/comments/1wtw61e/i_made_a_mac_app_that_turns_the_mx_creative/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-ORBTILE.jpg",
+        "source_url": "https://www.logitech.com/en-us/products/keyboards/mx-creative-console.html",
+        "caption": "MX Creative Console 官方硬件示意图；非 Orbtile 插件运行截图，不证明插件功能",
+        "original_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-creative-console/buy/gallery/2025/mx-creative-console-top-view-pale-gray-2.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-ORBTILE.jpg",
+        "source_url": "https://www.logitech.com/en-us/products/keyboards/mx-creative-console.html",
+        "caption": "MX Creative Console 官方硬件示意图；非 Orbtile 插件运行截图，不证明插件功能",
+        "original_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-creative-console/buy/gallery/2025/mx-creative-console-top-view-pale-gray-2.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-CONN",
@@ -1331,7 +1788,7 @@
         "结束": "桥接失败回退原对话框；含糊或有重要权衡时返回窗口审阅"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/codex/comments/1v5jh2i/i_built_a_stream_deck_control_surface_for_running/",
         "https://github.com/shawnwelsh/conn",
@@ -1386,7 +1843,33 @@
           "implication": "高价值路径可以是看见等待→正确实例，而不一定把决策压缩到硬件确认"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-07-24",
+        "kind": "publication",
+        "label": "作者帖子",
+        "source": "https://www.reddit.com/r/codex/comments/1v5jh2i/i_built_a_stream_deck_control_surface_for_running/",
+        "note": "作者首次展示帖；10月读取README不作为发布日期",
+        "source_url": "https://www.reddit.com/r/codex/comments/1v5jh2i/i_built_a_stream_deck_control_surface_for_running/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-CONN.jpg",
+        "source_url": "https://github.com/shawnwelsh/conn",
+        "caption": "Conn 作者审批控制面示例，含命令与 Allow / Always allow / Deny；非实测",
+        "original_url": "https://raw.githubusercontent.com/shawnwelsh/conn/main/docs/showcase-deck.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-CONN.jpg",
+        "source_url": "https://github.com/shawnwelsh/conn",
+        "caption": "Conn 作者审批控制面示例，含命令与 Allow / Always allow / Deny；非实测",
+        "original_url": "https://raw.githubusercontent.com/shawnwelsh/conn/main/docs/showcase-deck.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-AGENT-FROW",
@@ -1411,7 +1894,7 @@
         "结束": "批准后仍须核对原会话；部分 Waiting 要等下一工具事件才清除"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/ClaudeCode/comments/1w2amwd/i_built_a_status_board_for_claude_code_and_codex/"
       ],
@@ -1447,7 +1930,33 @@
           "implication": "应显示最后更新时间 / 未知状态，并区分等待请求和事件滞后"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-08-30",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/ClaudeCode/comments/1w2amwd/i_built_a_status_board_for_claude_code_and_codex/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-08-30",
+        "source_url": "https://www.reddit.com/r/ClaudeCode/comments/1w2amwd/i_built_a_status_board_for_claude_code_and_codex/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-AGENT-FROW.jpg",
+        "source_url": "https://github.com/timeToy34/agent-frow",
+        "caption": "作者仓库界面截图，含 Waiting/Done/Running 与更新限制；非实测",
+        "original_url": "https://raw.githubusercontent.com/timeToy34/agent-frow/main/docs/screenshot.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-AGENT-FROW.jpg",
+        "source_url": "https://github.com/timeToy34/agent-frow",
+        "caption": "作者仓库界面截图，含 Waiting/Done/Running 与更新限制；非实测",
+        "original_url": "https://raw.githubusercontent.com/timeToy34/agent-frow/main/docs/screenshot.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-CLAUDEQ",
@@ -1472,7 +1981,7 @@
         "结束": "选择后回原会话核对回应是否送达并继续工作"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/ClaudeAI/comments/1uvwgt6/i_built_a_little_screen_that_sits_on_my_desk_and/"
       ],
@@ -1509,7 +2018,33 @@
           "implication": "按当前问题生成 UI 比固定确认更有表达力，但必须保留会话身份与重要上下文"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-07-14",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/ClaudeAI/comments/1uvwgt6/i_built_a_little_screen_that_sits_on_my_desk_and/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-07-14",
+        "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1uvwgt6/i_built_a_little_screen_that_sits_on_my_desk_and/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-CLAUDEQ.jpg",
+        "source_url": "https://github.com/Positronico/claudeq",
+        "caption": "作者设备演示 GIF 第68帧，展示触屏活动列表；非独立实测",
+        "original_url": "https://raw.githubusercontent.com/Positronico/claudeq/main/photos/claudeq-demo.gif",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-CLAUDEQ.jpg",
+        "source_url": "https://github.com/Positronico/claudeq",
+        "caption": "作者设备演示 GIF 第68帧，展示触屏活动列表；非独立实测",
+        "original_url": "https://raw.githubusercontent.com/Positronico/claudeq/main/photos/claudeq-demo.gif",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-CLAUDIAL",
@@ -1534,7 +2069,7 @@
         "结束": "扫视或调整后继续主机任务；若同步失败需核对官方用量"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/esp32/comments/1u043re/claude_code_usage_monitor_for_m5stack_dial_v11/"
       ],
@@ -1570,7 +2105,33 @@
           "implication": "稳定数值控制适合旋钮；认证边界和读数新鲜度应与交互同时设计"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-06-08",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/esp32/comments/1u043re/claude_code_usage_monitor_for_m5stack_dial_v11/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-06-08",
+        "source_url": "https://www.reddit.com/r/esp32/comments/1u043re/claude_code_usage_monitor_for_m5stack_dial_v11/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-CLAUDIAL.jpg",
+        "source_url": "https://github.com/Moge800/Claudial",
+        "caption": "作者仓库 M5Stack Dial 实物图，显示额度和阈值；非独立实测",
+        "original_url": "https://raw.githubusercontent.com/Moge800/Claudial/main/assets/device.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-CLAUDIAL.jpg",
+        "source_url": "https://github.com/Moge800/Claudial",
+        "caption": "作者仓库 M5Stack Dial 实物图，显示额度和阈值；非独立实测",
+        "original_url": "https://raw.githubusercontent.com/Moge800/Claudial/main/assets/device.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-LILYGO",
@@ -1595,7 +2156,7 @@
         "结束": "用户扫视读数后继续工作；代理或认证失效需单独处理"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/ClaudeAI/comments/1uo0i8w/turned_a_lilygo_tdisplay_into_a_little_claude/"
       ],
@@ -1631,7 +2192,33 @@
           "implication": "硬件体验成本包含凭证生命周期；最小数据载荷比复制会话认证更可控"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-07-05",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.reddit.com/r/ClaudeAI/comments/1uo0i8w/turned_a_lilygo_tdisplay_into_a_little_claude/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-07-05",
+        "source_url": "https://www.reddit.com/r/ClaudeAI/comments/1uo0i8w/turned_a_lilygo_tdisplay_into_a_little_claude/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-LILYGO.jpg",
+        "source_url": "https://github.com/AussieCH/ESP32-claude-usage-display",
+        "caption": "LILYGO 项目作者仓库实物照片：额度与重置时间；非独立实测",
+        "original_url": "https://raw.githubusercontent.com/AussieCH/ESP32-claude-usage-display/main/docs/tdisplay.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-LILYGO.jpg",
+        "source_url": "https://github.com/AussieCH/ESP32-claude-usage-display",
+        "caption": "LILYGO 项目作者仓库实物照片：额度与重置时间；非独立实测",
+        "original_url": "https://raw.githubusercontent.com/AussieCH/ESP32-claude-usage-display/main/docs/tdisplay.jpg",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-VOICE-PEDAL",
@@ -1656,7 +2243,7 @@
         "结束": "结束后检查识别文本和落入的窗口；是否需键盘修正依软件"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/ClaudeCode/comments/1un0ul0/pedal_to_trigger_voice_to_text_other_options/"
       ],
@@ -1689,7 +2276,33 @@
           "implication": "省一步可以来自身体分工，不必来自 AI；必须核对焦点和文本结果"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-07",
+        "kind": "evidence",
+        "label": "来源月份",
+        "source": "https://www.reddit.com/r/ClaudeCode/comments/1un0ul0/pedal_to_trigger_voice_to_text_other_options/",
+        "note": "原始研究记录仅明确为2026-07-04/05，按月归档，不虚构单一日期",
+        "source_url": "https://www.reddit.com/r/ClaudeCode/comments/1un0ul0/pedal_to_trigger_voice_to_text_other_options/"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-HW-VOICE-PEDAL.jpg",
+        "source_url": "https://www.reddit.com/r/ClaudeCode/comments/1un0ul0/pedal_to_trigger_voice_to_text_other_options/",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-VOICE-PEDAL.jpg",
+        "source_url": "https://www.reddit.com/r/ClaudeCode/comments/1un0ul0/pedal_to_trigger_voice_to_text_other_options/",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-HW-ACCESS-RING",
@@ -1714,7 +2327,7 @@
         "结束": "选择后回原应用检查是否作用于正确对象；具体失败回退尚缺证据"
       },
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.reddit.com/r/logitech/comments/1uiwxdl/i_built_a_plugin_to_convert_mx_devices_into_a/",
         "https://youtu.be/h-Vy6X7p944"
@@ -1753,7 +2366,34 @@
           "implication": "这是对象相关入口的候选案例；需先验证对象身份、排序稳定性与执行确认"
         }
       ],
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://www.reddit.com/r/logitech/comments/1uiwxdl/i_built_a_plugin_to_convert_mx_devices_into_a/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://www.reddit.com/r/logitech/comments/1uiwxdl/i_built_a_plugin_to_convert_mx_devices_into_a/",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-HW-ACCESS-RING.jpg",
+        "source_url": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+        "caption": "MX Keypad 官方硬件示意图；非 Access Ring 插件截图，不证明对象映射",
+        "original_url": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-HW-ACCESS-RING.jpg",
+        "source_url": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+        "caption": "MX Keypad 官方硬件示意图；非 Access Ring 插件截图，不证明对象映射",
+        "original_url": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-01",
@@ -1782,7 +2422,7 @@
         "人机双写文档对项目/助理支持范围存在冲突；保留此不确定性。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://zhidx.com/p/581004.html",
         "https://free-plat-test.qcloudcdn.com/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Knowledge-Base/Cowriting",
@@ -1873,7 +2513,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-07-30",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://zhidx.com/p/581004.html",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-07-30",
+        "source_url": "https://zhidx.com/p/581004.html"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-01.jpg",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration",
+        "caption": "WorkBuddy 官方文档截图：划词评论后在原文旁展开讨论线程",
+        "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/md-comment-discussion.DGPDgb76.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-01.jpg",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration",
+        "caption": "WorkBuddy 官方文档截图：划词评论后在原文旁展开讨论线程",
+        "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/md-comment-discussion.DGPDgb76.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-02",
@@ -1902,7 +2568,7 @@
         "视频简介描述最终待办提取，未观看完整视频，不伪造完成率或时间戳。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Task-Bar",
         "https://www.workbuddy.cn/docs/workbuddy/Changelog",
@@ -1976,7 +2642,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-09-19",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.bilibili.com/video/BV1E1eh6kEUg/",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-09-19",
+        "source_url": "https://www.bilibili.com/video/BV1E1eh6kEUg/"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-02.jpg",
+        "source_url": "https://www.majiabin.com/3438.html",
+        "caption": "老马公开教程原图：Mac 微信多选消息后，经分享面板选择 WorkBuddy；单个历史版本演示",
+        "original_url": "https://p11-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/9268ed5779b64f69a2f7c11171c30a37~tplv-tt-shrink:640:0.image?lk3s=06827d14&traceid=20260906104849740A3B712355D5EE7C37&x-expires=2147483647&x-signature=%2BtRg4YUPY%2B3vVEihicXqTwaMmu0%3D",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-02.jpg",
+        "source_url": "https://www.majiabin.com/3438.html",
+        "caption": "老马公开教程原图：Mac 微信多选消息后，经分享面板选择 WorkBuddy；单个历史版本演示",
+        "original_url": "https://p11-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/9268ed5779b64f69a2f7c11171c30a37~tplv-tt-shrink:640:0.image?lk3s=06827d14&traceid=20260906104849740A3B712355D5EE7C37&x-expires=2147483647&x-signature=%2BtRg4YUPY%2B3vVEihicXqTwaMmu0%3D",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-03",
@@ -2005,7 +2697,7 @@
         "Enterprise助理的IM远程消息与独立云任务应分开标注；电脑文件产物可回到手机预览。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice",
         "https://cloud.tencent.com/document/product/1831/134392"
@@ -2044,7 +2736,34 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-03.jpg",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice",
+        "caption": "WorkBuddy 官方文档截图：手机续接电脑任务，执行中可继续发送消息",
+        "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/multidevice-5.CNVzQQal.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-03.jpg",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice",
+        "caption": "WorkBuddy 官方文档截图：手机续接电脑任务，执行中可继续发送消息",
+        "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/multidevice-5.CNVzQQal.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-04",
@@ -2073,7 +2792,7 @@
         "更新日志出现队列抢占、重复入队和停止态同步等修复；修复记录不证明当前仍有这些故障。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://www.workbuddy.cn/docs/workbuddy/Conversation",
         "https://www.workbuddy.cn/docs/workbuddy/Changelog"
@@ -2111,7 +2830,34 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://www.workbuddy.cn/docs/workbuddy/Conversation",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddy/Conversation",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-04.jpg",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddy/Conversation",
+        "caption": "WorkBuddy 官方文档截图：执行中的追加消息进入输入框上方队列",
+        "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/conversation-queue.B_XM2oXw.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-04.jpg",
+        "source_url": "https://www.workbuddy.cn/docs/workbuddy/Conversation",
+        "caption": "WorkBuddy 官方文档截图：执行中的追加消息进入输入框上方队列",
+        "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/conversation-queue.B_XM2oXw.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-05",
@@ -2140,7 +2886,7 @@
         "Agent Buddy for WorkBuddy Windows为独立社区项目，主要显示任务状态/积分，明确非腾讯官方。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://open.workbuddy.cn/docs/openapi",
         "https://open.workbuddy.cn/docs/third-party-app",
@@ -2182,7 +2928,34 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://open.workbuddy.cn/docs/openapi",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://open.workbuddy.cn/docs/openapi",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-SW-05.jpg",
+        "source_url": "https://open.workbuddy.cn/docs/openapi",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-05.jpg",
+        "source_url": "https://open.workbuddy.cn/docs/openapi",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-06",
@@ -2210,7 +2983,7 @@
         "支持拖拽不代表所有第三方应用可接收或传递相同语义。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://consumer.huawei.com/cn/support/content/zh-cn16045513/",
         "https://consumer.huawei.com/cn/support/content/zh-cn16049905/"
@@ -2268,7 +3041,34 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://consumer.huawei.com/cn/support/content/zh-cn16045513/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16045513/",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-06.jpg",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16045513/",
+        "caption": "华为官方支持页截图：鸿蒙电脑小艺输入栏的圈选入口",
+        "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2Qy27CMBBF_8VrWo3tcRh3Vecluqm6oGvkOiZYAoNCAipV_712FHV2V3M0Z3R_2HT1w_b74tkL42zFuvM9LlGmuA9H_25POT4OTy7uwsn2fgfzcL1WkkCjfr7EfqE_7HhINFhRFHtC13mOjnttUUknnU-8o04n-is83rqEbszrfJsXgErxrHWDt2M4x23I6rTQKAGBJ-mKXUMf7TgN-almXZCmtuR105AxqAqJoiZR6gpaLEE1whiNVaUAsKyJWiBhmspw4qVos-tmj6H7_G9hHCY__7a0sDHs9w-lu3InJgEAAA%3D%3D.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-06.jpg",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16045513/",
+        "caption": "华为官方支持页截图：鸿蒙电脑小艺输入栏的圈选入口",
+        "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2Qy27CMBBF_8VrWo3tcRh3Vecluqm6oGvkOiZYAoNCAipV_712FHV2V3M0Z3R_2HT1w_b74tkL42zFuvM9LlGmuA9H_25POT4OTy7uwsn2fgfzcL1WkkCjfr7EfqE_7HhINFhRFHtC13mOjnttUUknnU-8o04n-is83rqEbszrfJsXgErxrHWDt2M4x23I6rTQKAGBJ-mKXUMf7TgN-almXZCmtuR105AxqAqJoiZR6gpaLEE1whiNVaUAsKyJWiBhmspw4qVos-tmj6H7_G9hHCY__7a0sDHs9w-lu3InJgEAAA%3D%3D.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-07",
@@ -2296,7 +3096,7 @@
         "原位预览与替换控制已存在，不能把普通局部改写描述为只能复制进新聊天。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "video",
       "sources": [
         "https://consumer.huawei.com/cn/support/content/zh-cn16023699/",
         "https://consumer.huawei.com/cn/support/content/zh-cn16026029/"
@@ -2354,7 +3154,32 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://consumer.huawei.com/cn/support/content/zh-cn16023699/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16023699/",
+        "verified_date": "2026-10-06"
+      },
+      "primary_media": {
+        "kind": "video",
+        "src": "media/mobile-v2/local/assets/clips/HW28-01-v28-0000000-0011400.mp4",
+        "poster": "media/mobile-v2/local/assets/frames/HW28-01-v28-0001360.jpg",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16021520/",
+        "source_urls": [
+          "https://consumer.huawei.com/cn/support/content/zh-cn16021520/",
+          "https://consumer.huawei.com/cn/harmonyos-next/",
+          "https://consumer.huawei.com/cn/support/content/zh-cn16023699/"
+        ],
+        "caption": "历史演示：指关节圈选问小艺；仅对应本卡圈选分支，不证明备忘录润色或当前所有系统版本",
+        "from_card": "HUA-F09",
+        "historical_demo": true,
+        "asset_verified": true,
+        "source_card_anchor": "#feature-HUA-F09"
+      }
     },
     {
       "id": "OCT26-SW-08",
@@ -2383,7 +3208,7 @@
         "应用隐私边界是产品限制，不是应被新入口绕过的障碍。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://consumer.huawei.com/cn/support/content/zh-cn16094008/"
       ],
@@ -2425,7 +3250,34 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://consumer.huawei.com/cn/support/content/zh-cn16094008/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16094008/",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-08.jpg",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16094008/",
+        "caption": "华为官方支持页截图：伴随式 AI 的小屏、大屏与极简三种形态",
+        "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2QQU_DMAyF_0vOA9lu0jicaNagcUEcxnlK27SLtHVT14IY4r-TVhW-PfmT3_P7EdMtDPvvaxBPAsVGNJevfpVZkm08hTd_nuX9-FD3h3j2XTjAMmhYEkkGfLz23Uq_-_GY6DYgKKasqmqShrAiUi3qlrBmqoASXcX7a5PQXfG83MYcjATgtKqH4Md46fdxtl4WGUjAZLoRt9j1fpyGJSNslcoziy-2RC6klNrkSmmnYavZGXTaOlbWlITK5qgdY8GydE5ao3h-8dOfYvPx38I4TGHJtrawK8TvH23quf8mAQAA.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-08.jpg",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16094008/",
+        "caption": "华为官方支持页截图：伴随式 AI 的小屏、大屏与极简三种形态",
+        "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2QQU_DMAyF_0vOA9lu0jicaNagcUEcxnlK27SLtHVT14IY4r-TVhW-PfmT3_P7EdMtDPvvaxBPAsVGNJevfpVZkm08hTd_nuX9-FD3h3j2XTjAMmhYEkkGfLz23Uq_-_GY6DYgKKasqmqShrAiUi3qlrBmqoASXcX7a5PQXfG83MYcjATgtKqH4Md46fdxtl4WGUjAZLoRt9j1fpyGJSNslcoziy-2RC6klNrkSmmnYavZGXTaOlbWlITK5qgdY8GydE5ao3h-8dOfYvPx38I4TGHJtrawK8TvH23quf8mAQAA.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-09",
@@ -2454,7 +3306,7 @@
         "2025年的找入口评论仅能说明当时范围/发现性，不能代表2026现状。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://consumer.huawei.com/cn/support/content/zh-cn16073021/",
         "https://www.douyin.com/video/7579982466271073663"
@@ -2513,7 +3365,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2025-12-04",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://www.douyin.com/video/7579982466271073663",
+        "note": "本卡视频明确记载日期为2025-12-04；不代表当前HarmonyOS 7功能发布日期，评论日期未核。当前文档另于2026-10-06核查。",
+        "source_url": "https://www.douyin.com/video/7579982466271073663"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-09.jpg",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16073021/",
+        "caption": "华为官方支持页截图：小艺帮帮忙手把手教学的技能说明与「开始教学」入口",
+        "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z1Qy2rDMBD8F53TspJWtranLEEivZQe0nOQbdkRJE5w7Jam9N9rGdO9DTvM60dM9zgcvm9RvAgpNqK5fvUr1DNs0zm-hUuGj9NT3R_TJXTxCMtJslIbVIV8vvXdyn4P4ylrqSbUFUFsmwLrtrVGlqAKQoNkQqxmdpUer81M3fN20ZYFlBpUTlEPMYzp2h9Stp4fhBoQ5Gy6EffU9WGchhyKWWpEsnpnjefCOWJr2ToikqDYed4ZcKY0pfXAygOyd75UCICELlf8DOfUfPyvMA5TXLKtK-xZ_P4BaNpbySYBAAA%3D.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-09.jpg",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16073021/",
+        "caption": "华为官方支持页截图：小艺帮帮忙手把手教学的技能说明与「开始教学」入口",
+        "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z1Qy2rDMBD8F53TspJWtranLEEivZQe0nOQbdkRJE5w7Jam9N9rGdO9DTvM60dM9zgcvm9RvAgpNqK5fvUr1DNs0zm-hUuGj9NT3R_TJXTxCMtJslIbVIV8vvXdyn4P4ylrqSbUFUFsmwLrtrVGlqAKQoNkQqxmdpUer81M3fN20ZYFlBpUTlEPMYzp2h9Stp4fhBoQ5Gy6EffU9WGchhyKWWpEsnpnjefCOWJr2ToikqDYed4ZcKY0pfXAygOyd75UCICELlf8DOfUfPyvMA5TXLKtK-xZ_P4BaNpbySYBAAA%3D.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-10",
@@ -2541,7 +3419,7 @@
         "“刚才电脑打开那份”的指代成功率未实测，不编造精确百分比。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://consumer.huawei.com/cn/support/content/zh-cn16115317/",
         "https://consumer.huawei.com/cn/support/content/zh-cn16091809/"
@@ -2599,7 +3477,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://consumer.huawei.com/cn/support/content/zh-cn16115317/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16115317/",
+        "verified_date": "2026-10-06"
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/mobile-v2/legacy/assets/images/AUDIMG-094-v1.jpg",
+        "poster": null,
+        "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16091809/",
+        "source_urls": [
+          "https://consumer.huawei.com/cn/support/content/zh-cn16091809/",
+          "https://consumer.huawei.com/cn/support/content/zh-cn16010214/",
+          "https://consumer.huawei.com/cn/support/content/zh-cn16101589/",
+          "https://consumer.huawei.com/cn/support/content/zh-cn16110156/"
+        ],
+        "caption": "历史界面图：小艺帮记的口述保存；仅对应帮记分支，不证明HarmonyOS 7跨设备取文件或记忆全同步",
+        "from_card": "HUA-F13",
+        "historical_demo": true,
+        "asset_verified": true,
+        "source_card_anchor": "#feature-HUA-F13"
+      }
     },
     {
       "id": "OCT26-SW-11",
@@ -2628,7 +3532,7 @@
         "Work官网宣传云电脑/本地电脑与手机/平板继续任务；不能据此称鸿蒙版Work已全面出货。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://xiaoyi.huawei.com/work/",
         "https://xiaoyi.huawei.com/",
@@ -2690,7 +3594,34 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://xiaoyi.huawei.com/work/",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://xiaoyi.huawei.com/work/",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-11.jpg",
+        "source_url": "https://xiaoyi.huawei.com/work/",
+        "caption": "小艺 Work 官网示意截图：手机选择云电脑／本地电脑；仅展示设备选择范围",
+        "original_url": "https://search-static-drcn.dbankcdn.com/celia/v2/static/img/xy-work-multiple.d22dbc3f.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-11.jpg",
+        "source_url": "https://xiaoyi.huawei.com/work/",
+        "caption": "小艺 Work 官网示意截图：手机选择云电脑／本地电脑；仅展示设备选择范围",
+        "original_url": "https://search-static-drcn.dbankcdn.com/celia/v2/static/img/xy-work-multiple.d22dbc3f.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-12",
@@ -2719,7 +3650,7 @@
         "图片仍需说明看哪里、要什么和多图关系，不能把附件视为完整意图。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://learn.chatgpt.com/docs/appshots",
         "https://learn.chatgpt.com/docs/chrome-extension",
@@ -2848,7 +3779,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-08-09",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://github.com/openai/codex/issues/37643",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-08-09",
+        "source_url": "https://github.com/openai/codex/issues/37643"
+      },
+      "visual_evidence": {
+        "kind": "source_image",
+        "src": "media/oct-2026/visuals/OCT26-SW-12.jpg",
+        "source_url": "https://learn.chatgpt.com/docs/appshots",
+        "caption": "OpenAI Appshots 官方文档示例：被捕获的 Numbers 预算表窗口内容；该图不包含完整捕获操作流程",
+        "original_url": "https://learn.chatgpt.com/images/codex/appshots/numbers-budget-appshot.png",
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-12.jpg",
+        "source_url": "https://learn.chatgpt.com/docs/appshots",
+        "caption": "OpenAI Appshots 官方文档示例：被捕获的 Numbers 预算表窗口内容；该图不包含完整捕获操作流程",
+        "original_url": "https://learn.chatgpt.com/images/codex/appshots/numbers-budget-appshot.png",
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-13",
@@ -2877,7 +3834,7 @@
         "弹窗选择器异常属于浏览器执行链路问题，不能归因于没有新的输入框。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "video",
       "sources": [
         "https://learn.chatgpt.com/docs/annotations-extensibility",
         "https://github.com/openai/codex/issues/46469"
@@ -2935,7 +3892,31 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-09-18",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://github.com/openai/codex/issues/46469",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-09-18",
+        "source_url": "https://github.com/openai/codex/issues/46469"
+      },
+      "primary_media": {
+        "kind": "video",
+        "src": "media/q3-2026/01-openai/assets/work-browser/clip.mp4",
+        "poster": "media/q3-2026/01-openai/assets/work-browser/browser-01-delegate.png",
+        "source_url": "https://www.youtube.com/watch?v=dB6pOolO7io",
+        "source_urls": [
+          "https://www.youtube.com/watch?v=dB6pOolO7io",
+          "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+          "https://learn.chatgpt.com/docs/browser?surface=app"
+        ],
+        "caption": "历史演示：浏览器内网页批注入口与输入；不证明当前Windows弹窗父子关系问题已经修复",
+        "from_card": "Q3-openai-work-browser",
+        "historical_demo": true,
+        "asset_verified": true,
+        "source_card_anchor": "#item-Q3-openai-work-browser"
+      }
     },
     {
       "id": "OCT26-SW-14",
@@ -2964,7 +3945,7 @@
         "普通Remote不能据上述规则宣称自动迁移到云。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://learn.chatgpt.com/docs/remote-connections",
         "https://github.com/openai/codex/issues/23339",
@@ -3058,7 +4039,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-06-01",
+        "kind": "evidence",
+        "label": "维护者答复日期",
+        "source": "https://github.com/openai/codex/issues/25402",
+        "note": "本卡最新明确记载的来源内容为维护者2026-06-01答复；issue最初发表于2026-05-31。答复说明IDE与TUI的同机边界，不代表产品发布日期。",
+        "source_url": "https://github.com/openai/codex/issues/25402"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-SW-14.jpg",
+        "source_url": "https://learn.chatgpt.com/docs/remote-connections",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-14.jpg",
+        "source_url": "https://learn.chatgpt.com/docs/remote-connections",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-15",
@@ -3087,7 +4094,7 @@
         "语音停止不应被推定为取消所有后台任务；看屏权限与操作权限分别核对。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://learn.chatgpt.com/docs/features/voice",
         "https://learn.chatgpt.com/docs/computer-use"
@@ -3147,7 +4154,34 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": null,
+        "kind": "unknown",
+        "label": "来源日期未标注",
+        "source": "https://learn.chatgpt.com/docs/features/voice",
+        "note": "来源未注明可确认的事件或发布日期；2026-10-06仅为资料核查日，不用于排序，也不代表实机验证。",
+        "source_url": "https://learn.chatgpt.com/docs/features/voice",
+        "verified_date": "2026-10-06"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-SW-15.jpg",
+        "source_url": "https://learn.chatgpt.com/docs/features/voice",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-15.jpg",
+        "source_url": "https://learn.chatgpt.com/docs/features/voice",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-16",
@@ -3177,7 +4211,7 @@
         "当前VS Code支持Manual模式下并排diff、接受/拒绝或先直接改提案；2.1.275+可逐改动审阅，最终仍需完成整文件确认。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://code.claude.com/docs/en/vs-code",
         "https://code.claude.com/docs/en/remote-control",
@@ -3324,7 +4358,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-06-16",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://github.com/anthropics/claude-code/issues/68862",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-06-16",
+        "source_url": "https://github.com/anthropics/claude-code/issues/68862"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-SW-16.jpg",
+        "source_url": "https://code.claude.com/docs/en/vs-code",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-16.jpg",
+        "source_url": "https://code.claude.com/docs/en/vs-code",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     },
     {
       "id": "OCT26-SW-17",
@@ -3355,7 +4415,7 @@
         "Remote Control当前权限提示及AskUserQuestion等待用户回答；其他转发对话框默认5分钟到期后走不行动默认值（2.1.224+）。手机可分别启用Agent主动推送和需审批/回答推送；终端聚焦输入时会跳过移动推送。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "video",
       "sources": [
         "https://code.claude.com/docs/en/remote-control",
         "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
@@ -3453,7 +4513,31 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-08-09",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://github.com/anthropics/claude-code/issues/85187",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-08-09（报告08-08事件）",
+        "source_url": "https://github.com/anthropics/claude-code/issues/85187"
+      },
+      "primary_media": {
+        "kind": "video",
+        "src": "media/q3-2026/02-anthropic/assets/cowork-cross-device/clip.mp4",
+        "poster": "media/q3-2026/02-anthropic/assets/cowork-cross-device/01-mobile-empty.png",
+        "source_url": "https://www.youtube.com/watch?v=fVIV-L49eBs",
+        "source_urls": [
+          "https://www.youtube.com/watch?v=fVIV-L49eBs",
+          "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+          "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork"
+        ],
+        "caption": "历史演示：Cowork手机委托、桌面执行及手机续接；不等同Claude Code Remote Control，也不证明10月迁移后的完整流程",
+        "from_card": "Q3-anthropic-cowork-cross-device",
+        "historical_demo": true,
+        "asset_verified": true,
+        "source_card_anchor": "#item-Q3-anthropic-cowork-cross-device"
+      }
     },
     {
       "id": "OCT26-SW-18",
@@ -3483,7 +4567,7 @@
         "当前VS Code图形面板会保留粘贴文本可见，与终端折叠占位不同；历史多行听写投诉不可泛化到所有Code界面。"
       ],
       "media": [],
-      "media_status": "gap",
+      "media_status": "image",
       "sources": [
         "https://code.claude.com/docs/en/voice-dictation",
         "https://github.com/anthropics/claude-code/issues/29399",
@@ -3612,7 +4696,33 @@
         }
       ],
       "evidence_notes": "保留历史卡片；本卡是2026-10-06资料快照。官方滚动文档不用于倒推历史版本能力，个人报告不用于声称普遍缺陷。",
-      "source_doc": "docs/oct-2026/README.md"
+      "source_doc": "docs/oct-2026/README.md",
+      "chronology": {
+        "date": "2026-06-24",
+        "kind": "evidence",
+        "label": "来源日期",
+        "source": "https://github.com/anthropics/claude-code/issues/70567",
+        "note": "取本卡明确记载日期的最新来源；不等同产品首发日。原始记录：2026-06-24",
+        "source_url": "https://github.com/anthropics/claude-code/issues/70567"
+      },
+      "visual_evidence": {
+        "kind": "diagram",
+        "src": "media/oct-2026/visuals/OCT26-SW-18.jpg",
+        "source_url": "https://code.claude.com/docs/en/voice-dictation",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      },
+      "primary_media": {
+        "kind": "image",
+        "src": "media/oct-2026/visuals/OCT26-SW-18.jpg",
+        "source_url": "https://code.claude.com/docs/en/voice-dictation",
+        "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+        "original_url": null,
+        "from_card": null,
+        "verified_pixels": true
+      }
     }
   ]
 }

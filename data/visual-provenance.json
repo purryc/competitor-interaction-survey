@@ -1,0 +1,332 @@
+{
+  "generated": "2026-10-06",
+  "scope": "原缺图条目补充；示意图不作为实机或界面证据",
+  "real_source_images": 23,
+  "diagrams": 13,
+  "items": {
+    "OCT26-HW-LOUPEDECK-CT": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-LOUPEDECK-CT.jpg",
+      "source_url": "https://loupedeck.com/us/shop/loupedeck-ct/",
+      "caption": "官方 CT 产品照片；非实測",
+      "original_url": "https://loupedeck.com/us/wp-content/uploads/sites/14/2023/04/CT-shop-1.jpg",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-MACROPAD-EXCEL": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-HW-MACROPAD-EXCEL.jpg",
+      "source_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1nrbrl2/",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-MIMOUSE": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-MIMOUSE.jpg",
+      "source_url": "https://www.mimouse.com/",
+      "caption": "M7C 官方产品照片；不证明软件功能实测",
+      "original_url": "https://www.mimouse.com/v2/assets/m7c-D_nUFSJD.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-LOGI-PROMPT-RETIRED": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-LOGI-PROMPT-RETIRED.jpg",
+      "source_url": "https://news.logitech.com/press-releases/news-details/2024/New-Logi-AI-Prompt-Builder-Software-Fast-Fluent-Fluid-AI-Access-For-Free/default.aspx",
+      "caption": "2024 年官方发布配图；历史功能，现已退役",
+      "original_url": "https://mms.businesswire.com/media/20240417972240/en/2099381/4/Logi_AI_Prompt_Builder_Signature_AI_Edition.jpg",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-K980-COPILOT": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-K980-COPILOT.jpg",
+      "source_url": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf",
+      "caption": "K980 官方指南第3页，标注 AI Launch Key；非实测",
+      "original_url": "https://www.logitech.com/content/dam/support/keyboards/k980-solar/signature-slim-solar-plus-ww-qsg.pdf#page=3",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-TOUCHBAR-BTT": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-TOUCHBAR-BTT.jpg",
+      "source_url": "https://docs.folivora.ai/docs/touch-bar/widgets/",
+      "caption": "BTT 官方 Touch Bar widget 配置截图；非实机复测",
+      "original_url": "https://docs.folivora.ai/assets/images/tb12-72ab8075121b886fdf7b6044a5830d0a.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-POCK": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-POCK.jpg",
+      "source_url": "https://pock.app/",
+      "caption": "Pock 官方 Touch Bar widgets 截图；非实机复测",
+      "original_url": "https://pock.app/_nuxt/img/pock_widgets.5cf5510.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-MTMR": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-MTMR.jpg",
+      "source_url": "https://github.com/toxblh/mtmr",
+      "caption": "MTMR 作者 README 预设截图；非实机复测",
+      "original_url": "https://raw.githubusercontent.com/toxblh/MTMR/master/Resources/Artboard.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-USAGE-TOUCHBAR": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-HW-USAGE-TOUCHBAR.jpg",
+      "source_url": "https://github.com/neelashkannan/usage-touchbar",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-ORBTILE": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-ORBTILE.jpg",
+      "source_url": "https://www.logitech.com/en-us/products/keyboards/mx-creative-console.html",
+      "caption": "MX Creative Console 官方硬件示意图；非 Orbtile 插件运行截图，不证明插件功能",
+      "original_url": "https://resource.logitech.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/mx-creative-console/buy/gallery/2025/mx-creative-console-top-view-pale-gray-2.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-CONN": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-CONN.jpg",
+      "source_url": "https://github.com/shawnwelsh/conn",
+      "caption": "Conn 作者审批控制面示例，含命令与 Allow / Always allow / Deny；非实测",
+      "original_url": "https://raw.githubusercontent.com/shawnwelsh/conn/main/docs/showcase-deck.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-AGENT-FROW": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-AGENT-FROW.jpg",
+      "source_url": "https://github.com/timeToy34/agent-frow",
+      "caption": "作者仓库界面截图，含 Waiting/Done/Running 与更新限制；非实测",
+      "original_url": "https://raw.githubusercontent.com/timeToy34/agent-frow/main/docs/screenshot.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-CLAUDEQ": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-CLAUDEQ.jpg",
+      "source_url": "https://github.com/Positronico/claudeq",
+      "caption": "作者设备演示 GIF 第68帧，展示触屏活动列表；非独立实测",
+      "original_url": "https://raw.githubusercontent.com/Positronico/claudeq/main/photos/claudeq-demo.gif",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-CLAUDIAL": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-CLAUDIAL.jpg",
+      "source_url": "https://github.com/Moge800/Claudial",
+      "caption": "作者仓库 M5Stack Dial 实物图，显示额度和阈值；非独立实测",
+      "original_url": "https://raw.githubusercontent.com/Moge800/Claudial/main/assets/device.jpg",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-LILYGO": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-LILYGO.jpg",
+      "source_url": "https://github.com/AussieCH/ESP32-claude-usage-display",
+      "caption": "LILYGO 项目作者仓库实物照片：额度与重置时间；非独立实测",
+      "original_url": "https://raw.githubusercontent.com/AussieCH/ESP32-claude-usage-display/main/docs/tdisplay.jpg",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-VOICE-PEDAL": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-HW-VOICE-PEDAL.jpg",
+      "source_url": "https://www.reddit.com/r/ClaudeCode/comments/1un0ul0/pedal_to_trigger_voice_to_text_other_options/",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-HW-ACCESS-RING": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-HW-ACCESS-RING.jpg",
+      "source_url": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+      "caption": "MX Keypad 官方硬件示意图；非 Access Ring 插件截图，不证明对象映射",
+      "original_url": "https://www.logitech.com/en-us/shop/p/mx-keypad.920-013890",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-01": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-01.jpg",
+      "source_url": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration",
+      "caption": "WorkBuddy 官方文档截图：划词评论后在原文旁展开讨论线程",
+      "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/md-comment-discussion.DGPDgb76.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-02": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-02.jpg",
+      "source_url": "https://www.majiabin.com/3438.html",
+      "caption": "老马公开教程原图：Mac 微信多选消息后，经分享面板选择 WorkBuddy；单个历史版本演示",
+      "original_url": "https://p11-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/9268ed5779b64f69a2f7c11171c30a37~tplv-tt-shrink:640:0.image?lk3s=06827d14&traceid=20260906104849740A3B712355D5EE7C37&x-expires=2147483647&x-signature=%2BtRg4YUPY%2B3vVEihicXqTwaMmu0%3D",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-03": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-03.jpg",
+      "source_url": "https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice",
+      "caption": "WorkBuddy 官方文档截图：手机续接电脑任务，执行中可继续发送消息",
+      "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/multidevice-5.CNVzQQal.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-04": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-04.jpg",
+      "source_url": "https://www.workbuddy.cn/docs/workbuddy/Conversation",
+      "caption": "WorkBuddy 官方文档截图：执行中的追加消息进入输入框上方队列",
+      "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/conversation-queue.B_XM2oXw.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-05": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-SW-05.jpg",
+      "source_url": "https://open.workbuddy.cn/docs/openapi",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-06": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-06.jpg",
+      "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16045513/",
+      "caption": "华为官方支持页截图：鸿蒙电脑小艺输入栏的圈选入口",
+      "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2Qy27CMBBF_8VrWo3tcRh3Vecluqm6oGvkOiZYAoNCAipV_712FHV2V3M0Z3R_2HT1w_b74tkL42zFuvM9LlGmuA9H_25POT4OTy7uwsn2fgfzcL1WkkCjfr7EfqE_7HhINFhRFHtC13mOjnttUUknnU-8o04n-is83rqEbszrfJsXgErxrHWDt2M4x23I6rTQKAGBJ-mKXUMf7TgN-almXZCmtuR105AxqAqJoiZR6gpaLEE1whiNVaUAsKyJWiBhmspw4qVos-tmj6H7_G9hHCY__7a0sDHs9w-lu3InJgEAAA%3D%3D.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-08": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-08.jpg",
+      "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16094008/",
+      "caption": "华为官方支持页截图：伴随式 AI 的小屏、大屏与极简三种形态",
+      "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2QQU_DMAyF_0vOA9lu0jicaNagcUEcxnlK27SLtHVT14IY4r-TVhW-PfmT3_P7EdMtDPvvaxBPAsVGNJevfpVZkm08hTd_nuX9-FD3h3j2XTjAMmhYEkkGfLz23Uq_-_GY6DYgKKasqmqShrAiUi3qlrBmqoASXcX7a5PQXfG83MYcjATgtKqH4Md46fdxtl4WGUjAZLoRt9j1fpyGJSNslcoziy-2RC6klNrkSmmnYavZGXTaOlbWlITK5qgdY8GydE5ao3h-8dOfYvPx38I4TGHJtrawK8TvH23quf8mAQAA.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-09": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-09.jpg",
+      "source_url": "https://consumer.huawei.com/cn/support/content/zh-cn16073021/",
+      "caption": "华为官方支持页截图：小艺帮帮忙手把手教学的技能说明与「开始教学」入口",
+      "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z1Qy2rDMBD8F53TspJWtranLEEivZQe0nOQbdkRJE5w7Jam9N9rGdO9DTvM60dM9zgcvm9RvAgpNqK5fvUr1DNs0zm-hUuGj9NT3R_TJXTxCMtJslIbVIV8vvXdyn4P4ylrqSbUFUFsmwLrtrVGlqAKQoNkQqxmdpUer81M3fN20ZYFlBpUTlEPMYzp2h9Stp4fhBoQ5Gy6EffU9WGchhyKWWpEsnpnjefCOWJr2ToikqDYed4ZcKY0pfXAygOyd75UCICELlf8DOfUfPyvMA5TXLKtK-xZ_P4BaNpbySYBAAA%3D.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-11": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-11.jpg",
+      "source_url": "https://xiaoyi.huawei.com/work/",
+      "caption": "小艺 Work 官网示意截图：手机选择云电脑／本地电脑；仅展示设备选择范围",
+      "original_url": "https://search-static-drcn.dbankcdn.com/celia/v2/static/img/xy-work-multiple.d22dbc3f.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-12": {
+      "kind": "source_image",
+      "src": "media/oct-2026/visuals/OCT26-SW-12.jpg",
+      "source_url": "https://learn.chatgpt.com/docs/appshots",
+      "caption": "OpenAI Appshots 官方文档示例：被捕获的 Numbers 预算表窗口内容；该图不包含完整捕获操作流程",
+      "original_url": "https://learn.chatgpt.com/images/codex/appshots/numbers-budget-appshot.png",
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-14": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-SW-14.jpg",
+      "source_url": "https://learn.chatgpt.com/docs/remote-connections",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-15": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-SW-15.jpg",
+      "source_url": "https://learn.chatgpt.com/docs/features/voice",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-16": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-SW-16.jpg",
+      "source_url": "https://code.claude.com/docs/en/vs-code",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "OCT26-SW-18": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/OCT26-SW-18.jpg",
+      "source_url": "https://code.claude.com/docs/en/voice-dictation",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "XMI-F12": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/XMI-F12.jpg",
+      "source_url": "https://privacy.mi.com/xiaomihyperxiaoai/zh_CN/",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "XMI-F17": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/XMI-F17.jpg",
+      "source_url": "https://os.mi.com/",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "VIV-F07": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/VIV-F07.jpg",
+      "source_url": "https://www.vivo.com.cn/service/questions/all?categoryId=170&questionId=1397",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "Q3-apple-home-hub-presence": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/Q3-apple-home-hub-presence.jpg",
+      "source_url": "https://www.apple.com/apple-events/",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    },
+    "Q3-openai-hardware": {
+      "kind": "diagram",
+      "src": "media/oct-2026/visuals/Q3-openai-hardware.jpg",
+      "source_url": "https://openai.com/sam-and-jony/",
+      "caption": "来源流程示意，非产品截图；根据卡片所引资料整理，未替代实际界面或实机验证",
+      "original_url": null,
+      "from_card": null,
+      "verified_pixels": true
+    }
+  }
+}

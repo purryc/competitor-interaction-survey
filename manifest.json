@@ -13,7 +13,7 @@
     "q3_mp4": 32,
     "published_video_count": 235,
     "published_video_bytes": 168540803,
-    "total_files_in_repository": 2384,
+    "total_files_in_repository": 2421,
     "oct_2026_features": 43
   },
   "files": [
@@ -28,8 +28,8 @@
       "group": "generated",
       "source_relative": "data/catalog.json",
       "portable_path": "data/catalog.json",
-      "bytes": 445643,
-      "sha256": "79024c9245486a1e7dcb0617dd8005c8a0a5143520f39cea81d548cafaa7898f"
+      "bytes": 780881,
+      "sha256": "782cde42a8f500d742d9c2c259c0304a069e04422227b30911362009560298ec"
     },
     {
       "group": "mobile-v2-doc",
@@ -819,8 +819,8 @@
       "group": "generated",
       "source_relative": "index.html",
       "portable_path": "index.html",
-      "bytes": 2108099,
-      "sha256": "31af9888f30518ca2c24f2e83227c40739b9663974c3e27a14f777ec0731902a"
+      "bytes": 2207032,
+      "sha256": "08d6210abdb6c5c1f5fd9eab0a547197dea127d8590dc0785f290bf97d5bce42"
     },
     {
       "group": "mobile-v2",
@@ -16590,8 +16590,8 @@
       "group": "generated",
       "source_relative": "README.md",
       "portable_path": "README.md",
-      "bytes": 1328,
-      "sha256": "32eaae562321474d958ae54a108e3ee3ed21cfee6a15f947fae8541355483249"
+      "bytes": 1805,
+      "sha256": "bbc85e235fd32f7a16e97469abeda11cb1be8bd72b5b392d5c11d2437c634349"
     },
     {
       "group": "generated",
@@ -16625,8 +16625,8 @@
       "group": "oct-2026-update",
       "source_relative": "data/oct-2026-update.json",
       "portable_path": "data/oct-2026-update.json",
-      "bytes": 186126,
-      "sha256": "45f2205e88afc757397b180a3fe964598c81ad6891b8865ad64e1625538dbfe0"
+      "bytes": 246021,
+      "sha256": "23c27265a5b14b9a9fb501236a9d1eb6fa795e24e53dd0d586e6e85b9de06ae5"
     },
     {
       "group": "oct-2026-update",
@@ -16690,6 +16690,265 @@
       "portable_path": "media/oct-2026/violoop.jpg",
       "bytes": 110062,
       "sha256": "ca528120ce89ecf4f934d4c5529e543d74551b9c541fdbfb51cbb12d2764e8c0"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "data/visual-provenance.json",
+      "portable_path": "data/visual-provenance.json",
+      "bytes": 17289,
+      "sha256": "5b983967c4068e7ab87cdc110b80b82133553f03f5ede27a2f93cb13f5b21fe9"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-LOUPEDECK-CT.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-LOUPEDECK-CT.jpg",
+      "bytes": 63402,
+      "sha256": "95eccebbb0031a4cc811cccf63cb3d67c452c0e15ff2e335864abbdecd6808e1"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-MACROPAD-EXCEL.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-MACROPAD-EXCEL.jpg",
+      "bytes": 89262,
+      "sha256": "382031f1cbcaf58624eba5386a03e42f5dcc0d206d258e5d9625917c46bb8af8"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-MIMOUSE.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-MIMOUSE.jpg",
+      "bytes": 29973,
+      "sha256": "5a3ca8ecc0587fe5c891907cdbddba697f4cdd793635e90fbf390ae667434bae"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-LOGI-PROMPT-RETIRED.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-LOGI-PROMPT-RETIRED.jpg",
+      "bytes": 26165,
+      "sha256": "c107019d4d28b1ff3c488877e7b09f1223a83149e4439ae1ad50bacc60c65da4"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-K980-COPILOT.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-K980-COPILOT.jpg",
+      "bytes": 67392,
+      "sha256": "8d57954f2345f79556bd8be6e168c9480143f4dd91e23049434a17a7131ef064"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-TOUCHBAR-BTT.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-TOUCHBAR-BTT.jpg",
+      "bytes": 125697,
+      "sha256": "1eeeee0618a9ede373fbd10c844bc6e932f214562c2050f906e9bafca36a3af5"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-POCK.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-POCK.jpg",
+      "bytes": 16066,
+      "sha256": "21efc828b3ab1c195d4c862d3cbae680435f1443d014788610b2abbbb11aa999"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-MTMR.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-MTMR.jpg",
+      "bytes": 70294,
+      "sha256": "93123b0af3ca4b1887e22a4b0b1cca423bf6a6acd022e20e525ec1619f6c5e3d"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-USAGE-TOUCHBAR.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-USAGE-TOUCHBAR.jpg",
+      "bytes": 96701,
+      "sha256": "48df7bd6163e1bbb6512cdcb30cbb0c86dbce251926014eada2fc724fa9f4336"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-ORBTILE.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-ORBTILE.jpg",
+      "bytes": 27774,
+      "sha256": "94ad2e5fc1deb93f1afc9ff2e5a4cef90317bb984f4e164059a6be2203030862"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-CONN.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-CONN.jpg",
+      "bytes": 66275,
+      "sha256": "d203cb1bbc28b03668acf9487092a71d31cd72d5ccdd46c0afd52bb3dda9c852"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-AGENT-FROW.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-AGENT-FROW.jpg",
+      "bytes": 142644,
+      "sha256": "f685ea16605ada0a235dee085e87d4e042946e1ea949e9fc2c43ffad37b0484d"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-CLAUDEQ.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-CLAUDEQ.jpg",
+      "bytes": 94533,
+      "sha256": "c79aa52a4f2f2ed5035d700c78bd67804c3610f67c113ccc166e0a41e18f5747"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-CLAUDIAL.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-CLAUDIAL.jpg",
+      "bytes": 116822,
+      "sha256": "6701ad803ed8e8bae53c0d1062dd69f85b4735fcdebee394d39ee88ec09edd70"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-LILYGO.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-LILYGO.jpg",
+      "bytes": 217437,
+      "sha256": "ac21d4a68b5c85613f38148670f55ec9cfda4e43dfac7918d734f7661c01a39c"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-VOICE-PEDAL.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-VOICE-PEDAL.jpg",
+      "bytes": 90986,
+      "sha256": "1f66d01c7934290f10ae468dcff726a7031312ca790d53283683ee710c199c21"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-HW-ACCESS-RING.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-HW-ACCESS-RING.jpg",
+      "bytes": 30242,
+      "sha256": "566d7825ef47310d2ba2cb488fdfcd02e8b1edb0b00bfde62069fab9ec4f62c3"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-01.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-01.jpg",
+      "bytes": 126632,
+      "sha256": "dde9b04e4a890dca8380ab860a758c958c29e9307489394a620f4a327185a0c5"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-02.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-02.jpg",
+      "bytes": 35291,
+      "sha256": "11493a268bc8b6ac86ebea74d743797306cfe372b7c5b4278d61c0c70e29d5d9"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-03.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-03.jpg",
+      "bytes": 84454,
+      "sha256": "06f7e176cdf0c3c7d71b08d77967574a0fb4a87a8439a719334fdc1702c9fccd"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-04.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-04.jpg",
+      "bytes": 59175,
+      "sha256": "ec662ec568cf6b57bf78619e4bb5ad1a7d20056430c0ef8658c09a12151ab77d"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-05.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-05.jpg",
+      "bytes": 100062,
+      "sha256": "5692324ccd13d6fe1c5fd1de99e4c41001e2691dc919e41bdff44bd00d98f05d"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-06.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-06.jpg",
+      "bytes": 16577,
+      "sha256": "d297f95e2f57da81ed6b5af13ab91be9e26ba83f06b23c7810bf0e54187a99ac"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-08.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-08.jpg",
+      "bytes": 137119,
+      "sha256": "d0c8390836added34c6c5970653285b6445ae419772c97391dca62037ef5721d"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-09.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-09.jpg",
+      "bytes": 168224,
+      "sha256": "0cf490f554380f76b69b6fe427de2d63b4afdc5881bc241471c17a216150acf4"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-11.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-11.jpg",
+      "bytes": 87775,
+      "sha256": "681d67937cc14a084a438517e572e397c921bc3183f0cc204ee145e9929a45d3"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-12.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-12.jpg",
+      "bytes": 52667,
+      "sha256": "a853554859eba3884a8d3c314d8cc4a14467f6c5ab6e13ea9a9cd37a9f728c34"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-14.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-14.jpg",
+      "bytes": 99692,
+      "sha256": "0de9989df329a5d869aa290b3a946d915f4b1935fb70c137d0c65f90de98c8d1"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-15.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-15.jpg",
+      "bytes": 105857,
+      "sha256": "558f7a756f47ccf9d365b56d54fd6b2427460a42922540ad84a0e2bdf2889982"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-16.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-16.jpg",
+      "bytes": 112969,
+      "sha256": "bed55362fae7e0268cdb6e5691044e6e5b2b3bc17b91eaf752f023899aa6e293"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/OCT26-SW-18.jpg",
+      "portable_path": "media/oct-2026/visuals/OCT26-SW-18.jpg",
+      "bytes": 108037,
+      "sha256": "447b4d0e3857f4fe23c30415bf6471cdbdde9320bc42f44c19fe71cdcdbfebd6"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/XMI-F12.jpg",
+      "portable_path": "media/oct-2026/visuals/XMI-F12.jpg",
+      "bytes": 70732,
+      "sha256": "b0b884da0801e7318786b9536d3327b880d446100659fcdf5906d33045756884"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/XMI-F17.jpg",
+      "portable_path": "media/oct-2026/visuals/XMI-F17.jpg",
+      "bytes": 71253,
+      "sha256": "02b9d3ec650b9739210ec1922fd29ad9b7f327b870b0bd97ddab968f2f643073"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/VIV-F07.jpg",
+      "portable_path": "media/oct-2026/visuals/VIV-F07.jpg",
+      "bytes": 72550,
+      "sha256": "507453f96d2fc9898946952056ba6b1d66a36ae0be32a2544ef234f30adec5fd"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/Q3-apple-home-hub-presence.jpg",
+      "portable_path": "media/oct-2026/visuals/Q3-apple-home-hub-presence.jpg",
+      "bytes": 91746,
+      "sha256": "1e3e42ff0ef819e1c4e2ce2e6f28276471c50724dcc3ed41fbf5d1e3b708afd7"
+    },
+    {
+      "group": "oct-2026-visuals",
+      "source_relative": "media/oct-2026/visuals/Q3-openai-hardware.jpg",
+      "portable_path": "media/oct-2026/visuals/Q3-openai-hardware.jpg",
+      "bytes": 89568,
+      "sha256": "4f8f703dd7edb65911e4aca1d9e9c7444be2b8af7e993172328db70e26a17603"
     }
   ]
 }
