@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
-  "generated": "2026-09-10",
+  "generated": "2026-10-06",
   "counts": {
     "legacy_features": 178,
     "index_supplement_features": 1,
     "mobile_index_features": 179,
     "q3_features": 35,
     "q3_hardware_cards": 7,
-    "total_cards": 221,
+    "total_cards": 264,
     "legacy_local_resources": 1950,
     "q3_png": 269,
     "q3_mp4": 32,
     "published_video_count": 235,
     "published_video_bytes": 168540803,
-    "total_files_in_repository": 2374
+    "total_files_in_repository": 2384,
+    "oct_2026_features": 43
   },
   "files": [
     {
@@ -27,8 +28,8 @@
       "group": "generated",
       "source_relative": "data/catalog.json",
       "portable_path": "data/catalog.json",
-      "bytes": 259578,
-      "sha256": "f7af25d4f2b068b22ed209d63e329a28f5bfb3b7a5232ca6b3d2208b2779dca8"
+      "bytes": 445643,
+      "sha256": "79024c9245486a1e7dcb0617dd8005c8a0a5143520f39cea81d548cafaa7898f"
     },
     {
       "group": "mobile-v2-doc",
@@ -818,8 +819,8 @@
       "group": "generated",
       "source_relative": "index.html",
       "portable_path": "index.html",
-      "bytes": 1901405,
-      "sha256": "049ca933670e0b889984df3a19c95443e67087e4d0e46153e0df7274d1030516"
+      "bytes": 2108099,
+      "sha256": "31af9888f30518ca2c24f2e83227c40739b9663974c3e27a14f777ec0731902a"
     },
     {
       "group": "mobile-v2",
@@ -16589,8 +16590,8 @@
       "group": "generated",
       "source_relative": "README.md",
       "portable_path": "README.md",
-      "bytes": 951,
-      "sha256": "d779e9e63643267a5e41bc0af77a01ef1a63647ef28366b64764a68d0bb6f7be"
+      "bytes": 1328,
+      "sha256": "32eaae562321474d958ae54a108e3ee3ed21cfee6a15f947fae8541355483249"
     },
     {
       "group": "generated",
@@ -16619,6 +16620,76 @@
       "portable_path": ".github/workflows/pages.yml",
       "bytes": 667,
       "sha256": "85b610e4b359710bd897607984c2b87bafa864d021dbf68104008b87d1466304"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "data/oct-2026-update.json",
+      "portable_path": "data/oct-2026-update.json",
+      "bytes": 186126,
+      "sha256": "45f2205e88afc757397b180a3fe964598c81ad6891b8865ad64e1625538dbfe0"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "docs/oct-2026/README.md",
+      "portable_path": "docs/oct-2026/README.md",
+      "bytes": 32960,
+      "sha256": "5d2c945b29e89aeae2d7da0b6e59e11770625205e5ec646a4e75ce8fa17a53a4"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/codex-specific.jpg",
+      "portable_path": "media/oct-2026/codex-specific.jpg",
+      "bytes": 65647,
+      "sha256": "f74a776e00f7439cd7fc6d3719883d41049428bf816916b65a5d21e58833a362"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/control-1.jpg",
+      "portable_path": "media/oct-2026/control-1.jpg",
+      "bytes": 72556,
+      "sha256": "49e66ff3c43b1390b12d8a90c368e9ef99d35156e8150fa26dfc7dbbc03ef27c"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/control-2.jpg",
+      "portable_path": "media/oct-2026/control-2.jpg",
+      "bytes": 53595,
+      "sha256": "c791bb6bc59b6191b2aa5c8a8a76e986e712e486ac93be7165b9e4e8aca5d7c6"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/control-4.jpg",
+      "portable_path": "media/oct-2026/control-4.jpg",
+      "bytes": 28514,
+      "sha256": "55ed75c893a52a6f7550d715b2e825281756b5245ca4b3f2c1723c762cf7bea7"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/control-5.jpg",
+      "portable_path": "media/oct-2026/control-5.jpg",
+      "bytes": 53599,
+      "sha256": "4081a7c2c228b07805f778b298829ee041e2c1fcbef18409a0771e76d9a6fdf0"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/mx-keypad.jpg",
+      "portable_path": "media/oct-2026/mx-keypad.jpg",
+      "bytes": 30948,
+      "sha256": "e63d7c24cfebf4fc807f57ba9886c11fde53dee07f6bd1ec4fdd24eb6bfd426f"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/vibe-interface.jpg",
+      "portable_path": "media/oct-2026/vibe-interface.jpg",
+      "bytes": 59502,
+      "sha256": "1bb0a0caec91cd092400cd4db506f71bdfc0dfed8cfe80721093fad88abb29d0"
+    },
+    {
+      "group": "oct-2026-update",
+      "source_relative": "media/oct-2026/violoop.jpg",
+      "portable_path": "media/oct-2026/violoop.jpg",
+      "bytes": 110062,
+      "sha256": "ca528120ce89ecf4f934d4c5529e543d74551b9c541fdbfb51cbb12d2764e8c0"
     }
   ]
 }
