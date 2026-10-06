@@ -727,7 +727,21 @@
         "original_url": "https://www.mimouse.com/v2/assets/m7c-D_nUFSJD.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "china-input-hardware",
+          "title": "国产AI输入硬件：键盘、鼠标与键麦",
+          "path": "docs/products/china-input-hardware.html",
+          "path_en": "docs/products/china-input-hardware.en.html"
+        },
+        {
+          "slug": "voice-input",
+          "title": "语音输入与Agent输入：10产品真实工作流",
+          "path": "docs/products/voice-input.html",
+          "path_en": "docs/products/voice-input.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-LOGI-PROMPT-RETIRED",
@@ -1094,7 +1108,21 @@
         "from_card": "OCT26-HW-VIBE-AU05-X",
         "historical_demo": false,
         "asset_verified": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "china-input-hardware",
+          "title": "国产AI输入硬件：键盘、鼠标与键麦",
+          "path": "docs/products/china-input-hardware.html",
+          "path_en": "docs/products/china-input-hardware.en.html"
+        },
+        {
+          "slug": "voice-input",
+          "title": "语音输入与Agent输入：10产品真实工作流",
+          "path": "docs/products/voice-input.html",
+          "path_en": "docs/products/voice-input.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-CODEX-MICRO",
@@ -1583,7 +1611,15 @@
         "original_url": null,
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "diy-controls",
+          "title": "重度Agent用户的DIY控制器",
+          "path": "docs/products/diy-controls.html",
+          "path_en": "docs/products/diy-controls.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-VIOLOOP",
@@ -1869,7 +1905,15 @@
         "original_url": "https://raw.githubusercontent.com/shawnwelsh/conn/main/docs/showcase-deck.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "diy-controls",
+          "title": "重度Agent用户的DIY控制器",
+          "path": "docs/products/diy-controls.html",
+          "path_en": "docs/products/diy-controls.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-AGENT-FROW",
@@ -1956,7 +2000,15 @@
         "original_url": "https://raw.githubusercontent.com/timeToy34/agent-frow/main/docs/screenshot.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "diy-controls",
+          "title": "重度Agent用户的DIY控制器",
+          "path": "docs/products/diy-controls.html",
+          "path_en": "docs/products/diy-controls.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-CLAUDEQ",
@@ -2044,7 +2096,15 @@
         "original_url": "https://raw.githubusercontent.com/Positronico/claudeq/main/photos/claudeq-demo.gif",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "diy-controls",
+          "title": "重度Agent用户的DIY控制器",
+          "path": "docs/products/diy-controls.html",
+          "path_en": "docs/products/diy-controls.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-CLAUDIAL",
@@ -2131,7 +2191,15 @@
         "original_url": "https://raw.githubusercontent.com/Moge800/Claudial/main/assets/device.jpg",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "diy-controls",
+          "title": "重度Agent用户的DIY控制器",
+          "path": "docs/products/diy-controls.html",
+          "path_en": "docs/products/diy-controls.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-LILYGO",
@@ -2302,7 +2370,21 @@
         "original_url": null,
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "diy-controls",
+          "title": "重度Agent用户的DIY控制器",
+          "path": "docs/products/diy-controls.html",
+          "path_en": "docs/products/diy-controls.en.html"
+        },
+        {
+          "slug": "voice-input",
+          "title": "语音输入与Agent输入：10产品真实工作流",
+          "path": "docs/products/voice-input.html",
+          "path_en": "docs/products/voice-input.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-HW-ACCESS-RING",
@@ -2539,7 +2621,15 @@
         "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/md-comment-discussion.DGPDgb76.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "workbuddy",
+          "title": "腾讯 WorkBuddy",
+          "path": "docs/products/workbuddy.html",
+          "path_en": "docs/products/workbuddy.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-02",
@@ -2668,7 +2758,15 @@
         "original_url": "https://p11-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/9268ed5779b64f69a2f7c11171c30a37~tplv-tt-shrink:640:0.image?lk3s=06827d14&traceid=20260906104849740A3B712355D5EE7C37&x-expires=2147483647&x-signature=%2BtRg4YUPY%2B3vVEihicXqTwaMmu0%3D",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "workbuddy",
+          "title": "腾讯 WorkBuddy",
+          "path": "docs/products/workbuddy.html",
+          "path_en": "docs/products/workbuddy.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-03",
@@ -2763,7 +2861,15 @@
         "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/multidevice-5.CNVzQQal.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "workbuddy",
+          "title": "腾讯 WorkBuddy",
+          "path": "docs/products/workbuddy.html",
+          "path_en": "docs/products/workbuddy.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-04",
@@ -2857,7 +2963,15 @@
         "original_url": "https://download.codebuddy.cn/web/docs/63debd8671c5b9424df08b3bac939eb1242f82c2/docs/static/conversation-queue.B_XM2oXw.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "workbuddy",
+          "title": "腾讯 WorkBuddy",
+          "path": "docs/products/workbuddy.html",
+          "path_en": "docs/products/workbuddy.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-05",
@@ -2955,7 +3069,15 @@
         "original_url": null,
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "workbuddy",
+          "title": "腾讯 WorkBuddy",
+          "path": "docs/products/workbuddy.html",
+          "path_en": "docs/products/workbuddy.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-06",
@@ -3068,7 +3190,15 @@
         "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2Qy27CMBBF_8VrWo3tcRh3Vecluqm6oGvkOiZYAoNCAipV_712FHV2V3M0Z3R_2HT1w_b74tkL42zFuvM9LlGmuA9H_25POT4OTy7uwsn2fgfzcL1WkkCjfr7EfqE_7HhINFhRFHtC13mOjnttUUknnU-8o04n-is83rqEbszrfJsXgErxrHWDt2M4x23I6rTQKAGBJ-mKXUMf7TgN-almXZCmtuR105AxqAqJoiZR6gpaLEE1whiNVaUAsKyJWiBhmspw4qVos-tmj6H7_G9hHCY__7a0sDHs9w-lu3InJgEAAA%3D%3D.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "xiaoyi",
+          "title": "华为小艺：手机、PC与Work",
+          "path": "docs/products/xiaoyi.html",
+          "path_en": "docs/products/xiaoyi.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-07",
@@ -3179,7 +3309,15 @@
         "historical_demo": true,
         "asset_verified": true,
         "source_card_anchor": "#feature-HUA-F09"
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "xiaoyi",
+          "title": "华为小艺：手机、PC与Work",
+          "path": "docs/products/xiaoyi.html",
+          "path_en": "docs/products/xiaoyi.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-08",
@@ -3277,7 +3415,15 @@
         "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z2QQU_DMAyF_0vOA9lu0jicaNagcUEcxnlK27SLtHVT14IY4r-TVhW-PfmT3_P7EdMtDPvvaxBPAsVGNJevfpVZkm08hTd_nuX9-FD3h3j2XTjAMmhYEkkGfLz23Uq_-_GY6DYgKKasqmqShrAiUi3qlrBmqoASXcX7a5PQXfG83MYcjATgtKqH4Md46fdxtl4WGUjAZLoRt9j1fpyGJSNslcoziy-2RC6klNrkSmmnYavZGXTaOlbWlITK5qgdY8GydE5ao3h-8dOfYvPx38I4TGHJtrawK8TvH23quf8mAQAA.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "xiaoyi",
+          "title": "华为小艺：手机、PC与Work",
+          "path": "docs/products/xiaoyi.html",
+          "path_en": "docs/products/xiaoyi.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-09",
@@ -3391,7 +3537,15 @@
         "original_url": "https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAA_z1Qy2rDMBD8F53TspJWtranLEEivZQe0nOQbdkRJE5w7Jam9N9rGdO9DTvM60dM9zgcvm9RvAgpNqK5fvUr1DNs0zm-hUuGj9NT3R_TJXTxCMtJslIbVIV8vvXdyn4P4ylrqSbUFUFsmwLrtrVGlqAKQoNkQqxmdpUer81M3fN20ZYFlBpUTlEPMYzp2h9Stp4fhBoQ5Gy6EffU9WGchhyKWWpEsnpnjefCOWJr2ToikqDYed4ZcKY0pfXAygOyd75UCICELlf8DOfUfPyvMA5TXLKtK-xZ_P4BaNpbySYBAAA%3D.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "xiaoyi",
+          "title": "华为小艺：手机、PC与Work",
+          "path": "docs/products/xiaoyi.html",
+          "path_en": "docs/products/xiaoyi.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-10",
@@ -3503,7 +3657,15 @@
         "historical_demo": true,
         "asset_verified": true,
         "source_card_anchor": "#feature-HUA-F13"
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "xiaoyi",
+          "title": "华为小艺：手机、PC与Work",
+          "path": "docs/products/xiaoyi.html",
+          "path_en": "docs/products/xiaoyi.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-11",
@@ -3621,7 +3783,15 @@
         "original_url": "https://search-static-drcn.dbankcdn.com/celia/v2/static/img/xy-work-multiple.d22dbc3f.png",
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "xiaoyi",
+          "title": "华为小艺：手机、PC与Work",
+          "path": "docs/products/xiaoyi.html",
+          "path_en": "docs/products/xiaoyi.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-12",
@@ -4181,7 +4351,15 @@
         "original_url": null,
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "voice-input",
+          "title": "语音输入与Agent输入：10产品真实工作流",
+          "path": "docs/products/voice-input.html",
+          "path_en": "docs/products/voice-input.en.html"
+        }
+      ]
     },
     {
       "id": "OCT26-SW-16",
@@ -4722,7 +4900,15 @@
         "original_url": null,
         "from_card": null,
         "verified_pixels": true
-      }
+      },
+      "product_dossiers": [
+        {
+          "slug": "voice-input",
+          "title": "语音输入与Agent输入：10产品真实工作流",
+          "path": "docs/products/voice-input.html",
+          "path_en": "docs/products/voice-input.en.html"
+        }
+      ]
     }
   ]
 }

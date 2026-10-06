@@ -1,0 +1,758 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tencent WorkBuddy · Full product dossier</title><link rel="stylesheet" href="dossier.css"><meta name="description" content="Documents, data, design, application development, team projects and local/cloud tasks, with nine co-branded devices and public usage evidence examined separately."></head><body><header class="topbar"><a class="brand" href="../../index.en.html">AI Software, Hardware & Interaction Survey</a><nav><a href="index.en.html">All product dossiers</a><a href="../../index.en.html">Back to interaction index</a></nav><nav class="language-nav" aria-label="Language / 语言"><a href="workbuddy.html" hreflang="zh-CN" lang="zh-CN">中文</a><a href="workbuddy.en.html" hreflang="en" lang="en" aria-current="page">English</a></nav></header><div class="layout"><aside class="toc"><h2>On this page</h2><ul><li><a href="#1-the-product-at-a-glance-heading">1. The Product at a Glance</a></li><li><a href="#2-clients-and-execution-environments-where-the-work-actually-happens-heading">2. Clients and Execution Environments: Where the Work Actually Happens</a></li><li><a href="#3-features-tasks-and-complete-usage-chains-heading">3. Features, Tasks, and Complete Usage Chains</a></li><li><a href="#4-hardware-ecosystem-9-devices--8-brands-with-evidence-separated-heading">4. Hardware Ecosystem: 9 Devices / 8 Brands, with Evidence Separated</a></li><li><a href="#5-real-user-voices-identify-the-person-task-version-and-commercial-relationship-heading">5. Real User Voices: Identify the Person, Task, Version, and Commercial Relationship</a></li><li><a href="#6-recent-versions-costs-and-safety-determine-practical-usability-heading">6. Recent Versions, Costs, and Safety Determine Practical Usability</a></li><li><a href="#7-image-and-demonstration-sources-heading">7. Image and Demonstration Sources</a></li><li><a href="#8-assessments-ready-for-competitive-comparison-heading">8. Assessments Ready for Competitive Comparison</a></li><li><a href="#9-source-register-heading">9. Source Register</a></li><li><a href="#10-checklist-for-hands-on-verification-heading">10. Checklist for Hands-On Verification</a></li></ul></aside><main><section class="hero"><div class="eyebrow">Product dossier · Sources checked 6 October 2026</div><h1>Tencent WorkBuddy</h1><p>Documents, data, design, application development, team projects and local/cloud tasks, with nine co-branded devices and public usage evidence examined separately.</p><div class="pill-row"><span class="pill">Software capabilities and versions</span><span class="pill">End-to-end tasks</span><span class="pill">Hardware and integration limits</span><span class="pill">Hands-on reports and user feedback</span></div><figure class="hero-media"><img loading="eager" src="../../media/oct-2026/visuals/OCT26-SW-01.jpg" alt="Official WorkBuddy documentation: selecting a passage and commenting in the original document; not a test performed for this report."/><figcaption>Official WorkBuddy documentation: selecting a passage and commenting in the original document; not a test performed for this report. · <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration" target="_blank" rel="noopener">Image source</a></figcaption></figure></section><div class="document"><p>Verified on: 2026-10-06. This study covers Tencent WorkBuddy, primarily the personal edition, with enterprise features identified separately. It is neither a renamed CodeBuddy IDE/CLI nor a study limited to voice input. The method cross-checks public official documentation, vendor support pages, named journalists' hands-on reports, original forum posts, and video pages. No installation or hands-on testing was performed, and no user device was accessed. The latest entry in the official changelog is <strong>5.7.6 / 2026-10-04</strong>.<a href="https://www.workbuddy.cn/docs/workbuddy/Changelog" target="_blank" rel="noopener">S01</a></p>
+<section id="1-the-product-at-a-glance" class="level2">
+<h2 id="1-the-product-at-a-glance-heading">1. The Product at a Glance</h2>
+<p>WorkBuddy is an AI workbench that brings together natural-language tasks, executable tools, local/cloud workspaces, editable deliverables, specialist roles, shared team knowledge, and cross-device entry points. Its core extends beyond “answering questions” or “operating a computer”: it productizes the chain of <strong>assign a task → obtain context → plan/call tools → generate or modify files → human review → save, share, hand off, or rerun on a schedule</strong>. The home screen covers everyday office work, coding, and creative design; projects, libraries, connectors, experts/expert teams, and skills let work accumulate over time.<a href="https://www.workbuddy.cn/docs/workbuddy/" target="_blank" rel="noopener">S02</a></p>
+<section id="product-map" class="level3">
+<h3>Product Map</h3>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Layer</th>
+<th>Specific objects in the product</th>
+<th>What they do for the user</th>
+<th>Boundaries not to confuse</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Entry points</td>
+<td>Windows/macOS clients, Web, mobile app, mini program, WeChat/WeCom/QQ/DingTalk/Feishu assistants, hardware</td>
+<td>Assign tasks, supply material, approve, stop, and check results</td>
+<td>A mobile entry point does not mean the task necessarily runs in the cloud</td>
+</tr>
+<tr class="even">
+<td>Execution</td>
+<td>Local tasks, cloud tasks; files/scripts/connectors/browser/Computer Use</td>
+<td>Actually read and write data, execute operations, and produce deliverables</td>
+<td>Local execution does not mean local offline inference</td>
+</tr>
+<tr class="odd">
+<td>Organization</td>
+<td>Tasks, workspaces, projects, assistants</td>
+<td>Separate ad hoc work, persistent folders, team collaboration, and remote conversation threads</td>
+<td>Ordinary tasks can run in parallel; older local-assistant documentation describes a centralized single conversation</td>
+</tr>
+<tr class="even">
+<td>Context</td>
+<td>Current files, library, project instructions, personal memory, references, connector data</td>
+<td>Avoid repeatedly moving material and restating requirements</td>
+<td>The library, personal memory, and system file permissions each have their own boundaries</td>
+</tr>
+<tr class="odd">
+<td>Extensions</td>
+<td>Skills, experts, expert teams, connectors, Buddy apps</td>
+<td>Package tools, methods, and industry use cases for reuse</td>
+<td>An expert is a role/method; it does not automatically confer additional permissions</td>
+</tr>
+<tr class="even">
+<td>Delivery</td>
+<td>Word/Excel/PPT/PDF/MD/CSV, images/video, websites, and mini programs</td>
+<td>Inspect results directly and continue editing</td>
+<td>Preview support does not mean in-place integration with every external Office app</td>
+</tr>
+<tr class="odd">
+<td>Continued use</td>
+<td>Scheduled tasks, project handoffs, cloud deliverables, personal memory</td>
+<td>Move from one-off Q&amp;A to recurring work</td>
+<td>Scheduled local tasks require an online machine; cross-device synchronization is not unrestricted synchronization of all data</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>Research assessment:</strong> The competitive unit is the entire “workbench + workflow + Chinese office ecosystem + local/cloud execution” system. A screenshot of a chat box cannot capture it. At the same time, the official promise of being “everywhere” is an ecosystem vision; purchasable hardware, a live integration, and a launch-event demonstration must be treated as three distinct states.</p>
+</section>
+</section>
+<section id="2-clients-and-execution-environments-where-the-work-actually-happens" class="level2">
+<h2 id="2-clients-and-execution-environments-where-the-work-actually-happens-heading">2. Clients and Execution Environments: Where the Work Actually Happens</h2>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Mode</th>
+<th>How to start</th>
+<th>Where the data/tools are</th>
+<th>Reviewing results/continuing</th>
+<th>Verified scope and limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Desktop local task</td>
+<td>Create a task, choose a workspace, describe the request or drag in files</td>
+<td>Local directories, scripts, software, intranet, authorized services</td>
+<td>Conversation + deliverables/files/changes/browser on the right</td>
+<td>The computer must be powered on and the client online; sandboxing and approvals still apply</td>
+</tr>
+<tr class="even">
+<td>Cloud task / Web</td>
+<td>Submit requirements in a cloud task; upload files/use the library</td>
+<td>An isolated Tencent Cloud sandbox and cloud materials</td>
+<td>Continue tasks through Web/app/mini program</td>
+<td>Cannot directly read computer directories that have not been uploaded; no local full-access option</td>
+</tr>
+<tr class="odd">
+<td>Mobile app connected to a computer</td>
+<td>Allow the connection on desktop; choose Connect Computer on mobile under the same account</td>
+<td>The computer still performs the actual execution</td>
+<td>Send attachments, continue/stop the conversation, view deliverable cards, export DOCX/PDF/MD or Tencent Docs</td>
+<td>Persistent pairing does not mean processing continues while the computer is offline</td>
+</tr>
+<tr class="even">
+<td>WeChat assistant</td>
+<td>Scan the binding code in desktop assistant settings, then send messages in WeChat</td>
+<td>Local files, Shell, credentials, MCP, browser extension, Computer Use</td>
+<td>Follow up, approve, and receive notifications in WeChat; view the full process on desktop</td>
+<td>The official guide requires WorkBuddy≥4.6.4 and WeChat≥8.0.70; sleep, network loss, or closing the client interrupts work</td>
+</tr>
+<tr class="odd">
+<td>WeCom/QQ/Feishu/DingTalk and other assistants</td>
+<td>Connect using each platform's bot/authorization guide</td>
+<td>Constrained by the configured environment and permissions</td>
+<td>Mobile tasks linked with desktop logs</td>
+<td>Platforms require different administrative permissions; these are not universal, zero-configuration entry points</td>
+</tr>
+<tr class="even">
+<td>Enterprise project dual mode</td>
+<td>Choose local or cloud in the project task input box</td>
+<td>Local mode can access the intranet; cloud mode accesses project assets and uploaded content</td>
+<td>Team members collaborate in tasks/projects</td>
+<td>Enterprise documentation explicitly states that AI inference runs in the cloud in both modes; “local” refers to script/program execution</td>
+</tr>
+</tbody>
+</table>
+</div><p>Sources: <a href="https://cloud.tencent.com/document/product/1831/138797" target="_blank" rel="noopener">S03</a>, <a href="https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice" target="_blank" rel="noopener">S04</a>, <a href="https://www.codebuddy.cn/docs/workbuddy/WeixinBot-Guide" target="_blank" rel="noopener">S05</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Assistant" target="_blank" rel="noopener">S06</a>. Enterprise documentation also explicitly states: <strong>The Web and client personal Skill libraries are independent; project Skills are managed in the cloud and available on both.</strong> Local mode supports custom models and workspace selection; cloud mode does not support these options. This enterprise matrix can explain the architecture, but enterprise features cannot all be applied unconditionally to personal accounts.</p>
+<section id="interaction-is-more-than-a-one-time-submission" class="level3">
+<h3>Interaction Is More Than a One-Time Submission</h3>
+<p>Current task conversations support additional instructions, references to output text/tables/components, process inspection, and a browser on the right. New messages sent during execution enter a queue and can be edited, deleted, or reordered; sending one immediately does not necessarily interrupt the current tool. Deliverables can be inspected in the file tree and changes view, then uploaded to cloud storage, Tencent Docs, or ima/Lexiang. Tasks can be searched, archived, and pinned. Global search across the library and chat history was added in late September.<a href="https://www.workbuddy.cn/docs/workbuddy/Changelog" target="_blank" rel="noopener">S01</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/Conversation" target="_blank" rel="noopener">S07</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/Results" target="_blank" rel="noopener">S08</a></p>
+</section>
+</section>
+<section id="3-features-tasks-and-complete-usage-chains" class="level2">
+<h2 id="3-features-tasks-and-complete-usage-chains-heading">3. Features, Tasks, and Complete Usage Chains</h2>
+<p>“Typical users” below identifies who a feature is suitable for. Only rows marked as public hands-on reports or user accounts establish that a corresponding person actually used it. Official walkthroughs do not establish ordinary users' success rates.</p>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Typical user and specific task</th>
+<th>Trigger → input/context → operation</th>
+<th>Deliverable and human review</th>
+<th>Limitations/evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Local file processing</td>
+<td>Administration: organize a batch of receipts/contracts/images by date, subject, and type</td>
+<td>Select a directory or drag in files → read content/time attributes → list old and new filenames first → rename after confirmation</td>
+<td>Comparison table, completed/skipped counts; inspect originals and backups</td>
+<td>Protected by directory permissions; test a small batch first; official example <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-One" target="_blank" rel="noopener">S09</a></td>
+</tr>
+<tr class="even">
+<td>Meetings and foreign-language material</td>
+<td>Operations/research: organize meeting notes, transcribe and translate foreign-language videos</td>
+<td>Supply audio/text/video material → extract, restructure, translate</td>
+<td>Minutes, key points, action items/result files</td>
+<td>Check speakers, terminology, and key conclusions; official example <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-One" target="_blank" rel="noopener">S09</a></td>
+</tr>
+<tr class="odd">
+<td>Data analysis and visualization</td>
+<td>Business analysis: summarize sales/profit by month and product line</td>
+<td>Drag in Excel/CSV or provide a path → specify definitions/time period/charts → calculate and plot</td>
+<td>Charts, conclusions, complete report file</td>
+<td>Official guidance recommends adding requirements over multiple rounds and clarifying source reliability; business judgments are not correct by default <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three" target="_blank" rel="noopener">S10</a></td>
+</tr>
+<tr class="even">
+<td>Research reports</td>
+<td>Marketing/product: research the AI office-tools market over the past year</td>
+<td>Specify topic, scope, and sources → gather structured data → analyze and lay out</td>
+<td>A visual report with sources</td>
+<td>Source freshness and definitions need separate verification; internet access alone does not make a result reliable <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three" target="_blank" rel="noopener">S10</a></td>
+</tr>
+<tr class="odd">
+<td>Human–AI co-editing: article</td>
+<td>Jiang Yu (journalist): check the day's article, convert selected figures into a table, revise from comments</td>
+<td>Upload a document → select passages/add comments in the right-side Tencent Docs editor → ask AI in chat to edit in place</td>
+<td>Prefer checking suggestions before approving; edits write back to the document</td>
+<td>Media test on 7/30, V5.3.5; experienced Office users may make small edits faster themselves <a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">R01</a></td>
+</tr>
+<tr class="even">
+<td>Human–AI co-editing: expenses</td>
+<td>The same journalist: turn itineraries/invoices into an expense table</td>
+<td>Upload receipts → extract and aggregate fields → add amount-threshold highlighting and charts</td>
+<td>Editable spreadsheet, checkable against each original receipt</td>
+<td>Small, orderly sample; does not establish reliability on complex financial data <a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">R01</a></td>
+</tr>
+<tr class="odd">
+<td>Human–AI co-editing: PPT</td>
+<td>The same journalist: turn a previous year's PDF performance report into a PPT in the same style</td>
+<td>Upload PDF → reproduce its style → add requested images/tables to specified slides</td>
+<td>Editable presentation; manually check layout/facts</td>
+<td>These three tasks come from one review, not three different users <a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">R01</a></td>
+</tr>
+<tr class="even">
+<td>Creative design × Ardot</td>
+<td>Product/operations/design: login pages, landing pages, posters, launch-event PPTs</td>
+<td>Home → Creative Design → authorize Ardot on first use → choose style/placeholders or image generation → edit through selection/language/reference images</td>
+<td>Canvas preview, browser-based Ardot refinement, PPTX/PDF and other exports, continue to generate app code</td>
+<td>The canvas is cloud-based; detailed delivery requires manual editing; official demonstration workflow <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Design-Idea" target="_blank" rel="noopener">S11</a></td>
+</tr>
+<tr class="odd">
+<td>Web apps</td>
+<td>Small teams: course-booking system, smart customer support</td>
+<td>Describe roles/actions/storage → generate website → confirm database/authentication/storage → preview changes → publish</td>
+<td>An independently accessible link; updates require republishing, while the link stays the same</td>
+<td>Published content is visible to anyone with the link; taking it offline retains data, deletion is irreversible <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Web-App" target="_blank" rel="noopener">S12</a></td>
+</tr>
+<tr class="even">
+<td>WeChat mini programs</td>
+<td>Merchants/administration: bookings, registration, equipment lending, reading lists</td>
+<td>Explicitly request a WeChat mini program → generate → preview → enable cloud services → managed upload/review/publication</td>
+<td>Verify the trial/preview version on a real device, then submit through WeChat's process</td>
+<td>Embedded preview ≠ real-device WeChat; login and similar features need device testing; industry qualifications/WeChat review still apply <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Mini-Program" target="_blank" rel="noopener">S13</a></td>
+</tr>
+<tr class="odd">
+<td>Git and parallel development</td>
+<td>Developers: multiple independent changes in the same repository</td>
+<td>Select Base Branch → Worktree task creates an isolated branch → develop in parallel</td>
+<td>Review in file changes/terminal/preview</td>
+<td>Documentation says branches are named automatically; not equivalent to all CodeBuddy IDE features <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Worktree-Task" target="_blank" rel="noopener">S14</a></td>
+</tr>
+<tr class="even">
+<td>Experts</td>
+<td>Office users without specialist expertise: apply legal/operations/data methods to a problem</td>
+<td>Choose a role in Expert Center → provide material and a goal → execute with role-specific methods + tools</td>
+<td>Reports/advice/files from a specialist perspective</td>
+<td>Experts do not increase system permissions; no guarantee of licensed professional service <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center" target="_blank" rel="noopener">S15</a></td>
+</tr>
+<tr class="odd">
+<td>Expert teams</td>
+<td>Complex projects: divide work among roles to produce a complete result</td>
+<td>Choose a team → team lead breaks down the task → multiple experts work in parallel → consolidate</td>
+<td>Integrated delivery; the user must check consistency</td>
+<td>Users have reported interruptions with long tasks and custom models; version-dependent <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center" target="_blank" rel="noopener">S15</a>, <a href="https://linux.do/t/topic/2418174" target="_blank" rel="noopener">R02</a></td>
+</tr>
+<tr class="even">
+<td>Skills</td>
+<td>Repeated-workflow users: reuse organization/writing/API-calling scripts</td>
+<td>Install from the marketplace, upload a package, or describe a skill to create → trigger automatically/manually</td>
+<td>An executed workflow and deliverable files</td>
+<td>Third-party skills may send data out; check source/permissions; toggling off is not uninstalling <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market" target="_blank" rel="noopener">S16</a></td>
+</tr>
+<tr class="odd">
+<td>Connectors / MCP</td>
+<td>Office users: read meetings/docs/email/cloud storage; create events/notifications</td>
+<td>Authorize QQ Mail/Tencent Docs/Meetings/TAPD/Lexiang etc. → invoke in a task</td>
+<td>Query results or actual changes in an external service</td>
+<td>MCP+CLI or Skill+CLI; work can resume after on-demand authorization; domestic/overseas catalogs differ <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Connector" target="_blank" rel="noopener">S17</a></td>
+</tr>
+<tr class="even">
+<td>Standalone agent mailbox</td>
+<td>Forward material to the assistant, ask it to summarize and draft a reply</td>
+<td>Activate an independent agent.qq.com identity → receive notification → add the full email/attachments to a conversation → summarize/reply/forward</td>
+<td>In-app email list and conversation results; outbound sending requires confirmation</td>
+<td>Separate from the personal QQ Mail connector; reading consumes no credits, AI processing does <a href="https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Mailbox" target="_blank" rel="noopener">S18</a></td>
+</tr>
+<tr class="odd">
+<td>Projects</td>
+<td>Teams: work under shared standards and pass tasks to the next colleague</td>
+<td>Configure project instructions/material/tools/experts → new tasks inherit them → share/hand off</td>
+<td>Hand over task files + progress summary + assignee/status/deadline together</td>
+<td>Connectors can use shared or personal authorization; project automations are visible only to their creator <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project" target="_blank" rel="noopener">S19</a></td>
+</tr>
+<tr class="even">
+<td>Library</td>
+<td>Team knowledge management: accumulate documents, tables, and pages instead of scattered chat attachments</td>
+<td>Create/upload/clip/ask the agent to write → bring material into the next task</td>
+<td>Cross-referencing MD, CSV, HTML; dynamic ledger pages are possible</td>
+<td>Do not conflate it with a local folder, an ima personal knowledge base, or a Lexiang enterprise knowledge base <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library" target="_blank" rel="noopener">S20</a></td>
+</tr>
+<tr class="odd">
+<td>Multi-person, multi-agent collaboration</td>
+<td>Teams: revise the same MD file, collaborate on HTML</td>
+<td>Create a team space/authorize → comment on selected text → AI revision proposal → accept to apply</td>
+<td>Comment threads, revisions, shared editing</td>
+<td>The agent reads only content the user can access; enterprises can restrict collaboration outside the organization <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration" target="_blank" rel="noopener">S21</a></td>
+</tr>
+<tr class="even">
+<td>Memory</td>
+<td>Continuing users: retain preferences, relationships, and recent matters</td>
+<td>Enabled by default → extract from conversations nightly → use relevant memories in subsequent tasks</td>
+<td>View/edit/delete/disable in settings; import from other AI tools</td>
+<td>Automatic extraction may need correction; extraction uses no extra credits, and the vendor says it does not share memories with third parties <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Memory" target="_blank" rel="noopener">S22</a></td>
+</tr>
+<tr class="odd">
+<td>Scheduled tasks</td>
+<td>Operations/managers: daily briefs, weekly reports, scheduled data processing</td>
+<td>Name + prompt + directory + model/skills + scheduling rule → run automatically when due</td>
+<td>Save files to a designated location; push to mini program/WeCom, inspect history and deliverables</td>
+<td>Local configuration and execution require an online computer; concurrency/frequency/duration limits apply; not an unlimited always-on autonomous agent <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide" target="_blank" rel="noopener">S23</a></td>
+</tr>
+<tr class="even">
+<td>Mobile remote access</td>
+<td>Commuters/travelers: retrieve computer files remotely, add requirements/approve</td>
+<td>Pair under the same account or bind an IM assistant → send task/material → computer executes</td>
+<td>Mobile deliverable cards, stop/continue conversation, resume on desktop</td>
+<td>Depends on an online computer and existing permissions; not pixel-by-pixel remote-desktop control <a href="https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice" target="_blank" rel="noopener">S04</a>, <a href="https://www.codebuddy.cn/docs/workbuddy/WeixinBot-Guide" target="_blank" rel="noopener">S05</a></td>
+</tr>
+<tr class="odd">
+<td>WeChat chat handoff</td>
+<td>Creators/office users: turn a long sequence of requests into final action items</td>
+<td>Multi-select messages in desktop WeChat → system-share to WB → extract requirements from the messages</td>
+<td>Summary/tasks, with follow-up questions</td>
+<td>The Mac WeChat tutorial has version prerequisites; mobile forwarding boundaries were not uniformly verified <a href="https://www.bilibili.com/video/BV1E1eh6kEUg/" target="_blank" rel="noopener">R07</a>, <a href="https://www.majiabin.com/3438.html" target="_blank" rel="noopener">R08</a></td>
+</tr>
+<tr class="even">
+<td>Browser Use / Computer Use</td>
+<td>People needing website or app operations</td>
+<td>Configure extension/capability and authorize → invoke tools in a task</td>
+<td>Tool activity in the conversation, browser preview, permission-based confirmation</td>
+<td>Current changelog verifies their existence, but no cross-app hardware test was run in this study; having a tool does not prove reliable completion on every website <a href="https://www.workbuddy.cn/docs/workbuddy/Changelog" target="_blank" rel="noopener">S01</a>, <a href="https://www.codebuddy.cn/docs/workbuddy/WeixinBot-Guide" target="_blank" rel="noopener">S05</a>, <a href="https://omnitools.ai/article/workbuddy-2" target="_blank" rel="noopener">R09</a></td>
+</tr>
+<tr class="odd">
+<td>Buddy industry apps</td>
+<td>Industry users: a dedicated workbench with business context</td>
+<td>Enter an industry app → dedicated home + experts/skills/connectors → launch a task</td>
+<td>Domain-specific work products/service calls</td>
+<td>An official ecosystem entry point; announced partner counts are not verified active-user counts <a href="https://open.workbuddy.cn/" target="_blank" rel="noopener">S24</a></td>
+</tr>
+</tbody>
+</table>
+</div><section id="complete-chains-that-explain-why-use-it" class="level3">
+<h3>Complete Chains That Explain “Why Use It?”</h3>
+<ol type="1">
+<li><strong>A journalist writing an article</strong>: Newly written Word document → open on the workbench's right side → select an achievements paragraph and convert it to a table → leave revision comments on the relevant paragraph → ask the agent to execute → inspect the original text. The value is reduced shuttling between chat and document, rather than merely generating another answer. Evidence comes from a named journalist's actual operation, but the sample is limited.<a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">R01</a></li>
+<li><strong>A non-engineering office team</strong>: A manager asks staff to download it → the department deploys internal Skills for requirements, product, and testing → employees use report/PPT tasks. One user finds it too slow; another replies that it is useful for office work. This is evidence of organizational rollout, but the company is unnamed and there is no sustained deployment data.<a href="https://linux.do/t/topic/2589796" target="_blank" rel="noopener">R03</a></li>
+<li><strong>Team project handoff</strong>: An administrator configures project standards and tools → member A generates analytical material → hands deliverables, a progress summary, assignee, and deadline to member B → B continues within that context. This is a documented collaboration mechanism, rather than ordinary sharing of a chat link.<a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project" target="_blank" rel="noopener">S19</a></li>
+<li><strong>Plaud meeting follow-through</strong>: A recording device captures audio → Plaud transcribes/summarizes and synchronizes to the cloud → an authorized WorkBuddy connector retrieves it → creates a weekly report/customer proposal/follow-up email draft → a person checks before sending. MCP reads existing outputs; it does not start recording or retranscribe audio.<a href="https://www.ithome.com/0/997/585.htm" target="_blank" rel="noopener">H03</a>, <a href="https://support.plaud.ai/hc/en-us/articles/57751078986265-Plaud-MCP" target="_blank" rel="noopener">H04</a></li>
+<li><strong>A small merchant's lightweight app</strong>: Describe course booking, student login, and capacity storage → generate an app with a backend → enable cloud services → preview → publish → manually update the live version after subsequent changes. The official tutorial documents a usable product chain; this study found no independent merchant case with ongoing operating bills or retention data.<a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Web-App" target="_blank" rel="noopener">S12</a></li>
+</ol>
+<p><img src="../../media/oct-2026/vibe-interface.jpg" alt="Official Vibe Key Studio configuration"></p>
+<p><em>Official configuration screen: voice, send and stop mappings; not an independent test. <a href="https://docs.ulanzistudio.com/vibekey/en/au05-x/" target="_blank" rel="noopener">Source</a>.</em></p>
+<p><img src="../../media/products/workbuddy-lark-voice.jpg" alt="Official LARK A2 voice and hotkey configuration"></p>
+<p><em>Official configuration image; it does not establish a purchase or reliability test. <a href="https://www.hollyland.com/product/lark-a2" target="_blank" rel="noopener">Source</a>.</em></p>
+</section>
+</section>
+<section id="4-hardware-ecosystem-9-devices--8-brands-with-evidence-separated" class="level2">
+<h2 id="4-hardware-ecosystem-9-devices--8-brands-with-evidence-separated-heading">4. Hardware Ecosystem: 9 Devices / 8 Brands, with Evidence Separated</h2>
+<p>The 2026-09-02 launch featured nine devices from eight brands: Plaud, Rokid, Insta360 (two devices), Ulanzi, iFLYTEK, Anker, Hollyland (猛玛), and JD Jingzao (京东京造). Displaying co-branded devices at a launch <strong>does not mean all nine were on sale that day or all integrations were fully live</strong>. China Securities Journal reporter Zhang Xingwang confirms the 9/2 event; named on-site reporter Bi Weihao confirms the experience. A DoNews article uses 9/3 and explicitly says it was “automatically generated by an intelligent model”; it is not used to establish the event date or as sole evidence.<a href="https://www.cs.com.cn/ssgs/01/2026/09/02/detail_2026090210036517.html" target="_blank" rel="noopener">H01</a>, <a href="https://www.itiger.com/hant/news/2664810300" target="_blank" rel="noopener">H05</a></p>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Product</th>
+<th>Its own hardware/interaction features</th>
+<th>WorkBuddy connection and actual task chain</th>
+<th>Status supported by evidence as of 2026-10-06</th>
+<th>What is still missing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ulanzi AU05-X / Vibe Key co-branded key microphone</strong></td>
+<td>3 keys + dial, microphone, default/quick-task/multitasking presets</td>
+<td>Computer USB-C receiver, factory one-to-one pairing; keys for voice, confirm, cancel, and dial for conversation operations; default WB preset works directly, customization/mode switching requires Studio≥3.3.6</td>
+<td><strong>Complete vendor operating documentation</strong>, not merely a stage concept; Windows10+, macOS12+</td>
+<td>No checkout-level inventory verification or long-term ordinary-user review in this study; shortcut mapping is not semantic control over arbitrary objects; WorkBuddy voice entry is capped at 60 seconds per segment, so longer input must be split; some third-party input apps require Ulanzi Studio to be closed in the background for hotkey compatibility <a href="https://docs.ulanzistudio.com/vibekey/au05-x/" target="_blank" rel="noopener">H02</a></td>
+</tr>
+<tr class="even">
+<td><strong>HOLLYLAND (猛玛) LARK A2 co-branded wireless microphone</strong></td>
+<td>Clip-on audio capture, noise reduction, claimed 7-hour battery life, receiver/Web settings, hotkey templates</td>
+<td>Official collaboration page: single-click activates voice input, long-press deletes, double-click sends; default WB preset, 5 hotkey sets configurable on the Web</td>
+<td><strong>Vendor collaboration page + formal product/manual pages</strong>; button workflow is verifiable, while standard hardware and co-branded firmware/regions must still be distinguished</td>
+<td>200m is an unobstructed laboratory claim, not a real-office guarantee; no independent post-purchase integration reliability rate <a href="https://www.hollyland.com.cn/workbuddy-collaboration-event/" target="_blank" rel="noopener">H06</a>, <a href="https://www.hollyland.com/product/lark-a2" target="_blank" rel="noopener">H07</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Plaud Note Pro WorkBuddy co-branded edition</strong></td>
+<td>AI recording card; recording/transcription/summarization occur on Plaud's side</td>
+<td>Two routes: Ask WorkBuddy inside the Plaud app generates PPTs/proposals; WB uses official MCP to read cloud-synchronized recording transcripts/summaries/action items</td>
+<td>Collaboration coverage explicitly says <strong>Ask WorkBuddy and MCP are live; the co-branded edition and more features will follow</strong></td>
+<td>Ordinary Note Pro sales cannot prove the co-branded edition has shipped; its actual SKU/listing remains unverified <a href="https://www.ithome.com/0/997/585.htm" target="_blank" rel="noopener">H03</a>, <a href="https://support.plaud.ai/hc/en-us/articles/57751078986265-Plaud-MCP" target="_blank" rel="noopener">H04</a></td>
+</tr>
+<tr class="even">
+<td><strong>Insta360 Wave</strong></td>
+<td>Desktop/meeting-room omnidirectional microphone, recording/meeting use cases, displays WB content</td>
+<td>Capture meeting audio → connect to agent → minutes/action items/follow-up material; vendor collaboration statements are verifiable through the announcement</td>
+<td>9/2 collaboration announcement; 9/4 coverage says <strong>an upgrade is coming / it will serve as an audio entry point in the future</strong></td>
+<td>Minimum OTA firmware, rollout, binding steps, and independent reproduction of the whole chain remain unverified; do not claim the complete workflow works immediately after purchase <a href="https://g.pconline.com.cn/x/2181/21815587.html" target="_blank" rel="noopener">H08</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Insta360 Mic Pro</strong></td>
+<td>Mobile clip-on microphone, color e-ink screen (reported), interview audio capture in the field</td>
+<td>Record interviews/conversations → upload to WB → transcribe, summarize, extract action items</td>
+<td>Same collaboration as Wave; <strong>demonstration/integration announcement exists</strong></td>
+<td>Do not conflate the Tencent Meeting co-branded version, WB co-branded version, and ordinary hardware; verify sale availability and live WB functionality separately <a href="https://g.pconline.com.cn/x/2181/21815587.html" target="_blank" rel="noopener">H08</a></td>
+</tr>
+<tr class="even">
+<td><strong>JD Jingzao JOY A1 smart recording card</strong></td>
+<td>On-site sound capture, transcription</td>
+<td>Send recording content to WB → minutes, key conclusions, action items</td>
+<td>Brand's official Weibo post on 9/1 says <strong>coming soon</strong>, previewing the 9/2 launch</td>
+<td>No formal manual, account-binding/cloud-sync steps, October inventory, or user reproduction found in this study; do not invent a direct Bluetooth route <a href="https://weibo.com/2/detail/5338342339641554" target="_blank" rel="noopener">H09</a></td>
+</tr>
+<tr class="odd">
+<td><strong>iFLYTEK AI translation earbuds (more specific model unverified)</strong></td>
+<td>Launch claims real-time simultaneous interpretation across languages</td>
+<td>Listen to a conversation → simultaneous interpretation → organize points/minutes/business email</td>
+<td><strong>Co-branded display and collaboration statement are verifiable</strong></td>
+<td>No brand-model/firmware-specific WB operating manual found; reject the SEO article's claim that A1 Pro/A2 Max/Neo are the “only officially supported models” <a href="https://www.itiger.com/hant/news/2664810300" target="_blank" rel="noopener">H05</a>, <a href="https://m.php.cn/faq/3177031.html" target="_blank" rel="noopener">H10</a></td>
+</tr>
+<tr class="even">
+<td><strong>Anker desktop AI companion (commercial model unverified)</strong></td>
+<td>Desktop pet/desktop interaction; demonstrated concept displays status and key action items</td>
+<td>Assign by voice/touchscreen → WB cloud task → on-screen status/confirmation</td>
+<td>On-site reporting and interview with Anker staff are verifiable; a customized WB SKU, with <strong>no formal sale/manual confirmed in this study</strong></td>
+<td>A booth display does not establish in-stock availability; an institutional secondary summary says year-end launch, but no first-party brand date was obtained, so it is not treated as released <a href="https://www.eeo.com.cn/2026/0904/1023455.shtml" target="_blank" rel="noopener">H11</a>, <a href="https://timeline.sohu.com/news/LdCVbGXw4I?from=news" target="_blank" rel="noopener">H12</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Rokid AI glasses (specific co-branded model unverified)</strong></td>
+<td>Microphone, camera, in-view interaction page</td>
+<td>On-site reporter: wake WB by voice → take/upload photo → search</td>
+<td><strong>A reporter tried this short chain on site</strong></td>
+<td>No long-term buyer verification; successful photo search through glasses does not establish a mature, fully automated meeting/email loop <a href="https://www.itiger.com/hant/news/2664810300" target="_blank" rel="noopener">H05</a></td>
+</tr>
+</tbody>
+</table>
+</div><section id="at-least-three-distinct-integration-routes" class="level3">
+<h3>At Least Three Distinct Integration Routes</h3>
+<ul>
+<li><strong>Computer audio + shortcut peripherals</strong>: AU05-X and LARK A2. They reduce the effort of launching, dictating, sending, and switching tasks; execution remains in WorkBuddy. They are not standalone computing/offline agents.</li>
+<li><strong>Existing vertical app + MCP/embedded agent</strong>: Plaud. Hardware captures first, the app transcribes first, and WorkBuddy then handles downstream work. This route most clearly explains “what happens after recording.”</li>
+<li><strong>Dedicated agent terminals / audiovisual entry points</strong>: Anker desktop companion, Rokid glasses, and other launch-event terminals. Their value is on-site input, status, and confirmation, but public evidence for a complete consumer-ready chain is substantially thinner than for the first two categories.</li>
+</ul>
+<p>The hardware list is not nine independent user success stories; nine devices also do not mean nine different agent intelligences.</p>
+</section>
+</section>
+<section id="5-real-user-voices-identify-the-person-task-version-and-commercial-relationship" class="level2">
+<h2 id="5-real-user-voices-identify-the-person-task-version-and-commercial-relationship-heading">5. Real User Voices: Identify the Person, Task, Version, and Commercial Relationship</h2>
+<p>Likes are not satisfaction rates, and republications of the same article are not independent samples. Forum posts are self-reports; identity/device/version usually cannot be verified. Commenters' guesses about causes are kept separate from observed behavior.</p>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Source, author, date/version</th>
+<th>What they actually did/observed</th>
+<th>Likes/pain points and relevant features</th>
+<th>Weight and commercial interests</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R01</td>
+<td>Zhidx (智东西), Jiang Yu, 2026-07-30, reports V5.3.5</td>
+<td>Three operations with screenshots: article, expense receipts, old PDF to PPT</td>
+<td>Likes editing the same document directly without moving material; manual work is faster for small changes; orderly-sample limitation</td>
+<td>Named journalist's first-person account; launch-period media article, no sponsorship disclosure seen, so commercial independence cannot be asserted</td>
+</tr>
+<tr class="even">
+<td>R02</td>
+<td>Linux DO tiz hihua8 (username tizhihua8), malim, soule, 6/16–6/30, no version</td>
+<td>Custom-model expert teams/long tasks, a few documents and small bugs</td>
+<td>More interruptions with custom models, interrupted long tasks, frequent updates; documents/small tasks reasonably usable</td>
+<td>Ordinary forum self-reports, no test logs; one enterprise-edition sales advertisement excluded</td>
+</tr>
+<tr class="odd">
+<td>R03</td>
+<td>Linux DO randomfuk, Kurakl, others, 7/15–7/16</td>
+<td>Required by a manager to install; created experts/PPTs, searched using MD; another says their department bought enterprise and developed internal Skills</td>
+<td>Complaints that workflows are too slow and complex; another reply finds it useful for office work; organizational adoption is sometimes imposed rather than requested</td>
+<td>Anonymous workplace self-reports, no exact version/deliverables; durations are not treated as benchmarks</td>
+</tr>
+<tr class="even">
+<td>R04</td>
+<td>Linux DO cxuanAI tutorial and PixlPanda comment, 9/1</td>
+<td>Tutorial shows analysis/experts/library; commenter says they use it for simple small tasks</td>
+<td>Positives: no configuration, easy to use; not professional enough</td>
+<td>cxuanAI is a content author; comment describes lightweight actual use, with unclear commercial relationship</td>
+</tr>
+<tr class="odd">
+<td>R05</td>
+<td>Linux DO salsal101, 472965913, weiyong996, 9/11–9/12</td>
+<td>Change settings, optimize a Skill; some run lightweight tasks</td>
+<td>Users report half an hour for a small setting change, a Skill still being optimized after two hours; lightweight tasks acceptable</td>
+<td>No reproduction experiment; “overlong built-in prompts caused it” is a commenter's guess, not an established root cause</td>
+</tr>
+<tr class="even">
+<td>R06</td>
+<td>Linux DO CCTV911 and 11 readable replies, 9/26–9/27</td>
+<td>Launch to claim credits, long conversations, input-method latency</td>
+<td>Slow startup, lag in long conversations, occasional empty tool responses; at least two people say theirs works normally/smoothly</td>
+<td>No standardized hardware/version; timing overlaps subsequent 9/28 and 10/3 fixes, so it cannot establish that all users still experience lag today</td>
+</tr>
+<tr class="odd">
+<td>R07</td>
+<td>Bilibili Sen Chongchong Jinhua Zhong (森虫虫进化中), 9/19, 6:09 video</td>
+<td>Pass repeatedly changing WeChat requirements to WB for organization</td>
+<td>Emphasizes avoiding copying/screenshots, making small tasks more worth delegating to AI</td>
+<td>Self-described AI creator with business contact; only the description was read, not the full video/comments; no invented success rates/timestamps</td>
+</tr>
+<tr class="even">
+<td>R08</td>
+<td>Lao Ma / majiabin, Mac WeChat 4.1.13 tutorial</td>
+<td>Multi-select WeChat messages and system-share to WB</td>
+<td>Reduces material transfer; mobile app unsupported at the time, official-site WeChat build required</td>
+<td>Personal first-person illustrated tutorial; not representative of every platform in later versions</td>
+</tr>
+<tr class="odd">
+<td>R09</td>
+<td>AI Jiaoyuan (AI教员), original WeChat article 6/30, Gongju Yanjiusuo (工具研究所) republication 7/1</td>
+<td>Migrate Qoder Work's Computer Use capability to WB; first screenshot actually used Python, then tool invocation succeeded after configuring MCP</td>
+<td>Shows that “task succeeded” does not mean “the claimed tool was used”; skills still need an execution connection</td>
+<td>Author's technical hands-on work, not the default out-of-box experience; do not conflate older DIY capability with today's built-in capability</td>
+</tr>
+<tr class="even">
+<td>R10</td>
+<td>Bilibili project-management course, 9/18, BV1pHe16sEdj</td>
+<td>Episodes cover custom experts, kanban, project weekly reports, TAPD/WeCom/docs integration, plus a dedicated limitations chapter</td>
+<td>Indicates demand for instruction on project/tool integration; cannot evaluate it solely as a chat product</td>
+<td>Page promotes 1-to-1 courses; only episode list/description verified, not an independent review without commercial interests</td>
+</tr>
+<tr class="odd">
+<td>R11</td>
+<td>Bilibili Su Xinghe Niutong (苏星河牛通), 7/13, BV15VNm6BETv</td>
+<td>Page contains a positive short WorkBuddy review, with million-scale views</td>
+<td>Demonstrates exposure/content marketing, not real office productivity</td>
+<td>Author publishes a business contact; sponsorship unverified, and the title “crushing it” is not treated as an objective test conclusion</td>
+</tr>
+</tbody>
+</table>
+</div><section id="what-the-feedback-reasonably-supports" class="level3">
+<h3>What the Feedback Reasonably Supports</h3>
+<ul>
+<li><strong>Established positive product points</strong>: A named article's hands-on work supports in-place co-editing; lightweight forum users in September appreciate simple tasks and lack of configuration; some cross-device users appreciate seeing and replying to computer tasks.<a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">R01</a>, <a href="https://linux.do/t/topic/2838397" target="_blank" rel="noopener">R04</a>, <a href="https://linux.do/t/topic/2722657?tl=en" target="_blank" rel="noopener">R12</a></li>
+<li><strong>Specific pain point 1: Mismatched task size.</strong> Sending a small edit through a complex agent chain may cost more waiting/explanation than doing it manually. This appears in both July and September accounts and cannot all be attributed to model knowledge.</li>
+<li><strong>Specific pain point 2: Long-workflow reliability.</strong> There are historical interruption reports involving expert teams, custom models, long conversations, and authorization/connection recovery. Corresponding fixes do appear in the official changelog, but a fix announcement does not prove every real-world issue has disappeared.</li>
+<li><strong>Specific pain point 3: Runtime visibility and startup overhead.</strong> A sense that it is “stuck/still processing/returning nothing” affects trust in delivery. This combines UI, runtime, and environment issues. Forum theories involving disk scanning, antivirus, or prompts remain unproven.</li>
+<li><strong>Evidence still insufficient</strong>: Several weeks of business success rates for ordinary finance/HR/sales users, actual costs after payment, post-purchase hardware retention, and permissions/collaboration incidents as teams scale. A remark such as “one day's work reduced to an hour” cannot become a quantitative conclusion.</li>
+</ul>
+</section>
+</section>
+<section id="6-recent-versions-costs-and-safety-determine-practical-usability" class="level2">
+<h2 id="6-recent-versions-costs-and-safety-determine-practical-usability-heading">6. Recent Versions, Costs, and Safety Determine Practical Usability</h2>
+<section id="version-snapshot" class="level3">
+<h3>Version Snapshot</h3>
+<p>Official 5.7.6 (10/4) fixes failure to create local tasks, PPTX previews, and cloud assistants not replying; 5.7.5 (10/3) adds a combined scheduled-task timeline/deliverable notifications and fixes incomplete long-conversation history and context loss after cancellation; 5.7.0 (9/28) adds global search and workspace trust confirmation; 5.6.0 (9/19) records Browser Use compatibility with Edge/QQ Browser, tool-display improvements, and voice improvements.<a href="https://www.workbuddy.cn/docs/workbuddy/Changelog" target="_blank" rel="noopener">S01</a> <strong>These establish versions and historical faults, not that those faults still exist or are now 100% resolved.</strong></p>
+<p>Version sources also conflict: the 7/30 media report calls V5.3.5 newly launched that day, while the official changelog dates 5.3.5 to 7/25 and 5.3.6 to 7/28. Retain the report's account of the tested version without using it to assert an exact first-release date.<a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">R01</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/Changelog" target="_blank" rel="noopener">S01</a></p>
+</section>
+<section id="personal-edition-pricing-official-page-retrieved-2026-10-06" class="level3">
+<h3>Personal-Edition Pricing (Official Page, Retrieved 2026-10-06)</h3>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Tier</th>
+<th style="text-align: right;">Standard monthly payment</th>
+<th style="text-align: right;">Auto-renewing monthly subscription</th>
+<th style="text-align: right;">Annual fee</th>
+<th style="text-align: right;">Base credits/month</th>
+<th style="text-align: right;">Library</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Trial</td>
+<td style="text-align: right;">Free</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">5GB</td>
+</tr>
+<tr class="even">
+<td>Standard</td>
+<td style="text-align: right;">¥99</td>
+<td style="text-align: right;">¥70</td>
+<td style="text-align: right;">¥672</td>
+<td style="text-align: right;">2,000</td>
+<td style="text-align: right;">10GB</td>
+</tr>
+<tr class="odd">
+<td>Advanced</td>
+<td style="text-align: right;">¥199</td>
+<td style="text-align: right;">¥140</td>
+<td style="text-align: right;">¥1,344</td>
+<td style="text-align: right;">4,000</td>
+<td style="text-align: right;">20GB</td>
+</tr>
+<tr class="even">
+<td>Flagship</td>
+<td style="text-align: right;">¥999</td>
+<td style="text-align: right;">¥700</td>
+<td style="text-align: right;">¥6,720</td>
+<td style="text-align: right;">20,000</td>
+<td style="text-align: right;">50GB</td>
+</tr>
+</tbody>
+</table>
+</div><p>Limited-time bonus credits and free benefits must not be described as permanent. WorkBuddy and CodeBuddy share credits under the same account. Continuous subscriptions renew automatically. The official top-up page lists 1,000 credits for ¥50, valid for one month and nonrefundable once activated. Actual task costs vary with the model and call chain; credit counts cannot be equated directly with numbers of tasks.<a href="https://www.workbuddy.cn/docs/workbuddy/Pricing" target="_blank" rel="noopener">S25</a></p>
+</section>
+<section id="safety-and-acceptance-of-results" class="level3">
+<h3>Safety and Acceptance of Results</h3>
+<p>Default permissions request confirmation before sensitive-path access, significant deletions, and high-risk script/network operations. Full access reduces intervention and should not be treated as the recommended default. Skills may run scripts and send data to third parties; project-level shared authorization differs from personal authorization; team-space permissions also constrain the agent. The assistant's independent mailbox retains confirmation for outbound sending. A button for a high-risk action does not replace checking whether the deliverable is correct.<a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market" target="_blank" rel="noopener">S16</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Connector" target="_blank" rel="noopener">S17</a>, <a href="https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Mailbox" target="_blank" rel="noopener">S18</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project" target="_blank" rel="noopener">S19</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration" target="_blank" rel="noopener">S21</a>, <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes" target="_blank" rel="noopener">S26</a></p>
+</section>
+</section>
+<section id="7-image-and-demonstration-sources" class="level2">
+<h2 id="7-image-and-demonstration-sources-heading">7. Image and Demonstration Sources</h2>
+<p>Images should be labeled as vendor illustrations, documentation screenshots, or journalists' on-site photos, never “our hands-on test.” Third-party image links support citation and verification; they do not automatically grant republication rights.</p>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Material</th>
+<th>Direct URL/source page</th>
+<th>Suggested caption</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ulanzi configuration interface</td>
+<td><a href="https://docs.ulanzistudio.com/assets/05-device-page.B7jgh8zc.png" target="_blank" rel="noopener">https://docs.ulanzistudio.com/assets/05-device-page.B7jgh8zc.png</a></td>
+<td>Vibe Key device page in the vendor tutorial: wake, voice, send, and stop mapping categories</td>
+<td>Image link opened successfully; source H02</td>
+</tr>
+<tr class="even">
+<td>LARK A2 button interaction</td>
+<td><a href="https://cdn.moma.com.cn/product-resource/workBuddy/WorkBuddy-pc-5.1-1.webp" target="_blank" rel="noopener">https://cdn.moma.com.cn/product-resource/workBuddy/WorkBuddy-pc-5.1-1.webp</a></td>
+<td>Button-based voice workflow illustration from the official collaboration page; follow the main text for exact single-click/long-press/double-click behavior</td>
+<td>Image link opened successfully; source H06</td>
+</tr>
+<tr class="odd">
+<td>LARK A2 voice coding control</td>
+<td><a href="https://cdn.hollyland.com/file/product/lark-a2/images/vibe-hands-free.png" target="_blank" rel="noopener">https://cdn.hollyland.com/file/product/lark-a2/images/vibe-hands-free.png</a></td>
+<td>Global product page showing voice + shortcuts, distinct from ordinary audio capture</td>
+<td>Image link opened successfully; source H07</td>
+</tr>
+<tr class="even">
+<td>Software co-editing overview/selection/comments/table</td>
+<td><a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">https://zhidx.com/p/581004.html</a></td>
+<td>Jiang Yu's public 7/30 hands-on report: tasks on the left, editable document on the right</td>
+<td>Page readable; opening image sources separately failed; no fabricated download path</td>
+</tr>
+<tr class="odd">
+<td>Project configuration, handoff, and asset screenshots</td>
+<td>S19 official project documentation</td>
+<td>Projects carry instructions, connectors, skills, and material into subsequent tasks</td>
+<td>Documentation readable; some download.codebuddy.cn image links failed when opened directly</td>
+</tr>
+<tr class="even">
+<td>Ardot canvas selection and style templates</td>
+<td>S11 official documentation</td>
+<td>Chat generation → local canvas adjustments → browser refinement → export/generate code</td>
+<td>Verifiable on the source page</td>
+</tr>
+<tr class="odd">
+<td>On-site photo of the nine devices</td>
+<td><a href="https://www.itiger.com/hant/news/2664810300" target="_blank" rel="noopener">https://www.itiger.com/hant/news/2664810300</a></td>
+<td>Bi Weihao's 9/2 launch-event reporting; display does not mean released</td>
+<td>Full text and image-link directory readable; original publisher Zhidx</td>
+</tr>
+<tr class="even">
+<td>Bilibili WeChat-message workflow</td>
+<td><a href="https://www.bilibili.com/video/BV1E1eh6kEUg/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1E1eh6kEUg/</a></td>
+<td>Sen Chongchong Jinhua Zhong, 9/19: handing off chat messages; full length 6:09</td>
+<td>Only the page description verified; no substantiated segment timestamps obtained</td>
+</tr>
+<tr class="odd">
+<td>Bilibili project-management course</td>
+<td><a href="https://www.bilibili.com/video/BV1pHe16sEdj/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1pHe16sEdj/</a></td>
+<td>9/18 project-management instruction; episode 7 custom experts 3:27, episode 8 kanban 3:02, episode 9 weekly reports 1:43, episode 11 limitations 8:28</td>
+<td>These are <strong>episode durations, not timestamps in one full video</strong>; content not watched, no quotations generated</td>
+</tr>
+<tr class="even">
+<td>Bilibili Su Xinghe short review</td>
+<td><a href="https://www.bilibili.com/video/BV15VNm6BETv/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV15VNm6BETv/</a></td>
+<td>7/13 content-distribution sample, not outcome statistics</td>
+<td>Only author and title/date verified; no fabricated comments</td>
+</tr>
+</tbody>
+</table>
+</div></section>
+<section id="8-assessments-ready-for-competitive-comparison" class="level2">
+<h2 id="8-assessments-ready-for-competitive-comparison-heading">8. Assessments Ready for Competitive Comparison</h2>
+<ol type="1">
+<li><strong>Strong breadth</strong>: Documents/data/design/app development, team projects, connectors, and Chinese office services in one product make it a more complete workbench than “universal Q&amp;A.”</li>
+<li><strong>Context is already productized</strong>: Project-asset RAG, personal memory, task handoffs, references, shared libraries, and in-place editing all exist. Competitors cannot establish a new category merely by promising to avoid copy-and-paste.</li>
+<li><strong>Uneven hardware-integration maturity</strong>: AU05-X and LARK A2 control mappings and Plaud MCP have actionable documentation; some of the nine co-branded devices have reached only display/collaboration-announcement status. Label these separately as “documented and operable,” “vendor says live,” “reporter demonstrated a short chain,” or “awaiting version/unknown.”</li>
+<li><strong>Clear usage friction</strong>: Startup/long-conversation/long-task stability, model/tool-configuration boundaries, and orchestration delays for small tasks are more testable pain points than the abstract claim that “AI is not smart enough.”</li>
+<li><strong>Insufficient naturalistic validation</strong>: Public material is dominated by launch-period media, training, and tip promotion, with little longitudinal evidence from ordinary business users. This is a research limitation, not grounds to infer either “nobody uses it” or “it must be reliable.”</li>
+</ol>
+</section>
+<section id="9-source-register" class="level2">
+<h2 id="9-source-register-heading">9. Source Register</h2>
+<p>All rolling official documentation was read on 2026-10-06. No stable publication date is invented when none is shown. Documentation provides feature promises and operating steps; it is not an independent experience evaluation.</p>
+<section id="main-software-sources" class="level3">
+<h3>Main Software Sources</h3>
+<ul>
+<li>S01 Changelog: <a href="https://www.workbuddy.cn/docs/workbuddy/Changelog" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/Changelog</a></li>
+<li>S02 Product introduction: <a href="https://www.workbuddy.cn/docs/workbuddy/" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/</a></li>
+<li>S03 Tencent Cloud enterprise project dual mode: <a href="https://cloud.tencent.com/document/product/1831/138797" target="_blank" rel="noopener">https://cloud.tencent.com/document/product/1831/138797</a></li>
+<li>S04 App multi-device collaboration: <a href="https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddyapp/features/Multidevice</a></li>
+<li>S05 Official WeChat assistant: <a href="https://www.codebuddy.cn/docs/workbuddy/WeixinBot-Guide" target="_blank" rel="noopener">https://www.codebuddy.cn/docs/workbuddy/WeixinBot-Guide</a></li>
+<li>S06 Assistants: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Assistant" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Assistant</a></li>
+<li>S07 Task conversations: <a href="https://www.workbuddy.cn/docs/workbuddy/Conversation" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/Conversation</a></li>
+<li>S08 Reviewing results: <a href="https://www.workbuddy.cn/docs/workbuddy/Results" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/Results</a></li>
+<li>S09 Official file-processing practice: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-One" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-One</a></li>
+<li>S10 Official data-analysis practice: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Practice-Cases/Practice-Three</a></li>
+<li>S11 Ardot design: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Design-Idea" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Design-Idea</a></li>
+<li>S12 Web apps: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Web-App" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Web-App</a></li>
+<li>S13 Mini programs: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Mini-Program" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Mini-Program</a></li>
+<li>S14 Git parallel development: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Worktree-Task" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Worktree-Task</a></li>
+<li>S15 Experts: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center</a></li>
+<li>S16 Skills: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market</a> and <a href="https://open.workbuddy.cn/docs/skill" target="_blank" rel="noopener">https://open.workbuddy.cn/docs/skill</a></li>
+<li>S17 Connectors: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Connector" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Connector</a> and <a href="https://open.workbuddy.cn/docs/connector" target="_blank" rel="noopener">https://open.workbuddy.cn/docs/connector</a></li>
+<li>S18 My mailbox: <a href="https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Mailbox" target="_blank" rel="noopener">https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Mailbox</a></li>
+<li>S19 Projects: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Project</a></li>
+<li>S20 Library: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library</a></li>
+<li>S21 Collaboration: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration</a></li>
+<li>S22 Memory: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Memory" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Memory</a></li>
+<li>S23 Automation: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide</a></li>
+<li>S24 Open platform: <a href="https://open.workbuddy.cn/" target="_blank" rel="noopener">https://open.workbuddy.cn/</a> and official API <a href="https://open.workbuddy.cn/docs/openapi" target="_blank" rel="noopener">https://open.workbuddy.cn/docs/openapi</a></li>
+<li>S25 Pricing: <a href="https://www.workbuddy.cn/docs/workbuddy/Pricing" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/Pricing</a></li>
+<li>S26 Permissions: <a href="https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes" target="_blank" rel="noopener">https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes</a></li>
+</ul>
+</section>
+<section id="hardware-and-ecosystem-sources" class="level3">
+<h3>Hardware and Ecosystem Sources</h3>
+<ul>
+<li>H01 Zhang Xingwang / China Securities Journal, 2026-09-02, named reporting: <a href="https://www.cs.com.cn/ssgs/01/2026/09/02/detail_2026090210036517.html" target="_blank" rel="noopener">https://www.cs.com.cn/ssgs/01/2026/09/02/detail_2026090210036517.html</a></li>
+<li>H02 Ulanzi vendor tutorial: <a href="https://docs.ulanzistudio.com/vibekey/au05-x/" target="_blank" rel="noopener">https://docs.ulanzistudio.com/vibekey/au05-x/</a></li>
+<li>H03 Republication of Plaud collaboration statement, IT Home 9/2, author field empty, clearly brand messaging and quotation ends with “tentative”; not an independent review: <a href="https://www.ithome.com/0/997/585.htm" target="_blank" rel="noopener">https://www.ithome.com/0/997/585.htm</a></li>
+<li>H04 Plaud official MCP support page, updated 9/22: <a href="https://support.plaud.ai/hc/en-us/articles/57751078986265-Plaud-MCP" target="_blank" rel="noopener">https://support.plaud.ai/hc/en-us/articles/57751078986265-Plaud-MCP</a></li>
+<li>H05 Bi Weihao / Zhidx, 9/2 on-site experience, full republication on Tiger: <a href="https://www.itiger.com/hant/news/2664810300" target="_blank" rel="noopener">https://www.itiger.com/hant/news/2664810300</a> ; Sina republication <a href="https://finance.sina.cn/stock/jdts/2026-09-02/detail-iniqnawn4570896.d.html" target="_blank" rel="noopener">https://finance.sina.cn/stock/jdts/2026-09-02/detail-iniqnawn4570896.d.html</a></li>
+<li>H06 Hollyland official collaboration-event page: <a href="https://www.hollyland.com.cn/workbuddy-collaboration-event/" target="_blank" rel="noopener">https://www.hollyland.com.cn/workbuddy-collaboration-event/</a> (residual 2024 template date <strong>cannot establish the actual publication date</strong>)</li>
+<li>H07 Hollyland formal product/support pages: <a href="https://www.hollyland.com/product/lark-a2" target="_blank" rel="noopener">https://www.hollyland.com/product/lark-a2</a> and <a href="https://www.hollyland.com/support/lark-a2" target="_blank" rel="noopener">https://www.hollyland.com/support/lark-a2</a> (manual dated 9/8)</li>
+<li>H08 Insta360 collaboration-announcement coverage, PConline 9/4: <a href="https://g.pconline.com.cn/x/2181/21815587.html" target="_blank" rel="noopener">https://g.pconline.com.cn/x/2181/21815587.html</a></li>
+<li>H09 JD Jingzao brand Weibo, 9/1: <a href="https://weibo.com/2/detail/5338342339641554" target="_blank" rel="noopener">https://weibo.com/2/detail/5338342339641554</a></li>
+<li>H10 Counterexample source for unverified iFLYTEK models, PHP Chinese Network SEO article; <strong>model and procedure claims excluded</strong>: <a href="https://m.php.cn/faq/3177031.html" target="_blank" rel="noopener">https://m.php.cn/faq/3177031.html</a></li>
+<li>H11 Economic Observer on-site interview, 9/4: <a href="https://www.eeo.com.cn/2026/0904/1023455.shtml" target="_blank" rel="noopener">https://www.eeo.com.cn/2026/0904/1023455.shtml</a></li>
+<li>H12 Detailed launch-display account, Sohu republication: <a href="https://timeline.sohu.com/news/LdCVbGXw4I?from=news" target="_blank" rel="noopener">https://timeline.sohu.com/news/LdCVbGXw4I?from=news</a> (insufficient identity/commercial-relationship information; Anker display details are low-weight supplementary evidence only)</li>
+<li>H13 Leikeji, Sanmingzhi (三明治), invited to the 9/2 event, explicitly mentions other unfinished terminals: <a href="https://origin.leikeji.com/article/79118" target="_blank" rel="noopener">https://origin.leikeji.com/article/79118</a></li>
+</ul>
+</section>
+<section id="experience-and-user-sources" class="level3">
+<h3>Experience and User Sources</h3>
+<ul>
+<li>R01 <a href="https://zhidx.com/p/581004.html" target="_blank" rel="noopener">https://zhidx.com/p/581004.html</a></li>
+<li>R02 <a href="https://linux.do/t/topic/2418174" target="_blank" rel="noopener">https://linux.do/t/topic/2418174</a></li>
+<li>R03 <a href="https://linux.do/t/topic/2589796" target="_blank" rel="noopener">https://linux.do/t/topic/2589796</a></li>
+<li>R04 <a href="https://linux.do/t/topic/2838397" target="_blank" rel="noopener">https://linux.do/t/topic/2838397</a></li>
+<li>R05 <a href="https://linux.do/t/topic/2891946/1" target="_blank" rel="noopener">https://linux.do/t/topic/2891946/1</a></li>
+<li>R06 <a href="https://linux.do/t/topic/2953154?tl=zh_CN" target="_blank" rel="noopener">https://linux.do/t/topic/2953154?tl=zh_CN</a></li>
+<li>R07 <a href="https://www.bilibili.com/video/BV1E1eh6kEUg/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1E1eh6kEUg/</a></li>
+<li>R08 <a href="https://www.majiabin.com/3438.html" target="_blank" rel="noopener">https://www.majiabin.com/3438.html</a></li>
+<li>R09 <a href="https://omnitools.ai/article/workbuddy-2" target="_blank" rel="noopener">https://omnitools.ai/article/workbuddy-2</a> (original WeChat article <a href="https://mp.weixin.qq.com/s/g7gw7msJQh85mugdKnsG7g" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/g7gw7msJQh85mugdKnsG7g</a> )</li>
+<li>R10 <a href="https://www.bilibili.com/video/BV1pHe16sEdj/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1pHe16sEdj/</a></li>
+<li>R11 <a href="https://www.bilibili.com/video/BV15VNm6BETv/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV15VNm6BETv/</a></li>
+<li>R12 Linux DO Visor, 8/8 cross-device comment: <a href="https://linux.do/t/topic/2722657?tl=en" target="_blank" rel="noopener">https://linux.do/t/topic/2722657?tl=en</a></li>
+</ul>
+</section>
+<section id="explicitly-downweightedexcluded" class="level3">
+<h3>Explicitly Downweighted/Excluded</h3>
+<ul>
+<li><a href="https://www.donews.com/news/detail/4/6696290.html" target="_blank" rel="noopener">https://www.donews.com/news/detail/4/6696290.html</a> is labeled AI-generated and has a different date from other on-site reports; not evidence that all nine devices launched for sale.</li>
+<li><a href="https://www.cocoloop.cn/t/topic/2792" target="_blank" rel="noopener">https://www.cocoloop.cn/t/topic/2792</a> has a 4/11 title claiming three months of extensive use; it might include a beta period, but no evidence explains it, so it is not accepted as three months of ordinary-user validation.</li>
+<li><a href="https://techminds.cn/blog/zh/workbuddy-ai-office-agent-review-2026/" target="_blank" rel="noopener">https://techminds.cn/blog/zh/workbuddy-ai-office-agent-review-2026/</a> discloses affiliate links and lacks inspectable original task material; figures such as “saves an hour daily” are not adopted.</li>
+<li><a href="https://cloud.tencent.cn/developer/article/2704221" target="_blank" rel="noopener">https://cloud.tencent.cn/developer/article/2704221</a> claims one month of use, by user12605672 in a developer-sharing event; version and deliverables are missing. It is a low-weight lead, and claims such as “accidentally deleted important files” are not presented as confirmed incidents.</li>
+<li>The author of a Reddit post about company training says they did not attend or use the product; it is not a product-experience account. This study invented no Reddit/YouTube comments.</li>
+</ul>
+</section>
+</section>
+<section id="10-checklist-for-hands-on-verification" class="level2">
+<h2 id="10-checklist-for-hands-on-verification-heading">10. Checklist for Hands-On Verification</h2>
+<p>The full-product review of public evidence is complete, but “comprehensive research” must not masquerade as hands-on testing that was never done. Priority gaps: ① the current personal edition's local/cloud feature matrix; ② concurrent human/AI editing and undo in the same complex Office file; ③ 8-hour tasks, screen lock, and reconnection recovery; ④ exact SKUs, firmware, regions, inventory, and subscription dependencies for all nine devices; ⑤ replayable tasks using real materials from ordinary HR/finance/sales users. Each test should retain version, model, original input, execution record, output, elapsed time, and human corrections to support fair cross-product comparisons.</p>
+</section>
+</div><footer class="footer">Official claims, third-party testing and individual feedback are labeled separately. Individual reports do not establish overall satisfaction. Unknown and unverified points remain explicit evidence gaps.<br><a href="workbuddy-2026-10-06.en.md">Read this research snapshot</a> · <a href="../../index.en.html">Back to interaction index</a></footer></main></div></body></html>

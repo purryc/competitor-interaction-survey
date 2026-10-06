@@ -7,14 +7,17 @@
     "mobile_index_features": 179,
     "q3_features": 35,
     "q3_hardware_cards": 7,
-    "total_cards": 264,
+    "total_cards": 274,
     "legacy_local_resources": 1950,
     "q3_png": 269,
     "q3_mp4": 32,
-    "published_video_count": 235,
-    "published_video_bytes": 168540803,
-    "total_files_in_repository": 2421,
-    "oct_2026_features": 43
+    "published_video_count": 237,
+    "published_video_bytes": 169112159,
+    "total_files_in_repository": 2522,
+    "oct_2026_features": 43,
+    "product_dossiers": 16,
+    "product_dossier_languages": 2,
+    "new_product_entry_cards": 10
   },
   "files": [
     {
@@ -28,8 +31,8 @@
       "group": "generated",
       "source_relative": "data/catalog.json",
       "portable_path": "data/catalog.json",
-      "bytes": 780881,
-      "sha256": "782cde42a8f500d742d9c2c259c0304a069e04422227b30911362009560298ec"
+      "bytes": 845196,
+      "sha256": "d096f3382b81926977183f2b5758ae9c4a89608ba6626c9f6831689609977a16"
     },
     {
       "group": "mobile-v2-doc",
@@ -819,8 +822,8 @@
       "group": "generated",
       "source_relative": "index.html",
       "portable_path": "index.html",
-      "bytes": 2207980,
-      "sha256": "42aa127908ece36a2a4a4fa46453a39b211504aceecd11dc452be27f40301ff4"
+      "bytes": 2247621,
+      "sha256": "52525b0fba7e6e7e09f0522bcbd67d3b7f8f6b41e0616f8d7e4bafa4f2f86cd8"
     },
     {
       "group": "mobile-v2",
@@ -16590,15 +16593,15 @@
       "group": "generated",
       "source_relative": "README.md",
       "portable_path": "README.md",
-      "bytes": 1805,
-      "sha256": "bbc85e235fd32f7a16e97469abeda11cb1be8bd72b5b392d5c11d2437c634349"
+      "bytes": 2758,
+      "sha256": "7955ce1955b1d37fe7b3f5ed6c658207fd6756516494f5ed3396ee1e56a74e23"
     },
     {
       "group": "generated",
       "source_relative": "AGENTS.md",
       "portable_path": "AGENTS.md",
-      "bytes": 785,
-      "sha256": "4739b79a631ae6b67ca7a46866f9a1e2585d9a3d4c6fcceadbfcdfb945647b7b"
+      "bytes": 786,
+      "sha256": "d1eefafa54dc7f44442aa6c2fd66538d0c6435f2a2aab896c0e2d76d745e3263"
     },
     {
       "group": "generated",
@@ -16618,15 +16621,15 @@
       "group": "generated",
       "source_relative": ".github/workflows/pages.yml",
       "portable_path": ".github/workflows/pages.yml",
-      "bytes": 667,
-      "sha256": "85b610e4b359710bd897607984c2b87bafa864d021dbf68104008b87d1466304"
+      "bytes": 668,
+      "sha256": "987fff9e4182e2e7aa82ee6df15109efaedb83c184a35309688a0f7af538af31"
     },
     {
       "group": "oct-2026-update",
       "source_relative": "data/oct-2026-update.json",
       "portable_path": "data/oct-2026-update.json",
-      "bytes": 246021,
-      "sha256": "23c27265a5b14b9a9fb501236a9d1eb6fa795e24e53dd0d586e6e85b9de06ae5"
+      "bytes": 252017,
+      "sha256": "d6c9cbf0538fba947cc384a3037cf0f0f67250d0c5143af750c037d602787b96"
     },
     {
       "group": "oct-2026-update",
@@ -16949,6 +16952,713 @@
       "portable_path": "media/oct-2026/visuals/Q3-openai-hardware.jpg",
       "bytes": 89568,
       "sha256": "4f8f703dd7edb65911e4aca1d9e9c7444be2b8af7e993172328db70e26a17603"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "index.en.html",
+      "portable_path": "index.en.html",
+      "bytes": 1915825,
+      "sha256": "97ef1bc3abd3f1b8eebbbd3de60ef625ca3b8b3cf11a1c4b0a4db046e6ca0a7e"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "data/catalog.en.json",
+      "portable_path": "data/catalog.en.json",
+      "bytes": 912436,
+      "sha256": "06264a1f2a899242c3f1d54fd3e40181a666bd564348dade66dd08da18291c55"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "data/products.json",
+      "portable_path": "data/products.json",
+      "bytes": 66353,
+      "sha256": "53a235271c97aa499218d6d744d1be1360f6b083f0d8e76d244ea2add26431e8"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "data/product-media-provenance.json",
+      "portable_path": "data/product-media-provenance.json",
+      "bytes": 13123,
+      "sha256": "e2f2b47efd708f1a76f6e65e0d294a42942a444cf49f52cff4b7439d303837f7"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qwen-2026-10-06.md",
+      "portable_path": "docs/products/qwen-2026-10-06.md",
+      "bytes": 5895,
+      "sha256": "69a231561de6020ce4d907cf86fee95538f16b9d5d559054b0a32c813a260b59"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qclaw.html",
+      "portable_path": "docs/products/qclaw.html",
+      "bytes": 9357,
+      "sha256": "aaae7344c268166fb53a653c1e1466c4470aa0981e6f182477e4ca021186d725"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/china-input-hardware.en.html",
+      "portable_path": "docs/products/china-input-hardware.en.html",
+      "bytes": 37229,
+      "sha256": "fc86e391b8a4ea72fb8e3e4200711af1873db0774a0720498db505f49d0d4191"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaov.en.html",
+      "portable_path": "docs/products/xiaov.en.html",
+      "bytes": 15100,
+      "sha256": "bbdbc69f6fcc3f7fac753b0c441cb4aaaaa5f01b4b7a30494ee826be4a34c24a"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qwen-2026-10-06.en.md",
+      "portable_path": "docs/products/qwen-2026-10-06.en.md",
+      "bytes": 8088,
+      "sha256": "fc99fa27d654de134902948c5347d1935472a8b1268d34e832b6f038921e9116"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yoyo.en.html",
+      "portable_path": "docs/products/yoyo.en.html",
+      "bytes": 13468,
+      "sha256": "bbaf072fb626eba3a20e3f179d7f86fb976e33052043b10873b6b89c5e3da50e"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaov.html",
+      "portable_path": "docs/products/xiaov.html",
+      "bytes": 12581,
+      "sha256": "6dce8a540453de30d93853d8380d9a388f1e5fc84ca9b654e0474e4a328c18b1"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/voice-input-2026-10-06.en.md",
+      "portable_path": "docs/products/voice-input-2026-10-06.en.md",
+      "bytes": 40213,
+      "sha256": "fa2a7dc7110338a0ba8bafafdf4cdca1761671edaaf7aa3889a99f1fc7474acb"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/quark.en.html",
+      "portable_path": "docs/products/quark.en.html",
+      "bytes": 9644,
+      "sha256": "00c679348323b77bba288cd1801b6cfdc1973c243eca08728a6334b32459c6ad"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/voice-input-2026-10-06.md",
+      "portable_path": "docs/products/voice-input-2026-10-06.md",
+      "bytes": 30951,
+      "sha256": "ea34ebc3a634b81703c7536f9a6963b3dce82bcad247252a9f512b0f44608077"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoyi.en.html",
+      "portable_path": "docs/products/xiaoyi.en.html",
+      "bytes": 21822,
+      "sha256": "f4fa79fa07dfa1c6c26cae40b18bc9d52d6635f1a832513773559a3f43bcdc13"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaov-2026-10-06.md",
+      "portable_path": "docs/products/xiaov-2026-10-06.md",
+      "bytes": 6716,
+      "sha256": "cf17d299c65c6e2dab7d7c527ce7b99227eb232f69aa2742540ade307fefa990"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/china-input-hardware-2026-10-06.md",
+      "portable_path": "docs/products/china-input-hardware-2026-10-06.md",
+      "bytes": 18257,
+      "sha256": "bfcf49d3b15b55d3d2454dec4f96181a242e7ce5e2bc8a2e30377420afa3dc76"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/autoglm-2026-10-06.md",
+      "portable_path": "docs/products/autoglm-2026-10-06.md",
+      "bytes": 4323,
+      "sha256": "0e52286595b0ceefc281ca8ed4f8c34d205a176f5ce40df4273dfffadda0730f"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/workbuddy-2026-10-06.md",
+      "portable_path": "docs/products/workbuddy-2026-10-06.md",
+      "bytes": 41763,
+      "sha256": "7cfda25f6177eba739a4b6335ba224082bcda0dcecf67c20f7e1c0bd4a690811"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaobu.en.html",
+      "portable_path": "docs/products/xiaobu.en.html",
+      "bytes": 14237,
+      "sha256": "cec9120fb9404aab6770b3b686c20e4213ee0b8be156c53e9d547ed25d71dbb3"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/quark-2026-10-06.en.md",
+      "portable_path": "docs/products/quark-2026-10-06.en.md",
+      "bytes": 4629,
+      "sha256": "881c14a933eca7846d0422befe894365a13d2e4c47383779da1d1e6aad62f490"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qclaw-2026-10-06.md",
+      "portable_path": "docs/products/qclaw-2026-10-06.md",
+      "bytes": 4594,
+      "sha256": "2e05afc0f272ea90a0b0f083d1c475e91f7188cdc1a559af94977514dc0a587b"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoyi-2026-10-06.md",
+      "portable_path": "docs/products/xiaoyi-2026-10-06.md",
+      "bytes": 10380,
+      "sha256": "8bec376f0034968f50daccdf9517df70be166ab0f21af369b220a04791a4791b"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/doubao-2026-10-06.md",
+      "portable_path": "docs/products/doubao-2026-10-06.md",
+      "bytes": 6866,
+      "sha256": "5e59764205f19395e55cef4a31bb84d261a7a937f1f1a5c8b3a5560d5b2ce20f"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/china-input-hardware-2026-10-06.en.md",
+      "portable_path": "docs/products/china-input-hardware-2026-10-06.en.md",
+      "bytes": 23702,
+      "sha256": "1527f91e53665ae9dc2b86efcd7b743e78cedd907ed508dd6eae1aa92f247bd0"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoyi.html",
+      "portable_path": "docs/products/xiaoyi.html",
+      "bytes": 17732,
+      "sha256": "8f26750b94f86f465f5c86d646e680dd85b19546eeced0feefbaaac04fd977c5"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoyi-2026-10-06.en.md",
+      "portable_path": "docs/products/xiaoyi-2026-10-06.en.md",
+      "bytes": 13982,
+      "sha256": "f0df2a5ae823f21a7be381540c667fad02988d317a03f58c2f01e5b55297b626"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/index.en.html",
+      "portable_path": "docs/products/index.en.html",
+      "bytes": 6760,
+      "sha256": "ab7d9dd07803f4cddfd58214926efad5517642c65837f6e0587574f1af32b998"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaobu.html",
+      "portable_path": "docs/products/xiaobu.html",
+      "bytes": 11692,
+      "sha256": "3a4dacf66ecce486cef0d6b17ad26008df4527ad66e77ec3359d17bafd53cfc8"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yuanbao.html",
+      "portable_path": "docs/products/yuanbao.html",
+      "bytes": 8849,
+      "sha256": "24d3b185767479d57a1fadc8d50fb8b24c562cb379a74425ee34a4e2b77c4f5f"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/index.html",
+      "portable_path": "docs/products/index.html",
+      "bytes": 6052,
+      "sha256": "d83425d9210ffe7b777a4e90576d23873572e5d8e800d4f62abfa9880f7cf7cc"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/autoglm-2026-10-06.en.md",
+      "portable_path": "docs/products/autoglm-2026-10-06.en.md",
+      "bytes": 5868,
+      "sha256": "405dbcd1c64b9f10d264bd8e05948b108f8fc7dbd4cb4ec78b0aae7a137d06f3"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yoyo-2026-10-06.md",
+      "portable_path": "docs/products/yoyo-2026-10-06.md",
+      "bytes": 5889,
+      "sha256": "afefb2a0b98009046d41499782f071dc175d8f4d66f759653ca5bcce8745cbb5"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/autoglm.en.html",
+      "portable_path": "docs/products/autoglm.en.html",
+      "bytes": 11167,
+      "sha256": "60b7bc654c482d543e83dd58a96628549ba048a74093f739afb66c5d21e5c39b"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/diy-controls-2026-10-06.en.md",
+      "portable_path": "docs/products/diy-controls-2026-10-06.en.md",
+      "bytes": 24196,
+      "sha256": "4b8ead9ce28911e1386e54fbae5f1b8f3b7c9f444768518dc97123590f4f9eb0"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoai.html",
+      "portable_path": "docs/products/xiaoai.html",
+      "bytes": 12018,
+      "sha256": "8ae1a5dd6fbdd3daaeb01252d3d42127bf3a174706ac2747072798350d5b1012"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yuanbao.en.html",
+      "portable_path": "docs/products/yuanbao.en.html",
+      "bytes": 10509,
+      "sha256": "6b3c60a4b85491ca56a4dbba30a9253a6816f25cdfc416104135d5ca4025ca16"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/workbuddy-2026-10-06.en.md",
+      "portable_path": "docs/products/workbuddy-2026-10-06.en.md",
+      "bytes": 52496,
+      "sha256": "a10aed447f211b991e39e590836dba8336e45590a392f02cd80e7781e79e3bdd"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/autoglm.html",
+      "portable_path": "docs/products/autoglm.html",
+      "bytes": 9306,
+      "sha256": "0526657636521a239197da4bf4a6f48b736748c9fcc7413a52296ef125f0fe9c"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/diy-controls-2026-10-06.md",
+      "portable_path": "docs/products/diy-controls-2026-10-06.md",
+      "bytes": 18796,
+      "sha256": "75a2dec30c9e5b686bb1527c0c444243677aa061f7623e1b0e8f063b67e4f0f6"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qwen.html",
+      "portable_path": "docs/products/qwen.html",
+      "bytes": 11685,
+      "sha256": "62ae6647aff71cfe7cedc8a4e18af5ff9f71f1fd876a3546c88d8a74321a5782"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/doubao-2026-10-06.en.md",
+      "portable_path": "docs/products/doubao-2026-10-06.en.md",
+      "bytes": 9168,
+      "sha256": "cb6513081b941eda299cb4f803c60d9a5f23353f49622e7313a75dae56025147"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yoyo.html",
+      "portable_path": "docs/products/yoyo.html",
+      "bytes": 11036,
+      "sha256": "f07f6229beae3757fd99c9cebbe6b8c3c66568092c33b7d8d59196fa7e141289"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaobu-2026-10-06.en.md",
+      "portable_path": "docs/products/xiaobu-2026-10-06.en.md",
+      "bytes": 8361,
+      "sha256": "2636c6c3471a8fb8ec8735e8cd95776395955c51a8f9aa85ffae1763b7254a7b"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaov-2026-10-06.en.md",
+      "portable_path": "docs/products/xiaov-2026-10-06.en.md",
+      "bytes": 8903,
+      "sha256": "3f47f18901ff3e56b39505e5ce9c31d2a379ccaf4d5be2e4c06aacfdf91a3ecb"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/quark-2026-10-06.md",
+      "portable_path": "docs/products/quark-2026-10-06.md",
+      "bytes": 3429,
+      "sha256": "4552c2a92f61258a20dea67f86317c31d9887b640c73e376e6968d0263a9a38b"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/voice-input.html",
+      "portable_path": "docs/products/voice-input.html",
+      "bytes": 46163,
+      "sha256": "4e685ddd6a0dfd12f322cd8dadaa985009f6cfb3ed6543587df3220a81555069"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/doubao.html",
+      "portable_path": "docs/products/doubao.html",
+      "bytes": 12744,
+      "sha256": "b00d3f580b7f83408b99b24ad66006d4d57dc082b4e343ce72f31d98f3873e92"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qclaw.en.html",
+      "portable_path": "docs/products/qclaw.en.html",
+      "bytes": 11320,
+      "sha256": "70389b260756a11613f3b9a65545540f441ce2787192c58b1d463044f2e8c67a"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/kimi.en.html",
+      "portable_path": "docs/products/kimi.en.html",
+      "bytes": 9954,
+      "sha256": "c9ae6c05718c3978c79953968f2b11ebaa85a259ec60c36be4a569f62ff8a792"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/voice-input.en.html",
+      "portable_path": "docs/products/voice-input.en.html",
+      "bytes": 56676,
+      "sha256": "2ae7dd633accd86d8281efde5312c03174bc179198aa9b6d60967c3ee4cd9cc5"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/diy-controls.html",
+      "portable_path": "docs/products/diy-controls.html",
+      "bytes": 28090,
+      "sha256": "70330c5163ac9e9d99ba78c86994a13d614b8fa30dae31a46c7ec58b114a2a69"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/workbuddy.en.html",
+      "portable_path": "docs/products/workbuddy.en.html",
+      "bytes": 76637,
+      "sha256": "d02f239693d376a391fe76d947bfaa9d0f9e5745323272be8e514b2ba5786c14"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoai-2026-10-06.en.md",
+      "portable_path": "docs/products/xiaoai-2026-10-06.en.md",
+      "bytes": 9277,
+      "sha256": "f7f6ccac8dd8581bbb5e57bef05a2e4bc911a2e5c22ac3f8ee86a98ccd1637fd"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoai.en.html",
+      "portable_path": "docs/products/xiaoai.en.html",
+      "bytes": 14969,
+      "sha256": "93bd48d283cfd8e9aa308e7d93fab451ec7f43f8ede6f5a30a50016929623666"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/diy-controls.en.html",
+      "portable_path": "docs/products/diy-controls.en.html",
+      "bytes": 34356,
+      "sha256": "a64e424e652b3b472b0b1a1026ad4d86537604879da36a132d6ac54470283b42"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qwen.en.html",
+      "portable_path": "docs/products/qwen.en.html",
+      "bytes": 14317,
+      "sha256": "7e8588849a878c5020e1b69f26327d7870b4bdc41e8f1cab27b6da52ab0658e9"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/quark.html",
+      "portable_path": "docs/products/quark.html",
+      "bytes": 8046,
+      "sha256": "45084fa91c634b0d618c1a8b7dd5599512f497b6cccdb00be794efb81b52d6fd"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yuanbao-2026-10-06.en.md",
+      "portable_path": "docs/products/yuanbao-2026-10-06.en.md",
+      "bytes": 5608,
+      "sha256": "b1d7a7c40cba2d8a5ba41453a2247375dd1e5a10b6c77f18ed1cc19d55580bf1"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yoyo-2026-10-06.en.md",
+      "portable_path": "docs/products/yoyo-2026-10-06.en.md",
+      "bytes": 7966,
+      "sha256": "69d79044f3769b3f8d3eef11a5ec17d7355d3cfb1d5903f36752e8b18ad9d623"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/kimi-2026-10-06.md",
+      "portable_path": "docs/products/kimi-2026-10-06.md",
+      "bytes": 3989,
+      "sha256": "082f974203a675eebbcfb41c5885ba0d421e1c9c71715e4915d057bf99b7ef10"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/kimi-2026-10-06.en.md",
+      "portable_path": "docs/products/kimi-2026-10-06.en.md",
+      "bytes": 5181,
+      "sha256": "6b63586358732c663afe44d9a5fcde78eb084913053429c1d45a65c6f68b0e5e"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/doubao.en.html",
+      "portable_path": "docs/products/doubao.en.html",
+      "bytes": 15303,
+      "sha256": "1d717b8f36a3a5c81152483d5675de28f23c7c4f81151699ccb245865a5feb4a"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaoai-2026-10-06.md",
+      "portable_path": "docs/products/xiaoai-2026-10-06.md",
+      "bytes": 6712,
+      "sha256": "27d6347e722046e2507042ac4e102beb0cbe87fe7a593551b668a766a0a09df6"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/china-input-hardware.html",
+      "portable_path": "docs/products/china-input-hardware.html",
+      "bytes": 31061,
+      "sha256": "aa9fda7affb0e2550acd076cb52bca6e3c8e932974f4825ee0e21f79b8c34b54"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/kimi.html",
+      "portable_path": "docs/products/kimi.html",
+      "bytes": 8399,
+      "sha256": "a3c26f03793d56f0c18d8a3b7272af0d6a286caa56a0f6befd9869a7532b419c"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/dossier.css",
+      "portable_path": "docs/products/dossier.css",
+      "bytes": 5309,
+      "sha256": "7ddc919c5633ece6010e63c5e226511b9b40039f85cb79f5f0b7fa79b81ee2e7"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/qclaw-2026-10-06.en.md",
+      "portable_path": "docs/products/qclaw-2026-10-06.en.md",
+      "bytes": 6073,
+      "sha256": "dec66fcc3f33c521e90decbf4b668084a3d83fc1a54630a474cb2a4cd327ff6d"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/yuanbao-2026-10-06.md",
+      "portable_path": "docs/products/yuanbao-2026-10-06.md",
+      "bytes": 4261,
+      "sha256": "02896453391dacd12fdf85cffc5d155168a646bef285b05e85f89f604ab1f4dd"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/xiaobu-2026-10-06.md",
+      "portable_path": "docs/products/xiaobu-2026-10-06.md",
+      "bytes": 6245,
+      "sha256": "b7d0089c7e5fabdb102f33dd99915956e1fb7ab4b5ca6acc4a069a2771144916"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "docs/products/workbuddy.html",
+      "portable_path": "docs/products/workbuddy.html",
+      "bytes": 64918,
+      "sha256": "5d1172867b061d8814e929d70ca101aaa23c529af74795240bbe87e680fe1e80"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/workbuddy-lark-voice.jpg",
+      "portable_path": "media/products/workbuddy-lark-voice.jpg",
+      "bytes": 62978,
+      "sha256": "bc9e8dbdb3cfd010a1c1e9fad8bdb7862fbb786be8c3badb859f8747ccfa1c88"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/mimouse-matrix.jpg",
+      "portable_path": "media/products/mimouse-matrix.jpg",
+      "bytes": 139231,
+      "sha256": "13a9f2bca28ac83dfa3ff05ae29f8803f45bfb3000c2a7a55d37d46679bfd6d8"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/quark.jpg",
+      "portable_path": "media/products/quark.jpg",
+      "bytes": 162464,
+      "sha256": "59ed6ac96ebb38c87de574ed407cfb0222d18d03bbd77c80c21d13e390d44b85"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/kimi.jpg",
+      "portable_path": "media/products/kimi.jpg",
+      "bytes": 53582,
+      "sha256": "4473b0c3afb9d5037245bfd0841d0d6f99a7d8a4df7702baf23e04722fc9f3d8"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/yuanbao.jpg",
+      "portable_path": "media/products/yuanbao.jpg",
+      "bytes": 67415,
+      "sha256": "aa2804de82b2db19f787325b97e266e16f9bdbb25fc51743edb9587cde0beaad"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/doubao-app.jpg",
+      "portable_path": "media/products/doubao-app.jpg",
+      "bytes": 97711,
+      "sha256": "1fba3078c0605f8f5a2d3ad1cb8c8d02661542893a9987298399673a30a24eee"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/qclaw-demo.jpg",
+      "portable_path": "media/products/qclaw-demo.jpg",
+      "bytes": 123665,
+      "sha256": "e17e104d85db10f98ee7fd1f05e14cd9259af981348077ab8ed61c204fd4956d"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/oppo-next.jpg",
+      "portable_path": "media/products/oppo-next.jpg",
+      "bytes": 126968,
+      "sha256": "6643cb52f156de8e99e0ce48063ead86ef6dbe8319936cf67a11bc998dea92d6"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/mimouse-kb6.jpg",
+      "portable_path": "media/products/mimouse-kb6.jpg",
+      "bytes": 164326,
+      "sha256": "6360d87bce937d6bed3455bf502b0da1f3900e2de2f76877c04c0f19be19b9ce"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/mimouse-keys.jpg",
+      "portable_path": "media/products/mimouse-keys.jpg",
+      "bytes": 116406,
+      "sha256": "6213e82587506b6f2791e55b16285a16ecec4168a7d9a413e54e309e5cd9193e"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/autoglm.jpg",
+      "portable_path": "media/products/autoglm.jpg",
+      "bytes": 76743,
+      "sha256": "74bc4416a495eccb642b183cc0aa407918f6fb6c235db3861834c25f35f0d783"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/qwen.jpg",
+      "portable_path": "media/products/qwen.jpg",
+      "bytes": 77352,
+      "sha256": "ffe8e24f5f476a1cf8631dbdf085275e0e6ac42e2bffe0e5349238cf1e4c751d"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/qmk-agent-macropad.jpg",
+      "portable_path": "media/products/diy/qmk-agent-macropad.jpg",
+      "bytes": 190832,
+      "sha256": "33884a9d3157422ae414b582bbf529e6d149a242e08b9e3784ba50c51afe25a1"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/tacticommand.jpg",
+      "portable_path": "media/products/diy/tacticommand.jpg",
+      "bytes": 95897,
+      "sha256": "5ee6bd9e1a13c6affd876525e8bab7ad26f7245b0eaa95f54a685045e2644d98"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/claudeq.jpg",
+      "portable_path": "media/products/diy/claudeq.jpg",
+      "bytes": 88534,
+      "sha256": "06e9bc01d6437dc84caa90678daf3f3341147cf88be512bd57e90256826ca3b3"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/clawdmeter.jpg",
+      "portable_path": "media/products/diy/clawdmeter.jpg",
+      "bytes": 154343,
+      "sha256": "0881e2c5767017f66a4e82b0711ad339031c5eb8a18a6e6b0a1216bc68023ae8"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/agentdeck.jpg",
+      "portable_path": "media/products/diy/agentdeck.jpg",
+      "bytes": 105492,
+      "sha256": "54bc1ee3d77096a1d1a1e385540ac23557a283e0499354436c1d5d9811da6b66"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/agent-f-row.jpg",
+      "portable_path": "media/products/diy/agent-f-row.jpg",
+      "bytes": 136750,
+      "sha256": "f0cf7182754bee06a7c6f369c46155b0d73c2910418940f55945572d89ee803d"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/claudeq-demo.mp4",
+      "portable_path": "media/products/diy/claudeq-demo.mp4",
+      "bytes": 345046,
+      "sha256": "66f8d06d34ca76cb462649f041f8963b13a204f7e0a91934fd0eccb183894909"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/conn.jpg",
+      "portable_path": "media/products/diy/conn.jpg",
+      "bytes": 65661,
+      "sha256": "ac014c152ac6e1cfe4aba804df6335fdf904a381ed6c5c0b4c7a94fa3bfcb28b"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/claudial.jpg",
+      "portable_path": "media/products/diy/claudial.jpg",
+      "bytes": 108269,
+      "sha256": "f05a31816009dcf68dd44e44861ddabd616e4b271bb7fdc7b4bd6f1e3e4694f0"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/diy/agent-micro.jpg",
+      "portable_path": "media/products/diy/agent-micro.jpg",
+      "bytes": 50811,
+      "sha256": "85ed17a23e5c0ea699ca46c9b11e16094ee2b70002fb422a498d323fd4c03608"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/talon.jpg",
+      "portable_path": "media/products/voice/talon.jpg",
+      "bytes": 84852,
+      "sha256": "767dedc80fbdadaf80e905031a6a498d1eddca3dbeaf4f6212a4c49d51b480eb"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/voiceink.jpg",
+      "portable_path": "media/products/voice/voiceink.jpg",
+      "bytes": 96245,
+      "sha256": "38567196869e876b64dc96b85ac112ec2a083c66bc07435cd3f4f7640448054c"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/willow.jpg",
+      "portable_path": "media/products/voice/willow.jpg",
+      "bytes": 32086,
+      "sha256": "ea32b2ec8eee86c189f812d40b8da5f0ab047a817bc5ac4e89a961c96687ec5b"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/doubao.jpg",
+      "portable_path": "media/products/voice/doubao.jpg",
+      "bytes": 63190,
+      "sha256": "a1969557c85db467f6e9213d13a042fd6a8e4c7e060bf4243c351ce9834099bd"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/xunfei.jpg",
+      "portable_path": "media/products/voice/xunfei.jpg",
+      "bytes": 50290,
+      "sha256": "dbb52502fb46310c561556e3418826c93096172d4dc8bb973cf1ecf071b28bde"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/superwhisper.jpg",
+      "portable_path": "media/products/voice/superwhisper.jpg",
+      "bytes": 106657,
+      "sha256": "5ab61c1ad3c632fd81e3ee660c0feef2d03f4078e9a762a76b9a837dea44500e"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/willow-demo.mp4",
+      "portable_path": "media/products/voice/willow-demo.mp4",
+      "bytes": 226310,
+      "sha256": "26f5b81694d0cb30ed35e670489a10b383367e5ef4e4d674c1a51eb946b81b9d"
+    },
+    {
+      "group": "product-dossiers-2026-10",
+      "source_relative": "media/products/voice/wechat.jpg",
+      "portable_path": "media/products/voice/wechat.jpg",
+      "bytes": 47906,
+      "sha256": "0d509d26d068e4f4321b5ec30d06c9e8dd0a1393d89de5b3e85ecf01bef24fa9"
     }
   ]
 }

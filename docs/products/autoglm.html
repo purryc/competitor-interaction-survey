@@ -1,0 +1,87 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AutoGLM：消费App与开源框架 · 完整产品档案</title><link rel="stylesheet" href="dossier.css"><meta name="description" content="云手机/云电脑的消费者流程、Open-AutoGLM开发框架和独立语音输入法分别核对，明确执行与登录边界。"></head><body><header class="topbar"><a class="brand" href="../../index.html">AI 软硬件与交互竞品调研</a><nav><a href="index.html">全部产品档案</a><a href="../../index.html">返回交互索引</a></nav><nav class="language-nav" aria-label="Language / 语言"><a href="autoglm.html" hreflang="zh-CN" lang="zh-CN" aria-current="page">中文</a><a href="autoglm.en.html" hreflang="en" lang="en">English</a></nav></header><div class="layout"><aside class="toc"><h2>本页内容</h2><ul><li><a href="#三个不同对象-heading">三个不同对象</a></li><li><a href="#实际流程-heading">实际流程</a></li><li><a href="#真实用户反馈新补充-heading">真实用户反馈（新补充）</a></li><li><a href="#硬件与风险-heading">硬件与风险</a></li><li><a href="#来源与证据身份-heading">来源与证据身份</a></li></ul></aside><main><section class="hero"><div class="eyebrow">产品档案 · 2026-10-06 资料核查</div><h1>AutoGLM：消费App与开源框架</h1><p>云手机/云电脑的消费者流程、Open-AutoGLM开发框架和独立语音输入法分别核对，明确执行与登录边界。</p><div class="pill-row"><span class="pill">软件能力与版本</span><span class="pill">具体任务怎么做</span><span class="pill">相关硬件与边界</span><span class="pill">实测与用户反馈</span></div><figure class="hero-media"><img loading="eager" src="../../media/products/autoglm.jpg" alt="AutoGLM智能体手机：云端手机画面，不占用户本机屏幕；官方商店宣传/界面截图，非研究者实测"/><figcaption>AutoGLM智能体手机：云端手机画面，不占用户本机屏幕；官方商店宣传/界面截图，非研究者实测 · <a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">图片来源</a></figcaption></figure></section><div class="document"><p>核查日：2026-10-06。以下区分官方文档、实际评测和个人自述；未进行统一实机复测。</p>
+<section id="三个不同对象" class="level2">
+<h2 id="三个不同对象-heading">三个不同对象</h2>
+<p>消费AutoGLM当前中国区商店版本2.0.20（7月9日），iOS15+，官方说明仍是云手机/云电脑，任务后台执行，不占本机界面；此次更新加入AutoClaw移动入口。商店免费不等于所有模型/API免费；全量应用白名单和名额未核。<a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">G8</a> Open-AutoGLM是独立开源研究框架：电脑运行agent，通过ADB/HDC及视觉模型控制现有设备；iOS有WDA配置文档。需要调试配置，绝不是消费者下载App即用的同一体验。官方仓库含敏感动作确认及登录验证码人工接管。<a href="https://github.com/zai-org/Open-AutoGLM" target="_blank" rel="noopener">G1</a>、<a href="https://autoglm.zhipuai.cn/" target="_blank" rel="noopener">G2</a> 智谱AI输入法另有Windows/macOS产品页；它解决跨应用语音写作，不代表整个AutoGLM只做输入。<a href="https://autoglm.zhipuai.cn/autotyper/" target="_blank" rel="noopener">G3</a></p>
+</section>
+<section id="实际流程" class="level2">
+<h2 id="实际流程-heading">实际流程</h2>
+<ol type="1">
+<li><strong>云端点饮品（记者实测，2025-12-10）</strong>：美团找冰豆花→筛选/关弹窗→结账前停止；记者记约1分半钟。消费流程没有证明自动支付完成。<a href="https://finance.eastmoney.com/a/202512103587526022.html" target="_blank" rel="noopener">G4</a></li>
+<li><strong>云手机登录（2025-08评测）</strong>：搜索商品→需要登录→用户接管→扫码/人脸成为阻碍。不同文章对登录状态保存说法有冲突，应复测，不写“每次必重新登录”作为现状。<a href="https://www.neican.ai/insights/autoglm-20agent-20250821151004768-0/" target="_blank" rel="noopener">G5</a>、<a href="https://developer.cloud.tencent.com/article/2564715?from=15425&amp;frompage=seopage" target="_blank" rel="noopener">G6</a></li>
+<li><strong>后台执行（创作者演示）</strong>：2025-08-22卡尔的AI沃茨展示云手机/电脑帮办事，本机可继续用；视频标题及简介只能证明演示主题，未观看不能补造任务时间戳。<a href="https://www.bilibili.com/video/BV1NretzZEJo/" target="_blank" rel="noopener">G7</a></li>
+<li><strong>DIY现有手机（官方开源路径）</strong>：启用调试并连接→配置模型→自然语言目标→循环截图识别/点击/输入→敏感步骤人工处理。这个路径适合开发者，不等同普通用户零门槛。<a href="https://github.com/zai-org/Open-AutoGLM" target="_blank" rel="noopener">G1</a></li>
+</ol>
+</section>
+<section id="真实用户反馈新补充" class="level2">
+<h2 id="真实用户反馈新补充-heading">真实用户反馈（新补充）</h2>
+<p>商店评论XFTony（2月19日）认可初体验，但希望适配iPad并改进认证接管；“某位不願透露姓名的劉先生”（8月19日）称手机agent持续断联。2025-12-20“懒昀”自述依赖VoiceOver，接管界面不可用、开旁白后闪退；这是关键的无障碍失败个案，提醒“代理能操作”并不意味着用户能完成接管。2025-08-22另一评论补充验证码自动填入导致登录循环，改手工输入后恢复。<a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">G8</a></p>
+</section>
+<section id="硬件与风险" class="level2">
+<h2 id="硬件与风险-heading">硬件与风险</h2>
+<p>没有证据支持“AutoGLM手机”是独立消费硬件型号；云手机为虚拟环境。开源版依赖自己的手机、电脑、模型API/本地模型资源。登录安全、隐私授权、第三方App风控、步骤累积误差才是主要落地摩擦。</p>
+</section>
+<section id="来源与证据身份" class="level2">
+<h2 id="来源与证据身份-heading">来源与证据身份</h2>
+<p>官方说明、媒体实测、个人评论分别标注。商店评论若只显示月日，不补造年份；少量评论不代表满意率。</p>
+<div class="table-scroll" role="region" aria-label="横向滚动表格" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>来源/日期</th>
+<th>类型与用途</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>G1</td>
+<td>智谱官方GitHub</td>
+<td>开源框架架构/平台/调试/接管</td>
+<td><a href="https://github.com/zai-org/Open-AutoGLM" target="_blank" rel="noopener">https://github.com/zai-org/Open-AutoGLM</a></td>
+</tr>
+<tr class="even">
+<td>G2</td>
+<td>AutoGLM官网</td>
+<td>当前产品存在性，公开文本不足</td>
+<td><a href="https://autoglm.zhipuai.cn/" target="_blank" rel="noopener">https://autoglm.zhipuai.cn/</a></td>
+</tr>
+<tr class="odd">
+<td>G3</td>
+<td>智谱AI输入法</td>
+<td>官方独立语音产品</td>
+<td><a href="https://autoglm.zhipuai.cn/autotyper/" target="_blank" rel="noopener">https://autoglm.zhipuai.cn/autotyper/</a></td>
+</tr>
+<tr class="even">
+<td>G4</td>
+<td>科创板日报/东方财富，2025-12-10</td>
+<td>记者美团云手机实测</td>
+<td><a href="https://finance.eastmoney.com/a/202512103587526022.html" target="_blank" rel="noopener">https://finance.eastmoney.com/a/202512103587526022.html</a></td>
+</tr>
+<tr class="odd">
+<td>G5</td>
+<td>AI内参，2025-08-21</td>
+<td>评测账号登录问题，身份/方法需谨慎</td>
+<td><a href="https://www.neican.ai/insights/autoglm-20agent-20250821151004768-0/" target="_blank" rel="noopener">https://www.neican.ai/insights/autoglm-20agent-20250821151004768-0/</a></td>
+</tr>
+<tr class="even">
+<td>G6</td>
+<td>腾讯云社区，2025-09-04</td>
+<td>实测云手机烧烤订单，建议先登录保存状态</td>
+<td><a href="https://developer.cloud.tencent.com/article/2564715?from=15425&amp;frompage=seopage" target="_blank" rel="noopener">https://developer.cloud.tencent.com/article/2564715?from=15425&amp;frompage=seopage</a></td>
+</tr>
+<tr class="odd">
+<td>G8</td>
+<td>AutoGLM中国App Store</td>
+<td>当前2.0.20与个人连接/无障碍/认证反馈；直接获取官方HTML核验</td>
+<td><a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">https://apps.apple.com/cn/app/id6748391183</a></td>
+</tr>
+<tr class="even">
+<td>G7</td>
+<td>卡尔的AI沃茨，2025-08-22</td>
+<td>B站云手机演示；未逐帧观看</td>
+<td><a href="https://www.bilibili.com/video/BV1NretzZEJo/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1NretzZEJo/</a></td>
+</tr>
+</tbody>
+</table>
+</div></section>
+</div><footer class="footer">官方说明、第三方实测与个人反馈分别标注；个案不代表总体满意度。未知与未验证项保留证据缺口。<br><a href="autoglm-2026-10-06.md">查看本次资料快照</a> · <a href="../../index.html">返回交互索引</a></footer></main></div></body></html>

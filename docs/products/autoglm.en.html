@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AutoGLM: Consumer App and Open-source Framework · Full product dossier</title><link rel="stylesheet" href="dossier.css"><meta name="description" content="Consumer cloud-phone/cloud-computer workflows, the Open-AutoGLM developer framework and separate voice input software, including execution and login limits."></head><body><header class="topbar"><a class="brand" href="../../index.en.html">AI Software, Hardware & Interaction Survey</a><nav><a href="index.en.html">All product dossiers</a><a href="../../index.en.html">Back to interaction index</a></nav><nav class="language-nav" aria-label="Language / 语言"><a href="autoglm.html" hreflang="zh-CN" lang="zh-CN">中文</a><a href="autoglm.en.html" hreflang="en" lang="en" aria-current="page">English</a></nav></header><div class="layout"><aside class="toc"><h2>On this page</h2><ul><li><a href="#three-different-products-heading">Three Different Products</a></li><li><a href="#actual-workflows-heading">Actual Workflows</a></li><li><a href="#feedback-from-real-users-newly-added-heading">Feedback from Real Users (Newly Added)</a></li><li><a href="#hardware-and-risks-heading">Hardware and Risks</a></li><li><a href="#sources-and-evidence-identity-heading">Sources and Evidence Identity</a></li></ul></aside><main><section class="hero"><div class="eyebrow">Product dossier · Sources checked 6 October 2026</div><h1>AutoGLM: Consumer App and Open-source Framework</h1><p>Consumer cloud-phone/cloud-computer workflows, the Open-AutoGLM developer framework and separate voice input software, including execution and login limits.</p><div class="pill-row"><span class="pill">Software capabilities and versions</span><span class="pill">End-to-end tasks</span><span class="pill">Hardware and integration limits</span><span class="pill">Hands-on reports and user feedback</span></div><figure class="hero-media"><img loading="eager" src="../../media/products/autoglm.jpg" alt="Official store image: AutoGLM’s cloud phone; the virtual device does not occupy the user’s local screen."/><figcaption>Official store image: AutoGLM’s cloud phone; the virtual device does not occupy the user’s local screen. · <a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">Image source</a></figcaption></figure></section><div class="document"><p>Sources checked: 6 October 2026. Official documentation, hands-on reports and personal accounts are distinguished; no standardized device retest was performed.</p>
+<section id="three-different-products" class="level2">
+<h2 id="three-different-products-heading">Three Different Products</h2>
+<p>The consumer AutoGLM App's current China store version is 2.0.20 (July 9), requiring iOS 15+. The official description still specifies cloud phones/cloud computers, with tasks running in the background without occupying the local device's interface; this update adds a mobile entry point for AutoClaw. A free store listing does not mean all models/APIs are free. The complete application allowlist and available places were not verified.<a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">G8</a> Open-AutoGLM is a separate open-source research framework: an agent runs on a computer and controls existing devices through ADB/HDC and a vision model; WDA configuration documentation is available for iOS. It requires debugging configuration and is emphatically not the same consumer experience as downloading an App and using it immediately. The official repository includes confirmation for sensitive actions and manual takeover for login verification codes.<a href="https://github.com/zai-org/Open-AutoGLM" target="_blank" rel="noopener">G1</a>, <a href="https://autoglm.zhipuai.cn/" target="_blank" rel="noopener">G2</a> Zhipu AI Input Method (智谱AI输入法) has a separate Windows/macOS product page. It addresses cross-app voice writing and does not mean AutoGLM as a whole is merely an input tool.<a href="https://autoglm.zhipuai.cn/autotyper/" target="_blank" rel="noopener">G3</a></p>
+</section>
+<section id="actual-workflows" class="level2">
+<h2 id="actual-workflows-heading">Actual Workflows</h2>
+<ol type="1">
+<li><strong>Ordering a drink in the cloud (reporter's hands-on test, 2025-12-10)</strong>: Search Meituan for chilled tofu pudding → filter results/close pop-ups → stop before checkout. The reporter recorded about one and a half minutes. This consumer workflow does not demonstrate completed automatic payment.<a href="https://finance.eastmoney.com/a/202512103587526022.html" target="_blank" rel="noopener">G4</a></li>
+<li><strong>Cloud-phone login (August 2025 review)</strong>: Search for a product → login is required → the user takes over → QR-code scanning/face recognition becomes an obstacle. Different articles conflict on whether login status is retained. This should be retested; do not describe “mandatory login every time” as the current state.<a href="https://www.neican.ai/insights/autoglm-20agent-20250821151004768-0/" target="_blank" rel="noopener">G5</a>, <a href="https://developer.cloud.tencent.com/article/2564715?from=15425&amp;frompage=seopage" target="_blank" rel="noopener">G6</a></li>
+<li><strong>Background execution (creator demonstration)</strong>: On 2025-08-22, 卡尔的AI沃茨 demonstrated cloud phones/computers handling tasks while the local device remained usable. The video title and description establish only the demonstration's subject; without watching it, task timestamps must not be invented.<a href="https://www.bilibili.com/video/BV1NretzZEJo/" target="_blank" rel="noopener">G7</a></li>
+<li><strong>DIY with an existing phone (official open-source route)</strong>: Enable debugging and connect → configure the model → provide a natural-language goal → loop through screenshot recognition/tapping/typing → handle sensitive steps manually. This route suits developers and is not equivalent to a zero-setup experience for ordinary users.<a href="https://github.com/zai-org/Open-AutoGLM" target="_blank" rel="noopener">G1</a></li>
+</ol>
+</section>
+<section id="feedback-from-real-users-newly-added" class="level2">
+<h2 id="feedback-from-real-users-newly-added-heading">Feedback from Real Users (Newly Added)</h2>
+<p>Store reviewer XFTony (February 19) liked the initial experience but wanted iPad support and improvements to authentication takeover. “某位不願透露姓名的劉先生” (August 19) said the phone agent repeatedly disconnected. On 2025-12-20, “懒昀” said they relied on VoiceOver, that the takeover interface was unusable, and that enabling VoiceOver caused crashes. This is an important individual accessibility failure: “the agent can operate the interface” does not mean the user can complete a takeover. Another review dated 2025-08-22 adds that automatic verification-code entry caused a login loop, which was resolved by entering the code manually.<a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">G8</a></p>
+</section>
+<section id="hardware-and-risks" class="level2">
+<h2 id="hardware-and-risks-heading">Hardware and Risks</h2>
+<p>There is no evidence that an “AutoGLM phone” is a separate consumer hardware model; a cloud phone is a virtual environment. The open-source version relies on the user's own phone, computer, and model API/local-model resources. Login security, privacy authorization, third-party App risk controls, and the accumulation of errors across steps are the main frictions in deployment.</p>
+</section>
+<section id="sources-and-evidence-identity" class="level2">
+<h2 id="sources-and-evidence-identity-heading">Sources and Evidence Identity</h2>
+<p>Official statements, media tests and individual comments are labeled separately. No year is inferred when a store review shows only a month and day; a few comments do not establish satisfaction rates.</p>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Source/date</th>
+<th>Type and use</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>G1</td>
+<td>Zhipu official GitHub</td>
+<td>Open-source framework architecture/platforms/debugging/takeover</td>
+<td><a href="https://github.com/zai-org/Open-AutoGLM" target="_blank" rel="noopener">https://github.com/zai-org/Open-AutoGLM</a></td>
+</tr>
+<tr class="even">
+<td>G2</td>
+<td>AutoGLM official website</td>
+<td>Evidence the product currently exists; insufficient public text</td>
+<td><a href="https://autoglm.zhipuai.cn/" target="_blank" rel="noopener">https://autoglm.zhipuai.cn/</a></td>
+</tr>
+<tr class="odd">
+<td>G3</td>
+<td>Zhipu AI Input Method (智谱AI输入法)</td>
+<td>Official separate voice product</td>
+<td><a href="https://autoglm.zhipuai.cn/autotyper/" target="_blank" rel="noopener">https://autoglm.zhipuai.cn/autotyper/</a></td>
+</tr>
+<tr class="even">
+<td>G4</td>
+<td>STAR Market Daily (科创板日报)/Eastmoney (东方财富), 2025-12-10</td>
+<td>Reporter's hands-on Meituan cloud-phone test</td>
+<td><a href="https://finance.eastmoney.com/a/202512103587526022.html" target="_blank" rel="noopener">https://finance.eastmoney.com/a/202512103587526022.html</a></td>
+</tr>
+<tr class="odd">
+<td>G5</td>
+<td>AI内参, 2025-08-21</td>
+<td>Review covering account-login issues; identity/method require caution</td>
+<td><a href="https://www.neican.ai/insights/autoglm-20agent-20250821151004768-0/" target="_blank" rel="noopener">https://www.neican.ai/insights/autoglm-20agent-20250821151004768-0/</a></td>
+</tr>
+<tr class="even">
+<td>G6</td>
+<td>Tencent Cloud Community, 2025-09-04</td>
+<td>Hands-on cloud-phone barbecue order; recommends logging in first to retain the session</td>
+<td><a href="https://developer.cloud.tencent.com/article/2564715?from=15425&amp;frompage=seopage" target="_blank" rel="noopener">https://developer.cloud.tencent.com/article/2564715?from=15425&amp;frompage=seopage</a></td>
+</tr>
+<tr class="odd">
+<td>G8</td>
+<td>AutoGLM China App Store</td>
+<td>Current 2.0.20 and individual feedback on connections/accessibility/authentication; verified by directly retrieving official HTML</td>
+<td><a href="https://apps.apple.com/cn/app/id6748391183" target="_blank" rel="noopener">https://apps.apple.com/cn/app/id6748391183</a></td>
+</tr>
+<tr class="even">
+<td>G7</td>
+<td>卡尔的AI沃茨, 2025-08-22</td>
+<td>Bilibili cloud-phone demonstration; not watched frame by frame</td>
+<td><a href="https://www.bilibili.com/video/BV1NretzZEJo/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1NretzZEJo/</a></td>
+</tr>
+</tbody>
+</table>
+</div></section>
+</div><footer class="footer">Official claims, third-party testing and individual feedback are labeled separately. Individual reports do not establish overall satisfaction. Unknown and unverified points remain explicit evidence gaps.<br><a href="autoglm-2026-10-06.en.md">Read this research snapshot</a> · <a href="../../index.en.html">Back to interaction index</a></footer></main></div></body></html>

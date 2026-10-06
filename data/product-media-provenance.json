@@ -1,0 +1,273 @@
+{
+  "generated": "2026-10-06",
+  "note": "Official materials and individual project photos retain their source identity; reproductions are not new hands-on tests.",
+  "media": [
+    {
+      "name": "workbuddy-lark-voice",
+      "original_url": "https://cdn.hollyland.com/file/product/lark-a2/images/vibe-hands-free.png",
+      "path": "media/products/workbuddy-lark-voice.jpg",
+      "size": [
+        1180,
+        840
+      ]
+    },
+    {
+      "name": "kimi",
+      "original_url": "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-06-03/1d8g0f3edcmosb3pfqj80?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+      "path": "media/products/kimi.jpg",
+      "size": [
+        1600,
+        1055
+      ]
+    },
+    {
+      "name": "quark",
+      "original_url": "https://img.alicdn.com/imgextra/i3/O1CN01SXgiH1zDatH7ld6U_%21%216000000002367-2-tps-3826-2260.png",
+      "path": "media/products/quark.jpg",
+      "size": [
+        1600,
+        945
+      ]
+    },
+    {
+      "name": "oppo-next",
+      "original_url": "https://www.oppo.com/content/dam/oppo_com/oppo/event-page-asset/oppo-ai/cn/v2/assets/next-0-pc.jpg",
+      "path": "media/products/oppo-next.jpg",
+      "size": [
+        1314,
+        1100
+      ]
+    },
+    {
+      "name": "yuanbao",
+      "product": "yuanbao",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/91/12/f49112fa-3619-fda8-3c24-951f0cff84e5/f8515613a6460d4e5335dec06c21efc3_3.jpg/460x996bb.webp",
+      "caption": "元宝AI录音笔：录音波形与下方结构化纪要同屏，说明音频到可读记录的转化",
+      "source": "https://apps.apple.com/cn/app/id6480446430",
+      "classification": "官方商店宣传/界面截图，非研究者实测",
+      "verified": "2026-10-06 已下载并目视检查",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/91/12/f49112fa-3619-fda8-3c24-951f0cff84e5/f8515613a6460d4e5335dec06c21efc3_3.jpg/460x996bb.webp",
+      "path": "media/products/yuanbao.jpg",
+      "size": [
+        460,
+        996
+      ]
+    },
+    {
+      "name": "doubao-app",
+      "product": "doubao-app",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/bf/96/f4bf9695-8789-8a16-3e04-8810dc8fdd55/oQAAqAAtVrUFMerVheIEEL6mTBVGnAqEbQeHNL.jpg/460x996bb.webp",
+      "caption": "豆包工作任务模式：从任务请求到工作任务卡片，区别于普通聊天",
+      "source": "https://apps.apple.com/cn/app/id6459478672",
+      "classification": "官方商店宣传/界面截图，非研究者实测",
+      "verified": "2026-10-06 已下载并目视检查",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/bf/96/f4bf9695-8789-8a16-3e04-8810dc8fdd55/oQAAqAAtVrUFMerVheIEEL6mTBVGnAqEbQeHNL.jpg/460x996bb.webp",
+      "path": "media/products/doubao-app.jpg",
+      "size": [
+        460,
+        996
+      ]
+    },
+    {
+      "name": "qwen",
+      "product": "qwen",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/46/71/22467113-41c4-8974-4c62-1e42aae57f55/iOS6.5-1242x2688-2.jpg/460x996bb.webp",
+      "caption": "千问工作助理：任务执行界面与数据图表成品",
+      "source": "https://apps.apple.com/cn/app/id6466733523",
+      "classification": "官方商店宣传/界面截图，非研究者实测",
+      "verified": "2026-10-06 已下载并目视检查",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/46/71/22467113-41c4-8974-4c62-1e42aae57f55/iOS6.5-1242x2688-2.jpg/460x996bb.webp",
+      "path": "media/products/qwen.jpg",
+      "size": [
+        460,
+        996
+      ]
+    },
+    {
+      "name": "autoglm",
+      "product": "autoglm",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/de/7d/61de7d2d-fca1-b0af-e036-aebe537afc39/pic2.png/460x998bb.webp",
+      "caption": "AutoGLM智能体手机：云端手机画面，不占用户本机屏幕",
+      "source": "https://apps.apple.com/cn/app/id6748391183",
+      "classification": "官方商店宣传/界面截图，非研究者实测",
+      "verified": "2026-10-06 已下载并目视检查",
+      "original_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/de/7d/61de7d2d-fca1-b0af-e036-aebe537afc39/pic2.png/460x998bb.webp",
+      "path": "media/products/autoglm.jpg",
+      "size": [
+        459,
+        998
+      ]
+    },
+    {
+      "name": "qclaw-demo",
+      "path": "media/products/qclaw-demo.jpg",
+      "original_url": "https://developer.qcloudimg.com/http-save/9996796/af05c947821eb3854e9acda82a0f953b.png"
+    },
+    {
+      "name": "mimouse-keys",
+      "path": "media/products/mimouse-keys.jpg",
+      "original_url": "https://www.mimouse.com/img/aboutNew/6.jpg"
+    },
+    {
+      "name": "mimouse-matrix",
+      "path": "media/products/mimouse-matrix.jpg",
+      "original_url": "https://www.mimouse.com/img/hardwareNew/3.jpg"
+    },
+    {
+      "name": "mimouse-kb6",
+      "path": "media/products/mimouse-kb6.jpg",
+      "original_url": "https://qnam.smzdm.com/202410/15/670e6066927ce5522.jpg_e1080.jpg"
+    },
+    {
+      "name": "AgentDeck",
+      "path": "media/products/diy/agentdeck.jpg",
+      "source_url": "https://github.com/puritysb/AgentDeck",
+      "caption": "作者实拍 Stream Deck+：上部八键，下面横向 LCD 与四旋钮；不是水族馆概念图。README 标注整桌拍摄日期 2026-09-28。",
+      "kind": "实物照片"
+    },
+    {
+      "name": "Claudeq",
+      "path": "media/products/diy/claudeq.jpg",
+      "source_url": "https://github.com/Positronico/claudeq",
+      "caption": "真实竖屏设备录像；问题选项出现后手指点击，截图帧可见细长触屏、机壳及实际桌面。",
+      "kind": "实物操作 GIF"
+    },
+    {
+      "name": "Claudial",
+      "path": "media/products/diy/claudial.jpg",
+      "source_url": "https://github.com/Moge800/Claudial",
+      "caption": "圆形彩色额度表嵌在 M5Stack Dial，安放于红色立架；中心百分比与外围双环可见。",
+      "kind": "实物照片"
+    },
+    {
+      "name": "Clawdmeter",
+      "path": "media/products/diy/clawdmeter.jpg",
+      "source_url": "https://github.com/HermannBjorgvin/Clawdmeter",
+      "caption": "白框 ESP32 屏幕放在笔记本旁，展示 Current 21%、Weekly 5%和重置倒计时；是作者上传的使用照。",
+      "kind": "实物照片"
+    },
+    {
+      "name": "Agent F-Row",
+      "path": "media/products/diy/agent-f-row.jpg",
+      "source_url": "https://github.com/timeToy34/agent-frow",
+      "caption": "作者 Windows 应用截图：彩色会话行、状态、上下文/额度与保存配置；此图不是 RGB 键盘实拍。",
+      "kind": "运行界面截图"
+    },
+    {
+      "name": "QMK Agent Macropad",
+      "path": "media/products/diy/qmk-agent-macropad.jpg",
+      "source_url": "https://github.com/pickypg/ai-agent-macropad",
+      "caption": "NuPhy Air75 V2 右侧一列彩色灯键的实际照片；对应每会话slot，不是普通RGB装饰。",
+      "kind": "实物照片"
+    },
+    {
+      "name": "TactiCommand",
+      "path": "media/products/diy/tacticommand.jpg",
+      "source_url": "https://github.com/aslomon/tacticommand",
+      "caption": "原生Mac配置编辑器显示Claude Code CLI层、物理按键映射及动作参数；示意控制器是界面的一部分，不冒充实物照片。",
+      "kind": "实际配置界面截图"
+    },
+    {
+      "name": "Agent Micro",
+      "path": "media/products/diy/agent-micro.jpg",
+      "source_url": "https://github.com/Krypt0ph0ne/agent-micro",
+      "caption": "仓库DesignQA截图，旧名CodexPad：六键映射、旋钮模型切换、已完成session与连接状态；这是应用截图，不是硬件照片。",
+      "kind": "实际应用截图"
+    },
+    {
+      "name": "Conn",
+      "path": "media/products/diy/conn.jpg",
+      "source_url": "https://github.com/shawnwelsh/conn",
+      "caption": "Conn网页/Deck的15格界面：顶部Bash命令、会话名，下面Allow/Always allow/Deny/语音拒绝及返回窗口；不把它当物理Stream Deck照片。",
+      "kind": "作者提供的实际软件界面图"
+    },
+    {
+      "name": "superwhisper",
+      "product": "superwhisper",
+      "source_page": "https://github.com/superultrainc/superwhisper-docs/blob/main/modes/custom.mdx",
+      "url": "https://raw.githubusercontent.com/superultrainc/superwhisper-docs/main/images/screens/mac/modes-editor-custom-context.png",
+      "type": "official-documentation-screenshot",
+      "caption": "Custom Mode selected-text context, separate ASR and LLM model choices, app activation and shortcut",
+      "inspected": true,
+      "path": "media/products/voice/superwhisper.jpg"
+    },
+    {
+      "name": "voiceink",
+      "product": "voiceink",
+      "source_page": "https://github.com/Beingpax/VoiceInk",
+      "url": "https://github.com/user-attachments/assets/12367379-83e7-48a6-b52c-4488a6a04bba",
+      "type": "official-repository-screenshot",
+      "caption": "Historical dashboard shows History, AI Models, Enhancement, Power Mode, Dictionary. UI statistics are illustrative, not our measurements",
+      "inspected": true,
+      "path": "media/products/voice/voiceink.jpg"
+    },
+    {
+      "name": "willow",
+      "product": "willow",
+      "source_page": "https://help.willowvoice.com/en/articles/10876920-dictating-with-willow-voice",
+      "url": "https://downloads.intercomcdn.com/i/o/zr6s0f6o/1435076904/c322e82a702ebecab50cb348c915/Clipboard-20250322-033100-947.gif",
+      "type": "official-help-workflow-gif",
+      "caption": "Gmail composer with Willow listening pill; hold/release dictation workflow",
+      "still_asset": "willow-demo-frame.png",
+      "inspected": true,
+      "path": "media/products/voice/willow.jpg"
+    },
+    {
+      "name": "doubao",
+      "product": "doubao",
+      "source_page": "https://ime.doubao.com/pc",
+      "url": "https://lf-speechfe-cdn.bytespeech.com/obj/speechfe-cdn/deploy/gaowujian/wave_site/241784/static/image/voice-demo.c16f349a.png",
+      "type": "official-ui-illustration",
+      "caption": "Voice panel showing Undo input, Send, Release to finish and mixed-language/technical-word examples; illustrative claims, not a measured test",
+      "inspected": true,
+      "path": "media/products/voice/doubao.jpg"
+    },
+    {
+      "name": "wechat",
+      "product": "wechat",
+      "source_page": "https://apps.apple.com/cn/app/id1618175312",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/c2/b6/21c2b6b9-6556-7d23-6869-2ad26b40dfcb/356409e9-ba9d-4332-b0f8-f6152864f32d_1__U9996_U9875.jpg/600x1300bb.webp",
+      "type": "official-app-store-ui-screenshot",
+      "caption": "Tencent official App Store keyboard UI; current release notes independently verify voice/cleanup functions",
+      "inspected": true,
+      "secondary_url": "https://gudong.s3.bitiful.net/weimd/1769697857964_image.png",
+      "secondary_asset": "wechat-pc.png",
+      "secondary_caveat": "Inspected image says WeChat controls your computer for text pasting; may be WeChat app external dictation rather than WeType. Do not use as independent WeType capability proof.",
+      "path": "media/products/voice/wechat.jpg"
+    },
+    {
+      "name": "xunfei",
+      "product": "xunfei",
+      "source_page": "https://apps.apple.com/cn/app/id1582446193",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/96/55/539655b7-747b-4890-627a-8d7a023c8c95/AI_U952e_U76d81242_U002a2688.png/600x1300bb.webp",
+      "type": "official-app-store-ui-screenshot",
+      "caption": "AI keyboard with microphone, communication skill, AI entry and nine-key text keyboard",
+      "inspected": true,
+      "path": "media/products/voice/xunfei.jpg"
+    },
+    {
+      "name": "talon",
+      "product": "talon",
+      "source_page": "https://www.joshwcomeau.com/blog/hands-free-coding/",
+      "url": "https://image.mux.com/y8b49QVtRR2mnWSVvGOH1VRXBN4SdLM1FsQ3ox66cpg/thumbnail.jpg?time=20",
+      "type": "firsthand-demo-frame",
+      "caption": "Josh W. Comeau coding React IconButton with Talon; 20-second frame from embedded video, original 2020/updated 2025",
+      "inspected": true,
+      "path": "media/products/voice/talon.jpg"
+    },
+    {
+      "name": "claudeq demonstration clip",
+      "path": "media/products/diy/claudeq-demo.mp4",
+      "source_url": "https://github.com/Positronico/claudeq",
+      "description": "H.264/yuv420p faststart conversion of the source GIF; no synthetic frames or reconstructed interface",
+      "original_url": null
+    },
+    {
+      "name": "willow demonstration clip",
+      "path": "media/products/voice/willow-demo.mp4",
+      "source_url": "https://help.willowvoice.com/en/articles/10876920-dictating-with-willow-voice",
+      "description": "H.264/yuv420p faststart conversion of the source GIF; no synthetic frames or reconstructed interface",
+      "original_url": "https://downloads.intercomcdn.com/i/o/zr6s0f6o/1435076904/c322e82a702ebecab50cb348c915/Clipboard-20250322-033100-947.gif"
+    }
+  ]
+}

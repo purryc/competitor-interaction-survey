@@ -1,0 +1,352 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Voice and Agent Input: Real Workflows Across 10 Products · Full product dossier</title><link rel="stylesheet" href="dossier.css"><meta name="description" content="From dictation, cleanup, application context and selected-text editing to real command outputs: ten products, actual users, delivery/correction failures and evidence for or against adding hardware."></head><body><header class="topbar"><a class="brand" href="../../index.en.html">AI Software, Hardware & Interaction Survey</a><nav><a href="index.en.html">All product dossiers</a><a href="../../index.en.html">Back to interaction index</a></nav><nav class="language-nav" aria-label="Language / 语言"><a href="voice-input.html" hreflang="zh-CN" lang="zh-CN">中文</a><a href="voice-input.en.html" hreflang="en" lang="en" aria-current="page">English</a></nav></header><div class="layout"><aside class="toc"><h2>On this page</h2><ul><li><a href="#executive-conclusions-heading">Executive Conclusions</a></li><li><a href="#evidence-standards-and-limitations-heading">Evidence Standards and Limitations</a></li><li><a href="#i-capability-layers-not-all-natural-language-voice-input-is-an-agent-heading">I. Capability Layers: Not All Natural-Language Voice Input Is an Agent</a></li><li><a href="#ii-10-representative-products-each-with-a-verifiable-35-step-workflow-and-actual-imagesvideo-heading">II. 10 Representative Products: Each with a Verifiable 3–5-Step Workflow and Actual Images/Video</a></li><li><a href="#1-wispr-flow-delivering-developers-long-prompts-into-existing-idesagents-heading">1. Wispr Flow: Delivering Developers’ Long Prompts into Existing IDEs/Agents</a></li><li><a href="#2-superwhisper-users-define-how-each-application-and-text-type-should-be-processed-heading">2. Superwhisper: Users Define How Each Application and Text Type Should Be Processed</a></li><li><a href="#3-voiceink-an-auditable-local-input-layer-with-a-genuine-configurable-execution-output-heading">3. VoiceInk: An Auditable Local Input Layer with a Genuine Configurable Execution Output</a></li><li><a href="#4-aqua-voice-text-context-and-voice-history-accessible-to-external-agents-heading">4. Aqua Voice: Text Context and Voice History Accessible to External Agents</a></li><li><a href="#5-willow-context-aware-email-and-message-writing-with-less-configuration-heading">5. Willow: Context-Aware Email and Message Writing with Less Configuration</a></li><li><a href="#6-doubao-input-method-chinese-dialects-and-a-native-mobile-hold-to-speak-release-to-finish-keyboard-workflow-heading">6. Doubao Input Method: Chinese, Dialects, and a Native Mobile “Hold to Speak, Release to Finish” Keyboard Workflow</a></li><li><a href="#7-wechat-input-method-voice-is-the-entry-point-cross-device-delivery-determines-retention-heading">7. WeChat Input Method: Voice Is the Entry Point; Cross-Device Delivery Determines Retention</a></li><li><a href="#8-iflytek-input-method-ai-writing-and-qa-tools-in-a-keyboard-skill-set-heading">8. iFlytek Input Method: AI Writing and Q&amp;A Tools in a Keyboard Skill Set</a></li><li><a href="#9-talon-optionally-with-cursorless-real-voice-commands-and-precise-editing-not-merely-dictation-to-an-llm-heading">9. Talon (Optionally with Cursorless): Real Voice Commands and Precise Editing, Not Merely Dictation to an LLM</a></li><li><a href="#10-whispering--epicenter-an-open-source-prompt-input-layer-with-user-selected-models-heading">10. Whispering / Epicenter: An Open-Source Prompt Input Layer with User-Selected Models</a></li><li><a href="#iii-real-users-and-tasks-rather-than-invented-personas-heading">III. Real Users and Tasks, Rather than Invented “Personas”</a></li><li><a href="#iv-recurring-friction-and-design-priorities-heading">IV. Recurring Friction and Design Priorities</a></li><li><a href="#v-trade-offs-between-physical-ptt-yesno-a-task-dial-and-the-phone-heading">V. Trade-Offs Between Physical PTT, Yes/No, a Task Dial, and the Phone</a></li><li><a href="#what-softwarephones-already-cover-well-heading">What Software/Phones Already Cover Well</a></li><li><a href="#when-physical-controls-may-still-be-valuable-heading">When Physical Controls May Still Be Valuable</a></li><li><a href="#minimum-testable-concept-research-recommendation-not-established-market-demand-heading">Minimum Testable Concept (Research Recommendation, Not Established Market Demand)</a></li><li><a href="#vi-cost-and-privacy-overview-time-sensitive-not-purchase-advice-heading">VI. Cost and Privacy Overview (Time-Sensitive, Not Purchase Advice)</a></li><li><a href="#vii-important-open-questions-heading">VII. Important Open Questions</a></li></ul></aside><main><section class="hero"><div class="eyebrow">Product dossier · Sources checked 6 October 2026</div><h1>Voice and Agent Input: Real Workflows Across 10 Products</h1><p>From dictation, cleanup, application context and selected-text editing to real command outputs: ten products, actual users, delivery/correction failures and evidence for or against adding hardware.</p><div class="pill-row"><span class="pill">Software capabilities and versions</span><span class="pill">End-to-end tasks</span><span class="pill">Hardware and integration limits</span><span class="pill">Hands-on reports and user feedback</span></div><figure class="hero-media"><img loading="eager" src="../../media/products/voice/superwhisper.jpg" alt="Custom Mode selected-text context, separate ASR and LLM model choices, app activation and shortcut"/><figcaption>Custom Mode selected-text context, separate ASR and LLM model choices, app activation and shortcut · <a href="https://github.com/superultrainc/superwhisper-docs/blob/main/modes/custom.mdx" target="_blank" rel="noopener">Image source</a></figcaption></figure></section><div class="document"><p>Verification date: 2026-10-06. Scope: 10 distinct products/workflows, not a download ranking. Sources include public web pages, official documentation, release notes, individual long-term usage reports, and issue records. We did not install or personally test these applications, or access private accounts.</p>
+<section id="executive-conclusions" class="level2">
+<h2 id="executive-conclusions-heading">Executive Conclusions</h2>
+<ol type="1">
+<li><strong>Voice has become an effective substitute for producing long passages of text, but has not replaced selecting the right target, supplying context, reviewing results, or approving actions.</strong> The mainstream workflow remains: focus a text field → speak → automatic cleanup → review → send. Calling this workflow a “voice agent” obscures responsibility boundaries.</li>
+<li><strong>The most promising hardware opportunity is not another general-purpose recording button.</strong> Fn, mouse side buttons, holding the phone’s space bar, and double-tap hands-free recording already cover activation. The opportunity is to show the current task, target application, and recording status; distinguish “capture this,” “edit this passage,” “send this to this agent,” and “approve execution” through different actions; and provide explicit undo.</li>
+<li><strong>The phone is a strong substitute, not just a microphone.</strong> 咕咚 actually dictates drafts on a phone and edits them on a computer; cross-device paste was the decisive reason for choosing WeChat Input Method over Doubao. Without better task routing, reviewable delivery, and a reliable connection, another piece of hardware adds charging, pairing, and state-management overhead. <a href="https://blog.gudong.site/2026/01/29/weiinput.html" target="_blank" rel="noopener">Case study</a></li>
+<li><strong>“Local,” “AI,” and “agent” must all be evaluated layer by layer.</strong> Local ASR followed by cloud cleanup, automatic dictionary learning, or a cloud API called from a shell still sends data over the network. Aqua MCP gives agents access to voice history and settings; VoiceInk Custom Command is a user-configured local execution output. Neither means the application itself can safely execute everything autonomously.</li>
+<li><strong>The main risk is not merely transcription errors, but errors being “rationalized.”</strong> For example, “delete...” intended as an instruction for a coding agent might instead cause the dictated passage to be deleted immediately, or a cleanup model might start answering a question rather than transcribing it. The control interface needs explicit “verbatim / cleanup / edit / execute” states.</li>
+</ol>
+</section>
+<section id="evidence-standards-and-limitations" class="level2">
+<h2 id="evidence-standards-and-limitations-heading">Evidence Standards and Limitations</h2>
+<ul>
+<li>A: Official documentation, source code, and release records establish capabilities and boundaries, not usability or user share</li>
+<li>B: Named authors, original public videos, and issues with environment details establish that someone actually used the workflow</li>
+<li>C: Anonymous comments and store reviews provide leads about problems; identity and commercial relationships generally cannot be confirmed</li>
+<li>D: Vendor case studies, long-term reports with referral codes, and competitor-written reviews have an explicitly noted conflict of interest; their workflows can be extracted, but they cannot be treated as independent quality assessments</li>
+<li>This report does not extrapolate occupations, ages, regions, or market share beyond the sample, or equate stars/review counts with active voice users. The strongest cases concern development and writing; fieldwork, warehousing, maintenance, and other on-site occupations lack direct evidence in this sample and should remain interview hypotheses</li>
+<li>Older user reports explain friction mechanisms; they do not establish that an old bug still exists on 2026-10-06. In particular, iOS workflows that avoid switching apps and products’ platform coverage change quickly</li>
+<li>Searches surfaced identical posts across sites, referral codes, competitor SEO reviews, and Chinese download domains impersonating official sites. Capability claims use only verified official domains/store developers; claims such as “99%,” “4×,” or “zero editing” are not adopted as cross-product test results</li>
+</ul>
+</section>
+<section id="i-capability-layers-not-all-natural-language-voice-input-is-an-agent" class="level2">
+<h2 id="i-capability-layers-not-all-natural-language-voice-input-is-an-agent-heading">I. Capability Layers: Not All Natural-Language Voice Input Is an Agent</h2>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Layer</th>
+<th>Input/result</th>
+<th>Core risk</th>
+<th>Product examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>L1 Dictation/STT</td>
+<td>Audio → text</td>
+<td>Missing first words, dialects, numbers, paths, noise</td>
+<td>All products; Talon distinguishes dictation from commands</td>
+</tr>
+<tr class="even">
+<td>L2 Cleanup/rewriting</td>
+<td>Remove fillers, add punctuation, structure text</td>
+<td>Removing intended meaning, mistranslation, unsolicited answers</td>
+<td>Flow, Aqua, Willow, Superwhisper, VoiceInk, Doubao, WeChat</td>
+</tr>
+<tr class="odd">
+<td>L3 Application-context writing</td>
+<td>Read application, cursor-adjacent, selected, clipboard, or on-screen text before writing</td>
+<td>Misinterpreting context, privacy exposure, incorrect mode matching</td>
+<td>Flow, Superwhisper, VoiceInk, Aqua, Willow; scope varies</td>
+</tr>
+<tr class="even">
+<td>L4 Selection editing</td>
+<td>“Make this passage shorter” → replace specified text</td>
+<td>Wrong target selection, damage to original text, unclear undo</td>
+<td>Flow desktop Command Mode; Superwhisper Custom; VoiceInk Rewrite; Aqua edit API</td>
+</tr>
+<tr class="odd">
+<td>L5 Structured commands/tool actions</td>
+<td>Explicit scripts, APIs, shortcuts, or command syntax produce side effects</td>
+<td>Wrong targets, unintended execution, permissions, irreversibility</td>
+<td>Talon commands/Python; VoiceInk Custom Command; Aqua MCP lets agents access voice data, rather than serving as an arbitrary executor</td>
+</tr>
+</tbody>
+</table>
+</div><p>L3 is not L5. “Help me send an email” appearing in an input field does not mean the input method sent an email; a language model producing an answer does not mean it invoked an email tool. Each entry below distinguishes native capabilities from externally connected capabilities.</p>
+</section>
+<section id="ii-10-representative-products-each-with-a-verifiable-35-step-workflow-and-actual-imagesvideo" class="level2">
+<h2 id="ii-10-representative-products-each-with-a-verifiable-35-step-workflow-and-actual-imagesvideo-heading">II. 10 Representative Products: Each with a Verifiable 3–5-Step Workflow and Actual Images/Video</h2>
+<section id="1-wispr-flow-delivering-developers-long-prompts-into-existing-idesagents" class="level3">
+<h3 id="1-wispr-flow-delivering-developers-long-prompts-into-existing-idesagents-heading">1. Wispr Flow: Delivering Developers’ Long Prompts into Existing IDEs/Agents</h3>
+<p><strong>Native capabilities</strong>: Cross-application dictation and automatic formatting. Its developer page explicitly lists terminology, camelCase/snake_case, and file tagging in Cursor/Windsurf. Desktop Command Mode supports selection editing, drafting, and search; documentation dated 2026-10-03 explicitly states that in-place text editing is currently unavailable on iOS, so desktop features cannot be assumed to exist on mobile. <a href="https://wisprflow.ai/developers" target="_blank" rel="noopener">Developer page</a> / <a href="https://docs.wisprflow.ai/articles/4816967992-how-to-use-command-mode" target="_blank" rel="noopener">Command Mode</a></p>
+<p><strong>Typical workflow</strong>: ① Place the cursor in a Claude Code/IDE prompt field; ② hold the shortcut or use locked recording; ③ speak the task background, constraints, and expected outcome; ④ release, review the cleaned-up prompt, and add files/symbols; ⑤ submit inside the target agent and review the execution results. For selection editing, first select the text, use the dedicated Command Mode key, and then review the replacement.</p>
+<p><strong>Actual use</strong>: In a 2026-02-02 report, The Marketing Show describes approximately three months of daily use, primarily with Claude Code, as well as writing comments, commit messages, and email. The author uses Option to toggle hands-free recording while keeping their hands on the keyboard for easy corrections. The author explicitly receives referral rewards and is an affiliate, making this Category D evidence; word counts and speeds are treated only as self-reported personal dashboard figures. Reported negatives include mobile permissions/button placement and the lack of live text feedback on desktop; the author also notes that shared spaces are unsuitable. <a href="https://themarketingshow.com/posts/wispr-flow" target="_blank" rel="noopener">Long-term usage report</a></p>
+<p><strong>Key boundary</strong>: Flow passes the prompt to Claude; Claude executes the development task. The verified Flow Notetaker MCP can expose meeting notes to other AI systems, which remains different from “directly carrying out tasks in any application.” <a href="https://wisprflow.ai/pricing" target="_blank" rel="noopener">Pricing and MCP boundaries</a></p>
+<p><strong>Media</strong>: The official developer page includes a hands-on Tech With Tim video showing IDE prompting and file context; it is not a logo. <a href="https://app.vidzflow.com/v/Uv6aL1le89" target="_blank" rel="noopener">Video</a>. The official site also has an illustrative iOS document-content image, but it does not show the complete recording interface and is not used as evidence of input interaction.</p>
+</section>
+<section id="2-superwhisper-users-define-how-each-application-and-text-type-should-be-processed" class="level3">
+<h3 id="2-superwhisper-users-define-how-each-application-and-text-type-should-be-processed-heading">2. Superwhisper: Users Define How Each Application and Text Type Should Be Processed</h3>
+<p><strong>Native capabilities</strong>: Speech models and cleanup language models are selected separately. Custom Mode offers three context types, Application, Copied text, and Selected text, and can be triggered by application/website. The official documentation source notes that blank custom instructions may produce unexpected results. <a href="https://github.com/superultrainc/superwhisper-docs/blob/main/modes/custom.mdx" target="_blank" rel="noopener">Official Custom Mode documentation source</a> / <a href="https://superwhisper.com/models" target="_blank" rel="noopener">Models</a></p>
+<p><strong>Workflow</strong>: ① Configure an “email reply” mode with an instruction to output only the reply text; ② enable the required selection/application context and choose local or cloud models; ③ select the original text in the email and press that mode’s shortcut; ④ dictate the key points; ⑤ verify the result and people’s names before sending in the original application. This is a user-configured text pipeline, not a verified autonomous email tool.</p>
+<p><strong>Real-world friction</strong>: In an r/superwhisper post from approximately 2026-08, alexd231232 reports that the model starts answering the spoken prompt instead of typing it out. Other users report similar experiences; Nico4Real says the team is working on improvements and suggests different modes/models. Identities are recorded as public usernames; the claimed team affiliation was not independently authenticated. <a href="https://www.reddit.com/r/superwhisper/comments/1uuiqhz/mode_keeps_replying_to_my_prompt_instead_of_just/" target="_blank" rel="noopener">Original post</a></p>
+<p><strong>Hardware implication</strong>: Mode is a more important state than “recording on/off.” A shortcut button that only sends Fn without showing the mode cannot prevent users from accidentally using “answer” when they intended “transcribe.”</p>
+<p><strong>Actual image</strong>: <code>superwhisper-context.png</code> has been downloaded and inspected. It clearly shows Selected text checked, separate dropdowns for the speech model and language model, and the entry point for the mode shortcut.</p>
+<p><img src="../../media/products/voice/superwhisper.jpg" alt="Custom Mode selected-text context, separate ASR and LLM model choices, app activation and shortcut"></p>
+<p><em>Custom Mode selected-text context, separate ASR and LLM model choices, app activation and shortcut <a href="https://github.com/superultrainc/superwhisper-docs/blob/main/modes/custom.mdx" target="_blank" rel="noopener">Source</a>.</em></p>
+</section>
+<section id="3-voiceink-an-auditable-local-input-layer-with-a-genuine-configurable-execution-output" class="level3">
+<h3 id="3-voiceink-an-auditable-local-input-layer-with-a-genuine-configurable-execution-output-heading">3. VoiceInk: An Auditable Local Input Layer with a Genuine Configurable Execution Output</h3>
+<p><strong>Native capabilities</strong>: Modes manage transcription, cleanup, context, and Paste/Respond/Custom Command output. Screen context first undergoes local OCR, then the extracted text is sent to the selected enhancement provider. Local transcription does not guarantee that subsequent enhancement or dictionary learning also runs locally. <a href="https://tryvoiceink.com/docs/modes" target="_blank" rel="noopener">Modes</a> / <a href="https://tryvoiceink.com/docs/context-awareness" target="_blank" rel="noopener">Context</a> / <a href="https://tryvoiceink.com/docs/privacy-and-data" target="_blank" rel="noopener">Privacy</a></p>
+<p><strong>Workflow</strong>: ① Configure a “project log” Mode, choosing transcription and enhancement policies; ② select Custom Command as its output; ③ press the dedicated key and dictate debugging observations; ④ VoiceInk passes the final text to a local command through stdin/VOICEINK_TRANSCRIPT; ⑤ an external script appends it to Markdown or calls the user’s own endpoint. <strong>This is a genuine native hook for user-built actions, not a built-in general-purpose agent.</strong> Official limitations: commands must be non-interactive, the timeout is 10 seconds, and stdout is not automatically pasted back. There is no direct success/failure notification; logs are needed. <a href="https://tryvoiceink.com/docs/custom-commands" target="_blank" rel="noopener">Custom Commands</a></p>
+<p><strong>Real-world friction</strong>: mneuschaefer’s issue #687 (2026-05-06; 1.74/M1/Parakeet V3, AI enhancement disabled) includes logs showing that hotkey recordings are sometimes empty or contain only fragments. The issue is currently Closed and is not treated as an unresolved defect. Issue #257 requests that History show the active Power Mode, revealing the debugging need to know “which mode did I just use?” <a href="https://github.com/Beingpax/VoiceInk/issues/687" target="_blank" rel="noopener">#687</a> / <a href="https://github.com/Beingpax/VoiceInk/issues/257" target="_blank" rel="noopener">#257</a></p>
+<p><strong>Additional official troubleshooting boundary</strong>: Text appearing in History but not reaching the target application is a focus/permission/paste-delivery problem, not an ASR failure. <a href="https://tryvoiceink.com/docs/clipboard-issues" target="_blank" rel="noopener">Clipboard Issues</a></p>
+<p><strong>Actual image</strong>: The repository’s <code>voiceink-ui.png</code> has been inspected. It shows History, Enhancement, Power Mode, Permissions, Dictionary, and other controls, plus a statistics dashboard. This is a historical UI; the speed figures in the image are not our performance measurements. The current terminology has changed to Modes.</p>
+<p><img src="../../media/products/voice/voiceink.jpg" alt="Historical dashboard shows History, AI Models, Enhancement, Power Mode, Dictionary. UI statistics are illustrative, not our measurements"></p>
+<p><em>Historical dashboard shows History, AI Models, Enhancement, Power Mode, Dictionary. UI statistics are illustrative, not our measurements <a href="https://github.com/Beingpax/VoiceInk" target="_blank" rel="noopener">Source</a>.</em></p>
+</section>
+<section id="4-aqua-voice-text-context-and-voice-history-accessible-to-external-agents" class="level3">
+<h3 id="4-aqua-voice-text-context-and-voice-history-accessible-to-external-agents-heading">4. Aqua Voice: Text Context and Voice History Accessible to External Agents</h3>
+<p><strong>Native capabilities</strong>: Formatting for the target application, Dictionary/Custom Instructions/Deep Context; the API’s operation=edit accepts selected text and spoken instructions. MCP can read history and transcripts, manage dictionaries/settings, and handle feedback. <strong>The MCP direction is Claude → Aqua; the Linear action in the “file it as a Linear ticket” example still requires Claude’s other tools.</strong> <a href="https://aquavoice.com/info/faq" target="_blank" rel="noopener">FAQ</a> / <a href="https://aquavoice.com/api" target="_blank" rel="noopener">API</a> / <a href="https://aquavoice.com/mcp" target="_blank" rel="noopener">MCP</a></p>
+<p><strong>Workflow</strong>: ① Activate dictation in the target input field; ② dictate with dictionary/context assistance; ③ stop, review, and insert; ④ to reuse an earlier brainstorm, search Aqua history from an authorized agent; ⑤ the agent generates suggestions or processes the material through separately authorized tools. With zero recording retention, later retrievable history cannot be assumed.</p>
+<p><strong>Actual use</strong>: Ben Lovejoy (9to5Mac, 2025-08-15) reports nearly 20,000 words over two weeks, writing articles and short messages. A single-person comparison using the same passage produced good results, but still changed one phrase to a near-synonym; this cannot establish overall accuracy. Colin Hughes (2025-08-27, a public accessibility technology advocate and former BBC producer) uses KeyboardMike and appreciates the dictionary and writing adaptation, but notes that key-based activation/pasting is not completely hands-free and that background television or other speakers may also be transcribed. A DIY workaround using Apple Voice Control to send Tab also causes command words to enter the text. Both are historical hands-on reports on the versions available at the time. <a href="https://9to5mac.com/2025/08/15/aqua-voice-shows-just-how-good-mac-dictation-could-be-if-apple-just-tried/" target="_blank" rel="noopener">Lovejoy</a> / <a href="https://www.aestumanda.com/reviews/2025/08/aqua-voice-delivers-what-apples-dictation-still-lacks/" target="_blank" rel="noopener">Hughes</a></p>
+<p><strong>Media</strong>: Hughes’s actual screenshot of Word with Aqua’s floating dictation panel, and the official Aqua Voice 2 UI video. <a href="https://www.aestumanda.com/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-14.07.45.png" target="_blank" rel="noopener">Hands-on screenshot</a> / <a href="https://www.youtube.com/watch?v=f-2UbSC0Zxo" target="_blank" rel="noopener">Video</a>. The official site’s hero video contains only an abstract background and has been excluded; it cannot serve as evidence of the product interface.</p>
+</section>
+<section id="5-willow-context-aware-email-and-message-writing-with-less-configuration" class="level3">
+<h3 id="5-willow-context-aware-email-and-message-writing-with-less-configuration-heading">5. Willow: Context-Aware Email and Message Writing with Less Configuration</h3>
+<p><strong>Native capabilities</strong>: The official workflow requires focusing a text field first, then holding Fn; releasing formats and inserts the text, while double-tapping enables hands-free recording. Surrounding text can supply people’s names and email formatting. The official privacy page states that processing is cloud-based, and the default Private Mode is not fully offline. Disabling Context Awareness stops it from reading on-screen text. <a href="https://help.willowvoice.com/en/articles/10876920-dictating-with-willow-voice" target="_blank" rel="noopener">Usage guide</a> / <a href="https://help.willowvoice.com/en/articles/12854269-how-willow-protects-your-data-and-privacy" target="_blank" rel="noopener">Privacy</a></p>
+<p><strong>Workflow</strong>: ① Open Gmail/Slack and click the input field; ② hold Fn or double-tap; ③ dictate rough content; ④ after recording, review the salutation, tone, and body; ⑤ send manually. No general-purpose execution API was verified, so L5 capability is not assigned.</p>
+<p><strong>Real-world friction</strong>: Fragrant_Raisin_Face (approximately 2026-06) appreciates custom words and synchronization, but reports that when dictating “delete” as an editing instruction intended for elsewhere, Willow directly rewrote the entire passage. This post establishes only that user’s experience; it does not prove that cleanup cannot be disabled in every version. Speculation about privacy in the comments cannot substitute for the official policy. <a href="https://www.reddit.com/r/ProductivityApps/comments/1trkkrq/the_one_reason_willow_voice_keyboard_sucks/" target="_blank" rel="noopener">Original post</a></p>
+<p><strong>Actual image</strong>: The official Gmail dictation GIF was downloaded and inspected, showing the input field, toolbar, and bottom recording capsule. <code>willow-demo.gif</code> / <code>willow-demo-frame.png</code>.</p>
+<p><img src="../../media/products/voice/willow.jpg" alt="Gmail composer with Willow listening pill; hold/release dictation workflow"></p>
+<p><em>Gmail composer with Willow listening pill; hold/release dictation workflow <a href="https://help.willowvoice.com/en/articles/10876920-dictating-with-willow-voice" target="_blank" rel="noopener">Source</a>.</em></p>
+<p><a href="../../media/products/voice/willow-demo.mp4">Play the official dictation demonstration</a></p>
+</section>
+<section id="6-doubao-input-method-chinese-dialects-and-a-native-mobile-hold-to-speak-release-to-finish-keyboard-workflow" class="level3">
+<h3 id="6-doubao-input-method-chinese-dialects-and-a-native-mobile-hold-to-speak-release-to-finish-keyboard-workflow-heading">6. Doubao Input Method: Chinese, Dialects, and a Native Mobile “Hold to Speak, Release to Finish” Keyboard Workflow</h3>
+<p><strong>Verified capabilities</strong>: The official site supports dialects, specialist terminology, and mixed Chinese-English input, and presents quiet speech, noisy-environment input, and long-form organization as product priorities. The App Store lists tap/long-press input, voice standby and no-app-switching operation, and one-tap send. The input method does not automatically inherit tool calling from the Doubao app. <a href="https://ime.doubao.com/pc" target="_blank" rel="noopener">Official site</a> / <a href="https://apps.apple.com/cn/app/%E8%B1%86%E5%8C%85%E8%BE%93%E5%85%A5%E6%B3%95-%E8%B1%86%E5%8C%85%E5%90%8C%E6%AC%BE%E8%AF%AD%E9%9F%B3%E8%BE%93%E5%85%A5/id6752316550" target="_blank" rel="noopener">Official iOS store page</a></p>
+<p><strong>Workflow</strong>: ① Switch to the Doubao keyboard in a chat, note, or AI prompt field; ② hold the space bar/voice entry point to start; ③ speak a passage in Chinese or with mixed terminology; ④ release, review, and organize if needed; ⑤ send in the original application or copy to the computer. The official illustration explicitly shows “Undo input,” “Send,” and “Release to finish” together, providing more control than a design with only a recording halo.</p>
+<p><strong>Actual use/limitations</strong>: On 2026-01-29, 咕咚 reported a week of use and dictated the article’s own draft with Doubao, considering its recognition very good. However, at the time, moving a phone draft to a computer for editing required WeChat File Transfer Assistant/Feishu; that extra step led him back to WeChat Input Method. January’s lack of a PC version/cross-device clipboard cannot be treated as the October situation; the current official site already has a desktop entry point. <a href="https://blog.gudong.site/2026/01/29/weiinput.html" target="_blank" rel="noopener">Case study</a></p>
+<p><strong>Actual image</strong>: <code>doubao-ui.png</code> was downloaded and inspected. It shows a voice waveform, undo, send, release-to-finish, and demonstrations of mixed Chinese-English input and specialist vocabulary. It is an official interface illustration, not our own recognition test result.</p>
+<p><img src="../../media/products/voice/doubao.jpg" alt="Voice panel showing Undo input, Send, Release to finish and mixed-language/technical-word examples; illustrative claims, not a measured test"></p>
+<p><em>Voice panel showing Undo input, Send, Release to finish and mixed-language/technical-word examples; illustrative claims, not a measured test <a href="https://ime.doubao.com/pc" target="_blank" rel="noopener">Source</a>.</em></p>
+</section>
+<section id="7-wechat-input-method-voice-is-the-entry-point-cross-device-delivery-determines-retention" class="level3">
+<h3 id="7-wechat-input-method-voice-is-the-entry-point-cross-device-delivery-determines-retention-heading">7. WeChat Input Method: Voice Is the Entry Point; Cross-Device Delivery Determines Retention</h3>
+<p><strong>Verified capabilities</strong>: The official iOS store page currently describes STT, Ask AI (DeepSeek/Hunyuan), quick text, and clipboard features. Release notes confirm text organization, a floating window that avoids switching apps, offline voice, filler removal, paragraphing, and bullet points for long content. Ask AI provides Q&amp;A and generation within the input panel; this does not establish that it can operate other applications. <a href="https://apps.apple.com/cn/app/id1618175312" target="_blank" rel="noopener">Official store page</a></p>
+<p><strong>Actual workflow (Category B)</strong>: ① 咕咚 writes a draft by voice on his phone; ② copies the result on the phone; ③ presses Ctrl+V on the computer to insert it into an editor; ④ formats and edits on the larger screen; ⑤ publishes. On 2026-02-11, he also used Mac Fn voice input to dictate an entire article, judging the free option sufficient for his needs; the shortcut could not be customized at the time. That limitation is not extrapolated to the present without verification. <a href="https://blog.gudong.site/2026/01/29/weiinput.html" target="_blank" rel="noopener">Cross-device case study</a> / <a href="https://blog.gudong.site/2026/02/11/weixin.html" target="_blank" rel="noopener">Mac use</a></p>
+<p><strong>Implication for mobile input devices</strong>: “Remote voice input” can first produce a draft/clipboard item rather than directly control a remote agent; the goal is to reduce transfer and placement costs. Explicit task identity and confirmation are still needed before going further to send directly to an agent.</p>
+<p><strong>Media</strong>: Store keyboard UI images have been downloaded. Visual inspection of the PC push-to-talk image in 咕咚’s January article found the text “Authorize WeChat to control your computer (only for pasting text),” with ambiguity between the WeChat app and WeChat Input Method. The image is therefore not used independently to establish input-method capability; the official store keyboard interface is the main exhibit. The official homepage returned Site Unavailable during this research, and no suspected mirror download site was substituted.</p>
+<p><img src="../../media/products/voice/wechat.jpg" alt="Tencent official App Store keyboard UI; current release notes independently verify voice/cleanup functions"></p>
+<p><em>Tencent official App Store keyboard UI; current release notes independently verify voice/cleanup functions <a href="https://apps.apple.com/cn/app/id1618175312" target="_blank" rel="noopener">Source</a>.</em></p>
+</section>
+<section id="8-iflytek-input-method-ai-writing-and-qa-tools-in-a-keyboard-skill-set" class="level3">
+<h3 id="8-iflytek-input-method-ai-writing-and-qa-tools-in-a-keyboard-skill-set-heading">8. iFlytek Input Method: AI Writing and Q&amp;A Tools in a Keyboard Skill Set</h3>
+<p><strong>Verified capabilities</strong>: The official store developer is iFlytek. Its description includes an AI keyboard, reorderable skill groups, chat polishing/replies/copywriting/Q&amp;A, an AI clipboard, and translation. “Agent” here describes keyboard capability entry points, not a demonstrated third-party execution API. The iOS page explicitly says the “cursor companion” feature (“光标搭子”) is unavailable, so Android marketing cannot be applied interchangeably. <a href="https://apps.apple.com/cn/app/id1582446193" target="_blank" rel="noopener">Official store page</a></p>
+<p><strong>Workflow</strong>: ① Open the keyboard in the target chat/work text field; ② use voice to produce a draft; ③ select the configured polishing/smart-reply tool in the keyboard; ④ choose and review a suitable output; ⑤ return to the original target and send. Skill-group configuration is native UI; automatic execution involving email, calendars, or agents has not been verified.</p>
+<p><strong>Real-world friction</strong>: Store reviewer “浣若” (displayed as July 31, without a separately displayed year) reports having to switch into the input-method app for voice input and then return. Current release history already lists a June floating-window feature avoiding app switching and reduced switching in September, so the old review cannot be treated as a step all current users must take. The more important issue here is the general design problem of cross-application microphone permission and focus restoration.</p>
+<p><strong>Actual image</strong>: <code>xunfei-ui.webp</code> has been inspected. It shows a nine-key keyboard, microphone, a “high-EQ communication” skill button, and an AI entry point.</p>
+<p><img src="../../media/products/voice/xunfei.jpg" alt="AI keyboard with microphone, communication skill, AI entry and nine-key text keyboard"></p>
+<p><em>AI keyboard with microphone, communication skill, AI entry and nine-key text keyboard <a href="https://apps.apple.com/cn/app/id1582446193" target="_blank" rel="noopener">Source</a>.</em></p>
+</section>
+<section id="9-talon-optionally-with-cursorless-real-voice-commands-and-precise-editing-not-merely-dictation-to-an-llm" class="level3">
+<h3 id="9-talon-optionally-with-cursorless-real-voice-commands-and-precise-editing-not-merely-dictation-to-an-llm-heading">9. Talon (Optionally with Cursorless): Real Voice Commands and Precise Editing, Not Merely Dictation to an LLM</h3>
+<p><strong>Native capabilities</strong>: Command grammars, Python extensions, and voice/eye-tracking/mouth-noise input. Talon 1.0, released on 2026-09-20, introduced new command and dictation models, mixed mode, and UI for numbering, selections, corrections, mouse grids, and more. The older official Getting Started guide still says to add scripts first, creating a timing mismatch with the new 1.0 default command set; configuration should be version-aware. <a href="https://talonvoice.com/dl/latest/changelog.html" target="_blank" rel="noopener">Release notes</a> / <a href="https://talonvoice.com/docs/reference/official.html" target="_blank" rel="noopener">Official documentation</a></p>
+<p><strong>Workflow</strong>: ① Enter the editor and the relevant language context; ② speak commands for variables/code structures; ③ locate the target using target markers or selection commands; ④ replace/delete/undo; ⑤ continue navigating when keyboard use is unavailable. Cursorless is an additional editor/community integration, not an LLM agent automatically bundled with Talon. <a href="https://talon.wiki/Voice%20Coding/voice-coding-overview/" target="_blank" rel="noopener">Community voice-coding guide</a></p>
+<p><strong>Actual use</strong>: Josh W. Comeau’s original 2020 article, updated in 2025-02, publicly demonstrates writing a React component with Talon, selecting and correcting an incorrect word, and using eye tracking and mouth clicks. Only the publicly demonstrated requirement to reduce hand input is adopted here; no inference is made about other people's health. Direct voice coding emphasizes target selection and predictable commands, with a noticeably higher learning cost than dictating prompts. <a href="https://www.joshwcomeau.com/blog/hands-free-coding/" target="_blank" rel="noopener">First-hand video and workflow</a></p>
+<p><strong>Actual image</strong>: <code>talon-coding.jpg</code> has been downloaded and inspected. It is a frame at 20 seconds from the hands-on video above, showing the editor building a React IconButton; it is not a generated illustration.</p>
+<p><img src="../../media/products/voice/talon.jpg" alt="Josh W. Comeau coding React IconButton with Talon; 20-second frame from embedded video, original 2020/updated 2025"></p>
+<p><em>Josh W. Comeau coding React IconButton with Talon; 20-second frame from embedded video, original 2020/updated 2025 <a href="https://www.joshwcomeau.com/blog/hands-free-coding/" target="_blank" rel="noopener">Source</a>.</em></p>
+</section>
+<section id="10-whispering--epicenter-an-open-source-prompt-input-layer-with-user-selected-models" class="level3">
+<h3 id="10-whispering--epicenter-an-open-source-prompt-input-layer-with-user-selected-models-heading">10. Whispering / Epicenter: An Open-Source Prompt Input Layer with User-Selected Models</h3>
+<p><strong>Verified capabilities</strong>: The current official repository’s apps/whispering README explicitly describes recording → transcription using a selected provider → optional cleanup → delivery. The Epicenter desktop host provides global shortcuts, local models, and system paste; the browser version only has in-page shortcuts and a clipboard fallback. The README contains contradictory migration statements about the browser being a “real product target” and, in its final section, no longer being a hosted deployment. Accordingly, only the desktop route is treated as a currently dependable design; the present web offering should not be treated as a stable commitment. <a href="https://github.com/EpicenterHQ/epicenter/tree/main/apps/whispering" target="_blank" rel="noopener">Current official README</a></p>
+<p><strong>Workflow</strong>: ① Configure the provider/local model and shortcut; ② focus the Claude Code prompt field; ③ speak the task; ④ paste after transcription or transformation; ⑤ the user submits it to Claude Code. The voice app does not execute code; BYOK/service charges and key configuration add barriers.</p>
+<p><strong>Actual demonstration evidence</strong>: An early project README, preserved in a current fork, links author Braden Wong’s five-minute setup video and three-minute Claude Code walkthrough. The author’s claims of daily use and low API spending carry developer-promotional bias and are not pricing promises. Old installation steps cannot be carried over mechanically after the main repository’s migration. <a href="https://github.com/Logangriffy/whispering" target="_blank" rel="noopener">Historical README</a> / <a href="https://www.youtube.com/watch?v=1jYgBMrfVZs" target="_blank" rel="noopener">Workflow demonstration</a> / <a href="https://youtube.com/shorts/tP1fuFpJt7g" target="_blank" rel="noopener">Claude Code short</a></p>
+<p><strong>Media</strong>: Both public videos show actual recording, configuration, and coding-prompt workflows. The videos were not downloaded; thumbnails and brand logos are not treated as evidence of use.</p>
+</section>
+</section>
+<section id="iii-real-users-and-tasks-rather-than-invented-personas" class="level2">
+<h2 id="iii-real-users-and-tasks-rather-than-invented-personas-heading">III. Real Users and Tasks, Rather than Invented “Personas”</h2>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Public user/material</th>
+<th>Established task</th>
+<th>Input method and subsequent actions</th>
+<th>Limits of observation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>The Marketing Show, 2026-02-02</td>
+<td>Claude Code prompts, commit messages, email/Slack</td>
+<td>Option toggles dictation; keyboard remains available for immediate corrections; dislikes mobile experience</td>
+<td>Referral rewards; personal statistics cannot be extrapolated</td>
+</tr>
+<tr class="even">
+<td>Ben Lovejoy, 2025-08-15</td>
+<td>News articles, everyday messages</td>
+<td>Aqua/built-in microphone; article paragraphs emerge after stopping</td>
+<td>Named journalist’s two-week experience; a single-passage comparison is not a general benchmark</td>
+</tr>
+<tr class="odd">
+<td>Colin Hughes, 2025-08-27</td>
+<td>Text creation, reduced hand operation</td>
+<td>Aqua + external microphone; Voice Control in command-only mode sends Tab</td>
+<td>Not completely hands-free; background speech and command-word contamination</td>
+</tr>
+<tr class="even">
+<td>咕咚, 2026-01/02</td>
+<td>Phone drafts → computer editing, AI conversations, developer writing</td>
+<td>Doubao/WeChat voice; cross-device Ctrl+V; later Mac Fn</td>
+<td>One person’s comparison is not a population preference; free products are strong substitutes</td>
+</tr>
+<tr class="odd">
+<td>Josh W. Comeau, 2020/2025</td>
+<td>Actual React code and desktop navigation</td>
+<td>Talon commands, selections, corrections, eye tracking</td>
+<td>Precise-command paradigm, not immediate usability for newcomers</td>
+</tr>
+<tr class="even">
+<td>mneuschaefer, 2026-05-06</td>
+<td>Everyday hotkey transcription</td>
+<td>VoiceInk on M1/Parakeet; provides startup race-condition logs</td>
+<td>Historical Closed issue, not a current reproduction</td>
+</tr>
+<tr class="odd">
+<td>Fragrant_Raisin_Face, approximately 2026-06</td>
+<td>Entering instructions for text editing elsewhere</td>
+<td>Willow dictation containing delete</td>
+<td>Content mistaken for control; single anonymous case</td>
+</tr>
+<tr class="even">
+<td>alexd231232, approximately 2026-08</td>
+<td>Dictating prompts</td>
+<td>Superwhisper mode answers autonomously</td>
+<td>A lead on mode/LLM misbehavior; single anonymous case</td>
+</tr>
+</tbody>
+</table>
+</div><p>There are currently insufficient named examples of mobile fieldwork to claim “salespeople/doctors/maintenance workers commonly use this.” A next round of interviews could ask: while walking, with hands occupied, on weak networks, or around other people, is the task to capture a draft or immediately trigger a consequential system action? These require different devices and authorization.</p>
+</section>
+<section id="iv-recurring-friction-and-design-priorities" class="level2">
+<h2 id="iv-recurring-friction-and-design-priorities-heading">IV. Recurring Friction and Design Priorities</h2>
+<p>Ratings are this study’s qualitative judgments, not statistical scores. Recurrence means only that an issue appears across sources/products.</p>
+<div class="table-scroll" role="region" aria-label="Horizontally scrollable table" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Priority</th>
+<th>Problem</th>
+<th>Severity</th>
+<th>Recurrence/evidence in the sample</th>
+<th>Recommendation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P0</td>
+<td>Confusion between text, editing commands, and execution commands</td>
+<td>High; can change meaning or trigger unintended actions</td>
+<td>Willow delete; Superwhisper answering prompts; Talon’s mode distinctions</td>
+<td>Explicit modes, preserve original text, support undo; separate confirmation for execution</td>
+</tr>
+<tr class="even">
+<td>P0</td>
+<td>Unclear target application/task and lost focus</td>
+<td>High; delivery to the wrong place can leak information or contaminate a task</td>
+<td>VoiceInk’s official paste troubleshooting; Flow only notifies when no field is focused; mobile cross-device workflows</td>
+<td>Freeze target identity during recording; show application/task name before output; do not guess the remote target from “current focus”</td>
+</tr>
+<tr class="odd">
+<td>P0</td>
+<td>Audio captured but not successfully delivered</td>
+<td>High; lost ideas and duplicated work</td>
+<td>VoiceInk #687 logs; iOS reports of app switching/lost text</td>
+<td>Distinguish listening/processing/delivered; retain a recoverable draft; make failures visible</td>
+</tr>
+<tr class="even">
+<td>P1</td>
+<td>Chinese/mixed Chinese-English specialist terms, paths, variables, punctuation</td>
+<td>Medium to high; code parameters may become completely invalid</td>
+<td>Flow’s official terminology dictionary; Aqua’s single-person semantic substitution; Willow tests of technical identifiers</td>
+<td>Retain verbatim mode, dictionaries, and selection context; prefer manual entry or selection for paths/commands</td>
+</tr>
+<tr class="odd">
+<td>P1</td>
+<td>False reassurance about cloud/local processing</td>
+<td>More consequential than ordinary UX; involves private context</td>
+<td>VoiceInk’s official three-layer processing explanation; Superwhisper’s two models; Willow’s cloud Private Mode</td>
+<td>Show data destinations at each step rather than a single “local” label</td>
+</tr>
+<tr class="even">
+<td>P1</td>
+<td>Phone → computer delivery</td>
+<td>Medium; affects product choice for frequent writers</td>
+<td>咕咚 explicitly switched back to WeChat for cross-device use</td>
+<td>Prioritize routing/clipboard/task inboxes before hardware</td>
+</tr>
+<tr class="odd">
+<td>P1</td>
+<td>Shared spaces, other voices, quiet speech/noise</td>
+<td>Medium; limits whether voice is usable</td>
+<td>Hughes on background sound; Flow long-term user’s shared-space limits; Chinese products’ official optimization priorities</td>
+<td>Close-talk/directional input, visible recording state, and silent alternatives; no universal noise-cancellation promises</td>
+</tr>
+<tr class="even">
+<td>P2</td>
+<td>Cost and model/permission configuration</td>
+<td>Medium; affects long-term retention</td>
+<td>Free WeChat; open-source BYOK; subscriptions and mode management</td>
+<td>Do not mistake price differences for quality differences; total cost includes configuration/correction time</td>
+</tr>
+<tr class="odd">
+<td>To validate</td>
+<td>Whether task selection by dial and physical yes/no are frequent needs</td>
+<td>Unknown</td>
+<td>This voice sample provides no direct evidence of demand volume</td>
+<td>Test only in real multi-agent queues/approval workflows; voice-product popularity does not establish the need</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>Correction principle</strong>: Voice “undo” must identify which transaction is being undone. Deleting the last recognized word, undoing a selection rewrite, canceling an unsent prompt, and recalling an external email are four different operations. Canceling a Flow recording does not recall a sent message; VoiceInk shell side effects do not automatically roll back when a paste is undone.</p>
+</section>
+<section id="v-trade-offs-between-physical-ptt-yesno-a-task-dial-and-the-phone" class="level2">
+<h2 id="v-trade-offs-between-physical-ptt-yesno-a-task-dial-and-the-phone-heading">V. Trade-Offs Between Physical PTT, Yes/No, a Task Dial, and the Phone</h2>
+<section id="what-softwarephones-already-cover-well" class="level3">
+<h3 id="what-softwarephones-already-cover-well-heading">What Software/Phones Already Cover Well</h3>
+<ul>
+<li>One application, a quiet environment, and long natural-language passages: Fn/PTT/mouse side buttons are sufficient; a dedicated voice key primarily offers tactile discoverability, activation posture, or reduced hand effort, not a new capability on which to base pricing</li>
+<li>Short messages or drafts on a phone: existing keyboards already provide a complete set of long-press/no-app-switching/undo/send controls; no additional capture device is needed</li>
+<li>AI prompts requiring long context: voice can reduce the initial effort of organizing and entering content, but files, selections, screenshots, or project state are still needed; a microphone cannot solve context acquisition</li>
+</ul>
+</section>
+<section id="when-physical-controls-may-still-be-valuable" class="level3">
+<h3 id="when-physical-controls-may-still-be-valuable-heading">When Physical Controls May Still Be Valuable</h3>
+<ul>
+<li>Multiple agents waiting simultaneously: a physical selector with names/colors/task summaries, followed by PTT directed at the chosen task; routing identity is the core value, rather than the dial itself</li>
+<li>Frequent yes/no approvals: buttons must show the specific target, a summary of changes, and permission risks, making “approve this action” explicit rather than blindly sending Enter/y. Reject, pause, and cancel should be separate</li>
+<li>Reduced hand-operation needs: a foot pedal/large button may offer more value than a key combination, but must fit the user’s actual movement capabilities; not every accessibility need is suited to pedals or sustained speech</li>
+<li>Capture away from the desk: phones are already carried around and have screens and haptics; a dedicated device must demonstrate less interruption and more reliable target synchronization than a phone, rather than merely better looks</li>
+</ul>
+</section>
+<section id="minimum-testable-concept-research-recommendation-not-established-market-demand" class="level3">
+<h3 id="minimum-testable-concept-research-recommendation-not-established-market-demand-heading">Minimum Testable Concept (Research Recommendation, Not Established Market Demand)</h3>
+<p>Start with a software prototype: before input, show “Task A / Draft mode / Local or cloud”; provide one-action PTT; deliver the result to the target task’s inbox. Provide two clearly labeled left/right buttons, “Insert draft” and “Discard,” with execution confirmed separately. Then have real users compare keyboard shortcuts, a phone, a two-button peripheral, and a dial with a display. Primary metrics: first-attempt delivery to the correct target, total time from intent to an acceptable result, number of reviews/re-dictations/manual corrections, recovery time after an error, and number of unintended actions. Do not measure transcription WPM alone.</p>
+</section>
+</section>
+<section id="vi-cost-and-privacy-overview-time-sensitive-not-purchase-advice" class="level2">
+<h2 id="vi-cost-and-privacy-overview-time-sensitive-not-purchase-advice-heading">VI. Cost and Privacy Overview (Time-Sensitive, Not Purchase Advice)</h2>
+<ul>
+<li>Flow’s current official Pro price is $15/month or $144/year; the free tier has usage limits. Context sent may include the application, cursor/selection/screen text; platform differences need to be checked. <a href="https://wisprflow.ai/pricing" target="_blank" rel="noopener">Pricing</a> / <a href="https://docs.wisprflow.ai/articles/4678293671-Context-Awareness" target="_blank" rel="noopener">Context</a></li>
+<li>Superwhisper’s official Pro monthly price is $8.49; there is a free path using local Whisper models. The speech model and language model need to be checked separately; the former running locally does not make the whole pipeline local. <a href="https://superwhisper.com/" target="_blank" rel="noopener">Official site</a> / <a href="https://superwhisper.com/models" target="_blank" rel="noopener">Models</a></li>
+<li>VoiceInk is open source and can be built from source; the packaged product uses a license model. Third-party pricing/minimum OS information already conflicts, so this report does not anchor to old <span class="math inline">19/</span>25/$40 figures. The current README states macOS 15+; defer to the current official purchase page. <a href="https://github.com/Beingpax/VoiceInk" target="_blank" rel="noopener">Repository</a></li>
+<li>Aqua’s official page shows a free allowance of 1,000 words and Pro/Max tiers. Monthly/annual toggles can make headline prices easy to misread; the displayed $8 should not automatically be treated as the month-to-month checkout price. The API is billed separately by usage; the official reference currently lists dictation at $0.49/hour and transcription at $0.39/hour, with a 10-second billing minimum. These are not consumer subscription prices. <a href="https://aquavoice.com/docs/api" target="_blank" rel="noopener">API billing documentation</a></li>
+<li>Willow’s official privacy materials confirm cloud processing; review claims of a “Pro local mode” are not treated as verified functionality. Store/official-site plans change over time; this report makes no purchase-cost promises based on third-party prices</li>
+<li>Doubao/WeChat are currently free in their stores; iFlytek is free with in-app purchases, and charges for themes/assistants do not imply charges for basic dictation</li>
+<li>Talon/Whispering software costs do not eliminate learning, configuration, equipment, and model/API costs; individuals’ publicly shared bills cannot be extrapolated</li>
+</ul>
+</section>
+<section id="vii-important-open-questions" class="level2">
+<h2 id="vii-important-open-questions-heading">VII. Important Open Questions</h2>
+<ol type="1">
+<li>End-to-end success rates for precise Chinese selection editing and complex mixed Chinese-English path names have not been compared under identical audio/task conditions</li>
+<li>Whether sending from a phone to a remote agent actually saves time over existing copy/paste or official mobile agent clients requires observable task logs, not concept videos</li>
+<li>How many people encounter multi-task routing/approval every day cannot be inferred from a handful of GitHub peripheral projects or voice-app reviews</li>
+<li>Original-text retention, undo stacks, failure recovery, focus locking, and automatic sending need verification for specific versions; official marketing pages often omit this information</li>
+<li>Public release of all photos/interfaces requires retaining original attribution and confirming usage rights; this directory contains research reference material and does not imply republication permission</li>
+</ol>
+</section>
+</div><footer class="footer">Official claims, third-party testing and individual feedback are labeled separately. Individual reports do not establish overall satisfaction. Unknown and unverified points remain explicit evidence gaps.<br><a href="voice-input-2026-10-06.en.md">Read this research snapshot</a> · <a href="../../index.en.html">Back to interaction index</a></footer></main></div></body></html>

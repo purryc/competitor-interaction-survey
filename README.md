@@ -1,8 +1,14 @@
 # AI 软硬件与交互竞品调研
 
-**[点击打开在线调研索引](https://purryc.github.io/competitor-interaction-survey/)**
+**[中文在线索引](https://purryc.github.io/competitor-interaction-survey/) · [English index](https://purryc.github.io/competitor-interaction-survey/index.en.html)**
 
-索引包含 264 张可搜索卡片，覆盖手机 AI、桌面 Agent、输入外设和研究装置。可按品牌、交互对象、入口方式、载体和证据状态筛选，并切换时间从新到旧／从旧到新。日期类型标在卡片上，未知日期始终置后。短片优先呈现，没有合适短片时保留图片。
+[16份完整产品与专题档案](docs/products/index.html) · [16 full product and topic dossiers](docs/products/index.en.html)
+
+新增完整档案覆盖 WorkBuddy、元宝、QClaw、豆包、千问、夸克、Kimi、AutoGLM、五家手机厂商助手，以及国产AI输入硬件、9个DIY控制器和10款语音输入产品。中英文均包含功能、任务操作、硬件接入状态、真实反馈与证据边界。原264张观察全部保留，10张产品/专题入口补充索引并链接相关历史卡片。
+
+The bilingual catalog retains all 264 earlier observations and adds 10 product/topic entry cards. Sixteen full dossiers cover capabilities, task workflows, related hardware and real user experience. Source screenshots, recordings and archival attachments retain their original language.
+
+索引包含 274 张可搜索卡片，覆盖手机 AI、桌面 Agent、输入外设和研究装置。可按品牌、交互对象、入口方式、载体和证据状态筛选，并切换时间从新到旧／从旧到新。日期类型标在卡片上，未知日期始终置后。短片优先呈现，没有合适短片时保留图片。
 
 2026-10-06：新增 43 项版本化观察。原 221 项与媒体保留；新条目链接相关历史观察，官方能力、开发者自述和个体用户反馈分别标注。见 [本轮更新说明](docs/oct-2026/README.md)。
 
@@ -14,7 +20,7 @@
 
 ## 媒体规格
 
-- 235 段网页视频，统一为 H.264/yuv420p；横屏不超过 1280×720，竖屏不超过 720×1280。
+- 237 段网页视频，统一为 H.264/yuv420p；横屏不超过 1280×720，竖屏不超过 720×1280。
 - `data/video-compression-manifest.json` 记录每段视频压缩前后的 SHA-256、分辨率和体积。
 - `manifest.json` 与 `SHA256SUMS.txt` 用于检查下载内容是否完整。
 
@@ -24,4 +30,4 @@
 
 ## 视觉素材说明
 
-每张卡片至少呈现一张图片或带封面的短片。新增素材优先采用官方界面、产品图和原项目图；没有可靠画面的条目使用明确标注的来源流程／证据示意，不冒充产品截图或实机验证。具体图源与说明见 [视觉来源表](data/visual-provenance.json)。
+每张卡片至少呈现一张图片或带封面的短片。新增素材优先采用官方界面、产品图和原项目图；没有可靠画面的条目使用明确标注的来源流程／证据示意，不冒充产品截图或实机验证。具体图源与说明见 [视觉来源表](data/visual-provenance.json) 和 [完整档案素材来源](data/product-media-provenance.json)。
